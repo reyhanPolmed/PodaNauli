@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-07-25T20:16:58.761735+07:00",
+  "reviews_path": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+  "total_reviews": 22407,
+  "weak_label_counts": {
+    "positive": 19338,
+    "negative": 1618,
+    "neutral": 1396,
+    "NaN": 55
+  },
+  "labeled_reviews": 22352,
+  "unlabeled_reviews_due_to_missing_or_invalid_rating": 55,
+  "annotation_sample_path": "D:\\tobapulse\\outputs\\reports\\sentiment_annotation_sample.csv",
+  "annotation_sample": {
+    "candidate_rows": 12259,
+    "sample_size": 300,
+    "sample_size_requested": 300,
+    "random_seed": 42,
+    "max_per_place": 8,
+    "stratification_columns": [
+      "weak_sentiment_label",
+      "rating_class",
+      "place_category",
+      "text_length_bucket",
+      "canonical_place_id"
+    ],
+    "weak_sentiment_distribution": {
+      "positive": 236,
+      "negative": 42,
+      "neutral": 22
+    },
+    "rating_class_distribution": {
+      "rating_5": 181,
+      "rating_4": 55,
+      "rating_1": 26,
+      "rating_3": 22,
+      "rating_2": 16
+    },
+    "place_category_distribution": {
+      "wisata": 134,
+      "restoran": 95,
+      "hotel": 52,
+      "hotel_resto": 19
+    },
+    "text_length_bucket_distribution": {
+      "short": 99,
+      "medium": 86,
+      "very_short": 77,
+      "long": 38
+    },
+    "unique_places_in_sample": 147
+  },
+  "limitations": [
+    "Weak sentiment labels are derived from reviewer_rating, not manual ground truth.",
+    "Rating can disagree with review text, so model evaluation must not treat weak labels as perfect human labels.",
+    "Manual sentiment labels are intentionally blank for human annotation."
+  ]
+}

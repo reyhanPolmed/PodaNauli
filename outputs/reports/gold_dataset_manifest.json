@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-07-25T20:16:59.338956+07:00",
+  "gold_ready": true,
+  "file_sha256": "ac49dd2295b4e4276224f7e176d34a046896749413b695869e683694178f390b",
+  "semantic_sha256": "40200e2928e7a4f2f6121c54af2d9100b15201a338612328a5d7c35c28763f83",
+  "snapshot_path": "D:\\tobapulse\\data\\annotations\\snapshots\\sentiment_gold_40200e2928e7.csv",
+  "validation": {
+    "rows": 900,
+    "label_counts": {
+      "positive": 365,
+      "negative": 348,
+      "neutral": 187
+    },
+    "unique_places": 219,
+    "annotator_counts": {
+      "A01": 900
+    },
+    "invalid_label_rows": 0,
+    "unapproved_rows": 0,
+    "duplicate_review_rows": 0,
+    "missing_group_rows": 0,
+    "valid": true,
+    "limitations": [
+      "All current labels were produced by one annotator; inter-annotator agreement is unavailable.",
+      "Annotators could see AI suggestions, so confirmation bias remains possible."
+    ]
+  },
+  "split": {
+    "method": "Nested StratifiedGroupKFold with canonical_place_id groups",
+    "rows": {
+      "train": 539,
+      "validation": 181,
+      "test": 180
+    },
+    "groups": {
+      "train": 121,
+      "validation": 47,
+      "test": 51
+    },
+    "label_counts": {
+      "test": {
+        "negative": 69,
+        "neutral": 38,
+        "positive": 73
+      },
+      "train": {
+        "negative": 209,
+        "neutral": 111,
+        "positive": 219
+      },
+      "validation": {
+        "negative": 70,
+        "neutral": 38,
+        "positive": 73
+      }
+    },
+    "group_overlap_count": 0
+  },
+  "archived_weak_artifacts": {
+    "sentiment_champion.joblib": "D:\\tobapulse\\models\\archive\\sentiment_champion_v1_weak.joblib",
+    "complaint_detector.joblib": "D:\\tobapulse\\models\\archive\\complaint_detector_v2_weak.joblib",
+    "sentiment_metrics.json": "D:\\tobapulse\\outputs\\reports\\archive\\sentiment_metrics_v1_weak.json",
+    "complaint_metrics.json": "D:\\tobapulse\\outputs\\reports\\archive\\complaint_metrics_v2_weak.json"
+  },
+  "outputs": {
+    "split_parquet": "D:\\tobapulse\\data\\processed\\sentiment_gold_split.parquet",
+    "split_csv": "D:\\tobapulse\\outputs\\reports\\sentiment_gold_split.csv",
+    "manifest": "D:\\tobapulse\\outputs\\reports\\gold_dataset_manifest.json"
+  }
+}

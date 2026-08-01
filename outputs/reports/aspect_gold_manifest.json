@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-07-25T20:19:32.328873+07:00",
+  "gold_ready": true,
+  "file_sha256": "b6aab406dd3fca0a971d1df37bb95ba8d81c9e5adb9dab3f2628e83342f736f9",
+  "semantic_sha256": "5d255a34ca8590bf4a86fcb9ae1bedac296513e056e44dd9020882f7732929a9",
+  "snapshot_path": "D:\\tobapulse\\data\\annotations\\snapshots\\aspect_gold_5d255a34ca85.csv",
+  "validation": {
+    "rows": 1200,
+    "label_counts": {
+      "akses_jalan": 118,
+      "transportasi": 65,
+      "parkir": 113,
+      "kebersihan": 152,
+      "toilet": 95,
+      "harga": 186,
+      "pelayanan": 184,
+      "makanan": 294,
+      "akomodasi": 141,
+      "keamanan": 61,
+      "jam_operasional": 54,
+      "fasilitas_umum": 126,
+      "pemandangan": 206,
+      "keramaian": 82,
+      "aksesibilitas": 32,
+      "budaya": 81,
+      "oleh_oleh": 28,
+      "internet_sinyal": 26,
+      "lainnya": 3,
+      "none": 123
+    },
+    "unique_places": 220,
+    "annotator_counts": {
+      "A01": 1200
+    },
+    "duplicate_clause_rows": 0,
+    "invalid_rows": 0,
+    "minimum_gold_rows": 600,
+    "minimum_positive_per_key_aspect": 20,
+    "key_aspects": [
+      "harga",
+      "pelayanan",
+      "kebersihan",
+      "akomodasi",
+      "makanan",
+      "toilet",
+      "akses_jalan",
+      "parkir"
+    ],
+    "limitations": [
+      "A single annotator cannot provide inter-annotator agreement.",
+      "AI suggestions must remain silver and may introduce confirmation bias if visible."
+    ]
+  },
+  "split": {
+    "method": "best-of-200 nested GroupShuffleSplit using canonical_place_id with multilabel prevalence balancing",
+    "split_version": "v2-multilabel-balance",
+    "rows": {
+      "train": 715,
+      "validation": 232,
+      "test": 253
+    },
+    "groups": {
+      "train": 132,
+      "validation": 44,
+      "test": 44
+    },
+    "label_counts": {
+      "train": {
+        "akses_jalan": 74,
+        "transportasi": 35,
+        "parkir": 57,
+        "kebersihan": 85,
+        "toilet": 57,
+        "harga": 111,
+        "pelayanan": 108,
+        "makanan": 160,
+        "akomodasi": 81,
+        "keamanan": 32,
+        "jam_operasional": 33,
+        "fasilitas_umum": 89,
+        "pemandangan": 116,
+        "keramaian": 46,
+        "aksesibilitas": 17,
+        "budaya": 47,
+        "oleh_oleh": 17,
+        "internet_sinyal": 16,
+        "lainnya": 1,
+        "none": 71
+      },
+      "validation": {
+        "akses_jalan": 20,
+        "transportasi": 17,
+        "parkir": 24,
+        "kebersihan": 36,
+        "toilet": 16,
+        "harga": 31,
+        "pelayanan": 35,
+        "makanan": 68,
+        "akomodasi": 38,
+        "keamanan": 16,
+        "jam_operasional": 12,
+        "fasilitas_umum": 15,
+        "pemandangan": 49,
+        "keramaian": 23,
+        "aksesibilitas": 7,
+        "budaya": 10,
+        "oleh_oleh": 3,
+        "internet_sinyal": 4,
+        "lainnya": 1,
+        "none": 22
+      },
+      "test": {
+        "akses_jalan": 24,
+        "transportasi": 13,
+        "parkir": 32,
+        "kebersihan": 31,
+        "toilet": 22,
+        "harga": 44,
+        "pelayanan": 41,
+        "makanan": 66,
+        "akomodasi": 22,
+        "keamanan": 13,
+        "jam_operasional": 9,
+        "fasilitas_umum": 22,
+        "pemandangan": 41,
+        "keramaian": 13,
+        "aksesibilitas": 8,
+        "budaya": 24,
+        "oleh_oleh": 8,
+        "internet_sinyal": 6,
+        "lainnya": 1,
+        "none": 30
+      }
+    },
+    "group_overlap_count": 0
+  },
+  "archived_weak_artifacts": {
+    "aspect_champion.joblib": "D:\\tobapulse\\models\\archive\\aspect_champion_v1_weak.joblib",
+    "aspect_multilabel_binarizer.joblib": "D:\\tobapulse\\models\\archive\\aspect_multilabel_binarizer_v1_weak.joblib",
+    "aspect_metrics.json": "D:\\tobapulse\\outputs\\reports\\archive\\aspect_metrics_v1_weak.json"
+  },
+  "outputs": {
+    "split_parquet": "D:\\tobapulse\\data\\processed\\aspect_gold_split.parquet",
+    "split_csv": "D:\\tobapulse\\outputs\\reports\\aspect_gold_split.csv",
+    "manifest": "D:\\tobapulse\\outputs\\reports\\aspect_gold_manifest.json"
+  }
+}

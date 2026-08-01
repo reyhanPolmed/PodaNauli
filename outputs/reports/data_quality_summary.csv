@@ -1,0 +1,15 @@
+sheet_name,rows,columns,duplicate_rows,missing_cells,formula_cell_count,error_cell_count,place_column,unique_places,review_column,reviews_with_text,reviews_without_text,rating_column,valid_rating_count,invalid_or_missing_rating_count
+hotel-resto-v1,9,8,0,0,0,0,place,9,review,9.0,0.0,rating,9.0,0.0
+resto-hotel-v2,9611,8,49,26156,4,0,place-name,206,review-text,5911.0,3700.0,reviewer-rating,9561.0,50.0
+tempat-wisata-v1,96,9,1,102,0,0,place,94,review,92.0,4.0,rating,96.0,0.0
+wisata-v2,12691,7,34,19035,0,0,place-name,138,review-text,6369.0,6322.0,reviewer-rating,12690.0,1.0
+wisata-metadata,139,12,0,418,0,0,place-name,138,description,0.0,139.0,place-rating,116.0,23.0
+hotel-metadata,36,12,0,122,0,0,place-name,36,,,,place-rating,35.0,1.0
+resto-metadata,148,11,0,332,0,0,place-name,148,,,,place-rating,147.0,1.0
+transportasi,16,7,0,29,0,0,transport-name,9,description,3.0,13.0,,,
+kuliner,12,3,0,12,0,0,kuliner-name,12,description,12.0,0.0,,,
+Attractions Info,15,8,0,37,0,0,Nama Atraksi,14,Detail,15.0,0.0,,,
+Artikel Danau Toba,6,5,0,0,0,0,,0,Rangkuman (Paragraf Awal),6.0,0.0,,,
+Info Seputar Danau Toba (TOP 3),29,68,0,1040,0,0,,0,,,,,,
+waktu operasional destinasi,40,8,0,88,0,0,OBJEK / DESTINASI WISATA,40,,,,RATING BPODT,0.0,40.0
+prompt,7,3,0,9,0,0,,0,,,,,,

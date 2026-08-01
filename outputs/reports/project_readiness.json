@@ -1,0 +1,41 @@
+{
+  "acceptance_threshold": 0.8,
+  "model_status": {
+    "sentiment_champion": true,
+    "aspect_champion": true,
+    "complaint_detector": true
+  },
+  "service_gap_validation": {
+    "sample_rows": 20,
+    "reviewed_rows": 20,
+    "evidence_reviewed_rows": 20,
+    "priority_reviewed_rows": 20,
+    "evidence_valid_rows": 16,
+    "priority_valid_rows": 19,
+    "valid_rows": 16,
+    "evidence_validity_rate": 0.8,
+    "priority_validity_rate": 0.95,
+    "validity_rate": 0.8,
+    "fully_reviewed": true,
+    "write_status": "primary_file_locked_pending_written",
+    "output": "D:\\tobapulse\\outputs\\reports\\service_gap_top20_validation.pending.csv"
+  },
+  "checks": {
+    "required_models_deployment_ready": true,
+    "top20_fully_reviewed": true,
+    "top20_evidence_validity": true,
+    "top20_priority_validity": true,
+    "top20_overall_validity": true
+  },
+  "model_and_ranking_pipeline_ready": true,
+  "production_application_ready": false,
+  "production_application_blockers": [
+    "FastAPI stage is not implemented.",
+    "Dashboard stage is not implemented.",
+    "Production monitoring, drift alerts, and rollback operations are not implemented."
+  ],
+  "limitations": [
+    "Human gold labels currently come from one annotator.",
+    "Visible AI suggestions may introduce confirmation bias."
+  ]
+}

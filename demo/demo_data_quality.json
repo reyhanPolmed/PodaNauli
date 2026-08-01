@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "sheet_count": 14,
+    "raw_review_rows": 22407,
+    "reviews_with_text": 12381,
+    "nlp_corpus_rows": 12270,
+    "canonical_places": 380,
+    "sentiment_gold_rows": 900,
+    "aspect_gold_rows": 1200,
+    "missing_review_text_rows": 10026,
+    "duplicate_review_rows": 7331,
+    "entity_matches_needing_review": 157,
+    "unresolved_excel_cells": 4,
+    "valid_coordinate_places": 315,
+    "missing_coordinate_places": 65
+  },
+  "raw_examples": [
+    {
+      "source_sheet": "resto-hotel-v2",
+      "place_name": "Rumah Makan Safitri",
+      "reviewer_rating": 1.0,
+      "review_text": "Pelayanan sangat buruk. Lupa membuat pesanan harusnya pelayan minta maaf bukan malah membentak pelanggan."
+    },
+    {
+      "source_sheet": "resto-hotel-v2",
+      "place_name": "Damar Toba ~ Lakeside Eatery & Stay",
+      "reviewer_rating": 3.0,
+      "review_text": "Untuk restaurant terlalu mahal untuk sekelas kota balige"
+    },
+    {
+      "source_sheet": "wisata-v2",
+      "place_name": "Bukit Senyum",
+      "reviewer_rating": 5.0,
+      "review_text": "Tempatnya luas, indah, bersih"
+    },
+    {
+      "source_sheet": "resto-hotel-v2",
+      "place_name": "Rumba Restaurant",
+      "reviewer_rating": 2.0,
+      "review_text": "Waiter nya tidak ramah,. Kondisi di dalam resto pengap dan panas"
+    },
+    {
+      "source_sheet": "wisata-v2",
+      "place_name": "Bukit Indah Simarjarunjung",
+      "reviewer_rating": 4.0,
+      "review_text": "Great view of lake Toba."
+    }
+  ],
+  "transformations": [
+    {
+      "Masalah Data": "Rating koma/titik",
+      "Perlakuan": "Parsing numerik konsisten",
+      "Dampak": "Rating dapat dianalisis"
+    },
+    {
+      "Masalah Data": "Teks kosong",
+      "Perlakuan": "Dikeluarkan dari korpus NLP",
+      "Dampak": "Model hanya menerima teks valid"
+    },
+    {
+      "Masalah Data": "Duplikasi",
+      "Perlakuan": "Flag dan deduplikasi",
+      "Dampak": "Mengurangi bias pengulangan"
+    },
+    {
+      "Masalah Data": "Variasi nama tempat",
+      "Perlakuan": "Normalisasi dan entity resolution",
+      "Dampak": "Satu ID tempat kanonis"
+    },
+    {
+      "Masalah Data": "Koordinat gabungan",
+      "Perlakuan": "Parsing lintang dan bujur",
+      "Dampak": "Analisis geospasial"
+    },
+    {
+      "Masalah Data": "Metadata tersebar",
+      "Perlakuan": "Integrasi lintas sheet",
+      "Dampak": "Profil tempat lebih lengkap"
+    },
+    {
+      "Masalah Data": "Kelas tidak seimbang",
+      "Perlakuan": "Macro F1 dan group split",
+      "Dampak": "Evaluasi lebih adil"
+    }
+  ],
+  "cleaning_example": {
+    "before": "  Tempatnya   bagus, tapi toiletnya kurang bersih  ",
+    "after": "Tempatnya bagus, tapi toiletnya kurang bersih",
+    "source": "contoh deterministik aturan whitespace"
+  },
+  "entity_resolution_example": {
+    "source_place_name": "FAMILY RESTO",
+    "normalized_place_name": "family resto",
+    "canonical_place_name": "Family Resto",
+    "match_method": "normalized_exact",
+    "match_score": 100.0
+  },
+  "important_notes": [
+    "Negasi seperti tidak, kurang, dan belum dipertahankan.",
+    "Metadata kosong tidak berarti fasilitas pasti tidak tersedia.",
+    "Sebanyak 65 tempat belum memiliki koordinat valid dan tidak masuk seluruh analisis spasial."
+  ]
+}

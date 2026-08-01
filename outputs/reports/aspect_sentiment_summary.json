@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-25T20:21:42.272086+07:00",
+  "unit_of_analysis": "review clause paired with one aspect",
+  "label_source": "human_gold",
+  "model_version": "v3-complaint-gold",
+  "aspect_label_source": "human_gold",
+  "aspect_model_version": "v2-clause-human-gold",
+  "aspect_probability_threshold": 0.45,
+  "review_rows_scanned": 12381,
+  "clause_rows": 25912,
+  "aspect_sentiment_rows": 23675,
+  "reviews_with_aspect_sentiment": 9353,
+  "unique_aspects": 18,
+  "sentiment_counts": {
+    "negative": 10335,
+    "non_negative": 7883,
+    "uncertain": 5457
+  },
+  "negative_rows": 10335,
+  "mixed_sentiment_reviews": 2639,
+  "aspect_source_counts": {
+    "human_gold_aspect_model": 23675
+  },
+  "sentiment_source_counts": {
+    "complaint_model": 21861,
+    "taxonomy_and_complaint_model": 1472,
+    "taxonomy_negative_evidence": 342
+  },
+  "output": "D:\\tobapulse\\data\\processed\\review_aspect_sentiment.parquet",
+  "limitations": [
+    "Clause segmentation is deterministic and may not resolve every complex sentence."
+  ]
+}

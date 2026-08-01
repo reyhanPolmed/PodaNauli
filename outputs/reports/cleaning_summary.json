@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-07-25T20:16:58.117269+07:00",
+  "workbook_path": "D:\\tobapulse\\data\\raw\\Dataset HackathonTourism - IT DEL (1).xlsx",
+  "cleaned_sheet_count": 14,
+  "source_place_rows": 770,
+  "canonical_place_count": 380,
+  "entity_mapping_rows": 770,
+  "entity_matches_needing_manual_review": 157,
+  "review_rows": 22407,
+  "review_rows_with_text": 12381,
+  "duplicate_review_rows": 7331,
+  "unresolved_excel_cells": 4,
+  "outputs": {
+    "places_master": "D:\\tobapulse\\data\\processed\\places_master.parquet",
+    "entity_mapping": "D:\\tobapulse\\data\\processed\\entity_mapping.parquet",
+    "reviews_clean": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+    "entity_matches_for_review": "D:\\tobapulse\\outputs\\reports\\entity_matches_for_review.csv",
+    "unresolved_excel_cells": "D:\\tobapulse\\outputs\\reports\\unresolved_excel_cells.csv"
+  }
+}

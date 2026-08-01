@@ -1,0 +1,3460 @@
+{
+  "generated_at": "2026-07-25T20:15:39.742620+07:00",
+  "workbook_path": "D:\\tobapulse\\data\\raw\\Dataset HackathonTourism - IT DEL (1).xlsx",
+  "file_name": "Dataset HackathonTourism - IT DEL (1).xlsx",
+  "sheet_count": 14,
+  "sheets": [
+    {
+      "sheet_name": "hotel-resto-v1",
+      "rows": 9,
+      "columns": 8,
+      "column_names": [
+        "place",
+        "rating",
+        "type",
+        "review",
+        "htm",
+        "facilitates",
+        "add",
+        "service-hour"
+      ],
+      "normalized_column_names": {
+        "place": "place",
+        "rating": "rating",
+        "type": "type",
+        "review": "review",
+        "htm": "htm",
+        "facilitates": "facilitates",
+        "add": "add",
+        "service-hour": "service_hour"
+      },
+      "dtypes": {
+        "place": "object",
+        "rating": "object",
+        "type": "object",
+        "review": "object",
+        "htm": "object",
+        "facilitates": "object",
+        "add": "object",
+        "service-hour": "object"
+      },
+      "missing_values": {
+        "place": 0,
+        "rating": 0,
+        "type": 0,
+        "review": 0,
+        "htm": 0,
+        "facilitates": 0,
+        "add": 0,
+        "service-hour": 0
+      },
+      "top_missing_values": {
+        "place": 0,
+        "rating": 0,
+        "type": 0,
+        "review": 0,
+        "htm": 0,
+        "facilitates": 0,
+        "add": 0,
+        "service-hour": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "place",
+      "unique_places": 9,
+      "top_places": {
+        "Labersa Hotel and Convention Center Toba, Balige": 1,
+        "Damar Toba ~ Lakeside Eatery & Stay": 1,
+        "villa borneo": 1,
+        "Hotel Ompu Herti": 1,
+        "SAPADIA VILLA BALIGE III": 1,
+        "Gemma Hotel Balige": 1,
+        "Hutanta Cafe": 1,
+        "Pantai Libra SS Resto": 1,
+        "Ulos Toba (Dinar aksesories)": 1
+      },
+      "review_stats": {
+        "review_column": "review",
+        "reviews_with_text": 9,
+        "reviews_without_text": 0,
+        "text_length_min": 15,
+        "text_length_median": 66.0,
+        "text_length_mean": 119.44444444444444,
+        "text_length_max": 646
+      },
+      "rating_stats": {
+        "rating_column": "rating",
+        "valid_rating_count": 9,
+        "invalid_or_missing_rating_count": 0,
+        "min_rating": 3.9,
+        "max_rating": 4.8,
+        "mean_rating": 4.48888888888889,
+        "distribution": {
+          "4.5": 2,
+          "4.8": 1,
+          "4.6": 2,
+          "4.1": 1,
+          "4.7": 2,
+          "3.9": 1
+        }
+      },
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [
+        "htm"
+      ],
+      "price_examples": {
+        "htm": [
+          "Mulai dari 850.091",
+          "Mulai dari 700.000",
+          "Mulai dari 800.000",
+          "Mulai dari 200.000",
+          "Mulai dari 830.000",
+          "Mulai dari 500.000",
+          "25.000 - 50.000",
+          "45.000 - 70.000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Labersa Hotel and Convention Center Toba, Balige",
+          "normalized": "labersa hotel and convention center toba balige"
+        },
+        {
+          "raw": "Damar Toba ~ Lakeside Eatery & Stay",
+          "normalized": "damar toba lakeside eatery stay"
+        },
+        {
+          "raw": "Ulos Toba (Dinar aksesories)",
+          "normalized": "ulos toba dinar aksesories"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place": [
+          "Labersa Hotel and Convention Center Toba, Balige",
+          "Damar Toba ~ Lakeside Eatery & Stay",
+          "villa borneo",
+          "Hotel Ompu Herti",
+          "SAPADIA VILLA BALIGE III"
+        ],
+        "rating": [
+          "4,5",
+          "4,8",
+          "4,6",
+          "4,1",
+          "4,6"
+        ],
+        "type": [
+          "Hotel bintang 4",
+          "Hotel bintang 3",
+          "Hotel Resor",
+          "Hotel",
+          "Vila"
+        ],
+        "review": [
+          "\"Tempat nya bagus dan pemandangan yg bagus juga makan sangat baik\"",
+          "Makan di tempat",
+          "\"Villa / Homestay di daerah Lumban Pea yang paling bagus dan bersih.\"",
+          "\"Parkirnya luas.. view restoran bagus dipinggiran danau toba.\"",
+          "\"Recomend banget tempat nyaa makanan dan villa nyaa enak banget buat enjoy\""
+        ],
+        "htm": [
+          "Mulai dari 850.091",
+          "Mulai dari 700.000",
+          "Mulai dari 800.000",
+          "Mulai dari 200.000",
+          "Mulai dari 830.000"
+        ],
+        "facilitates": [
+          "Wifi, Sarapan Gratis, Kolam renang luar, AC, Parkir Gratis, Layanan binatu",
+          "Petugas ramah, restoran dengan menu yang variatif",
+          "taman, teras, parkir pribadi gratis",
+          "Parkir Gratis, Wifi gratis, AC, Sarapan",
+          "AC, TV, Pembuat kopi dan teh, shower, peralatan mandi gratis, pengering rambut"
+        ],
+        "add": [
+          "Saribu Raja Janji Maria, Kec. Balige, Toba, Sumatera Utara",
+          "Jl. Pemandian No.94, Kec. Balige, Sumatera Utara 22312",
+          "Jl. Proyek SMK 3 Pariwisata desa, Lumban Pea, Kec. Balige, Toba, Sumatera Utara 22351",
+          "Jl. Pemandian No.02, Sangkar Nihuta, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Pemandian, Pardede Onan, Kec. Balige, Toba, Sumatera Utara 22312"
+        ],
+        "service-hour": [
+          " Waktu check out 12.00",
+          "Waktu check in 14.00",
+          "Check in mulai pukul 11.30, Check out hingga pukul 12.00",
+          "Check in mulai pukul 13.00, Check out hingga pukul 12.00",
+          " Check in mulai pukul 14.00, Check out sebelum pukul 12.00"
+        ]
+      }
+    },
+    {
+      "sheet_name": "resto-hotel-v2",
+      "rows": 9611,
+      "columns": 8,
+      "column_names": [
+        "place-name",
+        "reviewer-id",
+        "name",
+        "reviewer-rating",
+        "review-text",
+        "published-at",
+        "collect-date",
+        "reviewer-type"
+      ],
+      "normalized_column_names": {
+        "place-name": "place_name",
+        "reviewer-id": "reviewer_id",
+        "name": "name",
+        "reviewer-rating": "reviewer_rating",
+        "review-text": "review_text",
+        "published-at": "published_at",
+        "collect-date": "collect_date",
+        "reviewer-type": "reviewer_type"
+      },
+      "dtypes": {
+        "place-name": "object",
+        "reviewer-id": "object",
+        "name": "object",
+        "reviewer-rating": "object",
+        "review-text": "object",
+        "published-at": "object",
+        "collect-date": "object",
+        "reviewer-type": "object"
+      },
+      "missing_values": {
+        "place-name": 0,
+        "reviewer-id": 9611,
+        "name": 23,
+        "reviewer-rating": 50,
+        "review-text": 3700,
+        "published-at": 279,
+        "collect-date": 3222,
+        "reviewer-type": 9271
+      },
+      "top_missing_values": {
+        "reviewer-id": 9611,
+        "reviewer-type": 9271,
+        "review-text": 3700,
+        "collect-date": 3222,
+        "published-at": 279,
+        "reviewer-rating": 50,
+        "name": 23,
+        "place-name": 0
+      },
+      "duplicate_rows": 49,
+      "place_column": "place-name",
+      "unique_places": 206,
+      "top_places": {
+        "Tabo Cottages": 320,
+        "Toba Village inn": 314,
+        "Carolina Hotel": 261,
+        "Thyesza Hotel Resort": 223,
+        "Damar Toba ~ Lakeside Eatery & Stay": 200,
+        "Labersa Hotel and Convention Center Toba, Balige": 200,
+        "Lago Hotel & Resto": 200,
+        "Tepi Danau Bistro": 200,
+        "Leo'S Restaurant": 200,
+        "Biwa Cafe 26 Resto": 200,
+        "Putra Kembar Coffee Shop 26 Resto": 200,
+        "La Pinus Damasus Bistro 26 Resto": 200,
+        "Tataring Coffee 26 Resto": 200,
+        "Rumba Restaurant": 200,
+        "Widya Restaurant": 198
+      },
+      "review_stats": {
+        "review_column": "review-text",
+        "reviews_with_text": 5911,
+        "reviews_without_text": 3700,
+        "text_length_min": 0,
+        "text_length_median": 27.0,
+        "text_length_mean": 84.50223702008115,
+        "text_length_max": 3119
+      },
+      "rating_stats": {
+        "rating_column": "reviewer-rating",
+        "valid_rating_count": 9561,
+        "invalid_or_missing_rating_count": 50,
+        "min_rating": 1.0,
+        "max_rating": 5.0,
+        "mean_rating": 4.342851166196005,
+        "distribution": {
+          "5.0": 6457,
+          "4.0": 1531,
+          "1.0": 683,
+          "3.0": 637,
+          "2.0": 245,
+          "4.1": 2,
+          "3.5": 1,
+          "2.5": 1,
+          "4.6": 1,
+          "4.5": 2,
+          "1.2": 1
+        }
+      },
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [
+        "published-at",
+        "collect-date"
+      ],
+      "date_examples": {
+        "published-at": [
+          "6 months ago",
+          "a year ago",
+          "Edited 3 months ago",
+          "4 months ago",
+          "5 months ago",
+          "7 months ago",
+          "9 months ago",
+          "10 months ago",
+          "Edited a year ago",
+          "2 years ago"
+        ],
+        "collect-date": [
+          "2025-07-29 00:00:00"
+        ]
+      },
+      "inconsistent_place_examples": [
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        }
+      ],
+      "formula_cell_count": 4,
+      "formula_cell_examples": [
+        {
+          "cell": "E1389",
+          "formula": "=+ : bersih, pelayanan sangat ramah, dengar harga kamar yang terjangkau tamu mendapatkan menu sarapan yang sangat variatif, setiap booking kamar disini mendapatkan bonus menaiki kapal speedboat secara gratis, lokasi sangat strategis berada …"
+        },
+        {
+          "cell": "E1887",
+          "formula": "=+ Lokasi di pinggir jalan besar, Kamar cukup luas, bersih, air panas non stop, ada balkon dengan view danau toba\nChannel TV kabelnya sedikit (tidak masalah sebenarnya untuk orang yang kurang …"
+        },
+        {
+          "cell": "E2947",
+          "formula": "=+ : kamar sejuk, bersih, lingkungan bersih & terawat, harga terjangkau dengan berbagai fasilitas yg tersedia …"
+        },
+        {
+          "cell": "E3005",
+          "formula": "=+ Lokasi bagus. Sekitarnya banyak kuliner Layanan ramah. Situasi tepi danau sangat menyenangkan sekali. Situasi restoran juga menyengangkan viewnya indah angin sejuk. Lobbynya hangat. Kalau kamarnya luas. Air panas ok.. tpt tidur besar. …"
+        }
+      ],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-name": [
+          "Brain Homestay",
+          "Brain Homestay",
+          "Brain Homestay",
+          "Tiara Bunga Hotel",
+          "Tiara Bunga Hotel"
+        ],
+        "reviewer-id": [],
+        "name": [
+          "Jessy Diferentemente",
+          "Tika Maulani",
+          "Wiwi SilaenSE",
+          "Ikaputri Starfish",
+          "Aryoseno"
+        ],
+        "reviewer-rating": [
+          "5",
+          "5",
+          "4",
+          "4",
+          "5"
+        ],
+        "review-text": [
+          "Kamar-kamar sederhana di desa tradisional. Semuanya disiapkan untuk kami dan sangat rapi. Sekitar 100.000 per orang termasuk sarapan.",
+          "Homestaynya homee sekali",
+          "Sejauh ini pengalaman pribadi saya,Tiara bunga hotelnya bagus pelayanannya juga bagus,untuk view jangan di ragukan lagi luar biasa indahnya.kolam renangnya juga oke.\n Hanya saja kalo malam sebaiknya semua lampu di hidupkan aja,ada dan tidak ada nya tamu.\n Untuk harga terjangkau Krn sudah include breakfast dan penyebrangan,kamar juga cukup luas tapi siaran tv nya gak jelas kabus seharusnya sudah ada Netflix.\n Untuk kedepannya mudah2an watersport nya bertambah seperti kano dan jetski.",
+          "Tempatnya tenang dan cocok untuk tempat kumpul keluarga besar.",
+          "Kamar terlihat bersih tapi ada cicak dan banyak serangga. AC tidak bisa diatur (untung dingin). Channel tv buram semua di setiap kamar. Pilihan makanan terbatas dan seadanya. Tidak ada wifi di kamar.\n Lokasi hotel ditempuh pakai kapal. Pemandangan bagus tapi terpencil dengan jadwal kapal yang terbatas. Ada price list watersport tapi overprice dan tidak kelihatan peralatannya (kecuali bbrp bebek2an yang terlihat usang dan boat).\n \n All in all, harga yang ditawarkan terlalu mahal dibanding fasilitas yang didapatkan."
+        ],
+        "published-at": [
+          "6 months ago",
+          "a year ago",
+          "a year ago",
+          "Edited 3 months ago",
+          "4 months ago"
+        ],
+        "collect-date": [
+          "2025-07-29 00:00:00",
+          "2025-07-29 00:00:00",
+          "2025-07-29 00:00:00",
+          "2025-07-29 00:00:00",
+          "2025-07-29 00:00:00"
+        ],
+        "reviewer-type": [
+          "Liburan, Teman",
+          "Liburan, Teman",
+          "Liburan, Keluarga",
+          "Bisnis, Keluarga",
+          "Liburan, Keluarga"
+        ]
+      }
+    },
+    {
+      "sheet_name": "tempat-wisata-v1",
+      "rows": 96,
+      "columns": 9,
+      "column_names": [
+        "place",
+        "type",
+        "entry-fee",
+        "rating",
+        "addons",
+        "add",
+        "service-hour",
+        "review",
+        "Unnamed: 8"
+      ],
+      "normalized_column_names": {
+        "place": "place",
+        "type": "type",
+        "entry-fee": "entry_fee",
+        "rating": "rating",
+        "addons": "addons",
+        "add": "add",
+        "service-hour": "service_hour",
+        "review": "review",
+        "Unnamed: 8": "unnamed_8"
+      },
+      "dtypes": {
+        "place": "object",
+        "type": "object",
+        "entry-fee": "object",
+        "rating": "object",
+        "addons": "object",
+        "add": "object",
+        "service-hour": "object",
+        "review": "object",
+        "Unnamed: 8": "object"
+      },
+      "missing_values": {
+        "place": 0,
+        "type": 0,
+        "entry-fee": 0,
+        "rating": 0,
+        "addons": 4,
+        "add": 2,
+        "service-hour": 0,
+        "review": 4,
+        "Unnamed: 8": 92
+      },
+      "top_missing_values": {
+        "Unnamed: 8": 92,
+        "addons": 4,
+        "review": 4,
+        "add": 2,
+        "place": 0,
+        "type": 0,
+        "entry-fee": 0,
+        "rating": 0,
+        "service-hour": 0
+      },
+      "duplicate_rows": 1,
+      "place_column": "place",
+      "unique_places": 94,
+      "top_places": {
+        "Bukit Tara Bunga": 2,
+        "Bukit Simargulang Ombun": 2,
+        "Pantai Pasir Putih Lumban Bul-bul Balige": 1,
+        "Bukit Pahoda": 1,
+        "Desa Wisata Silalahi Pagar Batu": 1,
+        "Air terjun siboruon balige": 1,
+        "Puncak Paralayang Sibodiala": 1,
+        "Pantai Pelangi": 1,
+        "Penatapan Meat Balige": 1,
+        "Pantai Meat": 1,
+        "Tambunan Sunset Beach": 1,
+        "Wisata Bukit Gibeon": 1,
+        "WISATA PUNCAK PANGKODIAN": 1,
+        "Air Terjun Sampuran": 1,
+        "Geosite Sipinsur": 1
+      },
+      "review_stats": {
+        "review_column": "review",
+        "reviews_with_text": 92,
+        "reviews_without_text": 4,
+        "text_length_min": 0,
+        "text_length_median": 128.0,
+        "text_length_mean": 205.55208333333334,
+        "text_length_max": 1105
+      },
+      "rating_stats": {
+        "rating_column": "rating",
+        "valid_rating_count": 96,
+        "invalid_or_missing_rating_count": 0,
+        "min_rating": 3.7,
+        "max_rating": 5.0,
+        "mean_rating": 4.5218750000000005,
+        "distribution": {
+          "4.3": 11,
+          "4.6": 22,
+          "5.0": 4,
+          "4.7": 11,
+          "4.4": 9,
+          "4.5": 22,
+          "4.2": 5,
+          "4.0": 3,
+          "4.9": 2,
+          "4.8": 6,
+          "3.7": 1
+        }
+      },
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [
+        "entry-fee"
+      ],
+      "price_examples": {
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "10.000 - 20.000",
+          "70000",
+          "10.000 - 50.000",
+          "10000",
+          "5.000 - 40.000",
+          "5.000 - 15.000",
+          "5.000 - 7.000",
+          "10.000 - 15.000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Air Terjun Sigura-Gura",
+          "normalized": "air terjun sigura gura"
+        },
+        {
+          "raw": "Wisata Alam Fishing-Camp Siarubung",
+          "normalized": "wisata alam fishing camp siarubung"
+        },
+        {
+          "raw": "Caldera toba nomadic escape (glamour camping)",
+          "normalized": "caldera toba nomadic escape glamour camping"
+        },
+        {
+          "raw": "Monumen D.I. Panjaitan",
+          "normalized": "monumen d i panjaitan"
+        },
+        {
+          "raw": "Mual Sipangolu (Mual Sisingamangaraja)",
+          "normalized": "mual sipangolu mual sisingamangaraja"
+        },
+        {
+          "raw": "Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )",
+          "normalized": "batu kursi raja siallagan stone chair of king siallagan"
+        },
+        {
+          "raw": "Sopo Guru Tatea Bulan | ᯘᯬᯇᯬ ᯎᯮᯒᯮ ᯖᯖᯩᯀ ᯅᯮᯞᯉ᯲",
+          "normalized": "sopo guru tatea bulan ᯘ ᯇ ᯎ ᯒ ᯖᯖ ᯀ ᯅ ᯞᯉ"
+        },
+        {
+          "raw": "Makam DR. I.L. Nommensen",
+          "normalized": "makam dr i l nommensen"
+        },
+        {
+          "raw": "Patung Yesus, Bukit Sibeabea",
+          "normalized": "patung yesus bukit sibeabea"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Bukit Pahoda",
+          "Desa Wisata Silalahi Pagar Batu",
+          "Air terjun siboruon balige",
+          "Puncak Paralayang Sibodiala"
+        ],
+        "type": [
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam"
+        ],
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "Gratis",
+          "Gratis",
+          "5.000 - 10.000"
+        ],
+        "rating": [
+          "4,3",
+          "4,6",
+          "5,0",
+          "4,7",
+          "4,7"
+        ],
+        "addons": [
+          "Berenang, Sunset, Sunrise, Banana Boat, Kano, Spot Foto, ",
+          "Sunset, Sunrise, Spot Foto, Hidden Gem",
+          "Tempat sejarah",
+          "Spot foto",
+          "Tempat makan, paralayang, spot foto"
+        ],
+        "add": [
+          "83XF+9VQ, Lumban Bulbul, Kec. Balige, Toba, Sumatera Utara",
+          "82XR+J4W, Lumban Silintong, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Dr. TB. Silalahi, Hinalang Bagasan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "73QM+VH2, Siboruon, Kec. Balige, Toba, Sumatera Utara 22312",
+          "828R+Q2, Silalahi Pagar Batu, Kec. Balige, Toba, Sumatera Utara"
+        ],
+        "service-hour": [
+          "07.00 - 21.30",
+          "05.00 - 17.00",
+          "09.00 - 17.00",
+          "08.00 - 17.00",
+          "05.00 - 21.00"
+        ],
+        "review": [
+          "\"Gratis, bersih, banyak tempat bermain.\"",
+          "\"Tempat yg sngt rekomended,tinggal mnunggu sentuhan dri pemerintah\"",
+          "\"Pengalaman yang bisa menambah umur.\"",
+          "\"Air terjun bagus…jarak kurleb 1,5 jam dari tarutung.\"",
+          "\"Tempatnya bagus,tinggal akses aja yg dipeaiki\""
+        ],
+        "Unnamed: 8": [
+          "Tutup",
+          "Tutup",
+          "Tutup",
+          "Tutup"
+        ]
+      }
+    },
+    {
+      "sheet_name": "wisata-v2",
+      "rows": 12691,
+      "columns": 7,
+      "column_names": [
+        "place-name",
+        "reviewer-id",
+        "name",
+        "reviewer-rating",
+        "review-text",
+        "published-at",
+        "collect-date"
+      ],
+      "normalized_column_names": {
+        "place-name": "place_name",
+        "reviewer-id": "reviewer_id",
+        "name": "name",
+        "reviewer-rating": "reviewer_rating",
+        "review-text": "review_text",
+        "published-at": "published_at",
+        "collect-date": "collect_date"
+      },
+      "dtypes": {
+        "place-name": "object",
+        "reviewer-id": "object",
+        "name": "object",
+        "reviewer-rating": "object",
+        "review-text": "object",
+        "published-at": "object",
+        "collect-date": "object"
+      },
+      "missing_values": {
+        "place-name": 0,
+        "reviewer-id": 12691,
+        "name": 0,
+        "reviewer-rating": 1,
+        "review-text": 6322,
+        "published-at": 0,
+        "collect-date": 21
+      },
+      "top_missing_values": {
+        "reviewer-id": 12691,
+        "review-text": 6322,
+        "collect-date": 21,
+        "reviewer-rating": 1,
+        "place-name": 0,
+        "name": 0,
+        "published-at": 0
+      },
+      "duplicate_rows": 34,
+      "place_column": "place-name",
+      "unique_places": 138,
+      "top_places": {
+        "Bukit Holbung Samosir": 1363,
+        "Geosite Sipinsur": 827,
+        "Aek Rangat Pangururan": 386,
+        "Bukit Senyum": 385,
+        "Batu Gantung": 311,
+        "Air Terjun Janji": 277,
+        "Puncak Huta Ginjang": 255,
+        "Pantai Pasir Putih Lumban Bul-bul Balige": 232,
+        "Caldera Toba Nomadic Escape (Glamour Camping)": 226,
+        "Boli Boli Hot Spring": 219,
+        "Salib Kasih Tarutung": 200,
+        "Patung Yesus, Bukit Sibeabea": 200,
+        "Museum Batak T.B. Silalahi Center": 200,
+        "Pasar Tomok": 200,
+        "Tuan Nagani Paradise": 200
+      },
+      "review_stats": {
+        "review_column": "review-text",
+        "reviews_with_text": 6369,
+        "reviews_without_text": 6322,
+        "text_length_min": 0,
+        "text_length_median": 2.0,
+        "text_length_mean": 48.4284138365771,
+        "text_length_max": 2756
+      },
+      "rating_stats": {
+        "rating_column": "reviewer-rating",
+        "valid_rating_count": 12690,
+        "invalid_or_missing_rating_count": 1,
+        "min_rating": 1.0,
+        "max_rating": 5.0,
+        "mean_rating": 4.515524034672971,
+        "distribution": {
+          "5.0": 9138,
+          "4.0": 2104,
+          "1.0": 459,
+          "3.0": 759,
+          "2.0": 230
+        }
+      },
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [
+        "published-at",
+        "collect-date"
+      ],
+      "date_examples": {
+        "published-at": [
+          "a day ago",
+          "4 days ago",
+          "5 days ago",
+          "a week ago",
+          "2 weeks ago",
+          "a month ago",
+          "2 months ago",
+          "3 months ago",
+          "4 months ago",
+          "5 months ago"
+        ],
+        "collect-date": [
+          "2025-07-28 00:00:00",
+          "2025-07-31 00:00:00"
+        ]
+      },
+      "inconsistent_place_examples": [
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-name": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige"
+        ],
+        "reviewer-id": [],
+        "name": [
+          "Erwin Samuel",
+          "Henry Lumbantoruan",
+          "KESS TOBING",
+          "Nur Hudaas",
+          "Warsein Roy M Sitohang"
+        ],
+        "reviewer-rating": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "4"
+        ],
+        "review-text": [
+          "Pantainya bersih, hanya saja gerai makanan cenderung agak monoton. Semoga bisa makin berkembang.",
+          "Pantai di Lumban Bulbul, sangat indah, panoramic, akses mudah, aneka pakaian kaos dan makanan sea tersedia, nyaman, sangat memuaskan, rekomended.",
+          "keren",
+          "Taman yg paling indah hanya taman paud Harapan Negeri Pantil",
+          "Tmptnya seru abis anakw bsa puas main air dan pondok2 nya worth it seh"
+        ],
+        "published-at": [
+          "a day ago",
+          "4 days ago",
+          "5 days ago",
+          "a week ago",
+          "a week ago"
+        ],
+        "collect-date": [
+          "2025-07-28 00:00:00",
+          "2025-07-28 00:00:00",
+          "2025-07-28 00:00:00",
+          "2025-07-28 00:00:00",
+          "2025-07-28 00:00:00"
+        ]
+      }
+    },
+    {
+      "sheet_name": "wisata-metadata",
+      "rows": 139,
+      "columns": 12,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "place-type",
+        "entry-fee",
+        "lat-long",
+        "operational-hour",
+        "address",
+        "place-rating",
+        "status",
+        "operational-day",
+        "place-ownership",
+        "description"
+      ],
+      "normalized_column_names": {
+        "place-id": "place_id",
+        "place-name": "place_name",
+        "place-type": "place_type",
+        "entry-fee": "entry_fee",
+        "lat-long": "lat_long",
+        "operational-hour": "operational_hour",
+        "address": "address",
+        "place-rating": "place_rating",
+        "status": "status",
+        "operational-day": "operational_day",
+        "place-ownership": "place_ownership",
+        "description": "description"
+      },
+      "dtypes": {
+        "place-id": "object",
+        "place-name": "object",
+        "place-type": "object",
+        "entry-fee": "object",
+        "lat-long": "object",
+        "operational-hour": "object",
+        "address": "object",
+        "place-rating": "object",
+        "status": "object",
+        "operational-day": "object",
+        "place-ownership": "object",
+        "description": "object"
+      },
+      "missing_values": {
+        "place-id": 0,
+        "place-name": 0,
+        "place-type": 0,
+        "entry-fee": 1,
+        "lat-long": 0,
+        "operational-hour": 0,
+        "address": 0,
+        "place-rating": 0,
+        "status": 0,
+        "operational-day": 139,
+        "place-ownership": 139,
+        "description": 139
+      },
+      "top_missing_values": {
+        "operational-day": 139,
+        "place-ownership": 139,
+        "description": 139,
+        "entry-fee": 1,
+        "place-id": 0,
+        "place-name": 0,
+        "place-type": 0,
+        "lat-long": 0,
+        "operational-hour": 0,
+        "address": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "place-name",
+      "unique_places": 138,
+      "top_places": {
+        "Bukit Tara Bunga": 2,
+        "Pantai Pasir Putih Lumban Bul-bul Balige": 1,
+        "Bukit Pahoda": 1,
+        "Desa Wisata Silalahi Pagar Batu": 1,
+        "Air Terjun Siboruon Balige": 1,
+        "Puncak Paralayang Sibodiala": 1,
+        "Pantai Pelangi": 1,
+        "Penatapan Meat Balige": 1,
+        "Tambunan Sunset Beach": 1,
+        "Wisata Bukit Gibeon": 1,
+        "Wisata Puncak Pangkodian": 1,
+        "Air Terjun Sampuran": 1,
+        "Geosite Sipinsur": 1,
+        "Wisata Rumah Pohon": 1,
+        "Air Terjun Situmurun": 1
+      },
+      "review_stats": {
+        "review_column": "description",
+        "reviews_with_text": 0,
+        "reviews_without_text": 139,
+        "text_length_min": 0,
+        "text_length_median": 0.0,
+        "text_length_mean": 0.0,
+        "text_length_max": 0
+      },
+      "rating_stats": {
+        "rating_column": "place-rating",
+        "valid_rating_count": 116,
+        "invalid_or_missing_rating_count": 23,
+        "min_rating": 3.7,
+        "max_rating": 5.0,
+        "mean_rating": 4.504310344827586,
+        "distribution": {
+          "4.3": 9,
+          "4.6": 25,
+          "5.0": 6,
+          "4.7": 13,
+          "4.4": 10,
+          "4.5": 27,
+          "4.2": 9,
+          "4.9": 2,
+          "4.8": 6,
+          "4.0": 4,
+          "3.7": 1,
+          "4.1": 3,
+          "3.8": 1
+        }
+      },
+      "coordinate_columns": [
+        "lat-long"
+      ],
+      "coordinate_examples": {
+        "lat-long": [
+          "2.3492596002020694, 99.07327785959252",
+          "2.34938999309088, 99.04028385235127",
+          "2.3310119766622237, 99.04921861186872",
+          "2.289866206064578, 99.08388020674705",
+          "2.317202199257693, 99.04007004070407",
+          "2.356344164693513, 99.09779924868393",
+          "2.3375240759130342, 99.00538132536288",
+          "2.355511359884397, 99.08449491263856",
+          "2.591042448016802, 98.99788496402712",
+          "2.3413269952378317, 99.008719138857"
+        ]
+      },
+      "price_columns": [
+        "entry-fee"
+      ],
+      "price_examples": {
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "10.000 - 20.000",
+          "70000",
+          "10.000 - 50.000",
+          "10000",
+          "5.000 - 40.000",
+          "5.000 - 15.000",
+          "5.000 - 7.000",
+          "10.000 - 15.000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "normalized": "pantai pasir putih lumban bulbul balige"
+        },
+        {
+          "raw": "Air Terjun Sigura-Gura",
+          "normalized": "air terjun sigura gura"
+        },
+        {
+          "raw": "Wisata Alam Fishing-Camp Siarubung",
+          "normalized": "wisata alam fishing camp siarubung"
+        },
+        {
+          "raw": "Caldera toba nomadic escape (glamour camping)",
+          "normalized": "caldera toba nomadic escape glamour camping"
+        },
+        {
+          "raw": "Monumen D.I. Panjaitan",
+          "normalized": "monumen d i panjaitan"
+        },
+        {
+          "raw": "Mual Sipangolu (Mual Sisingamangaraja)",
+          "normalized": "mual sipangolu mual sisingamangaraja"
+        },
+        {
+          "raw": "Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )",
+          "normalized": "batu kursi raja siallagan stone chair of king siallagan"
+        },
+        {
+          "raw": "Sopo Guru Tatea Bulan | ᯘᯬᯇᯬ ᯎᯮᯒᯮ ᯖᯖᯩᯀ ᯅᯮᯞᯉ᯲",
+          "normalized": "sopo guru tatea bulan ᯘ ᯇ ᯎ ᯒ ᯖᯖ ᯀ ᯅ ᯞᯉ"
+        },
+        {
+          "raw": "Makam DR. I.L. Nommensen",
+          "normalized": "makam dr i l nommensen"
+        },
+        {
+          "raw": "Patung Yesus, Bukit Sibeabea",
+          "normalized": "patung yesus bukit sibeabea"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-id": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "place-name": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Bukit Pahoda",
+          "Desa Wisata Silalahi Pagar Batu",
+          "Air Terjun Siboruon Balige",
+          "Puncak Paralayang Sibodiala"
+        ],
+        "place-type": [
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam"
+        ],
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "Gratis",
+          "Gratis",
+          "5.000 - 10.000"
+        ],
+        "lat-long": [
+          "2.3492596002020694, 99.07327785959252",
+          "2.34938999309088, 99.04028385235127",
+          "2.3310119766622237, 99.04921861186872",
+          "2.289866206064578, 99.08388020674705",
+          "2.317202199257693, 99.04007004070407"
+        ],
+        "operational-hour": [
+          "07.00 - 21.30",
+          "05.00 - 17.00",
+          "09.00 - 17.00",
+          "08.00 - 17.00",
+          "05.00 - 21.00"
+        ],
+        "address": [
+          "83XF+9VQ, Lumban Bulbul, Kec. Balige, Toba, Sumatera Utara",
+          "82XR+J4W, Lumban Silintong, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Dr. TB. Silalahi, Hinalang Bagasan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "73QM+VH2, Siboruon, Kec. Balige, Toba, Sumatera Utara 22312",
+          "828R+Q2, Silalahi Pagar Batu, Kec. Balige, Toba, Sumatera Utara"
+        ],
+        "place-rating": [
+          "4,3",
+          "4,6",
+          "5,0",
+          "4,7",
+          "4,7"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ],
+        "operational-day": [],
+        "place-ownership": [],
+        "description": []
+      }
+    },
+    {
+      "sheet_name": "hotel-metadata",
+      "rows": 36,
+      "columns": 12,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "price-per-head",
+        "check-in",
+        "check-out",
+        "recommend-menu",
+        "Fasilitas",
+        "address",
+        "lat-long",
+        "place-type",
+        "place-rating",
+        "status"
+      ],
+      "normalized_column_names": {
+        "place-id": "place_id",
+        "place-name": "place_name",
+        "price-per-head": "price_per_head",
+        "check-in": "check_in",
+        "check-out": "check_out",
+        "recommend-menu": "recommend_menu",
+        "Fasilitas": "fasilitas",
+        "address": "address",
+        "lat-long": "lat_long",
+        "place-type": "place_type",
+        "place-rating": "place_rating",
+        "status": "status"
+      },
+      "dtypes": {
+        "place-id": "object",
+        "place-name": "object",
+        "price-per-head": "object",
+        "check-in": "object",
+        "check-out": "object",
+        "recommend-menu": "object",
+        "Fasilitas": "object",
+        "address": "object",
+        "lat-long": "object",
+        "place-type": "object",
+        "place-rating": "object",
+        "status": "object"
+      },
+      "missing_values": {
+        "place-id": 36,
+        "place-name": 0,
+        "price-per-head": 8,
+        "check-in": 18,
+        "check-out": 18,
+        "recommend-menu": 35,
+        "Fasilitas": 6,
+        "address": 0,
+        "lat-long": 0,
+        "place-type": 0,
+        "place-rating": 1,
+        "status": 0
+      },
+      "top_missing_values": {
+        "place-id": 36,
+        "recommend-menu": 35,
+        "check-in": 18,
+        "check-out": 18,
+        "price-per-head": 8,
+        "Fasilitas": 6,
+        "place-rating": 1,
+        "place-name": 0,
+        "address": 0,
+        "lat-long": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "place-name",
+      "unique_places": 36,
+      "top_places": {
+        "Brain Homestay": 1,
+        "Tiara Bunga Hotel": 1,
+        "Hotel Santo Djaya": 1,
+        "Nauli Inn": 1,
+        "Grand Mareda Hotel": 1,
+        "Hotel O Balige City Near Tugu Juara Monang": 1,
+        "Pudan Residence": 1,
+        "RAP Hotel Balige": 1,
+        "J&J Guest House 1 Rumah": 1,
+        "Brussels Homestay": 1,
+        "SAPADIA VILLA BALIGE II": 1,
+        "Hotel Adela": 1,
+        "Vany Villa Balige": 1,
+        "Labersa Hotel and Convention Center Toba, Balige": 1,
+        "Lago Hotel & Resto": 1
+      },
+      "review_stats": {},
+      "rating_stats": {
+        "rating_column": "place-rating",
+        "valid_rating_count": 35,
+        "invalid_or_missing_rating_count": 1,
+        "min_rating": 3.0,
+        "max_rating": 5.0,
+        "mean_rating": 4.271428571428571,
+        "distribution": {
+          "4.7": 2,
+          "4.2": 3,
+          "3.8": 2,
+          "4.9": 2,
+          "3.9": 2,
+          "5.0": 2,
+          "4.0": 3,
+          "4.3": 3,
+          "4.6": 5,
+          "4.1": 4,
+          "4.5": 2,
+          "3.6": 2,
+          "3.0": 1,
+          "4.4": 2
+        }
+      },
+      "coordinate_columns": [
+        "lat-long"
+      ],
+      "coordinate_examples": {
+        "lat-long": [
+          "2.5482791000000002,99.0812858",
+          "2.3628717999999997,99.0308496",
+          "2.4452915,99.1552925",
+          "2.3444332,99.0787909",
+          "2.3499528,99.1122069",
+          "2.2639672,99.0681668",
+          "2.3315951999999998,99.0713519",
+          "2.3341051999999998,99.0607736",
+          "2.336051,99.0650606",
+          "2.33624,99.0634391"
+        ]
+      },
+      "price_columns": [
+        "price-per-head"
+      ],
+      "price_examples": {
+        "price-per-head": [
+          "100000",
+          "700.000 - 1.200.000",
+          "200.000 - 300.000",
+          "250.000 - 400.000",
+          "78000",
+          "107000",
+          "240000",
+          "800000",
+          "280000",
+          "40000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "J&J Guest House 1 Rumah",
+          "normalized": "j j guest house 1 rumah"
+        },
+        {
+          "raw": "Labersa Hotel and Convention Center Toba, Balige",
+          "normalized": "labersa hotel and convention center toba balige"
+        },
+        {
+          "raw": "Lago Hotel & Resto",
+          "normalized": "lago hotel resto"
+        },
+        {
+          "raw": "TOPI TAO HOMESTAY PANGURURAN (KAWASAN WATERFRONT CITY)",
+          "normalized": "topi tao homestay pangururan kawasan waterfront city"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-id": [],
+        "place-name": [
+          "Brain Homestay",
+          "Tiara Bunga Hotel",
+          "Hotel Santo Djaya",
+          "Nauli Inn",
+          "Grand Mareda Hotel"
+        ],
+        "price-per-head": [
+          "100000",
+          "700.000 - 1.200.000",
+          "200.000 - 300.000",
+          "250.000 - 400.000",
+          "78000"
+        ],
+        "check-in": [
+          "14.00",
+          "14.00",
+          "14.00",
+          "14.00",
+          "14.00"
+        ],
+        "check-out": [
+          "11.00",
+          "12.00",
+          "12.00",
+          "12.00",
+          "12.00"
+        ],
+        "recommend-menu": [
+          "Bandrek, Sop Perut Ikan, Sayur Kangkung Dan Ikan Nila, Juice Jeruk, Nasi Goreng, Udang Tauco, Ikan Tauco, Udang Goreng Tepung Oats, Ifu Mie Goreng, Es Kopi Susu, Padang Restaurant Assorted Meals, Stir Fry Cuttlefish, Stir Fried Bean Sprouts, Stir Fried Mix Vegetables, Ayam Penyet, Hot Plate Tofu, Garlic Chicken, Kwetiaw Goreng, Stir Fry Vermicelli"
+        ],
+        "Fasilitas": [
+          "Sarapan",
+          "Wi-Fi gratis, Sarapan, Parkir gratis, Kolam renang luar, AC, Layanan binatu",
+          "Wi-Fi, Tempat Parkir, Cocok Untuk anak - anak",
+          "Sarapan, AC, TV, Air panas, Wi-Fi",
+          "Wi-Fi, Sarapan Gratis, AC, Layanan Kamar"
+        ],
+        "address": [
+          "Hutabasagasan, Sihiong, Jangga Toruan, Balige, Toba, Sumatera Utara 22386, Indonesia (G3XJ+8G Jangga Toruan, Toba, Sumatera Utara, Indonesia)",
+          "Jl. Raya TaraBunga, Tara Bunga, Kec. Tampahan, Toba, Sumatera Utara 22312, Indonesia (927J+48 Tara Bunga, Toba, Sumatera Utara, Indonesia)",
+          "C5W4+447, Jl. Sisingamangaraja, Ps. Porsea, Kec. Porsea, Kabupaten Samosir, Sumatera Utara 22384, Indonesia",
+          "Jl. Sibola Hotang No.km 1, RW.2, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara, Indonesia (83VH+QG Sibola Hotangsas, Toba, Sumatera Utara, Indonesia)",
+          "84X6+XVP, Jl Pasar Melintang, Aruan, Kec. Balige, Toba, Sumatera Utara 22312, Indonesia"
+        ],
+        "lat-long": [
+          "2.5482791000000002,99.0812858",
+          "2.3628717999999997,99.0308496",
+          "2.4452915,99.1552925",
+          "2.3444332,99.0787909",
+          "2.3499528,99.1122069"
+        ],
+        "place-type": [
+          "Hotel",
+          "Hotel",
+          "Hotel",
+          "Pondok",
+          "Hotel"
+        ],
+        "place-rating": [
+          "4.7",
+          "4.2",
+          "3.8",
+          "4.9",
+          "3.9"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ]
+      }
+    },
+    {
+      "sheet_name": "resto-metadata",
+      "rows": 148,
+      "columns": 11,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "price-per-head",
+        "opening-hours",
+        "recommend-menu",
+        "Fasilitas",
+        "address",
+        "lat-long",
+        "place-type",
+        "place-rating",
+        "status"
+      ],
+      "normalized_column_names": {
+        "place-id": "place_id",
+        "place-name": "place_name",
+        "price-per-head": "price_per_head",
+        "opening-hours": "opening_hours",
+        "recommend-menu": "recommend_menu",
+        "Fasilitas": "fasilitas",
+        "address": "address",
+        "lat-long": "lat_long",
+        "place-type": "place_type",
+        "place-rating": "place_rating",
+        "status": "status"
+      },
+      "dtypes": {
+        "place-id": "object",
+        "place-name": "object",
+        "price-per-head": "object",
+        "opening-hours": "object",
+        "recommend-menu": "object",
+        "Fasilitas": "object",
+        "address": "object",
+        "lat-long": "object",
+        "place-type": "object",
+        "place-rating": "object",
+        "status": "object"
+      },
+      "missing_values": {
+        "place-id": 0,
+        "place-name": 0,
+        "price-per-head": 23,
+        "opening-hours": 147,
+        "recommend-menu": 19,
+        "Fasilitas": 142,
+        "address": 0,
+        "lat-long": 0,
+        "place-type": 0,
+        "place-rating": 1,
+        "status": 0
+      },
+      "top_missing_values": {
+        "opening-hours": 147,
+        "Fasilitas": 142,
+        "price-per-head": 23,
+        "recommend-menu": 19,
+        "place-rating": 1,
+        "place-id": 0,
+        "place-name": 0,
+        "address": 0,
+        "lat-long": 0,
+        "place-type": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "place-name",
+      "unique_places": 148,
+      "top_places": {
+        "Cantik Daijo Cafe": 1,
+        "Rumah Makan Romauli": 1,
+        "Kedai Islam \"Rahayu\"": 1,
+        "Sinar Minang Restaurant & Convention Hall": 1,
+        "Damar Toba ~ Lakeside Eatery & Stay": 1,
+        "BPK TAMBAR LIHE CLARISSA GURUSINGA": 1,
+        "Warunk Friendzone": 1,
+        "SOP Kerbau Siparo Gogo": 1,
+        "Rumah Makan Rizal": 1,
+        "RAJA SEAFOOD BALIGE": 1,
+        "Toba Corner Restaurant": 1,
+        "RM. GOMGOM KHAS BATAK": 1,
+        "RM Lapo Jior": 1,
+        "\"Happy\" Noodle Restaurant": 1,
+        "BPK PANCA JAYA": 1
+      },
+      "review_stats": {},
+      "rating_stats": {
+        "rating_column": "place-rating",
+        "valid_rating_count": 147,
+        "invalid_or_missing_rating_count": 1,
+        "min_rating": 2.7,
+        "max_rating": 5.0,
+        "mean_rating": 4.396598639455782,
+        "distribution": {
+          "4.4": 15,
+          "4.3": 18,
+          "4.5": 14,
+          "4.8": 12,
+          "2.7": 1,
+          "4.6": 9,
+          "4.2": 12,
+          "5.0": 14,
+          "4.9": 3,
+          "4.7": 14,
+          "4.1": 12,
+          "3.8": 1,
+          "3.6": 2,
+          "3.7": 3,
+          "4.0": 13,
+          "3.9": 2,
+          "3.0": 1,
+          "3.2": 1
+        }
+      },
+      "coordinate_columns": [
+        "lat-long"
+      ],
+      "coordinate_examples": {
+        "lat-long": [
+          "2.35191,99.1176317",
+          "2.3290292,99.232502",
+          "2.328846,99.2331035",
+          "2.3360012,99.0733666",
+          "2.3404454,99.0505864",
+          "2.3936637,99.2068009",
+          "2.4208568,99.1776305",
+          "2.4247075,99.1796321",
+          "2.3980625,99.1716875",
+          "2.3339313,99.0636019"
+        ]
+      },
+      "price_columns": [
+        "price-per-head"
+      ],
+      "price_examples": {
+        "price-per-head": [
+          "25.000 - 50.000",
+          "25000",
+          "25.000 - 75.000",
+          "30.000 - 700.000",
+          "10.000 - 50.000",
+          "50.000 - 75.000",
+          "50.000 – 75.000",
+          "25.000 – 50.000",
+          "75.000 - 100.000",
+          "25.000 –50.000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Kedai Islam \"Rahayu\"",
+          "normalized": "kedai islam rahayu"
+        },
+        {
+          "raw": "Sinar Minang Restaurant & Convention Hall",
+          "normalized": "sinar minang restaurant convention hall"
+        },
+        {
+          "raw": "Damar Toba ~ Lakeside Eatery & Stay",
+          "normalized": "damar toba lakeside eatery stay"
+        },
+        {
+          "raw": "RM. GOMGOM KHAS BATAK",
+          "normalized": "rm gomgom khas batak"
+        },
+        {
+          "raw": "\"Happy\" Noodle Restaurant",
+          "normalized": "happy noodle restaurant"
+        },
+        {
+          "raw": "ijabu Coffee & Roastery",
+          "normalized": "ijabu coffee roastery"
+        },
+        {
+          "raw": "GotiL F&B",
+          "normalized": "gotil f b"
+        },
+        {
+          "raw": "BAKSO PAK RADIT (BAKSO KHAS MALANG)",
+          "normalized": "bakso pak radit bakso khas malang"
+        },
+        {
+          "raw": "BAKSO MAS PANDU \"WONG SOLO\"",
+          "normalized": "bakso mas pandu wong solo"
+        },
+        {
+          "raw": "RM ISLAM \"NAULI\"",
+          "normalized": "rm islam nauli"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-id": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "place-name": [
+          "Cantik Daijo Cafe",
+          "Rumah Makan Romauli",
+          "Kedai Islam \"Rahayu\"",
+          "Sinar Minang Restaurant & Convention Hall",
+          "Damar Toba ~ Lakeside Eatery & Stay"
+        ],
+        "price-per-head": [
+          "25.000 - 50.000",
+          "25000",
+          "25.000 - 75.000",
+          "30.000 - 700.000",
+          "25000"
+        ],
+        "opening-hours": [
+          "14.00"
+        ],
+        "recommend-menu": [
+          "Vanila Milk Shake, Dimsum Udang, Kopi Americano, Tempe Crispy, Teh Tarik, Nasi Lele Daijo, Kwetiau Hot Plate Seafood Gila, Nasi Ayam Penyet Sambal Belacan, Daijo Pizza, Nasi Goreng Spesial, Mie Hot Plate Special, Ice Thai Tea, Steak Salad, Daijo Egg Waffle, Drip Coffee, Pizza Complete, French Fries, Cappuccino Latte, Chicken Katsu, Tomyam Seafood.",
+          "Babi Panggang, Sop Kosong, Daging Babi Arsik Pakai Tubis, Jahir Panggang, Naniura, ",
+          "Mushola, Halal",
+          "Jeroan Masak Gule, Rendang, Sambal, Teh Talua Teh Telur, Dendeng, Ayam Balado, Sup Daging Sapi, Ikan Goreng, Nasi Ayam Goreng Telur Dadar, Aneka Masakan Khas Padang Melayu, Sayur Kailan, Nasi Padang, Sajian Lauk, Gulai Ayam Kampung, Kopi Susu, Makanan Padang, Telor Dadar, Jengkol Teri Cabe IJO, Kerupuk Gulai, Sayur Nangka.",
+          "Mie Gomak, Mie Goreng, Sate, Fried Rice with Chicken Wings, Kopi Latte, Ikan Naniura, Nasi Liwet Daging Balado, Mango Sticky Rice Pudding, Caffè Latte, Fish Fillet Natinombur, Americano Coffee, American Breakfast, Ice Cream Croissant."
+        ],
+        "Fasilitas": [
+          "Cocok untuk anak anak",
+          "Halal",
+          "Halal",
+          "Halal",
+          "Halal"
+        ],
+        "address": [
+          "Jl. Sisingamangaraja, Aruan, Kec. Laguboti, Toba, Sumatera Utara 22381, Indonesia (9429+Q3 Aruan, Toba, Sumatera Utara, Indonesia)",
+          "86HM+J26, Jl. Parsoburan, Parsoburan Bar., Kec. Habinsaran, Toba, Sumatera Utara 22384, Indonesia",
+          "86HM+G6Q, Jl. Parsoburan, Parsoburan Bar., Kec. Habinsaran, Toba, Sumatera Utara 22384, Indonesia",
+          "Jl. Siborongborong - Parapat No.2, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara, Indonesia (83PF+C8 Sibola Hotangsas, Toba, Sumatera Utara, Indonesia)",
+          "Jl. Pemandian No.94, Kec. Balige, Sumatera Utara 22312, Indonesia (83R2+56 Lumban Silintong, Toba, Sumatera Utara, Indonesia)"
+        ],
+        "lat-long": [
+          "2.35191,99.1176317",
+          "2.3290292,99.232502",
+          "2.328846,99.2331035",
+          "2.3360012,99.0733666",
+          "2.3404454,99.0505864"
+        ],
+        "place-type": [
+          "Restoran",
+          "Restoran",
+          "Restoran",
+          " ",
+          "Restoran"
+        ],
+        "place-rating": [
+          "4.4",
+          "4.3",
+          "4.5",
+          "4.4",
+          "4.8"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ]
+      }
+    },
+    {
+      "sheet_name": "transportasi",
+      "rows": 16,
+      "columns": 7,
+      "column_names": [
+        "transport-id",
+        "transport-name",
+        "direction",
+        "price",
+        "jenis-mobil",
+        "description",
+        "operational-hour"
+      ],
+      "normalized_column_names": {
+        "transport-id": "transport_id",
+        "transport-name": "transport_name",
+        "direction": "direction",
+        "price": "price",
+        "jenis-mobil": "jenis_mobil",
+        "description": "description",
+        "operational-hour": "operational_hour"
+      },
+      "dtypes": {
+        "transport-id": "object",
+        "transport-name": "object",
+        "direction": "object",
+        "price": "object",
+        "jenis-mobil": "object",
+        "description": "object",
+        "operational-hour": "object"
+      },
+      "missing_values": {
+        "transport-id": 16,
+        "transport-name": 0,
+        "direction": 0,
+        "price": 0,
+        "jenis-mobil": 0,
+        "description": 13,
+        "operational-hour": 0
+      },
+      "top_missing_values": {
+        "transport-id": 16,
+        "description": 13,
+        "transport-name": 0,
+        "direction": 0,
+        "price": 0,
+        "jenis-mobil": 0,
+        "operational-hour": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "transport-name",
+      "unique_places": 9,
+      "top_places": {
+        "KMP Kaldera Toba": 4,
+        "KMP Ihan Batak & KMP Pora - Pora": 2,
+        "KMP Tao Toba I & KMP Tao Toba II": 2,
+        "KMP Muara Putih I": 2,
+        "KMP Sumut I & KMP Sumut II": 2,
+        "Mobil KBT (Koperasi Bintang Timur)": 1,
+        "Mobil KBT (Koperasi Bintang Timur) Eksekutif": 1,
+        "Mobil KPT (Kevin Pratama Trans)": 1,
+        "PT. Raja Napogos": 1
+      },
+      "review_stats": {
+        "review_column": "description",
+        "reviews_with_text": 3,
+        "reviews_without_text": 13,
+        "text_length_min": 0,
+        "text_length_median": 0.0,
+        "text_length_mean": 52.0,
+        "text_length_max": 492
+      },
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [
+        "price"
+      ],
+      "price_examples": {
+        "price": [
+          "50.000 - 90.000",
+          "100.000 - 140.000",
+          "70.000 - 80.000",
+          "30.000 - 90.000",
+          "3.500 - 250.000"
+        ]
+      },
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Mobil KBT (Koperasi Bintang Timur)",
+          "normalized": "mobil kbt koperasi bintang timur"
+        },
+        {
+          "raw": "Mobil KBT (Koperasi Bintang Timur) Eksekutif",
+          "normalized": "mobil kbt koperasi bintang timur eksekutif"
+        },
+        {
+          "raw": "Mobil KPT (Kevin Pratama Trans)",
+          "normalized": "mobil kpt kevin pratama trans"
+        },
+        {
+          "raw": "PT. Raja Napogos",
+          "normalized": "pt raja napogos"
+        },
+        {
+          "raw": "KMP Ihan Batak & KMP Pora - Pora",
+          "normalized": "kmp ihan batak kmp pora pora"
+        },
+        {
+          "raw": "KMP Ihan Batak & KMP Pora - Pora",
+          "normalized": "kmp ihan batak kmp pora pora"
+        },
+        {
+          "raw": "KMP Tao Toba I & KMP Tao Toba II",
+          "normalized": "kmp tao toba i kmp tao toba ii"
+        },
+        {
+          "raw": "KMP Tao Toba I & KMP Tao Toba II",
+          "normalized": "kmp tao toba i kmp tao toba ii"
+        },
+        {
+          "raw": "KMP Sumut I & KMP Sumut II",
+          "normalized": "kmp sumut i kmp sumut ii"
+        },
+        {
+          "raw": "KMP Sumut I & KMP Sumut II",
+          "normalized": "kmp sumut i kmp sumut ii"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "transport-id": [],
+        "transport-name": [
+          "Mobil KBT (Koperasi Bintang Timur)",
+          "Mobil KBT (Koperasi Bintang Timur) Eksekutif",
+          "Mobil KPT (Kevin Pratama Trans)",
+          "PT. Raja Napogos",
+          "KMP Kaldera Toba"
+        ],
+        "direction": [
+          "Medan, Pemtang Siantar, Parapat, Porsea, Balige, Siborong borong, Tarutung, Dolok Sanggul, Muara, Pahae, Sipahutar, Penyabungan, Tantom",
+          "Medan, Pemtang Siantar, Parapat, Porsea, Balige, Siborong borong, Tarutung, Dolok Sanggul, Muara, Pahae, Sipahutar, Penyabungan, Tantom",
+          "Medan, Tebing Tinggi, Siantar, Parapat, Laguboti, Porsea, Balige, Siborong borong, Tarutung",
+          "Tebing TInggi, Pematang Siantar, Parapat, Porsea, Parsoburan, Balige, Parlilitan, Siborong borong, Dolok Sanggul, Sibolga, Pakkat, Tarutung",
+          "Balige ke Onan Runggu"
+        ],
+        "price": [
+          "50.000 - 90.000",
+          "100.000 - 140.000",
+          "70.000 - 80.000",
+          "30.000 - 90.000",
+          "3.500 - 250.000"
+        ],
+        "jenis-mobil": [
+          "Mitsubishi L300 dgn 8 Kursi penumpang",
+          "Toyota Hiace Commuter",
+          "Mitsubishi L300 dgn 8 Kursi penumpang / Isuzu ELF dgn 14 Kursi Penumpang",
+          "Mitsubishi FUSO Canter",
+          "Ferry"
+        ],
+        "description": [
+          " angkutan umum yang merujuk pada Koperasi Bintang Tapanuli, sebuah koperasi yang menyediakan layanan angkutan penumpang, khususnya di wilayah Tapanuli, Sumatera Utara",
+          " angkutan umum eksekutif yang merujuk pada Koperasi Bintang Tapanuli, sebuah koperasi yang menyediakan layanan angkutan penumpang, khususnya di wilayah Tapanuli, Sumatera Utara",
+          "Tujuan Dengan hadirnya PT.KEVIN PRATAMA TRANS(KPT) untuk membuat perubahan di bidang transportasi darat yang menciptakan PELAYANAN dan KENYAMANAN yg lebih baik ke depan buat masyarakat (Penumpang) yg melakukan perjalanan dari Medan ke Tapanuli begitu juga sebaliknya.\nMari kita jadikan Group ini sebagai ruang publik menjalin silaturahmi berbagi informasi, berbagi ide dan gagasan yg membangun untuk kemajuan ke depan agar pelayanan transportasi dapat ditingkatkan PT.KEVIN PRATAMA TRANS(KPT)"
+        ],
+        "operational-hour": [
+          "24 jam",
+          "24 jam",
+          "24 jam",
+          "07.00 - 22.00",
+          "06.30"
+        ]
+      }
+    },
+    {
+      "sheet_name": "kuliner",
+      "rows": 12,
+      "columns": 3,
+      "column_names": [
+        "kuliner-id",
+        "kuliner-name",
+        "description"
+      ],
+      "normalized_column_names": {
+        "kuliner-id": "kuliner_id",
+        "kuliner-name": "kuliner_name",
+        "description": "description"
+      },
+      "dtypes": {
+        "kuliner-id": "object",
+        "kuliner-name": "object",
+        "description": "object"
+      },
+      "missing_values": {
+        "kuliner-id": 12,
+        "kuliner-name": 0,
+        "description": 0
+      },
+      "top_missing_values": {
+        "kuliner-id": 12,
+        "kuliner-name": 0,
+        "description": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "kuliner-name",
+      "unique_places": 12,
+      "top_places": {
+        "Dali ni Horbo": 1,
+        "Saksang": 1,
+        "Naniarsik": 1,
+        "Babi Panggang Karo": 1,
+        "Manuk Napinadar": 1,
+        "Dengke Mas na Niura": 1,
+        "Na Tinombur": 1,
+        "Mie Gomak": 1,
+        "Tanggo tanggo": 1,
+        "Mie Sop": 1,
+        "Sira Pege": 1,
+        "Sambal Tuktuk": 1
+      },
+      "review_stats": {
+        "review_column": "description",
+        "reviews_with_text": 12,
+        "reviews_without_text": 0,
+        "text_length_min": 167,
+        "text_length_median": 521.0,
+        "text_length_mean": 536.9166666666666,
+        "text_length_max": 988
+      },
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "kuliner-id": [],
+        "kuliner-name": [
+          "Dali ni Horbo",
+          "Saksang",
+          "Naniarsik",
+          "Babi Panggang Karo",
+          "Manuk Napinadar"
+        ],
+        "description": [
+          "Makanan unik ini terdengar asing, namun pasti merasa pernah memakannya. Dali ni horbo merupakan makanan yang berbentuk seperti tahu dan terbuat dari susu kerbau alami.",
+          "saksang adalah masakan khas suku Batak yang terbuat dari daging babi, daging anjing, atau daging kerbau yang dicincang kecil dan dibumbui dengan rempah-rempah, serta dimasak baik dengan menggunakan darah hasil sembelihan hewan tersebut (margota) atau olahan rempah biasa tanpa darah (na so margota).",
+          "Arsik adalah salah satu masakan khas masyarakat Batak atau yang disebut juga dengan dekke na niarsik, yang memiliki arti ikan yang dimasak hingga kering. Kata arsik berasal dari cara memasak hidangan ini, yaitu mangarsik yang berarti hidangan ikan disiram-siram atau diguyur selama proses memasak.\nMasakan ini adalah simbol karunia bagi masyarakat Batak dan akan dihidangkan saat acara adat seperti pernikahan dan kelahiran. Hidangan ini disajikan dengan harapan agar orang yang menerima hidangan ini dapat memiliki hati dan perilaku yang bersih.",
+          "Babi panggang karo (atau yang lebih populer dikenal dengan istilah BPK) adalah masakan yang terbuat dari daging babi yang dipanggang atau dibakar. Makanan ini adalah masakan khas Suku Karo, sehingga banyak ditemukan di berbagai kota yang banyak ditinggali oleh orang Karo seperti di Berastagi, Kabanjahe, dan Medan, bahkan di Pekanbaru, Serang, Tangerang, Jakarta, Bekasi, dan Bandung.\nPerbedaan antara babi panggang karo dengan babi panggang lainnya adalah cara pemangangannya yang dilakukan lebih unik dengan irisan lebih halus, serta pemilihan bagian daging yang tepat. Saat dihidangkan, babi panggang karo juga akan ditambahkan dengan sajian daun singkong dan kincong yang telah dihaluskan dan dimasak secara khas.\nSelain itu, disajikan pula saus yang terbuat dari darah babi. Keberadaan saus darah terlebih dahulu telah dimasak di atas bara api dengan ditambahkan sedikit air dan dibumbui dengan ramuan bumbu, seperti asam. Setelah matang, warna saus darah akan berwarna kecokelatan.",
+          "Manuk napinadar atau ayam napinadar adalah masakan khas Batak yang biasanya dihidangkan pada pesta adat tertentu, biasanya disajikan saat seseorang sedang mengalami suka cita seperti kelahiran anak, pernikahan, dan saat seseorang akan berangkat merantau.\nBagi masyarakat Batak, ayam napinadar memiliki filosofi, yaitu sebagai sarana untuk memanjatkan doa dan dapat memberikan semangat dan berkat. Dengan memberikan hidangan ini ke seseorang, harapannya seseorang tersebut dapat mendapatkan kesehatan dan berkat yang melimpah.\nProses memasak ayam napinadar, yaitu dipanggang terlebih dahulu. Setelah itu, disiram dengan manuk (darah ayam) itu sendiri dan dicampur dengan andaliman, bawang putih bubuk (yang sudah digiling sampai halus), lalu dimasak."
+        ]
+      }
+    },
+    {
+      "sheet_name": "Attractions Info",
+      "rows": 15,
+      "columns": 8,
+      "column_names": [
+        "No",
+        "Nama Kabupaten",
+        "Nama Atraksi",
+        "Detail",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7"
+      ],
+      "normalized_column_names": {
+        "No": "no",
+        "Nama Kabupaten": "nama_kabupaten",
+        "Nama Atraksi": "nama_atraksi",
+        "Detail": "detail",
+        "Unnamed: 4": "unnamed_4",
+        "Unnamed: 5": "unnamed_5",
+        "Unnamed: 6": "unnamed_6",
+        "Unnamed: 7": "unnamed_7"
+      },
+      "dtypes": {
+        "No": "object",
+        "Nama Kabupaten": "object",
+        "Nama Atraksi": "object",
+        "Detail": "object",
+        "Unnamed: 4": "object",
+        "Unnamed: 5": "object",
+        "Unnamed: 6": "object",
+        "Unnamed: 7": "object"
+      },
+      "missing_values": {
+        "No": 1,
+        "Nama Kabupaten": 10,
+        "Nama Atraksi": 1,
+        "Detail": 0,
+        "Unnamed: 4": 3,
+        "Unnamed: 5": 9,
+        "Unnamed: 6": 6,
+        "Unnamed: 7": 7
+      },
+      "top_missing_values": {
+        "Nama Kabupaten": 10,
+        "Unnamed: 5": 9,
+        "Unnamed: 7": 7,
+        "Unnamed: 6": 6,
+        "Unnamed: 4": 3,
+        "No": 1,
+        "Nama Atraksi": 1,
+        "Detail": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "Nama Atraksi",
+      "unique_places": 14,
+      "top_places": {
+        "Paralayang Puncak Sibodiala, Balige": 1,
+        "Juma Bulu River Side Ajibata": 1,
+        "Kano": 1,
+        "Bukit Indah Simarjarunjung": 1,
+        "Flyboard di Parapat": 1,
+        "ATV di Kebun Teh Sidamanik": 1,
+        "Kuliki Paralayang di Tongging": 1,
+        "Canyoneering di Air Terjun Sikulikap": 1,
+        "Berkuda di Gundaling": 1,
+        "Pacuan Kuda Hoda Marsiadu Siborong-borong Olahraga Tradisional Batak": 1,
+        "Paralayang Huta Ginjang": 1,
+        "Waterfront": 1,
+        "Sigale-gale": 1,
+        "Kampung Ulos Hutaraja": 1
+      },
+      "review_stats": {
+        "review_column": "Detail",
+        "reviews_with_text": 15,
+        "reviews_without_text": 0,
+        "text_length_min": 9,
+        "text_length_median": 309.0,
+        "text_length_mean": 345.73333333333335,
+        "text_length_max": 643
+      },
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Paralayang Puncak Sibodiala, Balige",
+          "normalized": "paralayang puncak sibodiala balige"
+        },
+        {
+          "raw": "Pacuan Kuda Hoda Marsiadu Siborong-borong Olahraga Tradisional Batak",
+          "normalized": "pacuan kuda hoda marsiadu siborong borong olahraga tradisional batak"
+        },
+        {
+          "raw": "Sigale-gale",
+          "normalized": "sigale gale"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "No": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Nama Kabupaten": [
+          "TOBA",
+          "SIMALUNGUN",
+          "KARO",
+          "TAPANULI UTARA",
+          "SAMOSIR"
+        ],
+        "Nama Atraksi": [
+          "Paralayang Puncak Sibodiala, Balige",
+          "Juma Bulu River Side Ajibata",
+          "Kano",
+          "Bukit Indah Simarjarunjung",
+          "Flyboard di Parapat"
+        ],
+        "Detail": [
+          "Deskripsi",
+          "Spot paralayang Puncak Sibodiala, Balige dibuka tahun 2024., sekitar 15 menit dari pusat kota Balige dan harus mendaki bukit Sibodiala yang punya ketinggian 800 meter dpl untuk sampai dipuncaknya.\n Puncak Sibodiala memiliki pemandangan yang memukau mulai dari hutan pinus, deretan perbukitan, perkampungan dan perkebunan warga\n hingga pemandangan danau toba yang sangat luas.\n Selain itu tak jauh dari sana ada Batu Basiha yang menampilkan tumpukan bebatuan sisa ledakan vulkanis danau toba sekitar 74.000 tahun lalu.\n Dan dari puncak itu, kamu bisa melakukan aktivitas paralayang dengan biaya hanya Rp. 550rb (sudah termasuk asuransi kecelakaan).",
+          "Riverside Juma Bulu memiliki keindahan alam dan udara yang sejuk dikelilingi persawahan serta menyediakan aktivitas tourism yaitu River Tubing.\n Bagi wisatawan yang ingin menginap dengan nuansa alam, River Side Juma Bulu juga menyediakan tempat camping di Desa Pardomuan Ajibata juga terdapat aktivitas Trecking ke Air Terjun Batu Papan.\n \n Sumber : https://wisata.tobakab.go.id/destinasi-wisata/",
+          "Permainan kano adalah aktivitas rekreasi atau olahraga air yang menggunakan perahu kecil ringan bernama kano, yang digerakkan dengan dayung.\n Olahraga air ini bisa kamu nikmati di pantai Bulbul Balige dengan maksimal dua orang.",
+          "Dari puncak bukit, pengunjung bisa menikmati panorama Danau Toba yang menakjubkan.\n Selain menikmati pemandangan Danau Toba yang memukau dari Bukit Indah Simarjarunjung, pengunjung bisa berfoto di berbagai spot yang sudah tersedia.\n Spot-spot foto ini antara lain rumah pohon, sepeda gantung, kursi dan meja melayang, pohon cinta sampai dengan gardu pandang."
+        ],
+        "Unnamed: 4": [
+          "Lokasi",
+          "Puncak Sibodiala di Balige, Kabupaten Toba",
+          "Desa Pardomuan Ajibata",
+          "Desa Wisata Lumban Bulbul,\n Kabupaten Toba Samosir, Sumatera Utara",
+          "Jl. Simarjarunjung, Butu Bayu Pane Raja, Dolok Pardamean,\n Kabupaten Simalungun, Sumatera Utara 21163"
+        ],
+        "Unnamed: 5": [
+          "Opening Hours",
+          "10.00 WIB - 17.00 WIB",
+          "07.00 WIB - 19.00 WIB",
+          "-",
+          "08.30 WIB - 16.00 WIB."
+        ],
+        "Unnamed: 6": [
+          "Ticket Prices",
+          "Pelajar Rp 50Rb\n Mahasiswa Rp 450Rb\n Umum Rp 550Rb",
+          "River Tubing Rp 50Rb\n Trecking Air Terjun Batu Papan Rp 100Rb\n Camping River Side Juma Bulu Rp 200Rb",
+          "Rp 50Rb",
+          "Rp 15Rb - Rp 40Rb"
+        ],
+        "Unnamed: 7": [
+          "Historical & Cultural Background",
+          "Di sekitar Puncak Sibodiala, masyarakat lokal masih menjaga tradisi dan kebudayaan khas Kabupaten Toba.\n Desa Silalahi Pagar Batu merupakan komunitas yang ramah dan terus berupaya mengembangkan potensi wisata alam ini agar berkelanjutan sekaligus memberdayakan ekonomi warga sekitar.",
+          "Masyarakat desa Pardomuan Ajibata dikenal dengan keramahan dan keakraban mereka.\n Desa ini sering mengadakan kegiatan gotong royong untuk memperbaiki fasilitas umum, seperti jalan desa dan irigasi.\n Selain itu, desa ini sering mengadakan acara adat dan budaya, seperti Pesta Rakyat ucapan Syukur hasil dar panen ( Pesta Gotilon), dan pentas seni.\n Secara keseluruhan, desa Pardomuan Ajibata adalah desa yang ramah dan indah, dengan masyarakat yang hidup rukun dan harmonis. Desa ini cocok untuk dijadikan destinasi wisata bagi mereka yang ingin merasakan suasana pedesaan yang damai dan menenangkan.",
+          "Pemanfaatan daerah dataran tinggi disertai pemandangan bukit indah yang dikelilingi Danau Toba membuat daerah ini menjadi destinasi yang menawarkan banyak sekali daya tarik pariwisata di Sumatera Utara.",
+          "Pacuan kuda ini dianggap sebagai bentuk penghormatan yang dilakukan terhadap tradisi dan leluhur.\n Masyarakat Batak Toba percaya bahwa menjaga dan melanjutkan tradisi ini adalah cara untuk memuliakan leluhur mereka yang telah meninggalkan warisan berharga, mereka menghargai warisan budaya yang telah diterima dari nenek moyang,\n menjadikannya sebagai bagian integral dari identitas mereka sebagai bangsa Batak.\n Partisipasi dalam pacuan kuda juga merupakan wujud dari solidaritas dan persaudaraan antaranggota masyarakat Batak."
+        ]
+      }
+    },
+    {
+      "sheet_name": "Artikel Danau Toba",
+      "rows": 6,
+      "columns": 5,
+      "column_names": [
+        "No",
+        "Judul Artikel",
+        "Kabupaten",
+        "Rangkuman (Paragraf Awal)",
+        "Link Artikel"
+      ],
+      "normalized_column_names": {
+        "No": "no",
+        "Judul Artikel": "judul_artikel",
+        "Kabupaten": "kabupaten",
+        "Rangkuman (Paragraf Awal)": "rangkuman_paragraf_awal",
+        "Link Artikel": "link_artikel"
+      },
+      "dtypes": {
+        "No": "object",
+        "Judul Artikel": "object",
+        "Kabupaten": "object",
+        "Rangkuman (Paragraf Awal)": "object",
+        "Link Artikel": "object"
+      },
+      "missing_values": {
+        "No": 0,
+        "Judul Artikel": 0,
+        "Kabupaten": 0,
+        "Rangkuman (Paragraf Awal)": 0,
+        "Link Artikel": 0
+      },
+      "top_missing_values": {
+        "No": 0,
+        "Judul Artikel": 0,
+        "Kabupaten": 0,
+        "Rangkuman (Paragraf Awal)": 0,
+        "Link Artikel": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": null,
+      "unique_places": 0,
+      "top_places": {},
+      "review_stats": {
+        "review_column": "Rangkuman (Paragraf Awal)",
+        "reviews_with_text": 6,
+        "reviews_without_text": 0,
+        "text_length_min": 269,
+        "text_length_median": 851.0,
+        "text_length_mean": 803.3333333333334,
+        "text_length_max": 1108
+      },
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "No": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Judul Artikel": [
+          "Sejarah Terbentuknya Danau Toba, Kisah Letusan Gunung Berapi Raksasa",
+          "Sejarah, Legenda, dan Rute di Danau Toba",
+          "Danau Toba, Kawah Purba Terbesar di Dunia",
+          "Kawah Putih Tinggi Raja",
+          "Panorama Keindahan Bukit Sipolha"
+        ],
+        "Kabupaten": [
+          "Danau Toba",
+          "Danau Toba",
+          "Danau Toba",
+          "Simalungun",
+          "Simalungun"
+        ],
+        "Rangkuman (Paragraf Awal)": [
+          "Sejarah Terbentuknya Danau Toba, Kisah Letusan Gunung Berapi Raksasa\n \n Ketahui sejarah terbentuknya Danau Toba di Sumatera Utara yang diketahui berasal dari letusan gunung berapi raksasa ribuan tahun silam.\n \n Danau Toba, sebuah keindahan alam di Pulau Sumatera, Indonesia, telah lama memukau wisatawan dan ilmuwan dengan pesona geologisnya yang luar biasa.\n \n Namun, di balik keindahan ini, tersembunyi kisah dramatis tentang sejarah terbentuknya yang melibatkan letusan gunung berapi raksasa yang mengubah wajah bumi.\n \n Berikut ini telah dirangkum sejarah terbentuknya Danau Toba yang kini menjadi tujuan wisata di Sumatera Utara.\n \n Letusan Gunung Berapi Super\n \n Sekitar 74.000 tahun yang lalu, dunia menghadapi peristiwa geologis dahsyat. Sebuah gunung berapi raksasa di wilayah yang sekarang menjadi Pulau Sumatera meletus dengan kekuatan tak terbayangkan.\n \n Letusan ini bukanlah letusan biasa, melainkan letusan gunung berapi super yang muntahkan material dan magma dalam skala luar biasa.",
+          "Danau Toba adalah destinasi ikonik di Sumatera Utara yang terkenal nggak hanya di Indonesia tetapi juga di mancanegara. Sebagai danau vulkanik terbesar di Indonesia, Danau Toba memiliki panjang sekitar 100 kilometer, lebar 30 kilometer, dan kedalaman hingga 505 meter. \n Ukurannya yang besar menjadikannya salah satu danau terdalam di dunia, memberikan kesan megah dan menakjubkan bagi setiap pengunjung.\n \n Di tengah Danau Toba terletak Pulau Samosir, sebuah pulau yang hampir sebesar negara Singapura. Pulau ini bukan hanya menjadi pusat aktivitas wisata, tetapi juga menyimpan kekayaan budaya dan sejarah yang mendalam. \n \n Dengan berbagai atraksi wisata, Pulau Samosir menawarkan pengalaman yang unik, mulai dari eksplorasi budaya Batak hingga keindahan alam yang memukau.",
+          "Pada megaerupsi 74.000 tahun lalu, gunung api purba Toba memuntahkan sebanyak 2.800 km kubik material vulkanik dan abunya menyebar hingga sejauh 9.000 km.\n Keindahan Danau Toba tidak ada habisnya untuk dikupas. Dilihat dari sudut mana pun, pemandangan hamparan air danau berpadu lanskap perbukitan hijau nan asri memberi kesan tersendiri bagi siapa saja yang mengunjunginya. Panorama menawan dari sepotong surga di Sumatra Utara itu bakal membuat siapa pun terpukau dan jatuh hati dibuatnya. \n \n Danau ini awalnya merupakan kawah vulkanik hasil letusan mahadahsyat dari Gunung Toba pada 74.000 tahun lampau. Berukuran panjang 100 kilometer dan lebar 30 kilometer serta titik terdalamnya mencapai 508 meter menjadikan Danau Toba sebagai danau kaldera terbesar di dunia.",
+          "Bicara soal wisata alam di Sumatra Utara tak ada habisnya. Di setiap kabupaten menawarkan pesona alam yang indah.\n \n Tak terkecuali di Kabupaten Simalungun. Kamu bisa datang ke Kawah Putih Dolok Tinggi Raja. Seperti apa sih wisata Kawah Putih Dolok Tinggi Raja? Yuk simak!",
+          "Bukit Sipolha, yang terletak di Kabupaten Simalungun, Sumatera Utara, adalah destinasi wisata yang menawarkan keindahan alam yang memukau dengan pemandangan spektakuler Danau Toba.\n \n Bukit ini menjadi salah satu tujuan favorit bagi para wisatawan yang ingin menikmati ketenangan dan panorama alam yang luar biasa di daerah Sumatera Utara.\n \n Bukit Sipolha menawarkan pemandangan yang menakjubkan dengan latar belakang Danau Toba, danau vulkanik terbesar di dunia.\n \n Dari puncak bukit, pengunjung dapat menikmati pemandangan 360 derajat yang mencakup air biru Danau Toba, pulau-pulau kecil disekitarnya, dan hamparan hutan hijau yang luas. Pemandangan matahari terbit dan terbenam di sini sangat memukau dan menjadi momen yang ditunggu-tunggu oleh para fotografer dan pecinta alam.\n \n Ada beberapa aktivitas yang dapat kamu lakukan disini, seperti : tempat makanan dan minuman, trekking dan hiking, spot foto yang instagramable, piknik dan kemah."
+        ],
+        "Link Artikel": [
+          "https://sidanau.brin.go.id/berita/baca-berita/17",
+          "https://www.telkomsel.com/jelajah/jelajah-lifestyle/sejarah-legenda-dan-rute-di-danau-toba",
+          "https://indonesia.go.id/kategori/pariwisata/6867/danau-toba-kawah-purba-terbesar-di-dunia?lang=1",
+          "https://sumut.idntimes.com/travel/destination/kawah-putih-dolok-tinggi-raja-wisata-indah-di-simalungun-00-qzvn3-b9rbmv",
+          "https://ksdae.menlhk.go.id/artikel/12180/Aek-Nauli-Elephant-Conservation-Camp-Disambangi-DWP-Ditjen-PHLHK.html"
+        ]
+      }
+    },
+    {
+      "sheet_name": "Info Seputar Danau Toba (TOP 3)",
+      "rows": 29,
+      "columns": 68,
+      "column_names": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16",
+        "Unnamed: 17",
+        "Unnamed: 18",
+        "Unnamed: 19",
+        "Unnamed: 20",
+        "Unnamed: 21",
+        "Unnamed: 22",
+        "Unnamed: 23",
+        "Unnamed: 24",
+        "Unnamed: 25",
+        "Unnamed: 26",
+        "Unnamed: 27",
+        "Unnamed: 28",
+        "Unnamed: 29",
+        "Unnamed: 30",
+        "Unnamed: 31",
+        "Unnamed: 32",
+        "Unnamed: 33",
+        "Unnamed: 34",
+        "Unnamed: 35",
+        "Unnamed: 36",
+        "Unnamed: 37",
+        "Unnamed: 38",
+        "Unnamed: 39",
+        "Unnamed: 40",
+        "Unnamed: 41",
+        "Unnamed: 42",
+        "Unnamed: 43",
+        "Unnamed: 44",
+        "Unnamed: 45",
+        "Unnamed: 46",
+        "Unnamed: 47",
+        "Unnamed: 48",
+        "Unnamed: 49",
+        "Unnamed: 50",
+        "Unnamed: 51",
+        "Unnamed: 52",
+        "Unnamed: 53",
+        "Unnamed: 54",
+        "Unnamed: 55",
+        "Unnamed: 56",
+        "Unnamed: 57",
+        "Unnamed: 58",
+        "Unnamed: 59",
+        "Unnamed: 60",
+        "Unnamed: 61",
+        "Unnamed: 62",
+        "Unnamed: 63",
+        "Unnamed: 64",
+        "Unnamed: 65",
+        "Unnamed: 66",
+        "Unnamed: 67"
+      ],
+      "normalized_column_names": {
+        "Unnamed: 0": "unnamed_0",
+        "Unnamed: 1": "unnamed_1",
+        "Unnamed: 2": "unnamed_2",
+        "Unnamed: 3": "unnamed_3",
+        "Unnamed: 4": "unnamed_4",
+        "Unnamed: 5": "unnamed_5",
+        "Unnamed: 6": "unnamed_6",
+        "Unnamed: 7": "unnamed_7",
+        "Unnamed: 8": "unnamed_8",
+        "Unnamed: 9": "unnamed_9",
+        "Unnamed: 10": "unnamed_10",
+        "Unnamed: 11": "unnamed_11",
+        "Unnamed: 12": "unnamed_12",
+        "Unnamed: 13": "unnamed_13",
+        "Unnamed: 14": "unnamed_14",
+        "Unnamed: 15": "unnamed_15",
+        "Unnamed: 16": "unnamed_16",
+        "Unnamed: 17": "unnamed_17",
+        "Unnamed: 18": "unnamed_18",
+        "Unnamed: 19": "unnamed_19",
+        "Unnamed: 20": "unnamed_20",
+        "Unnamed: 21": "unnamed_21",
+        "Unnamed: 22": "unnamed_22",
+        "Unnamed: 23": "unnamed_23",
+        "Unnamed: 24": "unnamed_24",
+        "Unnamed: 25": "unnamed_25",
+        "Unnamed: 26": "unnamed_26",
+        "Unnamed: 27": "unnamed_27",
+        "Unnamed: 28": "unnamed_28",
+        "Unnamed: 29": "unnamed_29",
+        "Unnamed: 30": "unnamed_30",
+        "Unnamed: 31": "unnamed_31",
+        "Unnamed: 32": "unnamed_32",
+        "Unnamed: 33": "unnamed_33",
+        "Unnamed: 34": "unnamed_34",
+        "Unnamed: 35": "unnamed_35",
+        "Unnamed: 36": "unnamed_36",
+        "Unnamed: 37": "unnamed_37",
+        "Unnamed: 38": "unnamed_38",
+        "Unnamed: 39": "unnamed_39",
+        "Unnamed: 40": "unnamed_40",
+        "Unnamed: 41": "unnamed_41",
+        "Unnamed: 42": "unnamed_42",
+        "Unnamed: 43": "unnamed_43",
+        "Unnamed: 44": "unnamed_44",
+        "Unnamed: 45": "unnamed_45",
+        "Unnamed: 46": "unnamed_46",
+        "Unnamed: 47": "unnamed_47",
+        "Unnamed: 48": "unnamed_48",
+        "Unnamed: 49": "unnamed_49",
+        "Unnamed: 50": "unnamed_50",
+        "Unnamed: 51": "unnamed_51",
+        "Unnamed: 52": "unnamed_52",
+        "Unnamed: 53": "unnamed_53",
+        "Unnamed: 54": "unnamed_54",
+        "Unnamed: 55": "unnamed_55",
+        "Unnamed: 56": "unnamed_56",
+        "Unnamed: 57": "unnamed_57",
+        "Unnamed: 58": "unnamed_58",
+        "Unnamed: 59": "unnamed_59",
+        "Unnamed: 60": "unnamed_60",
+        "Unnamed: 61": "unnamed_61",
+        "Unnamed: 62": "unnamed_62",
+        "Unnamed: 63": "unnamed_63",
+        "Unnamed: 64": "unnamed_64",
+        "Unnamed: 65": "unnamed_65",
+        "Unnamed: 66": "unnamed_66",
+        "Unnamed: 67": "unnamed_67"
+      },
+      "dtypes": {
+        "Unnamed: 0": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object",
+        "Unnamed: 3": "object",
+        "Unnamed: 4": "object",
+        "Unnamed: 5": "object",
+        "Unnamed: 6": "object",
+        "Unnamed: 7": "object",
+        "Unnamed: 8": "object",
+        "Unnamed: 9": "object",
+        "Unnamed: 10": "object",
+        "Unnamed: 11": "object",
+        "Unnamed: 12": "object",
+        "Unnamed: 13": "object",
+        "Unnamed: 14": "object",
+        "Unnamed: 15": "object",
+        "Unnamed: 16": "object",
+        "Unnamed: 17": "object",
+        "Unnamed: 18": "object",
+        "Unnamed: 19": "object",
+        "Unnamed: 20": "object",
+        "Unnamed: 21": "object",
+        "Unnamed: 22": "object",
+        "Unnamed: 23": "object",
+        "Unnamed: 24": "object",
+        "Unnamed: 25": "object",
+        "Unnamed: 26": "object",
+        "Unnamed: 27": "object",
+        "Unnamed: 28": "object",
+        "Unnamed: 29": "object",
+        "Unnamed: 30": "object",
+        "Unnamed: 31": "object",
+        "Unnamed: 32": "object",
+        "Unnamed: 33": "object",
+        "Unnamed: 34": "object",
+        "Unnamed: 35": "object",
+        "Unnamed: 36": "object",
+        "Unnamed: 37": "object",
+        "Unnamed: 38": "object",
+        "Unnamed: 39": "object",
+        "Unnamed: 40": "object",
+        "Unnamed: 41": "object",
+        "Unnamed: 42": "object",
+        "Unnamed: 43": "object",
+        "Unnamed: 44": "object",
+        "Unnamed: 45": "object",
+        "Unnamed: 46": "object",
+        "Unnamed: 47": "object",
+        "Unnamed: 48": "object",
+        "Unnamed: 49": "object",
+        "Unnamed: 50": "object",
+        "Unnamed: 51": "object",
+        "Unnamed: 52": "object",
+        "Unnamed: 53": "object",
+        "Unnamed: 54": "object",
+        "Unnamed: 55": "object",
+        "Unnamed: 56": "object",
+        "Unnamed: 57": "object",
+        "Unnamed: 58": "object",
+        "Unnamed: 59": "object",
+        "Unnamed: 60": "object",
+        "Unnamed: 61": "object",
+        "Unnamed: 62": "object",
+        "Unnamed: 63": "object",
+        "Unnamed: 64": "object",
+        "Unnamed: 65": "object",
+        "Unnamed: 66": "object",
+        "Unnamed: 67": "object"
+      },
+      "missing_values": {
+        "Unnamed: 0": 21,
+        "Unnamed: 1": 20,
+        "Unnamed: 2": 2,
+        "Unnamed: 3": 16,
+        "Unnamed: 4": 5,
+        "Unnamed: 5": 6,
+        "Unnamed: 6": 7,
+        "Unnamed: 7": 12,
+        "Unnamed: 8": 3,
+        "Unnamed: 9": 5,
+        "Unnamed: 10": 8,
+        "Unnamed: 11": 8,
+        "Unnamed: 12": 8,
+        "Unnamed: 13": 9,
+        "Unnamed: 14": 7,
+        "Unnamed: 15": 21,
+        "Unnamed: 16": 9,
+        "Unnamed: 17": 21,
+        "Unnamed: 18": 28,
+        "Unnamed: 19": 14,
+        "Unnamed: 20": 20,
+        "Unnamed: 21": 13,
+        "Unnamed: 22": 17,
+        "Unnamed: 23": 18,
+        "Unnamed: 24": 19,
+        "Unnamed: 25": 23,
+        "Unnamed: 26": 23,
+        "Unnamed: 27": 5,
+        "Unnamed: 28": 5,
+        "Unnamed: 29": 15,
+        "Unnamed: 30": 8,
+        "Unnamed: 31": 7,
+        "Unnamed: 32": 7,
+        "Unnamed: 33": 13,
+        "Unnamed: 34": 16,
+        "Unnamed: 35": 16,
+        "Unnamed: 36": 27,
+        "Unnamed: 37": 11,
+        "Unnamed: 38": 18,
+        "Unnamed: 39": 23,
+        "Unnamed: 40": 9,
+        "Unnamed: 41": 8,
+        "Unnamed: 42": 10,
+        "Unnamed: 43": 9,
+        "Unnamed: 44": 7,
+        "Unnamed: 45": 8,
+        "Unnamed: 46": 19,
+        "Unnamed: 47": 16,
+        "Unnamed: 48": 28,
+        "Unnamed: 49": 20,
+        "Unnamed: 50": 19,
+        "Unnamed: 51": 23,
+        "Unnamed: 52": 11,
+        "Unnamed: 53": 23,
+        "Unnamed: 54": 16,
+        "Unnamed: 55": 28,
+        "Unnamed: 56": 19,
+        "Unnamed: 57": 20,
+        "Unnamed: 58": 27,
+        "Unnamed: 59": 20,
+        "Unnamed: 60": 12,
+        "Unnamed: 61": 19,
+        "Unnamed: 62": 20,
+        "Unnamed: 63": 20,
+        "Unnamed: 64": 23,
+        "Unnamed: 65": 24,
+        "Unnamed: 66": 24,
+        "Unnamed: 67": 24
+      },
+      "top_missing_values": {
+        "Unnamed: 18": 28,
+        "Unnamed: 48": 28,
+        "Unnamed: 55": 28,
+        "Unnamed: 36": 27,
+        "Unnamed: 58": 27,
+        "Unnamed: 65": 24,
+        "Unnamed: 66": 24,
+        "Unnamed: 67": 24,
+        "Unnamed: 25": 23,
+        "Unnamed: 26": 23
+      },
+      "duplicate_rows": 0,
+      "place_column": null,
+      "unique_places": 0,
+      "top_places": {},
+      "review_stats": {},
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "Unnamed: 0": [
+          "No",
+          "1",
+          "3",
+          "4",
+          "5"
+        ],
+        "Unnamed: 1": [
+          "Nama Kabupaten",
+          "Toba",
+          "Simalungun",
+          "Karo",
+          "Samosir"
+        ],
+        "Unnamed: 2": [
+          "Akomodasi",
+          "Hotel",
+          "Alamat",
+          "Labersa, Balige (Jl. Raya Pematang Siantar, Balige (081361610841, 08126827385)",
+          "Serenauli, Laguboti (Jl. Sisingamangaraja No.1, Laguboti 0812-6334-4295)"
+        ],
+        "Unnamed: 3": [
+          "Harga",
+          "1.140.000 - 2.349.500",
+          "450.000 - 800.000",
+          "350.000 - 600.000",
+          "600.000 - 800.000"
+        ],
+        "Unnamed: 4": [
+          "Ulasan Hotel",
+          "Rating 9,4/10\n \n Lumayan bersih, makanan bervariasi, lokasi oke, staff ramah, ada waterpark.\n Sejauh ini sangat memuaskan untuk liburan bersama keluarga (Source: traveloka.com)",
+          "Rating 9,4 /10\n \n staff hotelnya super ramah dan very helpful, recomended sekali untuk di datengin lagii (Sc: traveloka.com)",
+          "Rating 10/10\n \n Sangat memuaskan..Hotel dengan view Danau Toba dengan kamar yg bersih dan nyaman serta makanan yang terjamin Halal..Dan yang paling berkesan adalah layanan Speedboat gratis yang membuat liburan makin berkesan..Terima Kasih Purnama Balige Hotel.. (Sc: traveloka.com)",
+          "Rating 8,5/10\n \n Pelayanan staf hotel ramah, lingkungannya aman dan nyaman. Ada restoran dan cafe yang bagus. Terima kasih. (Sc: traveloka.com)"
+        ],
+        "Unnamed: 5": [
+          "Homestay",
+          "Alamat",
+          "Rose’s Homestay (Jl. Raya Meat Dusun Hisap, Meat, Kec. Tampahan, Toba, Sumatera Utara 22312)",
+          "Home Stay Bagasan (Meat, Kec. Tampahan, Toba, Sumatera Utara 22312)",
+          "Vania Homestay (Desa Meat Kecamatan Tampahan, Meat, Kec. Balige, Toba, Sumatera Utara 22312)"
+        ],
+        "Unnamed: 6": [
+          "Harga",
+          "200k-400k",
+          "200k-400k",
+          "200k-400k",
+          "200k-400k"
+        ],
+        "Unnamed: 7": [
+          "Ulasan Homestay",
+          "Rating 5/5\n \n Pertama kalinya ke desa meat membuat sy takjub dengan keindahannya.\n Kami menginap di Rose's Homestay dengan pemandangan tepian danau toba, udara yg sejuk, owner yg friendly.\n Homestay nya bersih, bener² bikin tenang krn memang di pedesaan tepian danau toba. Yg ga kalah menakjubkan owner dan sebagian warga masih tinggal d rmh adat batak ( msh melestarikan ) dan menenun kain khas batak.(Sc: tgoogle.com)",
+          "Rating 5/5\n \n Lokasi dekat dari gapura desa meat (Sc: google.com)",
+          "Rating 5/5\n \n Homestay yang nyaman bersih dan lengkap. Fasilitasnya oke banget dan harganya aman dikantong. Kita bisa memasak juga disini dan ada taman yang asri. View Danau Toba bisa dilihat dari lantai 2. Disediakan air putih dan teh untuk kita. (Sc: google.com)",
+          "Rating 8,5/10\n \n Kamar lapang, bersih, air bening, sprei bersih. Peralatan mandi disediakan.. (Sc: traveloka.com)"
+        ],
+        "Unnamed: 8": [
+          "Kuliner",
+          "Restoran",
+          "Alamat Restoran (Halal)",
+          "RM. Sinar Minang (Desa Meat Kecamatan Tampahan, Meat, Kec. Balige, Toba, Sumatera Utara 22312)",
+          "Warung Makan Muslim Bu Nurul (Jl. P. Siantar, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara 22313)"
+        ],
+        "Unnamed: 9": [
+          "Harga",
+          "25000 - 45000",
+          "15000-25000",
+          "15000-25000",
+          "20000-35000"
+        ],
+        "Unnamed: 10": [
+          "Ulasan Restoran (Halal)",
+          "Rating 5/5\n \n Cobain Rendang, Dendeng, sambal sama Telor Bebek Gorengnya....muantab banget. (Sc: google.com)",
+          "Rating 5/5\n \n Masakan kampung dan enak. (Sc: google.com)",
+          "Rating 5/5\n \n Pilihan menunya banyak, tempatnya nyaman.\n Dan cita rasanya cocok di lidah.\n Harganya juga nggak bikin kantong bolong 😀 (Sc: google.com)",
+          "Rating 5/5\n \n Makanan okey Pelayanan cepat Suasana adem Good lah, cocok persinggahan (Sc: google.com)"
+        ],
+        "Unnamed: 11": [
+          "Alamat Rumah Makan (Khas Batak)",
+          "RM. Fly Over Laguboti (Jl. Siborong Borong - Parapat No.22, Pardomuan Nauli, Kec. Laguboti, Toba, Sumatera Utara 22381)",
+          "Rumah Makan Panca Balige, Boima Laguboti",
+          "Rumah Makan Khas Karo Tambar Lihe (Japan Jl. Patuan Nagari, Sangkar Nihuta, Kec. Balige, Toba, Sumatera Utara 22313)",
+          "Rumah Makan Khas Batak PAJAR (Jl. Lintas Sumatera No.132-201, Pinang Ratus, Kec. Jorlang Hatara)"
+        ],
+        "Unnamed: 12": [
+          "Harga",
+          "25000-50000",
+          "25000-50000",
+          "25000-50000",
+          "25000-50000"
+        ],
+        "Unnamed: 13": [
+          "Ulasan RM Khas Batak",
+          "Rating 5/5\n \n Best!!! Saya pesan naniura 1 ekor dan enaaak banget. Owner dan pegawainya juga ramah dan cekatan pelayanannya. Ada opsi duduk di gedung baru atau di tepi kolam. Kalau hari cerah, better pilih yang di tepi kolam, karena ada experience baru yg berbeda. Thank you!\n Bakalan balik lagi kalau lagi melewati Laguboti :).(Sc: google.com)",
+          "Rating 5/5\n \n Babi Pangganganya terbaik\n Lengkap dengan sayur dan sop\n Beda dari yg lain ada nenas potong.(Sc: google.com)",
+          "Rating 5/5\n \n Panggang B2 di kota balige.mantaps rasanya.gurih dagingnya ...pengemar masakkan B2 wajib ke sini...(Sc: google.com)",
+          "Rating 5/5\n \n Harga terjangkau, nikmat, mantap, bisa catering, berkualitas.(Sc: google.com)"
+        ],
+        "Unnamed: 14": [
+          "Café",
+          "Alamat",
+          "Damar Toba ~ Lakeside Eatery & Stay (Jl. Pemandian No.94, Lumban Silintong, Balige, Toba, North Sumatra 22312)",
+          "Tepi Danau Bistro Balige Lumban Silintong",
+          "Green's Cafe Balige (Jl. Gereja No.32, Lumban Dolok Haume Bange, Kec. Balige, Toba, Sumatera Utara 22315)"
+        ],
+        "Unnamed: 15": [
+          "Harga",
+          "35000-150000",
+          "35000-150000",
+          "25000-50000",
+          "25000-50000"
+        ],
+        "Unnamed: 16": [
+          "Ulasan Cafe",
+          "Rating 5/5\n \n Kamarnya bersih & nyaman. Sewaktu check in, ada welcome drink. Staf ramah & sangat membantu. Makanannya enak. Di area restoran bisa duduk menikmati pemandangan danau. Ada area bermain untuk anak². Sunrise terlihat dari hotelsuka banget sama viewnyaa, apalagi pelayanan service nyaa sangat ramah.. untuk makanannya jugaa enak enakk.. kalo aku jujur siii resto yang paling pas untuk healingg.. suka banget sama kaliannn semua dsitu🤍. (Sc: google.com)",
+          "Rating 5/5\n \n Makanannya enak..semua kerasa bumbunya\n Datang pas makan siang ,,agak ramai tp pesananny dtgny lumayan cepat..(Sc: google.com)",
+          "Rating 5/5\n \n Makanannya rata2 enak. Minumnya juga enak. Harga juga masih terjangkau. Desain cafe juga bagus. Cuma jangan duduk dekat pohon ya guys. Banyak nyamuk. Karna lokasinya terbuka. Cocok untuk nyantai dan ngopi disini. Pelayanannya juga lumayan bagus.(Sc: google.com)",
+          "Rating 5/5\n \n Tempat favorit untuk istirahat sambil ngopi. Udaranya sejuk, view-nya bikin betah langsung dengan view Danau Toba, saat pulang kampung saat naik motor wajib singgah kesini. (Sc: google.com)"
+        ],
+        "Unnamed: 17": [
+          "Pub & Bar",
+          "Alamat",
+          "Mesikel and Bar (Jl. Trimurti No.58, Berastagi)",
+          "Sivanet Mejersquad (Jl. Gundaling II, Berastagi)",
+          "Pangkas Alter Delauw (Jl. Gundaling I, Berastagi)"
+        ],
+        "Unnamed: 18": [
+          "Harga"
+        ],
+        "Unnamed: 19": [
+          "Pusat oleh-oleh",
+          "Batikta Balige",
+          "Toko Khas Parapat (Jalan lintas Parapat)",
+          "Toba Nauli (Jalan Haranggaol no 3)",
+          "Pago-Pago (Jalan Haranggaol no 3)"
+        ],
+        "Unnamed: 20": [
+          "Ulasan",
+          "Rating 5/5\n \n cappuccino nya enak banget! nendang sejak seruputan pertama. Ada rasa gurih dan pahit kopi yang terasa sampai di pangkal lidah. Aku coba kopi tetes juga, lumayan bisa mengganjal mata kantuk yang kurang tidur. Tempat ini keren, di belakang masih bisa menatap hamparan hijau padi yang dikotak-kotak olah pematang sawah.(Sc: google.com)",
+          "Rating 5/5\n \n Pengalaman yang menyenangkan, banyak hal yang menarik disini... Bisa belanja banyak hal, berkuda juga hal yang very interesting 😍. (Sc: google.com)",
+          "Rating 5/5\n \n Tempat belanja souvenir yg mewakili Di Tuk tuk. (Sc: google.com)",
+          "Rating 4/5\n \n Lokasinya agak masuk ke dalam, namun selalu ada plang jalannya. Samping kiri kanan ada sawah. Pelayanannya luar biasa, tempatnya sangat cozy, ketika disana disuguhi minum dan buah-buhan, untuk ulosnya jika kurang rapi bisa langsung dirapikan. Namun harganya agak mahal.(Sc: google.com)"
+        ],
+        "Unnamed: 21": [
+          "Transportasi",
+          "Kapal Ferry",
+          "Kapal Ihan Batak\n (Jl. Bukit Barisan No.15, Kec. Balige, Toba, Sumatera Utara 22312)",
+          "Kapal Pora Pora (Jl. Justin Sirait No.32, Pardamean Ajibata, Toba, Sumatera Utara 21174)",
+          "Kapal Kaldera Toba (Jl. Bukit Barisan No.15, Kec. Balige, Toba, Sumatera Utara 22314)"
+        ],
+        "Unnamed: 22": [
+          "Estimasi Biaya",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "30.000-150.000\n Menyesuaikan dengan Jenis Kendaraan"
+        ],
+        "Unnamed: 23": [
+          "Kapal Tradisional",
+          "Kapal Tradisional\n (untuk nama kapal tidak tentu)\n Balige-Onanrunggu\n Dari Balige-09.00\n Dari Onanrunggu-14.00",
+          "Balige- Naingolan\n Balige_14.30\n Nainggolan_08.00",
+          "Rute Tigaras-Simanindo\n Tigaras_08.15-19-15\n Simanindo_06.15-17.45",
+          "Tigaraja-Tomok\n Tigaraja_07.00-15.00\n beroperasi sekali 2 jam\n Tomok_08.30-17.30\n beroperasi sekali 2 jam"
+        ],
+        "Unnamed: 24": [
+          "Estimasi Biaya",
+          "15.000/Orang\n 15.000/ Kendaraan",
+          "15.000/Orang\n 15.000/ Kendaraan",
+          "15.000/orang\n 15.000/ Kendaraan",
+          "15.000/orang\n 15.000/ Kendaraan"
+        ],
+        "Unnamed: 25": [
+          "Penerbangan (Silangit)",
+          "Citilink\n Halim PK- Silangit DTB \n Tiba-08.45\n Silangit DTB - Halim PK \n Berangkat -09.25\n \n Setiap Hari",
+          "AirAsia\n Silangit DTB - Jakarta CGK\n Berangkat- 10.10\n Jakarta CGK-Silangit DTB\n Tiba-09.45\n  \n Setiap Hari",
+          "Super Air Jet\n Silangit DTB-Jakarta CBK \n Berangkat-10.05 dan 13.50\n Jakarta CGK-Silangit DTB\n Tiba-09.25 \n \n  Setiap Hari",
+          "Batik Air\n Silangit DTB-Jakarta CGK\n Berangkat- 12.05 dan 14.10\n \n Jakarta CGK - Silangit DTB \n Tiba- 11.25 dan 14.10\n \n Setiap Hari"
+        ],
+        "Unnamed: 26": [
+          "Estimasi Biaya",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000"
+        ],
+        "Unnamed: 27": [
+          "Angkutan Umum",
+          "KBT\n  (Pardede Onan, Kec. Balige, Toba, Sumatera Utara)",
+          "KPT\n Jl. Patuan Nagari No.73, Pardede Onan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "KBT\n Jl. Siborongborong - Parapat No.14, Tiga Raja, Kec. Girsang Sipangan Bolon, Kabupaten Simalungun, Sumatera Utara 21174",
+          "PARISMA\n Jl. Sisingamangaraja No.97, Pardamean Ajibata, Kec. Ajibata, Toba, Sumatera Utara 21174"
+        ],
+        "Unnamed: 28": [
+          "Estimasi Biaya",
+          "70.000-80.000",
+          "70.000-80.000",
+          "65.000-70.000",
+          "65.000-70.000"
+        ],
+        "Unnamed: 29": [
+          "Rental Kendaraan",
+          "Tobaindo Travelling",
+          "Sibayak Explore Travel Berastagi\n Tambak Lau Mulgap I, Kec. Berastagi, Kabupaten Karo, Sumatera Utara",
+          "Berastagi Tour and Travel",
+          "Kabanjahe Rental Mobil"
+        ],
+        "Unnamed: 30": [
+          "Fasilitas Umum",
+          "Rumah Sakit/Puskesmas",
+          "Rumah Sakit HKBP Balige",
+          "Rumah Sakit Porsea",
+          "Puskemas Tandang Buhit Balige"
+        ],
+        "Unnamed: 31": [
+          "Rumah Ibadah",
+          "Masjid Al Hadhona Balige (Jl. Mesjid, Napitupulu Bagasan)",
+          "Masjid An-Nur Paritohan (Paritohan,Pintu Pohan,Pintu Pohan Meranti, Ambar Halim, Kec. Pintu Pohan Meranti)",
+          "HKBP Balige",
+          "Mesjid Taqwa Parapat (Jl. Sisingamangaraja No.2, Simalungun, Kec. Girsang Sipangan Bolon)"
+        ],
+        "Unnamed: 32": [
+          "Bank & ATM",
+          "BRI Balige",
+          "Bank Sumut Balige",
+          "BNI Balige",
+          "BNI Parapat (Sisingamangaraja No.215, Tiga Raja, Kec. Girsang Sipangan Bolon)"
+        ],
+        "Unnamed: 33": [
+          "SPBU",
+          "SPBU Lumban Lobu",
+          "SPBU Pardede Balige",
+          "SPBU Hutabarat Balige",
+          "SPBU Berastagi"
+        ],
+        "Unnamed: 34": [
+          "Swalayan",
+          "Indomaret Merek",
+          "Indomaret Kabanjahe",
+          "Alfamidi Berastagi",
+          "Indomaret Tomok"
+        ],
+        "Unnamed: 35": [
+          "Apotik/Toko Obat",
+          "Apotek Bethesda Berkat",
+          "Apotek Kimia Farma Kabanjahe",
+          "Apotek Lampas Malem",
+          "Apotik Carlos Pangururan"
+        ],
+        "Unnamed: 36": [
+          "Money Changer",
+          "Efata DolarAsia money changer (SOSOr BABA, terminal, Tiga Raja, Girsang Sipangan Bolon)"
+        ],
+        "Unnamed: 37": [
+          "Pasar Tradisional",
+          "Pasar Balerong Balige",
+          "Pasar Laguboti",
+          "Pasar Porsea",
+          "Pasar Buah Berastagi"
+        ],
+        "Unnamed: 38": [
+          "Pelabuhan",
+          "Pelabuhan Balige",
+          "Pelabuhan Ajibata ASDP",
+          "Pelabuhan Ajibata Swasta",
+          "Pelabuhan Tiga Raja (Parapat)"
+        ],
+        "Unnamed: 39": [
+          "MICE",
+          "Gedung",
+          "Gedung Willem, Jln raya simanindo, Kab Samosir",
+          "Gedung Nasional Djauli Manik",
+          "GOR Sidikalang"
+        ],
+        "Unnamed: 40": [
+          "Jenis Event",
+          "F1 Powerboat 2023-2024",
+          "Aquabike 2023",
+          "Seribu Tenda Meat",
+          "APRC"
+        ],
+        "Unnamed: 41": [
+          "Daya Tarik Wisata",
+          "Objek Wisata",
+          "Pantai Lumban Bulbul",
+          "Air Terjun Situmurun",
+          "Pantai Pasir Putir Parparean Porsea"
+        ],
+        "Unnamed: 42": [
+          "Ulasan Objek Wisata",
+          "Rating 4/5\n \n Lokasinya pun dilengkapi dengan fasilitas kamar mandi dan mushollah sehingga tidak mengalami kesulitan bagi umat Islam untuk melaksanakan ibadah sembahyang. Di lokasi ini juga dilengkapi sarana permainan seperti APV, banana boat dan naik perahu dengan harga yang masih ekonomis.(Sc: tripadvisor.co.id)",
+          "Rating 5/5\n \n Baguuus sekali. Air terjun ini tidak tinggi dan tidak rendah juga, mungkin sekitar 50 meter dari permukaan air, tetapi karena lokasinya langsung jatuh menuju ke danau, maka buat siapa aja yang tidak bisa berenang hehehe agak riskan untuk main air karena langsung ke perairan dalam.(Sc: google.com)",
+          "Rating 4/5\n \n Keindahan Danau Toba tak akan habis - habisnya bisa kita nikmati dari berbagai sudut dan tempat. Kali ini aku menikmati Danau Toba dari Parparean, Porsea. Danau yang masih sunyi dan tempat yang masih asri. Tidak ada pungutan retribusi saat aku menikmati keindahan Danau Toba dari Parparean. Sangat indah dan asri dan danau yang membiru. Silahkan dikunjungi (Sc: tripadvisor.co.id)",
+          "Rating 4/5\n \n Pendakian yang menyenangkan, tidak membutuhkan waktu yang lama untuk mencapi puncak. Tetapi tetap dibutuhkan kondisi tubuh yang prima. Jika cuaca cerah di pagi hari, matahari terbit menjadi hadiah pendakian yang luar biasa.(Sc: tripadvisor.co.id)"
+        ],
+        "Unnamed: 43": [
+          "Biaya Masuk Destinasi",
+          "5000",
+          "5000",
+          "5000",
+          "10000"
+        ],
+        "Unnamed: 44": [
+          "Sightseeing",
+          "Bukit Singgolom",
+          "Adian Nalambok",
+          "Bukit Senyum Motung",
+          "Bukit Indah Simajarunjung"
+        ],
+        "Unnamed: 45": [
+          "Ulasan",
+          "Rating 5/5\n Lokasi keren untuk melihat sunset dan menatap keindahan danau toba dari sekitar kota balige (Sc: google.com)",
+          "Rating 5/5\n Rest Area Adian Nalambok merupakan Rest Area Pemandangan Indah Di Tepi Jalan Lintas Sumatera yang berada tepat view di belakang danau toba... Rest area ini baru direnovasi di tahun 2021 oleh Menteri Pariwisata Bapak Sandiaga Uno.. View yang ditawarkan direst area ini sangat cantik. Dan cocok sekali bagi yang hobby foto berfoto dan instagramable.. Very recommended place to see!! (Sc: google.com)",
+          "Rating 5/5\n Lokasi kemping menarik di Danau Toba. Berada di ketinggian yang sangat mengundang kedinginan di malam hari jadi persiapakan perlengkapan tidur yang lengkap agar anda tidak kedinginan di malam hari. Pemandangan yang sangat menarik ketika matahari terbenam dan suasana alam yang masih alami dengan pepohonan di seputar lokasi kemping. (Sc: google.com)",
+          "Rating 5/5\n Tempat wisata yang menarik, cocok untuk anak-anak dan dewasa, banyak spot fotonya yang langsung backgroundnya danau Toba. (Sc: google.com)"
+        ],
+        "Unnamed: 46": [
+          "Biaya Masuk Destinasi",
+          "Gratis",
+          "10000",
+          "Gratis",
+          "15000"
+        ],
+        "Unnamed: 47": [
+          "Museum",
+          "Alamat",
+          "Museum Batak Center",
+          "Rumah Bolon Pematang Purba",
+          "Musuem Pusaka Karo"
+        ],
+        "Unnamed: 48": [
+          "Harga"
+        ],
+        "Unnamed: 49": [
+          "Ulasan",
+          "Rating 5/5\n Belajar mengenal sejarah dan Rumah Adat Simalungun sambil menikmati alamnya yg sejuk dan hening. Tetap menjaga dan melestarikan budaya yg ada. Agar wisatawan lokal dan mancanegara tetap berkunjung. (Sc: google.com)",
+          "Rating 5/5\n Meskipun museumnya kecil, namun kaya informasi tentang budaya karo\n Tempatnya bersih nan asri\n Sangat direkomendasi (Sc: google.com)",
+          "Rating 5/5\n Tampatnya bagus, unik,\n Tiket masuknya murah banget,\n Mungkin perlu dipromosikan lagi, agar lebih banyak lagi orang tahu dan datang berkunjung. (Sc: google.com)",
+          "Rating 5/5\n Museum ini adalah permata. Jika tidak ada orang di museum, berjalanlah menuju jalan utama menuju tempat makan bernama Tasak Telur. Keluarga pemilik restoran tersebut juga mendirikan dan memelihara museum. Wanita yang menemani saya sepanjang kunjungan saya di museum memberikan konteks artefak yang terperinci dan mencerahkan serta membuat kunjungan saya jauh lebih bermakna. Penerimaan dilakukan dengan sumbangan sukarela. (Sc: google.com)"
+        ],
+        "Unnamed: 50": [
+          "Cagar Budaya",
+          "Situs Cagar Budaya Megalitik ‘Batu Gajah’",
+          "Rumah Adat Simalungun",
+          "Rumah Adat Lingga",
+          "Situs Meriam Putri Hijau"
+        ],
+        "Unnamed: 51": [
+          "Ulasan",
+          "Rating 4/5\n Kami telah mengunjungi batu Gajah dalam perjalanan dari arung jeram. Itu adalah tempat yang bagus untuk melihat megalit. Kami juga kagum dengan lokasi tempat situs ini. Itu adalah bagian tengah sawah jadi hijau di sekeliling tempat dengan pemandangan yang menakjubkan. (Sc: google.com)",
+          "Rating 4/5\n Pemandangannya sejuk dan cocok untuk ber wisata. (Sc: google.com)",
+          "Rating 5/5\n Kampung yang cukup menarik dan memiliki rumah adat yg memiliki keunikan yg luar biasa dimana semua yg tinggal dirumah tersebut hidup rukun. (Sc: google.com)",
+          "Rating 4/5\n Harga tiket Rp 5000. Kami harus melepas sepatu kami sebelum masuk. Ada peralatan / senjata / instrumen musik yang ditampilkan.\n Sebuah toko suvenir berada di samping museum.\n Ada pohon Pamelo di luar museum. Ketika kami pergi ke sana, kami melihatnya berbuah. (Sc: tripadvisor.co.id)"
+        ],
+        "Unnamed: 52": [
+          "Desa Wisata",
+          "Desa Wisata Jangga Dolok",
+          "Desa Wisata Meat",
+          "Desa Wisata Raya Seribu Bunga",
+          "Desa Wisata Dokan"
+        ],
+        "Unnamed: 53": [
+          "Ulasan",
+          "Rating 5/5\n Tempat ny nyaman sekali.. Healing menangkan fikiran pas banget.. Semoga semakin sukses, semakin maju ya.. (Sc: google.com)",
+          "Rating 5/5\n Kemarin masuk kesini nggak dikenakan biaya masuk / uang parkir. Jadi 100% free untuk menikmati keindahan tamannya. Tamannya bersih, nggak ada sampah berserakan dan pemandangannya bagus sekali. Ditambah dengan cuaca Brastagi yang adem, tempat ini cocok banget untuk refreshing dan menghilangkan penat. Ada cafenya juga tapi belum sempat coba makanannya. Next time bakalan kesini lagi sekalian nyobain makanan di cafenya. (Sc: google.com)",
+          "Rating 5/5\n Desa dokan merupakan desa wisata budaya karo. Di desa dokan terdapat rumah adat yang usianya ratusan tahun dan terdapat yang namanya lesung merupakan tempat untuk menumbuk padi. (Sc: google.com)",
+          "Rating 5/5\n Desa Wisata di Kecamatan Harian, Kabupaten Samosir. Desa yang berada di ketinggian sekitar 1750 mdpl. Berjarak lebih kurang 30 km atau sekitar 1 jam perjalanan dengan kendaraan dari lokasi Warung Kopi Synergy, Pangururan. Tempat ini menawarkan nuansa alam segar dikelilingi pepohonan pinus dan view Danau Toba yang sangat indah. Suhu menurun hingga 16°C pada malam hari dan menjelang subuh. Disarankan untuk membawa perlengkapan yang memadai apabila memutuskan untuk menginap/camping disini. Bisa juga menghubungi pengelola tempat ini untuk memastikan kebutuhanmu. Tersedia toilet di pintu masuk dan area camping. Juga beberapa pendopo dan tempat duduk untuk menikmati pemandangan. Pengelola juga memiliki fasilitas ATV yang disewakan untuk mengelilingi areal ini.\n Nikmatnya ngopi, bersenandung diiringi alunan gitar, menghirup udara segar dan indahnya Danau Toba. (Sc: google.com)"
+        ],
+        "Unnamed: 54": [
+          "Atraksi (Paralayang, Arum Jeram dll)",
+          "Alamat",
+          "Sibodiala",
+          "Kuliki Paralayang Karo",
+          "Sibodiala"
+        ],
+        "Unnamed: 55": [
+          "Harga"
+        ],
+        "Unnamed: 56": [
+          "Typical Tourist Profiles",
+          "Profil Wisatawan Nusantara 2024 (Jumlah Perjalanan Wisatawan)",
+          "751225",
+          "2595069",
+          "2305891"
+        ],
+        "Unnamed: 57": [
+          "Profil Wisatawan Internasional (Jumlah Perjalanan Wisatawan)",
+          "379",
+          "0",
+          "0",
+          "0"
+        ],
+        "Unnamed: 58": [
+          "Durasi Kunjungan",
+          "1,31 hari"
+        ],
+        "Unnamed: 59": [
+          "Preferensi Bahasa",
+          "Indonesia, Batak Toba, Inggris",
+          "Indonesia, Batak Simalungun, Inggris",
+          "Indonesia, Inggris, Batak Karo",
+          "Indonesia, Inggris, Batak Toba"
+        ],
+        "Unnamed: 60": [
+          "Budget Harian (Rp)",
+          "WISATAWAN NUSANTARA = 500.000 - >1.000.000",
+          "WISATAWAN MANCANEGARA = 800.000 - >1.500.000",
+          "WISATAWAN NUSANTARA = 600.000 - >1.200.000",
+          "WISATAWAN MANCANEGARA = 900.000 - >1.800.000"
+        ],
+        "Unnamed: 61": [
+          "Musim Kunjungan",
+          "Peak Season",
+          "Juni-Agustus, Desember-Januari",
+          "mei-September",
+          "April - September"
+        ],
+        "Unnamed: 62": [
+          "Best Weather",
+          "April-September (Kering)",
+          "Maret-Oktober",
+          "Juni-Agustus(Sejuk & kering)",
+          "Agustus-Oktober (Kering)"
+        ],
+        "Unnamed: 63": [
+          "Avoid",
+          "November-Februari (Hujan lebat)",
+          "November-Februari",
+          "Oktober-Februari (Kabut tebal)",
+          "November-Maret (Angin kencang)"
+        ],
+        "Unnamed: 64": [
+          "Demografi Usia",
+          "Age Group",
+          "18-25 tahun",
+          "26-40 tahun",
+          "41-55 tahun"
+        ],
+        "Unnamed: 65": [
+          "Primary Activities",
+          "Adventure, sport",
+          "Culture, nature",
+          "Relaxation, culture",
+          "Spiritual, heritage"
+        ],
+        "Unnamed: 66": [
+          "Secondary Activities",
+          "Fotografi, social media",
+          "Shopping, culinary",
+          "Heritage, shopping",
+          "Nature viewing"
+        ],
+        "Unnamed: 67": [
+          "Spending Focus",
+          "Experience, food",
+          "Balanced spending",
+          "Comfort, quality",
+          "Service, accessibility"
+        ]
+      }
+    },
+    {
+      "sheet_name": "waktu operasional destinasi",
+      "rows": 40,
+      "columns": 8,
+      "column_names": [
+        "NO",
+        "KABUPATEN",
+        "OBJEK / DESTINASI WISATA",
+        "FASILITAS UMUM",
+        "FASILITAS PENUNJANG",
+        "ALAMAT",
+        "WAKTU OPERASIONAL",
+        "RATING BPODT"
+      ],
+      "normalized_column_names": {
+        "NO": "no",
+        "KABUPATEN": "kabupaten",
+        "OBJEK / DESTINASI WISATA": "objek_destinasi_wisata",
+        "FASILITAS UMUM": "fasilitas_umum",
+        "FASILITAS PENUNJANG": "fasilitas_penunjang",
+        "ALAMAT": "alamat",
+        "WAKTU OPERASIONAL": "waktu_operasional",
+        "RATING BPODT": "rating_bpodt"
+      },
+      "dtypes": {
+        "NO": "object",
+        "KABUPATEN": "object",
+        "OBJEK / DESTINASI WISATA": "object",
+        "FASILITAS UMUM": "object",
+        "FASILITAS PENUNJANG": "object",
+        "ALAMAT": "object",
+        "WAKTU OPERASIONAL": "object",
+        "RATING BPODT": "object"
+      },
+      "missing_values": {
+        "NO": 5,
+        "KABUPATEN": 32,
+        "OBJEK / DESTINASI WISATA": 0,
+        "FASILITAS UMUM": 6,
+        "FASILITAS PENUNJANG": 7,
+        "ALAMAT": 0,
+        "WAKTU OPERASIONAL": 1,
+        "RATING BPODT": 37
+      },
+      "top_missing_values": {
+        "RATING BPODT": 37,
+        "KABUPATEN": 32,
+        "FASILITAS PENUNJANG": 7,
+        "FASILITAS UMUM": 6,
+        "NO": 5,
+        "WAKTU OPERASIONAL": 1,
+        "OBJEK / DESTINASI WISATA": 0,
+        "ALAMAT": 0
+      },
+      "duplicate_rows": 0,
+      "place_column": "OBJEK / DESTINASI WISATA",
+      "unique_places": 40,
+      "top_places": {
+        "Pantai Bulbul": 1,
+        "Air Terjun Situmurun": 1,
+        "Taman Eden 100": 1,
+        "Toba Caldera Resort": 1,
+        "Bukit Senyum": 1,
+        "Bukit Tara Bunga": 1,
+        "Bukit Pahoda": 1,
+        "Pemandian Bukit Gibeon": 1,
+        "Desa Wisata Meat": 1,
+        "Labersa Toba Fantasi": 1,
+        "Museum Tb. Silalahi Center": 1,
+        "Geosite Sipinsur": 1,
+        "Air Terjun Simolap": 1,
+        "Panorama Agrowisata Sileme-Leme": 1,
+        "Istana Raja Sisingamangaraja": 1
+      },
+      "review_stats": {},
+      "rating_stats": {
+        "rating_column": "RATING BPODT",
+        "valid_rating_count": 0,
+        "invalid_or_missing_rating_count": 40,
+        "min_rating": null,
+        "max_rating": null,
+        "mean_rating": null,
+        "distribution": {}
+      },
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [
+        {
+          "raw": "Museum Tb. Silalahi Center",
+          "normalized": "museum tb silalahi center"
+        },
+        {
+          "raw": "Panorama Agrowisata Sileme-Leme",
+          "normalized": "panorama agrowisata sileme leme"
+        },
+        {
+          "raw": "Desa Wisata Lumban Suhi-Suhi",
+          "normalized": "desa wisata lumban suhi suhi"
+        },
+        {
+          "raw": "Taman Wisata Alam Sicike-Cike (Danau Dan Air Terjun Sicike-Cike)",
+          "normalized": "taman wisata alam sicike cike danau dan air terjun sicike cike"
+        },
+        {
+          "raw": "Air Terjun Sipiso-Piso",
+          "normalized": "air terjun sipiso piso"
+        }
+      ],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "NO": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "KABUPATEN": [
+          "TOBA",
+          "Humbang Hasundutan",
+          "SIMALUNGUN",
+          "SAMOSIR",
+          "TAPANULI UTARA"
+        ],
+        "OBJEK / DESTINASI WISATA": [
+          "Pantai Bulbul",
+          "Air Terjun Situmurun",
+          "Taman Eden 100",
+          "Toba Caldera Resort",
+          "Bukit Senyum"
+        ],
+        "FASILITAS UMUM": [
+          "sanitasi\n Parkir",
+          "toilet umum",
+          "sanitasi\n parkir\n pusat informasi\n tempat bersantai",
+          "parking area\n mushala\n toilet\n tempat duduk",
+          "Gazebo\n mushala\n tempat duduk kayu"
+        ],
+        "FASILITAS PENUNJANG": [
+          "tempat ibadah (Gereja HKBP Tiberias Lumban Bulbul)\n Homestay / penginapan\n Resto dan spot kuliner",
+          "spot jajan makanan dan minuman\n \n Sewa kapal",
+          "cafe shacky house\n homestay\n jalur evakuasi\n spot oleh-oleh kuliner",
+          "Nom Addict Cafe\n Penginapan (Bobocabin)\n Stand UMKM",
+          "warung makanan dan minuman"
+        ],
+        "ALAMAT": [
+          "Lumban Bulbul, Kecamatan Balige",
+          "Jonggi Nihuta, Hatinggian, Kec. Lumban Julu.",
+          "Desa Lumban Rang Sionggang Utara, Kecamatan Lumban Julu",
+          "Desa Pardamean Sibisa, Kecamatan Ajibata",
+          "Desa Motung, Kecamatan Ajibata"
+        ],
+        "WAKTU OPERASIONAL": [
+          "senin - minggu\n 24 jam\n \n 08.00 - 14.00",
+          "senin - minggu\n 24 jam\n \n 08.00 - 14.00",
+          "senin - minggu\n 08.00 - 17.00",
+          "senin - minggu\n 08.00 - 17.00",
+          "senin - minggu\n 08.00 - 17.00"
+        ],
+        "RATING BPODT": [
+          "hidden gem",
+          "hidden gem",
+          "hidden gem"
+        ]
+      }
+    },
+    {
+      "sheet_name": "prompt",
+      "rows": 7,
+      "columns": 3,
+      "column_names": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Unnamed: 2"
+      ],
+      "normalized_column_names": {
+        "Unnamed: 0": "unnamed_0",
+        "Unnamed: 1": "unnamed_1",
+        "Unnamed: 2": "unnamed_2"
+      },
+      "dtypes": {
+        "Unnamed: 0": "object",
+        "Unnamed: 1": "object",
+        "Unnamed: 2": "object"
+      },
+      "missing_values": {
+        "Unnamed: 0": 7,
+        "Unnamed: 1": 1,
+        "Unnamed: 2": 1
+      },
+      "top_missing_values": {
+        "Unnamed: 0": 7,
+        "Unnamed: 1": 1,
+        "Unnamed: 2": 1
+      },
+      "duplicate_rows": 0,
+      "place_column": null,
+      "unique_places": 0,
+      "top_places": {},
+      "review_stats": {},
+      "rating_stats": {},
+      "coordinate_columns": [],
+      "coordinate_examples": {},
+      "price_columns": [],
+      "price_examples": {},
+      "date_columns": [],
+      "date_examples": {},
+      "inconsistent_place_examples": [],
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "Unnamed: 0": [],
+        "Unnamed: 1": [
+          "No",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "Unnamed: 2": [
+          "Prompt",
+          "Saya ingin berlibur ke Danau Toba selama 1 malam. Budget saya sekitar Rp500.000,-. Saat ini saya berada di Sibolga. Tolong berikan rekomendasi itinerary yang mencakup tempat wisata, akomodasi, transportasi, dan kuliner lokal. Harap sesuaikan dengan anggaran dan durasi yang saya miliki.",
+          "Saya ingin liburan ke Samosir.\nTitik awal keberangkatan saya dari Medan Amplas.\nMohon buatkan itinerary wisata selama 3 hari 2 malam,\ndengan estimasi budget Rp 1.500.000 - Rp 2.000.000 per orang.\nSaya ingin mengunjungi tempat-tempat wisata populer di Samosir, dan sekitarnya.",
+          "Saya berencana liburan selama 3 hari 2 malam dengan titik keberangkatan dari Tebing Tinggi, Sumatera Utara. Budget saya sekitar Rp 1.500.000 per orang, dan saya ingin menjelajahi kawasan selatan Danau Toba selain Parapat dan Samosir, seperti:\n* Balige (wisata budaya dan kuliner)\n* Huta Ginjang (spot foto dan view Danau Toba dari ketinggian)\n* Tao Silalahi (danau yang tenang, cocok untuk healing)",
+          "[Contoh prompt pada dataset disamarkan untuk blind review.]"
+        ]
+      }
+    }
+  ],
+  "place_name_comparison": {
+    "total_unique_normalized_place_names": 465,
+    "by_sheet": [
+      {
+        "sheet_name": "hotel-resto-v1",
+        "unique_normalized_places": 9,
+        "places_not_seen_in_other_sheets_count": 6,
+        "places_not_seen_in_other_sheets_examples": [
+          "Gemma Hotel Balige",
+          "Hotel Ompu Herti",
+          "Pantai Libra SS Resto",
+          "SAPADIA VILLA BALIGE III",
+          "Ulos Toba (Dinar aksesories)",
+          "villa borneo"
+        ]
+      },
+      {
+        "sheet_name": "resto-hotel-v2",
+        "unique_normalized_places": 204,
+        "places_not_seen_in_other_sheets_count": 37,
+        "places_not_seen_in_other_sheets_examples": [
+          "Biwa Cafe 26 Resto",
+          "Happy Cafe",
+          "Jo 'N Gio Resto Nasional 26 Coffeshop",
+          "Kedai Bakmi Bahagia",
+          "Kedai Bakmie 26 Kopi Serasi",
+          "Kedai Van Toba Meer",
+          "La Pinus Damasus Bistro 26 Resto",
+          "Lapo Barat (Restaurant 26 Catering)",
+          "Pagar Batu Resto 26 Penginapan",
+          "Panatapan Pea Tali"
+        ]
+      },
+      {
+        "sheet_name": "tempat-wisata-v1",
+        "unique_normalized_places": 94,
+        "places_not_seen_in_other_sheets_count": 5,
+        "places_not_seen_in_other_sheets_examples": [
+          "Pantai Hatulian",
+          "Pantai Janji Maria",
+          "Pantai Meat",
+          "Pantai Pardinggaran",
+          "Pantai Pasifik Porsea"
+        ]
+      },
+      {
+        "sheet_name": "wisata-v2",
+        "unique_normalized_places": 138,
+        "places_not_seen_in_other_sheets_count": 36,
+        "places_not_seen_in_other_sheets_examples": [
+          "Air Soda Parbubu",
+          "Air Terjun Bah Salak",
+          "Air Terjun Sigarattung (Sampuran Na Pitu)",
+          "Arung Jeram Sungai Asahan (Asahan River Rafting)",
+          "Bukit Holbung Samosir",
+          "Desa Adat Ragi Hotang Meat",
+          "Gereja Hkbp Dr.Il.Nommensen Sigumpar",
+          "Hkbp Balige",
+          "Kebun Teh Bahbutong, Sidamanik",
+          "Makam Missonaris Pdt. Dr. Il. Nommensen"
+        ]
+      },
+      {
+        "sheet_name": "wisata-metadata",
+        "unique_normalized_places": 138,
+        "places_not_seen_in_other_sheets_count": 18,
+        "places_not_seen_in_other_sheets_examples": [
+          "Aek Bath Sitio-tio",
+          "Air Terjun Lae",
+          "Bah Salak Waterfall",
+          "Batu Sigadap",
+          "Kebun Teh Sidamanik",
+          "Objek Wisata Pantai Paris",
+          "Parhonasan",
+          "Pasir Putih Parbaba",
+          "Pemandian Air Soda Parbubu",
+          "Pemandian Alam Sejuk"
+        ]
+      },
+      {
+        "sheet_name": "hotel-metadata",
+        "unique_normalized_places": 36,
+        "places_not_seen_in_other_sheets_count": 0,
+        "places_not_seen_in_other_sheets_examples": []
+      },
+      {
+        "sheet_name": "resto-metadata",
+        "unique_normalized_places": 147,
+        "places_not_seen_in_other_sheets_count": 16,
+        "places_not_seen_in_other_sheets_examples": [
+          "Biwa Cafe & Resto",
+          "Diva Putri Minang",
+          "Kedai Bakmi Bahagia 2",
+          "Kedai bakmie & Kopi Serasi",
+          "LA PINUS DAMASUS BISTRO & RESTO",
+          "Lapo Barat (RESTAURANT & CATERING)",
+          "Pagar Batu Resto & PENGINAPAN",
+          "Pondok Makan & Home Stay H. Karsim",
+          "Poppy's Restaurant & Guest House",
+          "Putra Kembar Coffee Shop & Resto"
+        ]
+      },
+      {
+        "sheet_name": "transportasi",
+        "unique_normalized_places": 9,
+        "places_not_seen_in_other_sheets_count": 9,
+        "places_not_seen_in_other_sheets_examples": [
+          "KMP Ihan Batak & KMP Pora - Pora",
+          "KMP Kaldera Toba",
+          "KMP Muara Putih I",
+          "KMP Sumut I & KMP Sumut II",
+          "KMP Tao Toba I & KMP Tao Toba II",
+          "Mobil KBT (Koperasi Bintang Timur)",
+          "Mobil KBT (Koperasi Bintang Timur) Eksekutif",
+          "Mobil KPT (Kevin Pratama Trans)",
+          "PT. Raja Napogos"
+        ]
+      },
+      {
+        "sheet_name": "kuliner",
+        "unique_normalized_places": 12,
+        "places_not_seen_in_other_sheets_count": 12,
+        "places_not_seen_in_other_sheets_examples": [
+          "Babi Panggang Karo",
+          "Dali ni Horbo",
+          "Dengke Mas na Niura",
+          "Manuk Napinadar",
+          "Mie Gomak",
+          "Mie Sop",
+          "Na Tinombur",
+          "Naniarsik",
+          "Saksang",
+          "Sambal Tuktuk"
+        ]
+      },
+      {
+        "sheet_name": "Attractions Info",
+        "unique_normalized_places": 14,
+        "places_not_seen_in_other_sheets_count": 12,
+        "places_not_seen_in_other_sheets_examples": [
+          "ATV di Kebun Teh Sidamanik",
+          "Berkuda di Gundaling",
+          "Canyoneering di Air Terjun Sikulikap",
+          "Flyboard di Parapat",
+          "Juma Bulu River Side Ajibata",
+          "Kano",
+          "Kuliki Paralayang di Tongging",
+          "Pacuan Kuda Hoda Marsiadu Siborong-borong Olahraga Tradisional Batak",
+          "Paralayang Huta Ginjang",
+          "Paralayang Puncak Sibodiala, Balige"
+        ]
+      },
+      {
+        "sheet_name": "waktu operasional destinasi",
+        "unique_normalized_places": 40,
+        "places_not_seen_in_other_sheets_count": 26,
+        "places_not_seen_in_other_sheets_examples": [
+          "Aek Nauli Elephant Conservation Camp",
+          "Air Terjun Batu Manarus",
+          "Air Terjun Lae Pinang",
+          "Air Terjun Lae Singgabit",
+          "Air Terjun Sipiso-Piso",
+          "Bukit Gundaling",
+          "Bukit Siattaratas",
+          "Danau Lau Kawar",
+          "Desa Wisata Lumban Suhi-Suhi",
+          "Desa Wisata Meat"
+        ]
+      }
+    ]
+  },
+  "metadata_quality": [
+    {
+      "sheet_name": "wisata-metadata",
+      "rows": 139,
+      "columns": 12,
+      "missing_cells": 418,
+      "total_cells": 1668,
+      "completeness_ratio": 0.7494,
+      "place_column": "place-name",
+      "unique_places": 138
+    },
+    {
+      "sheet_name": "hotel-metadata",
+      "rows": 36,
+      "columns": 12,
+      "missing_cells": 122,
+      "total_cells": 432,
+      "completeness_ratio": 0.7176,
+      "place_column": "place-name",
+      "unique_places": 36
+    },
+    {
+      "sheet_name": "resto-metadata",
+      "rows": 148,
+      "columns": 11,
+      "missing_cells": 332,
+      "total_cells": 1628,
+      "completeness_ratio": 0.7961,
+      "place_column": "place-name",
+      "unique_places": 148
+    },
+    {
+      "sheet_name": "transportasi",
+      "rows": 16,
+      "columns": 7,
+      "missing_cells": 29,
+      "total_cells": 112,
+      "completeness_ratio": 0.7411,
+      "place_column": "transport-name",
+      "unique_places": 9
+    },
+    {
+      "sheet_name": "kuliner",
+      "rows": 12,
+      "columns": 3,
+      "missing_cells": 12,
+      "total_cells": 36,
+      "completeness_ratio": 0.6667,
+      "place_column": "kuliner-name",
+      "unique_places": 12
+    },
+    {
+      "sheet_name": "waktu operasional destinasi",
+      "rows": 40,
+      "columns": 8,
+      "missing_cells": 88,
+      "total_cells": 320,
+      "completeness_ratio": 0.725,
+      "place_column": "OBJEK / DESTINASI WISATA",
+      "unique_places": 40
+    }
+  ]
+}

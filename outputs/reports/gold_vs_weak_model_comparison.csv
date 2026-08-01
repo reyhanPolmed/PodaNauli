@@ -1,0 +1,5 @@
+task,model,label_source,macro_f1,balanced_accuracy,negative_recall,negative_precision,neutral_f1
+sentiment_3class,weak_label_retrained_baseline,weak_rating,0.5796703296703297,0.5843703959123538,0.6521739130434783,0.8823529411764706,0.24615384615384617
+sentiment_3class,gold_trained_champion,human_gold,0.7579133510167994,0.7480382015192836,0.8695652173913043,0.7894736842105263,0.6461538461538462
+complaint_binary,weak_label_retrained_baseline,weak_rating,0.8054325464625685,0.7918135526831178,0.6376811594202898,0.88,
+complaint_binary,gold_trained_champion,human_gold,0.8141368628555337,0.8349001175088131,0.9130434782608695,0.7,

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-25T20:21:42.498977+07:00",
+  "status": "completed",
+  "places_path": "D:\\tobapulse\\data\\processed\\places_master.parquet",
+  "total_places": 380,
+  "valid_coordinate_places": 315,
+  "invalid_or_missing_coordinate_places": 65,
+  "algorithm": "DBSCAN(metric=haversine)",
+  "config": {
+    "eps_km": 5.0,
+    "min_samples": 4,
+    "earth_radius_km": 6371.0088,
+    "min_valid_places": 10
+  },
+  "cluster_count_excluding_noise": 9,
+  "noise_place_count": 41,
+  "largest_cluster_size": 111,
+  "outputs": {
+    "place_clusters": "D:\\tobapulse\\data\\processed\\place_clusters.parquet",
+    "cluster_summary": "D:\\tobapulse\\outputs\\reports\\geospatial_cluster_summary.csv",
+    "place_clusters_geojson": "D:\\tobapulse\\outputs\\maps\\place_clusters.geojson"
+  },
+  "limitations": [
+    "Clusters are based only on available valid coordinates.",
+    "DBSCAN parameters are prototype configuration values and should be tuned with stakeholder context.",
+    "average_gap_score is left null until Service Gap Score is produced in the next stage."
+  ]
+}

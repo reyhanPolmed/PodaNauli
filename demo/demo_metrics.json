@@ -1,0 +1,316 @@
+{
+  "product": "PodaNauli",
+  "metrics_scope": "locked human-gold test dan validasi manusia top-20",
+  "sentiment": {
+    "gold_rows": 900,
+    "macro_f1": 0.7579133510167994,
+    "negative_recall": 0.8695652173913043,
+    "balanced_accuracy": 0.7480382015192836,
+    "classification_report": {
+      "negative": {
+        "precision": 0.7894736842105263,
+        "recall": 0.8695652173913043,
+        "f1-score": 0.8275862068965517,
+        "support": 69.0
+      },
+      "neutral": {
+        "precision": 0.7777777777777778,
+        "recall": 0.5526315789473685,
+        "f1-score": 0.6461538461538462,
+        "support": 38.0
+      },
+      "positive": {
+        "precision": 0.7792207792207793,
+        "recall": 0.821917808219178,
+        "f1-score": 0.8,
+        "support": 73.0
+      },
+      "accuracy": 0.7833333333333333,
+      "macro avg": {
+        "precision": 0.782157413736361,
+        "recall": 0.7480382015192836,
+        "f1-score": 0.7579133510167994,
+        "support": 180.0
+      },
+      "weighted avg": {
+        "precision": 0.782846425828882,
+        "recall": 0.7833333333333333,
+        "f1-score": 0.7780960801650457,
+        "support": 180.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        60,
+        1,
+        8
+      ],
+      [
+        8,
+        21,
+        9
+      ],
+      [
+        8,
+        5,
+        60
+      ]
+    ],
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "split_method": "Nested StratifiedGroupKFold with canonical_place_id groups",
+    "split_rows": {
+      "train": 539,
+      "validation": 181,
+      "test": 180
+    },
+    "split_places": {
+      "train": 121,
+      "validation": 47,
+      "test": 51
+    },
+    "group_overlap_count": 0,
+    "model_name": "sentiment_word_char_logistic"
+  },
+  "complaint": {
+    "macro_f1": 0.8141368628555337,
+    "negative_recall": 0.9130434782608695,
+    "negative_precision": 0.7,
+    "confusion_matrix": [
+      [
+        84,
+        27
+      ],
+      [
+        6,
+        63
+      ]
+    ],
+    "labels": [
+      "non_negative",
+      "negative"
+    ],
+    "support": {
+      "non_negative": 111,
+      "negative": 69
+    },
+    "model_name": "complaint_detector"
+  },
+  "aspect": {
+    "gold_rows": 12270,
+    "micro_f1": 0.8088779284833539,
+    "macro_f1": 0.7350548597308647,
+    "hamming_loss": 0.03224464322862492,
+    "subset_accuracy": 0.5770750988142292,
+    "per_aspect": {
+      "akses_jalan": {
+        "precision": 0.9375,
+        "recall": 0.625,
+        "f1": 0.75,
+        "support": 24,
+        "average_precision": 0.8744517047078411
+      },
+      "transportasi": {
+        "precision": 1.0,
+        "recall": 0.46153846153846156,
+        "f1": 0.631578947368421,
+        "support": 13,
+        "average_precision": 0.6689765385417559
+      },
+      "parkir": {
+        "precision": 0.9642857142857143,
+        "recall": 0.84375,
+        "f1": 0.9,
+        "support": 32,
+        "average_precision": 0.9829362041737516
+      },
+      "kebersihan": {
+        "precision": 0.8928571428571429,
+        "recall": 0.8064516129032258,
+        "f1": 0.847457627118644,
+        "support": 31,
+        "average_precision": 0.9431370816967682
+      },
+      "toilet": {
+        "precision": 0.9473684210526315,
+        "recall": 0.8181818181818182,
+        "f1": 0.8780487804878049,
+        "support": 22,
+        "average_precision": 0.9107455277311733
+      },
+      "harga": {
+        "precision": 0.9428571428571428,
+        "recall": 0.75,
+        "f1": 0.8354430379746836,
+        "support": 44,
+        "average_precision": 0.9089416035546919
+      },
+      "pelayanan": {
+        "precision": 0.8787878787878788,
+        "recall": 0.7073170731707317,
+        "f1": 0.7837837837837838,
+        "support": 41,
+        "average_precision": 0.8753813657505675
+      },
+      "makanan": {
+        "precision": 0.875,
+        "recall": 0.8484848484848485,
+        "f1": 0.8615384615384616,
+        "support": 66,
+        "average_precision": 0.9479774178264767
+      },
+      "akomodasi": {
+        "precision": 0.7916666666666666,
+        "recall": 0.8636363636363636,
+        "f1": 0.8260869565217391,
+        "support": 22,
+        "average_precision": 0.7112704406587276
+      },
+      "keamanan": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.861172161172161
+      },
+      "jam_operasional": {
+        "precision": 0.5714285714285714,
+        "recall": 0.4444444444444444,
+        "f1": 0.5,
+        "support": 9,
+        "average_precision": 0.6799823633156965
+      },
+      "fasilitas_umum": {
+        "precision": 0.8,
+        "recall": 0.5454545454545454,
+        "f1": 0.6486486486486487,
+        "support": 22,
+        "average_precision": 0.6169234311870209
+      },
+      "pemandangan": {
+        "precision": 0.7894736842105263,
+        "recall": 0.7317073170731707,
+        "f1": 0.759493670886076,
+        "support": 41,
+        "average_precision": 0.8251111356904789
+      },
+      "keramaian": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.9397435897435895
+      },
+      "aksesibilitas": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714,
+        "support": 8,
+        "average_precision": 0.7030143467643467
+      },
+      "budaya": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9166666666666666,
+        "f1": 0.9361702127659575,
+        "support": 24,
+        "average_precision": 0.9462057284225895
+      },
+      "oleh_oleh": {
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.8,
+        "support": 8,
+        "average_precision": 0.890625
+      },
+      "internet_sinyal": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 6,
+        "average_precision": 1.0
+      },
+      "lainnya": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "average_precision": 0.019230769230769232
+      }
+    },
+    "split_method": "best-of-200 nested GroupShuffleSplit using canonical_place_id with multilabel prevalence balancing",
+    "split_rows": {
+      "train": 715,
+      "validation": 232,
+      "test": 253
+    },
+    "split_places": {
+      "train": 132,
+      "validation": 44,
+      "test": 44
+    },
+    "group_overlap_count": 0,
+    "model_name": "aspect_champion",
+    "lainnya_total_gold": 3,
+    "lainnya_locked_test_support": 1
+  },
+  "service_gap_validation": {
+    "reviewed_rows": 20,
+    "evidence_validity": 0.8,
+    "priority_validity": 0.95,
+    "overall_validity": 0.8,
+    "validator_count": 1
+  },
+  "readiness": {
+    "model_and_ranking_pipeline_ready": true,
+    "production_application_ready": false,
+    "production_blockers": [
+      "FastAPI stage is not implemented.",
+      "Dashboard stage is not implemented.",
+      "Production monitoring, drift alerts, and rollback operations are not implemented."
+    ]
+  },
+  "sources": {
+    "sentiment_metrics": "outputs/reports/sentiment_metrics.json",
+    "complaint_metrics": "outputs/reports/complaint_metrics.json",
+    "aspect_metrics": "outputs/reports/aspect_metrics.json",
+    "readiness": "outputs/reports/project_readiness.json",
+    "data_profile": "outputs/reports/data_profile.json",
+    "cleaning_summary": "outputs/reports/cleaning_summary.json",
+    "service_gap_methodology": "outputs/reports/service_gap_methodology.json",
+    "service_gap_ranking": "outputs/predictions/service_gap_rankings.csv",
+    "service_gap_validation": "outputs/reports/service_gap_top20_validation.pending.csv"
+  },
+  "sentiment_error_examples": [
+    {
+      "Teks": "Luas tapi banyak nyamuk",
+      "Gold": "Positif",
+      "Prediksi": "Negatif",
+      "Tipe error": "False Positive Negative Class",
+      "Dugaan penyebab": "Perlu analisis data tambahan"
+    },
+    {
+      "Teks": "Ambilnya disini, makannya di kapal",
+      "Gold": "Netral",
+      "Prediksi": "Positif",
+      "Tipe error": "Other Misclassification",
+      "Dugaan penyebab": "Perlu analisis data tambahan"
+    },
+    {
+      "Teks": "Di seprainya masih ada rambut, exhaust kamar mandi mati. Sisanya ok",
+      "Gold": "Negatif",
+      "Prediksi": "Netral",
+      "Tipe error": "False Negative Negative Class",
+      "Dugaan penyebab": "Pola bahasa belum terwakili dengan baik"
+    },
+    {
+      "Teks": "Less maintenance and a lot of trash",
+      "Gold": "Netral",
+      "Prediksi": "Positif",
+      "Tipe error": "Other Misclassification",
+      "Dugaan penyebab": "Perlu analisis data tambahan"
+    }
+  ]
+}

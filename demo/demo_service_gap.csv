@@ -1,0 +1,11 @@
+﻿rank,place_name,category,aspect,service_gap_score,confidence,evidence_count,main_reason
+1,Thyesza Hotel Resort,Hotel,Pelayanan,57.14,High,61,Rasio negatif tinggi
+2,Hotel Sere Nauli,Hotel,Akomodasi,55.55,High,56,Rasio negatif tinggi
+3,Carolina Hotel,Hotel,Pelayanan,55.03,High,50,Rasio negatif tinggi
+4,Kawah Putih Dolok Tinggi Raja,Wisata,Akses Jalan,54.53,High,15,Rasio negatif tinggi
+5,Thyesza Hotel Resort,Hotel,Akomodasi,54.45,High,81,Rasio negatif tinggi
+6,Hotel Santo Djaya,Hotel,Akomodasi,53.87,High,9,Rasio negatif tinggi
+7,Damasus Nataboan Resto,Restoran,Pelayanan,53.67,High,75,Rasio negatif tinggi
+8,Kawah Putih Dolok Tinggi Raja,Wisata,Harga,53.11,High,15,Rasio negatif tinggi
+9,Thyesza Hotel Resort,Hotel,Toilet,52.82,High,10,Rasio negatif tinggi
+10,Hotel Sere Nauli,Hotel,Toilet,52.58,High,11,Rasio negatif tinggi

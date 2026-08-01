@@ -1,0 +1,6197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.70007647852577,
+          2.6046204589559636
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00001",
+        "place_name": "3J Lamongan Cafe n Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80432723432095,
+          2.3036644824882817
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00002",
+        "place_name": "Aek Bath Sitio-tio",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.67544479814435,
+          2.618962358400672
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00003",
+        "place_name": "Aek Rangat Pangururan",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.50145103617437,
+          2.8010265335577316
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00004",
+        "place_name": "Aek Sipaulak Hosa Loja",
+        "place_category": "wisata",
+        "geo_cluster_id": 2,
+        "is_noise": false,
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.72883816801654,
+          2.846344777940582
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00005",
+        "place_name": "Air Terjun Binanga Bolon",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.64495212082959,
+          2.537091727190248
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00006",
+        "place_name": "Air Terjun Efrata",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.81571392383263,
+          2.339668555177338
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00007",
+        "place_name": "Air Terjun Janji",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.34885390213006,
+          2.6119379443651214
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00008",
+        "place_name": "Air Terjun Lae",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.62214953172492,
+          2.591226177946073
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00009",
+        "place_name": "Air Terjun Nai sogop",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.54417190733461,
+          2.1312944261352422
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00010",
+        "place_name": "Air Terjun Pollung",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.14360208788077,
+          2.278675286188601
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00011",
+        "place_name": "Air Terjun Sampuran",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.08388020674705,
+          2.289866206064578
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00012",
+        "place_name": "Air Terjun Siboruon Balige",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86415213917927,
+          2.6103417399774993
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00013",
+        "place_name": "Air Terjun Sigarattung",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80575426315701,
+          2.3559239918217845
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00014",
+        "place_name": "Air Terjun Sigota gota Sipultak Hoda",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.30466568874047,
+          2.5557703317675244
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00015",
+        "place_name": "Air Terjun Sigura-Gura",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.51857442082807,
+          2.2711197303957404
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00016",
+        "place_name": "Air Terjun Simolap",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.51951452083213,
+          2.9167551705008496
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00017",
+        "place_name": "Air Terjun Sipisopiso",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.60949392383327,
+          2.6396408813041736
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00018",
+        "place_name": "Air Terjun Sitapigagan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00801408303306,
+          2.537730210260568
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00019",
+        "place_name": "Air Terjun Situmurun",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.81674159499656,
+          2.531858219807868
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00020",
+        "place_name": "Air Terjun Tombak Pangaribuan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.18851032083141,
+          2.81000367963384
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00021",
+        "place_name": "Air Terjun Tonduhan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.22376443247403,
+          2.857505631025593
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00022",
+        "place_name": "Air Terjun Turunan Buhit (Jabel)",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85606911219867,
+          2.6712202893462944
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00023",
+        "place_name": "Alyssa Restaurant Pizza",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7054639803754,
+          2.6030038948515477
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00024",
+        "place_name": "ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0896447,
+          2.3213606
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00025",
+        "place_name": "Amora Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85315648150642,
+          2.6701497582627116
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00026",
+        "place_name": "ANDRIAN RUMAH MAKAN NASIONAL",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69300202085512,
+          2.712391833603101
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00027",
+        "place_name": "ARTOMORO LAMONGAN",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.34421355767306,
+          2.5614011254221576
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00028",
+        "place_name": "Arung Jeram Desa Parhitean",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85502157667653,
+          2.670105989512679
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00029",
+        "place_name": "Bagus Bay Guest House",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.03394713617631,
+          3.0697986926073986
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00030",
+        "place_name": "Bah Salak Waterfall",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80873650396826,
+          2.309688894662536
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00031",
+        "place_name": "Bakkara Village",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0670326,
+          2.3334426
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00032",
+        "place_name": "Bakso Dorela",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0571114,
+          2.3330227
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00033",
+        "place_name": "BAKSO MAS PANDU \"WONG SOLO\"",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0608357,
+          2.3335714
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00034",
+        "place_name": "BAKSO PAK RADIT (BAKSO KHAS MALANG)",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06579032568816,
+          2.3346149361375397
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00035",
+        "place_name": "Balerong - Balige, Toba Samosir, North Sumatra, Indonesia",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0636019,
+          2.3339313
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00036",
+        "place_name": "Balige Seafood",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86005155266994,
+          2.6508562618035936
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00037",
+        "place_name": "Batak Museum",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.02520953701003,
+          2.3516819530447366
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00038",
+        "place_name": "Batu Basiha",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92425658150654,
+          2.6886712399767156
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00039",
+        "place_name": "Batu Gantung",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.83603599685262,
+          2.6792311052576823
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00040",
+        "place_name": "Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8200177116348,
+          2.7790376217041697
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00041",
+        "place_name": "Batu lihi star",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86803312883649,
+          2.6043970438755335
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00042",
+        "place_name": "Batu Marhosa",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.71560298336162,
+          2.4812855354916366
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00043",
+        "place_name": "Batu Maroppa",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.52755453432401,
+          2.8015124776057707
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00044",
+        "place_name": "Batu Sigadap",
+        "place_category": "wisata",
+        "geo_cluster_id": 2,
+        "is_noise": false,
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0446427,
+          2.346859
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00045",
+        "place_name": "Betesda Cafe Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0810082,
+          2.3384795
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00046",
+        "place_name": "Betty bites- Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92295445452568,
+          2.6956951874662036
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00047",
+        "place_name": "Biwa Cafe & Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0724996,
+          2.3352059
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00048",
+        "place_name": "BMW Coffee",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94415589285848,
+          2.075401772091245
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00049",
+        "place_name": "Boli Boli Hot Spring",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.67228953917932,
+          2.6218963022836888
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00050",
+        "place_name": "BONA PANATAPAN CAFE",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69602602270416,
+          2.6087182998032166
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00051",
+        "place_name": "BPK ( Babi Panggang Karo) Sembiring",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0703293,
+          2.3339252
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00052",
+        "place_name": "BPK Karona",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0704027,
+          2.3221766
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00053",
+        "place_name": "BPK PANCA JAYA",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.2068009,
+          2.3936637
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00054",
+        "place_name": "BPK TAMBAR LIHE CLARISSA GURUSINGA",
+        "place_category": "restoran",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84608245452553,
+          2.6599990637966817
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00055",
+        "place_name": "BPK TORANG dan IKAN BAKAR",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0812858,
+          2.5482791000000002
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00056",
+        "place_name": "Brain Homestay",
+        "place_category": "hotel",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0634391,
+          2.33624
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00057",
+        "place_name": "Brussels Homestay",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84684237033036,
+          2.661213384375491
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00058",
+        "place_name": "Bukit Beta Tuk-tuk",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.65494368336203,
+          2.632008605398129
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00059",
+        "place_name": "Bukit Burung",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9802962680152,
+          2.315048939426742
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00060",
+        "place_name": "Bukit Doa",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69783122383308,
+          2.5305337914347272
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00061",
+        "place_name": "Bukit Holbung",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.78124308864622,
+          2.813506292007093
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00062",
+        "place_name": "Bukit Indah Simarjarunjung",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04028385235127,
+          2.34938999309088
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00063",
+        "place_name": "Bukit Pahoda",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92099197166834,
+          2.6360931627435993
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00064",
+        "place_name": "Bukit Senyum",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.74926526447645,
+          2.6095052754175807
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00065",
+        "place_name": "Bukit Sidihoni",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.73868626615997,
+          2.5064715317725974
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00066",
+        "place_name": "Bukit Simargulang Ombun",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.79325043567833,
+          2.4275610304959483
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00067",
+        "place_name": "Bukit Sipatungan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85938732754488,
+          2.7351674458357733
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00068",
+        "place_name": "Bukit Sipolha",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01722798118647,
+          2.3447867741231683
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00069",
+        "place_name": "Bukit Tara Bunga",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94603542383321,
+          2.6080342986728144
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00070",
+        "place_name": "Caldera toba nomadic escape (glamour camping)",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1176317,
+          2.35191
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00071",
+        "place_name": "Cantik Daijo Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86132867667654,
+          2.6688426101059965
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00072",
+        "place_name": "Carolina Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0677685,
+          2.3343044
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00073",
+        "place_name": "Chinese Food Gemar",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.78133438465389,
+          2.5884552399094702
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00074",
+        "place_name": "Cottage Aek Tawar Sari",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0669746,
+          2.3299327
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00075",
+        "place_name": "D'barans Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8584669526699,
+          2.654301261173217
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00076",
+        "place_name": "D'view cafe and resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0505864,
+          2.3404454
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00077",
+        "place_name": "Damar Toba ~ Lakeside Eatery & Stay",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.91989431219872,
+          2.6922178221662336
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00078",
+        "place_name": "Damasus Nataboan Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.74502128405312,
+          2.603283367624243
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00079",
+        "place_name": "Danau Sidihoni",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00482579685168,
+          2.318298678713521
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00080",
+        "place_name": "Desa Adat Ragi Hotang",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92950331219843,
+          2.60058812427431
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00081",
+        "place_name": "Desa Wisata Sigapiton",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04921861186872,
+          2.3310119766622237
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00082",
+        "place_name": "Desa Wisata Silalahi Pagar Batu",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86097999499678,
+          2.6520233615901345
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00083",
+        "place_name": "Desa Wisata Tomok Parsaoran",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1046145,
+          2.3479577
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00084",
+        "place_name": "Diva Putri Minang",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.45567430548473,
+          2.2384191313836848
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00085",
+        "place_name": "Dolok Pottas",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0280469,
+          2.3638175
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00086",
+        "place_name": "Driving Range Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0671372,
+          2.3325758
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00087",
+        "place_name": "Dunia Bubur",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86138455266997,
+          2.6710860924527133
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00088",
+        "place_name": "Elios - Rumah Makan Khas Batak",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0641697,
+          2.333948
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00089",
+        "place_name": "Family Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94342494781242,
+          2.0748359775581573
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00090",
+        "place_name": "Galeri Umkm Tapanuli Utara",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.88132952351594,
+          2.3293591970762058
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00091",
+        "place_name": "Geosite Sipinsur",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06720829128471,
+          2.3311701766360384
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00092",
+        "place_name": "Gereja Tua HKBP Balige",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.15735095266926,
+          2.395120284187212
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00093",
+        "place_name": "Gereja Tua HKBP SIgumpar",
+        "place_category": "wisata",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0644612,
+          2.3338544
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00094",
+        "place_name": "GotiL F&B",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1122069,
+          2.3499528
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00095",
+        "place_name": "Grand Mareda Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.10179902568808,
+          2.308890280711529
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00096",
+        "place_name": "Gua Liang Sipege",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.65154563917919,
+          2.6008269597984164
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00097",
+        "place_name": "Gunung Pusuk Buhit",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0663699,
+          2.3345485999999998
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00098",
+        "place_name": "\"Happy\" Noodle Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.95280331900477,
+          2.6011896597179143
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00099",
+        "place_name": "Hidangan Muslim Rumah Makan CHARISSA",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85840264969053,
+          2.6691010476446526
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00100",
+        "place_name": "Horas Vegetarian Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1290349,
+          2.3338055
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00101",
+        "place_name": "Hotel Adela",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93924339016954,
+          2.667133089956276
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00102",
+        "place_name": "Hotel and Restaurant Singgalang",
+        "place_category": "hotel",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.065022,
+          2.3343907
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00103",
+        "place_name": "HOTEL BAHAGIA BALIGE",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0640091,
+          2.3364256
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00104",
+        "place_name": "Hotel Dizomn",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0624334,
+          2.3359467
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00105",
+        "place_name": "Hotel Nabasa",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0681668,
+          2.2639672
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00106",
+        "place_name": "Hotel O Balige City Near Tugu Juara Monang",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1552925,
+          2.4452915
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00107",
+        "place_name": "Hotel Santo Djaya",
+        "place_category": "hotel",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1217736,
+          2.3528556
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00108",
+        "place_name": "Hotel Sere Nauli",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0812835,
+          2.3383059
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00109",
+        "place_name": "Hutanta Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0651414,
+          2.3332810999999998
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00110",
+        "place_name": "ijabu Coffee & Roastery",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0353074,
+          2.328012
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00111",
+        "place_name": "Istana Pempek Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.81262538336117,
+          2.306005820043636
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00112",
+        "place_name": "Istana Raja Sisingamangaraja",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0499578,
+          2.3270655
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00113",
+        "place_name": "Ita Soposurung Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0650606,
+          2.336051
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00114",
+        "place_name": "J&J Guest House 1 Rumah",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.38192129199514,
+          2.735077062165259
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00115",
+        "place_name": "Jembatan Lae Pendaroh",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85435886616037,
+          2.677459113807335
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00116",
+        "place_name": "Jenny's Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84396579499682,
+          2.6774724226615736
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00117",
+        "place_name": "Joe's Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93870596318352,
+          2.6678461414774524
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00118",
+        "place_name": "Kafe Pak Pos",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.68906971219853,
+          2.66421841107743
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00119",
+        "place_name": "Kampung Ulos Hutaraja",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.78655231898344,
+          3.1498774620014363
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00120",
+        "place_name": "Kawah Putih Dolok Tinggi Raja",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.90801049039571,
+          2.8603077834594752
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00121",
+        "place_name": "Kebun Teh Sidamanik",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0625259,
+          2.3337655
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00122",
+        "place_name": "Kedai Bakmi Bahagia 2",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94074247667652,
+          2.6672811587907685
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00123",
+        "place_name": "Kedai bakmie & Kopi Serasi",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.2331035,
+          2.328846
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00124",
+        "place_name": "Kedai Islam \"Rahayu\"",
+        "place_category": "restoran",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0604164,
+          2.333661
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00125",
+        "place_name": "Kedai Mie Lily",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92253963732385,
+          2.697781820935986
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00126",
+        "place_name": "LA PINUS DAMASUS BISTRO & RESTO",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0816343,
+          2.3386395
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00127",
+        "place_name": "Labersa Hotel and Convention Center Toba, Balige",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.08218332568822,
+          2.338981695097184
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00128",
+        "place_name": "Labersa Toba Fantasi Waterpark",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.078423,
+          2.3456277
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00129",
+        "place_name": "Lago Hotel & Resto",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69704917667619,
+          2.608113969557106
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00130",
+        "place_name": "Lapo Barat (RESTAURANT & CATERING)",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8530369269809,
+          2.6768141740782805
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00131",
+        "place_name": "LEO'S Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0725562,
+          2.3482738
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00132",
+        "place_name": "Leon Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.25859632083154,
+          2.8373610108088347
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00133",
+        "place_name": "Letter Z",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.15591323917884,
+          2.395502884111956
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00134",
+        "place_name": "Makam DR. I.L. Nommensen",
+        "place_category": "wisata",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04944102568821,
+          2.331051116577472
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00135",
+        "place_name": "Makam Sisingamangaraja XII",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.03792030548833,
+          2.8197910091597844
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00136",
+        "place_name": "Manigom Nauli",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85780589499686,
+          2.6752818601853043
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00137",
+        "place_name": "Maruba Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86100131219864,
+          2.672013506400532
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00138",
+        "place_name": "Matahari restaurant and Homestay",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.75034042383369,
+          2.7483294426395792
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00139",
+        "place_name": "Menara Pandang Simanindo",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06404724271351,
+          2.3349104174722743
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00140",
+        "place_name": "Monumen D.I. Panjaitan",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.15616068465391,
+          2.44362767701753
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00141",
+        "place_name": "Monumen Perang Dunia II",
+        "place_category": "wisata",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06660872383264,
+          2.334519775687315
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00142",
+        "place_name": "Monumen Raja SONAKMALELA",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.07007489814437,
+          2.3210405210871796
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00143",
+        "place_name": "Mual Sipangolu (Mual Sisingamangaraja)",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.11723296801506,
+          2.2964703223035907
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00144",
+        "place_name": "Mual Sirambe",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04840606801524,
+          2.3333867366371246
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00145",
+        "place_name": "Museum Batak T.B. Silalahi Center",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.74411332568928,
+          2.752495075783331
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00146",
+        "place_name": "Museum Huta Bolon Simanindo",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.058865,
+          2.333572
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00147",
+        "place_name": "Mutiara Balige Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0787909,
+          2.3444332
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00148",
+        "place_name": "Nauli Inn",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7801203650101,
+          2.801775749425957
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00149",
+        "place_name": "Objek Wisata Pantai Paris",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1048534,
+          2.3482477
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00150",
+        "place_name": "Ola Kisat",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0614941,
+          2.3336113
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00151",
+        "place_name": "Onand Coffee",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85467922085489,
+          2.6773054226894746
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00152",
+        "place_name": "Orari Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0708738,
+          2.3340345
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00153",
+        "place_name": "OYO 90645 Karisma Residence",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.66985377667584,
+          2.547269326273382
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00154",
+        "place_name": "Pagar Batu Resto & PENGINAPAN",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.70043090366218,
+          2.608438887220064
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00155",
+        "place_name": "PALITO COFFEE AND RESTO",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.30348574781604,
+          2.6991313206258614
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00156",
+        "place_name": "Panatapan Puncak Sidiangkat",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01332381186874,
+          2.307646460798102
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00157",
+        "place_name": "Panorama Adian Nalambok",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85931056801523,
+          2.3424092944384154
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00158",
+        "place_name": "Panorama Lembah Bakara",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.72538180548797,
+          2.7601236233591098
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00159",
+        "place_name": "Pantai Batuhoda",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.52662246315995,
+          2.831196437896846
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00160",
+        "place_name": "Pantai Gajah Tidur Paropo Silalahi",
+        "place_category": "wisata",
+        "geo_cluster_id": 2,
+        "is_noise": false,
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8041355073385,
+          2.7844166014427234
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00161",
+        "place_name": "Pantai Kenangan",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.05024732383258,
+          2.341517594609889
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00162",
+        "place_name": "Pantai Lumban Silintong",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01346289685164,
+          2.339909734703453
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00163",
+        "place_name": "Pantai Pakkodian Tampahan",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.14819682536269,
+          2.4338404807113827
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00164",
+        "place_name": "Pantai Parparean 2",
+        "place_category": "wisata",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.07327785959252,
+          2.3492596002020694
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00165",
+        "place_name": "Pantai Pasir Putih Lumban Bul-bul Balige",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.09779924868393,
+          2.356344164693513
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00166",
+        "place_name": "Pantai Pelangi",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.73455648336235,
+          2.757012591263358
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00167",
+        "place_name": "Pantai Pulo Tao",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.52778616616071,
+          2.79491108652294
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00168",
+        "place_name": "Pantai Silalahi",
+        "place_category": "wisata",
+        "geo_cluster_id": 2,
+        "is_noise": false,
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.1821342409364,
+          2.8076761801605605
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00169",
+        "place_name": "Parhonasan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86267708336206,
+          2.652310496226617
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00170",
+        "place_name": "Pasar Tomok",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69005631394812,
+          2.6967247534948746
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00171",
+        "place_name": "Pasir Putih Parbaba",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86083039685249,
+          2.6521028136146314
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00172",
+        "place_name": "Patung Sigalegale",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.67231159499654,
+          2.5509849707538286
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00173",
+        "place_name": "Patung Yesus, Bukit Sibeabea",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.64760079685229,
+          2.5789980466511797
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00174",
+        "place_name": "Pemandian Aek Sipitu Dai",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7337321919938,
+          2.5307880567488503
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00175",
+        "place_name": "Pemandian Air Panas Rianiate",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.96587407664778,
+          2.000828288473734
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00176",
+        "place_name": "Pemandian Air Soda Parbubu",
+        "place_category": "wisata",
+        "geo_cluster_id": 8,
+        "is_noise": false,
+        "average_gap_score": 47.6171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92082604966754,
+          2.8652733364312732
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00177",
+        "place_name": "Pemandian alam Bah Damanik",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.16853539384705,
+          2.9699826576528316
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00178",
+        "place_name": "Pemandian Alam Sejuk",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00538132536288,
+          2.3375240759130342
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00179",
+        "place_name": "Penatapan Meat Balige",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.87228558150626,
+          2.6175988678473545
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00180",
+        "place_name": "PENATAPAN PARHALLOW SIGARANTUNG",
+        "place_category": "wisata",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.78272413432407,
+          2.817192982812153
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00181",
+        "place_name": "Pinus Hills Simarjarunjung",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0690373,
+          2.3339509
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00182",
+        "place_name": "Point Coffee Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.73364676503371,
+          2.756312457119844
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00183",
+        "place_name": "Poncha CLBK",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94879224969048,
+          2.664688224793984
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00184",
+        "place_name": "Pondok Azzahra",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69765796318313,
+          2.607615787375191
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00185",
+        "place_name": "Pondok Kolding Pangururan.samosir",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93677027852614,
+          2.6623882459760226
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00186",
+        "place_name": "Pondok Makan & Home Stay H. Karsim",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0620598,
+          2.3355892
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00187",
+        "place_name": "Pondok Siliwangi 26",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85499328336209,
+          2.6773264282101605
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00188",
+        "place_name": "Poppy's Restaurant & Guest House",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0713519,
+          2.3315951999999998
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00189",
+        "place_name": "Pudan Residence",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8997419990097,
+          2.3521438085688113
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00190",
+        "place_name": "Pulau Pardepur",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.53290249199549,
+          2.7910710838099213
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00191",
+        "place_name": "Pulau Tao Silalahi",
+        "place_category": "wisata",
+        "geo_cluster_id": 2,
+        "is_noise": false,
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.971055240704,
+          2.3150877594981343
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00192",
+        "place_name": "Puncak Huta Ginjang",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93050015452565,
+          2.708924735313688
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00193",
+        "place_name": "Puncak Panorama Aek Nauli",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.04007004070407,
+          2.317202199257693
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00194",
+        "place_name": "Puncak Paralayang Sibodiala",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0595625,
+          2.3345625
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00195",
+        "place_name": "Purnama Balige Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.63350395266976,
+          2.5937630364402873
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00196",
+        "place_name": "Pusat Informasi Toba Caldera UNESCO Global Geopark",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92291562568906,
+          2.691494856331616
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00197",
+        "place_name": "Putra Kembar Coffee Shop & Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.72036034968983,
+          2.5603628593484205
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00198",
+        "place_name": "Qta Coffee And Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0607736,
+          2.3341051999999998
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00199",
+        "place_name": "RAP Hotel Balige",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.043784,
+          2.3476887
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00200",
+        "place_name": "Rapindo cafe balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93835213619751,
+          2.668136710254381
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00201",
+        "place_name": "Restaurant Asia",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84100139499692,
+          2.679541490744553
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00202",
+        "place_name": "Restaurant DUGUL",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93796379016958,
+          2.6686210273555613
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00203",
+        "place_name": "Restaurant Sehat",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8554985238334,
+          2.6708972237596007
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00204",
+        "place_name": "Restoran Tabo Toko Roti dan Sangrai Kopi",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69202854969076,
+          2.7069868032271773
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00205",
+        "place_name": "RM BPK MAN KENA (bang gurning)",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0551148,
+          2.3330288
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00206",
+        "place_name": "RM. GOMGOM KHAS BATAK",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0631437,
+          2.3341192
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00207",
+        "place_name": "RM GUMARANG",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.062985,
+          2.3376082
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00208",
+        "place_name": "RM ISLAM \"NAULI\"",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0635453,
+          2.3338627
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00209",
+        "place_name": "RM. Islam Roda Baru",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0357583,
+          2.327934
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00210",
+        "place_name": "RM Khas Batak Mata Mual",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0776382,
+          2.3369915
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00211",
+        "place_name": "RM Lapo Jior",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93896497852616,
+          2.667676944773548
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00212",
+        "place_name": "RM muslim MENARA",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.73469377852531,
+          2.5300999833860125
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00213",
+        "place_name": "RM. Nasional Sampean Uli",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94246743704545,
+          2.6635967972984407
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00214",
+        "place_name": "RM. Parapat",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69478552383333,
+          2.6148573976763774
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00215",
+        "place_name": "RM SIAEK MUAL",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93480379201915,
+          2.659278260261069
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00216",
+        "place_name": "RM. Siganupari Ajibata",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86060370736189,
+          2.673559788996702
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00217",
+        "place_name": "Romlan Guesthouse",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86069054289081,
+          2.6693920724237614
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00218",
+        "place_name": "Rosalie's Beer Garden And Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0644241,
+          2.3341501
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00219",
+        "place_name": "Rujak Agam Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.20215306315973,
+          2.797289330604585
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00220",
+        "place_name": "Rumah Adat Pak Pak",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.68103992083205,
+          2.911056526882177
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00221",
+        "place_name": "Rumah Bolon Pematang Purba",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0754234,
+          2.3371251
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00222",
+        "place_name": "Rumah Dimsum Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93313741900525,
+          2.6752950116175054
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00223",
+        "place_name": "Rumah Makan Elizabeth",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85663996616034,
+          2.670699761270231
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00224",
+        "place_name": "Rumah Makan Holong Ni Dainang",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85318256133391,
+          2.676691639924135
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00225",
+        "place_name": "Rumah Makan Islam Mami Tempo",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85642633434789,
+          2.67643004277816
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00226",
+        "place_name": "Rumah Makan Islam Monggo",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8607394073619,
+          2.670125327026093
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00227",
+        "place_name": "Rumah Makan Islam Murni",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0548047,
+          2.3290697
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00228",
+        "place_name": "Rumah Makan Khas Batak Lamhot",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69503693619714,
+          2.612316586488661
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00229",
+        "place_name": "Rumah Makan Khas Batak Moranta Simbolon",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94463545767131,
+          2.6677351818719663
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00230",
+        "place_name": "RUMAH MAKAN KHAS BATAK PARAPAT",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94311799016957,
+          2.6666024728155833
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00231",
+        "place_name": "Rumah Makan khas batak Tiurma siboro",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0548148,
+          2.3295332
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00232",
+        "place_name": "Rumah Makan Khas Karo Tambar Lihe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86130982383342,
+          2.6712646236982973
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00233",
+        "place_name": "Rumah Makan Lomak",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9310429343479,
+          2.664040528357632
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00234",
+        "place_name": "Rumah Makan Marina",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.117094,
+          2.3518850000000002
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00235",
+        "place_name": "Rumah Makan Martabe",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93762596133394,
+          2.6689567724849086
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00236",
+        "place_name": "Rumah Makan Muslim Hajjah Zuleka",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93101217852613,
+          2.662757090608327
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00237",
+        "place_name": "Rumah makan muslim nikmat",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69550182568891,
+          2.610804633670447
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00238",
+        "place_name": "Rumah Makan Muslim Penginapan",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.74204122883566,
+          2.52380111604797
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00239",
+        "place_name": "RUMAH MAKAN Nasional Sinurat",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0658293,
+          2.3330276
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00240",
+        "place_name": "Rumah Makan Panca",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.95104902085477,
+          2.660288825525454
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00241",
+        "place_name": "Rumah Makan \"PONDOK KAREN\"",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0599248,
+          2.333572
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00242",
+        "place_name": "Rumah Makan Pondok Salero",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85067329499688,
+          2.677549191147509
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00243",
+        "place_name": "Rumah Makan Rahmat",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1716875,
+          2.3980625
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00244",
+        "place_name": "Rumah Makan Rizal",
+        "place_category": "restoran",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.232502,
+          2.3290292
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00245",
+        "place_name": "Rumah Makan Romauli",
+        "place_category": "restoran",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0661788,
+          2.3338205
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00246",
+        "place_name": "Rumah Makan SABAS Balige City",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93329507667659,
+          2.6756766258086624
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00247",
+        "place_name": "Rumah makan safitri",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0169663,
+          2.3302973
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00248",
+        "place_name": "Rumah Makan Sigiring Giring",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92642772568898,
+          2.6657868624314376
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00249",
+        "place_name": "Rumah Pesanggrahan Bung Karno",
+        "place_category": "wisata",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86146874969056,
+          2.67146822366433
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00250",
+        "place_name": "Rumba Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00141566801443,
+          2.01794771944091
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00251",
+        "place_name": "Salib Kasih Tarutung",
+        "place_category": "wisata",
+        "geo_cluster_id": 8,
+        "is_noise": false,
+        "average_gap_score": 47.6171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86026216318358,
+          2.6681313758412877
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00252",
+        "place_name": "Samosir Villa Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85333659201922,
+          2.6765853028816085
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00253",
+        "place_name": "Samuel's Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0670912,
+          2.3284243
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00254",
+        "place_name": "SAPADIA VILLA BALIGE II",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0684333,
+          2.3340782
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00255",
+        "place_name": "SATE MADURA Cabang Bundaran BALIGE",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85842648150641,
+          2.66916672404813
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00256",
+        "place_name": "Sekapur Sirih",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.37990464822434,
+          2.6540120578481825
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00257",
+        "place_name": "Sicike cike",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.71411846318406,
+          2.749152694027654
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00258",
+        "place_name": "Sigurgur Beach and Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06099711563836,
+          2.9545982120070553
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00259",
+        "place_name": "Simalungun Museum",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.82336422082844,
+          2.3440367210437554
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00260",
+        "place_name": "Simamora Island",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0733666,
+          2.3360012
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00261",
+        "place_name": "Sinar Minang Restaurant & Convention Hall",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.01763849999999,
+          2.3431003768010132
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00262",
+        "place_name": "Singgolom",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69874987667615,
+          2.605648187745785
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00263",
+        "place_name": "Siny Siny Samosir",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06889,
+          2.3342572
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00264",
+        "place_name": "SIPPIN",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69434123732368,
+          2.6116663335299104
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00265",
+        "place_name": "Solu Bolon Cafe and Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1796321,
+          2.4247075
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00266",
+        "place_name": "SOP Kerbau Siparo Gogo",
+        "place_category": "restoran",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.6306572545253,
+          2.592258443837591
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00267",
+        "place_name": "Sopo Guru Tatea Bulan | ᯘᯬᯇᯬ ᯎᯮᯒᯮ ᯖᯖᯩᯀ ᯅᯮᯞᯉ᯲",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.96240994781218,
+          2.0244091293210404
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00268",
+        "place_name": "Sopo Partungkoan Tarutung",
+        "place_category": "wisata",
+        "geo_cluster_id": 8,
+        "is_noise": false,
+        "average_gap_score": 47.6171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0670483,
+          2.3344353
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00269",
+        "place_name": "SS Fried Chicken x Teduh Balige",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85592409201921,
+          2.6705926753666263
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00270",
+        "place_name": "Tabo Cottages",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.03881569499666,
+          2.591312236837156
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00271",
+        "place_name": "Taman Eden 100",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80789329499646,
+          2.4926497898762787
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00272",
+        "place_name": "Taman Wisata Goa Bunda Maria",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.38288303917977,
+          2.7321951134192015
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00273",
+        "place_name": "Taman Wisata Iman Dairi",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.97834895977934,
+          2.0274519793105066
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00274",
+        "place_name": "Tamaro Hot Spring",
+        "place_category": "wisata",
+        "geo_cluster_id": 8,
+        "is_noise": false,
+        "average_gap_score": 47.6171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.08449491263856,
+          2.355511359884397
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00275",
+        "place_name": "Tambunan Sunset Beach",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80831802083105,
+          2.7724051204611158
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00276",
+        "place_name": "Tanjung Unta",
+        "place_category": "wisata",
+        "geo_cluster_id": 7,
+        "is_noise": false,
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85484469384257,
+          2.2578571488739394
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00277",
+        "place_name": "Tao Sipinggan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0523756,
+          2.3296704
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00278",
+        "place_name": "Tao Tio Coffee and Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1530834,
+          2.4496319
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00279",
+        "place_name": "TASYA HOMESTAY",
+        "place_category": "hotel",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85225358150647,
+          2.6736983434016173
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00280",
+        "place_name": "TaTaring Coffee & Resto",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0472134815056,
+          2.3348257560327355
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00281",
+        "place_name": "TB Silalahi Swimming Pool",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1516836,
+          2.4527418
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00282",
+        "place_name": "Tendy Guest House",
+        "place_category": "hotel",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0561066,
+          2.3343426
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00283",
+        "place_name": "Tepi Danau Bistro",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0545349,
+          2.3291886
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00284",
+        "place_name": "The Boat Homestay and Spa",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0595579,
+          2.3345707
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00285",
+        "place_name": "The Deck Balige Restaurant & Lounge",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.82096687667669,
+          2.693863836894016
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00286",
+        "place_name": "Thyesza Hotel Resort",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0308496,
+          2.3628717999999997
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00287",
+        "place_name": "Tiara Bunga Hotel",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0603032,
+          2.3332267
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00288",
+        "place_name": "Toba Corner Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85349290366256,
+          2.6693009131933585
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00289",
+        "place_name": "Toba Village inn",
+        "place_category": "hotel",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86002482383338,
+          2.669223578817372
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00290",
+        "place_name": "Today's Cafe",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.6521317680156,
+          2.527979612533262
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00291",
+        "place_name": "Togaraja",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.80609313432093,
+          2.30799480099924
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00292",
+        "place_name": "Tombak Sulusulu",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69808932085448,
+          2.6068400229917223
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00293",
+        "place_name": "TOPI TAO HOMESTAY PANGURURAN (KAWASAN WATERFRONT CITY)",
+        "place_category": "hotel",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.67322187664907,
+          2.248364173890753
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00294",
+        "place_name": "Tuan Nagani Paradise",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94192711219786,
+          2.3397556153756844
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00295",
+        "place_name": "Tugu Toga Aritonang",
+        "place_category": "wisata",
+        "geo_cluster_id": 1,
+        "is_noise": false,
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0619852,
+          2.3202379
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00296",
+        "place_name": "Vany Villa Balige",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92592644969062,
+          2.6848275920423808
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00297",
+        "place_name": "Warkop Panorama I Panatapan PARAPAT",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.94480934969047,
+          2.667633813631017
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00298",
+        "place_name": "Warung Bikers Parapat",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.86091942383335,
+          2.671779661014703
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00299",
+        "place_name": "Warung Butet's",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0438056,
+          2.3285461
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00300",
+        "place_name": "Warung Kembar (KHAS BATAK)",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.70109379016914,
+          2.6049033813780995
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00301",
+        "place_name": "Warung Kopi Synergy,Samosir",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0668992,
+          2.3317344
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00302",
+        "place_name": "warung mak iwan",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0725311,
+          2.3349629
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00303",
+        "place_name": "Warung Makan Muslim Bu Nurul",
+        "place_category": "restoran",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84869089201914,
+          2.660391215529238
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00304",
+        "place_name": "Warung Muslim Pecel Lele Dan Bakso Raksasa Pak Aziz",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.92271814784101,
+          2.695348021474418
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00305",
+        "place_name": "Warung Pesona Alam",
+        "place_category": "restoran",
+        "geo_cluster_id": 5,
+        "is_noise": false,
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1776305,
+          2.4208568
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00306",
+        "place_name": "Warunk Friendzone",
+        "place_category": "restoran",
+        "geo_cluster_id": 6,
+        "is_noise": false,
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.8525591545255,
+          2.6694135271820336
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00307",
+        "place_name": "Widya Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.66078169814436,
+          2.5636442248775824
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00308",
+        "place_name": "Wisata Alam Fishing-Camp Siarubung",
+        "place_category": "wisata",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.56500109199624,
+          2.907177547941996
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00309",
+        "place_name": "Wisata Anugerah Indah Sippan",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.69704506318332,
+          2.6357929170120458
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00310",
+        "place_name": "Wisata Bagot",
+        "place_category": "restoran",
+        "geo_cluster_id": 0,
+        "is_noise": false,
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99788496402712,
+          2.591042448016802
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00311",
+        "place_name": "Wisata Bukit Gibeon",
+        "place_category": "wisata",
+        "geo_cluster_id": -1,
+        "is_noise": true,
+        "average_gap_score": 37.0296
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.008719138857,
+          2.3413269952378317
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00312",
+        "place_name": "Wisata Puncak Pangkodian",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.02520953701003,
+          2.3516819530447366
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00313",
+        "place_name": "Wisata Rumah Pohon",
+        "place_category": "wisata",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0635266,
+          2.3376991
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00314",
+        "place_name": "wisma LAKSAMANA",
+        "place_category": "hotel",
+        "geo_cluster_id": 3,
+        "is_noise": false,
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84217949499684,
+          2.6789591079749377
+        ]
+      },
+      "properties": {
+        "feature_type": "place",
+        "canonical_place_id": "place_00315",
+        "place_name": "Yolanda Restaurant",
+        "place_category": "restoran",
+        "geo_cluster_id": 4,
+        "is_noise": false,
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.6975403632387,
+          2.614225212625903
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 0,
+        "cluster_size": 47,
+        "dominant_negative_aspects": [
+          "harga",
+          "pemandangan",
+          "keramaian",
+          "akses_jalan",
+          "kebersihan"
+        ],
+        "average_gap_score": 37.6371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.84172035150256,
+          2.3300591983359715
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 1,
+        "cluster_size": 11,
+        "dominant_negative_aspects": [
+          "akses_jalan",
+          "harga",
+          "pemandangan",
+          "toilet",
+          "kebersihan"
+        ],
+        "average_gap_score": 32.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.52326333836291,
+          2.8039435238786417
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 2,
+        "cluster_size": 5,
+        "dominant_negative_aspects": [
+          "akses_jalan",
+          "keramaian",
+          "harga",
+          "keamanan",
+          "kebersihan"
+        ],
+        "average_gap_score": 35.7717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06198998157011,
+          2.3337651614084534
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 3,
+        "cluster_size": 111,
+        "dominant_negative_aspects": [
+          "harga",
+          "kebersihan",
+          "akses_jalan",
+          "akomodasi",
+          "makanan"
+        ],
+        "average_gap_score": 28.4364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.85529601675196,
+          2.66653786728669
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 4,
+        "cluster_size": 47,
+        "dominant_negative_aspects": [
+          "harga",
+          "makanan",
+          "keramaian",
+          "pelayanan",
+          "pemandangan"
+        ],
+        "average_gap_score": 40.2714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.93481246863047,
+          2.6666339471001836
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 5,
+        "cluster_size": 32,
+        "dominant_negative_aspects": [
+          "harga",
+          "makanan",
+          "akses_jalan",
+          "pelayanan",
+          "keramaian"
+        ],
+        "average_gap_score": 36.1963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.16485747289677,
+          2.423004275093462
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 6,
+        "cluster_size": 11,
+        "dominant_negative_aspects": [
+          "akomodasi",
+          "harga",
+          "kebersihan",
+          "toilet",
+          "akses_jalan"
+        ],
+        "average_gap_score": 30.1706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.79609313796414,
+          2.7947223946422017
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 7,
+        "cluster_size": 6,
+        "dominant_negative_aspects": [
+          "akses_jalan",
+          "fasilitas_umum",
+          "harga",
+          "pemandangan",
+          "akomodasi"
+        ],
+        "average_gap_score": 37.0679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.97701216306343,
+          2.0176592791365477
+        ]
+      },
+      "properties": {
+        "feature_type": "cluster_center",
+        "geo_cluster_id": 8,
+        "cluster_size": 4,
+        "dominant_negative_aspects": [
+          "akses_jalan",
+          "aksesibilitas",
+          "harga",
+          "pemandangan",
+          "toilet"
+        ],
+        "average_gap_score": 47.6171
+      }
+    }
+  ]
+}

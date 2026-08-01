@@ -1,0 +1,3831 @@
+{
+  "generated_at": "2026-07-21T23:23:46.353794+07:00",
+  "workbook_path": "D:\\tobapulse\\data\\raw\\Dataset HackathonTourism - IT DEL (1).xlsx",
+  "file_name": "Dataset HackathonTourism - IT DEL (1).xlsx",
+  "size_bytes": 1693745,
+  "sha256": "350390fbc35bdc9fcc915b8ff5c447374117c64a17b79674506c1f7c050bbf79",
+  "inspection_method": "Python stdlib zipfile + XML parsing because pandas/openpyxl are not installed yet.",
+  "sheets": [
+    {
+      "sheet_name": "hotel-resto-v1",
+      "rows": 219,
+      "observed_non_empty_rows": 9,
+      "columns": 25,
+      "column_names": [
+        "place",
+        "rating",
+        "type",
+        "review",
+        "htm",
+        "facilitates",
+        "add",
+        "service-hour",
+        "__blank_column_9",
+        "__blank_column_10",
+        "__blank_column_11",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25"
+      ],
+      "dtypes": {
+        "place": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "rating": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 8,
+            "float": 1,
+            "missing": 210
+          }
+        },
+        "type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "review": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "htm": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "facilitates": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "add": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "service-hour": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 210
+          }
+        },
+        "__blank_column_9": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_10": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_11": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        }
+      },
+      "missing_values": {
+        "place": 210,
+        "rating": 210,
+        "type": 210,
+        "review": 210,
+        "htm": 210,
+        "facilitates": 210,
+        "add": 210,
+        "service-hour": 210,
+        "__blank_column_9": 219,
+        "__blank_column_10": 219,
+        "__blank_column_11": 219,
+        "__blank_column_12": 219,
+        "__blank_column_13": 219,
+        "__blank_column_14": 219,
+        "__blank_column_15": 219,
+        "__blank_column_16": 219,
+        "__blank_column_17": 219,
+        "__blank_column_18": 219,
+        "__blank_column_19": 219,
+        "__blank_column_20": 219,
+        "__blank_column_21": 219,
+        "__blank_column_22": 219,
+        "__blank_column_23": 219,
+        "__blank_column_24": 219,
+        "__blank_column_25": 219
+      },
+      "duplicate_rows": 209,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place": [
+          "Labersa Hotel and Convention Center Toba, Balige",
+          "Damar Toba ~ Lakeside Eatery & Stay",
+          "villa borneo",
+          "Hotel Ompu Herti",
+          "SAPADIA VILLA BALIGE III"
+        ],
+        "rating": [
+          "4,5",
+          "4,8",
+          "4,6",
+          "4,1",
+          "4,6"
+        ],
+        "type": [
+          "Hotel bintang 4",
+          "Hotel bintang 3",
+          "Hotel Resor",
+          "Hotel",
+          "Vila"
+        ],
+        "review": [
+          "\"Tempat nya bagus dan pemandangan yg bagus juga makan sangat baik\"",
+          "Makan di tempat",
+          "\"Villa / Homestay di daerah Lumban Pea yang paling bagus dan bersih.\"",
+          "\"Parkirnya luas.. view restoran bagus dipinggiran danau toba.\"",
+          "\"Recomend banget tempat nyaa makanan dan villa nyaa enak banget buat enjoy\""
+        ],
+        "htm": [
+          "Mulai dari 850.091",
+          "Mulai dari 700.000",
+          "Mulai dari 800.000",
+          "Mulai dari 200.000",
+          "Mulai dari 830.000"
+        ],
+        "facilitates": [
+          "Wifi, Sarapan Gratis, Kolam renang luar, AC, Parkir Gratis, Layanan binatu",
+          "Petugas ramah, restoran dengan menu yang variatif",
+          "taman, teras, parkir pribadi gratis",
+          "Parkir Gratis, Wifi gratis, AC, Sarapan",
+          "AC, TV, Pembuat kopi dan teh, shower, peralatan mandi gratis, pengering rambut"
+        ],
+        "add": [
+          "Saribu Raja Janji Maria, Kec. Balige, Toba, Sumatera Utara",
+          "Jl. Pemandian No.94, Kec. Balige, Sumatera Utara 22312",
+          "Jl. Proyek SMK 3 Pariwisata desa, Lumban Pea, Kec. Balige, Toba, Sumatera Utara 22351",
+          "Jl. Pemandian No.02, Sangkar Nihuta, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Pemandian, Pardede Onan, Kec. Balige, Toba, Sumatera Utara 22312"
+        ],
+        "service-hour": [
+          " Waktu check out 12.00",
+          "Waktu check in 14.00",
+          "Check in mulai pukul 11.30, Check out hingga pukul 12.00",
+          "Check in mulai pukul 13.00, Check out hingga pukul 12.00",
+          " Check in mulai pukul 14.00, Check out sebelum pukul 12.00"
+        ]
+      }
+    },
+    {
+      "sheet_name": "resto-hotel-v2",
+      "rows": 9811,
+      "observed_non_empty_rows": 9611,
+      "columns": 8,
+      "column_names": [
+        "place-name",
+        "reviewer-id",
+        "name",
+        "reviewer-rating",
+        "review-text",
+        "published-at",
+        "collect-date",
+        "reviewer-type"
+      ],
+      "dtypes": {
+        "place-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9611,
+            "missing": 200
+          }
+        },
+        "reviewer-id": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 9811
+          }
+        },
+        "name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9588,
+            "missing": 223
+          }
+        },
+        "reviewer-rating": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 9553,
+            "missing": 250,
+            "float": 8
+          }
+        },
+        "review-text": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 5907,
+            "missing": 3900,
+            "formula": 4
+          }
+        },
+        "published-at": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9332,
+            "missing": 479
+          }
+        },
+        "collect-date": {
+          "dominant_type": "excel_datetime_serial",
+          "type_counts": {
+            "excel_datetime_serial": 6389,
+            "missing": 3422
+          }
+        },
+        "reviewer-type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9471,
+            "str": 340
+          }
+        }
+      },
+      "missing_values": {
+        "place-name": 200,
+        "reviewer-id": 9811,
+        "name": 223,
+        "reviewer-rating": 250,
+        "review-text": 3900,
+        "published-at": 479,
+        "collect-date": 3422,
+        "reviewer-type": 9471
+      },
+      "duplicate_rows": 248,
+      "formula_cell_count": 4,
+      "formula_cell_examples": [
+        "E1389",
+        "E1887",
+        "E2947",
+        "E3005"
+      ],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-name": [
+          "Brain Homestay",
+          "Brain Homestay",
+          "Brain Homestay",
+          "Tiara Bunga Hotel",
+          "Tiara Bunga Hotel"
+        ],
+        "name": [
+          "Jessy Diferentemente",
+          "Tika Maulani",
+          "Wiwi SilaenSE",
+          "Ikaputri Starfish",
+          "Aryoseno"
+        ],
+        "reviewer-rating": [
+          "5",
+          "5",
+          "4",
+          "4",
+          "5"
+        ],
+        "review-text": [
+          "Kamar-kamar sederhana di desa tradisional. Semuanya disiapkan untuk kami dan sangat rapi. Sekitar 100.000 per orang termasuk sarapan.",
+          "Homestaynya homee sekali",
+          "Sejauh ini pengalaman pribadi saya,Tiara bunga hotelnya bagus pelayanannya juga bagus,untuk view jangan di ragukan lagi luar biasa indahnya.kolam renangnya juga oke.\n Hanya saja kalo malam sebaiknya semua lampu di hidupkan aja,ada dan tidak ada nya tamu.\n Untuk harga terjangkau Krn sudah include breakfast dan penyebrangan,kamar juga cukup luas tapi siaran tv nya gak jelas kabus seharusnya sudah ada Netflix.\n Untuk kedepannya mudah2an watersport nya bertambah seperti kano dan jetski.",
+          "Tempatnya tenang dan cocok untuk tempat kumpul keluarga besar.",
+          "Kamar terlihat bersih tapi ada cicak dan banyak serangga. AC tidak bisa diatur (untung dingin). Channel tv buram semua di setiap kamar. Pilihan makanan terbatas dan seadanya. Tidak ada wifi di kamar.\n Lokasi hotel ditempuh pakai kapal. Pemandangan bagus tapi terpencil dengan jadwal kapal yang terbatas. Ada price list watersport tapi overprice dan tidak kelihatan peralatannya (kecuali bbrp bebek2an yang terlihat usang dan boat).\n \n All in all, harga yang ditawarkan terlalu mahal dibanding fasilitas yang didapatkan."
+        ],
+        "published-at": [
+          "6 months ago",
+          "a year ago",
+          "a year ago",
+          "Edited 3 months ago",
+          "4 months ago"
+        ],
+        "collect-date": [
+          "45867",
+          "45867",
+          "45867",
+          "45867",
+          "45867"
+        ],
+        "reviewer-type": [
+          "Liburan, Teman",
+          "Liburan, Teman",
+          "Liburan, Keluarga",
+          "Bisnis, Keluarga",
+          "Liburan, Keluarga"
+        ]
+      }
+    },
+    {
+      "sheet_name": "tempat-wisata-v1",
+      "rows": 296,
+      "observed_non_empty_rows": 96,
+      "columns": 25,
+      "column_names": [
+        "place",
+        "type",
+        "entry-fee",
+        "rating",
+        "addons",
+        "add",
+        "service-hour",
+        "review",
+        "__blank_column_9",
+        "__blank_column_10",
+        "__blank_column_11",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25"
+      ],
+      "dtypes": {
+        "place": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 96,
+            "missing": 200
+          }
+        },
+        "type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 96,
+            "missing": 200
+          }
+        },
+        "entry-fee": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 93,
+            "int": 3,
+            "missing": 200
+          }
+        },
+        "rating": {
+          "dominant_type": "float",
+          "type_counts": {
+            "str": 33,
+            "float": 58,
+            "int": 5,
+            "missing": 200
+          }
+        },
+        "addons": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 92,
+            "missing": 204
+          }
+        },
+        "add": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 94,
+            "missing": 202
+          }
+        },
+        "service-hour": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 96,
+            "missing": 200
+          }
+        },
+        "review": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 92,
+            "missing": 204
+          }
+        },
+        "__blank_column_9": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 292,
+            "str": 4
+          }
+        },
+        "__blank_column_10": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_11": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 296
+          }
+        }
+      },
+      "missing_values": {
+        "place": 200,
+        "type": 200,
+        "entry-fee": 200,
+        "rating": 200,
+        "addons": 204,
+        "add": 202,
+        "service-hour": 200,
+        "review": 204,
+        "__blank_column_9": 292,
+        "__blank_column_10": 296,
+        "__blank_column_11": 296,
+        "__blank_column_12": 296,
+        "__blank_column_13": 296,
+        "__blank_column_14": 296,
+        "__blank_column_15": 296,
+        "__blank_column_16": 296,
+        "__blank_column_17": 296,
+        "__blank_column_18": 296,
+        "__blank_column_19": 296,
+        "__blank_column_20": 296,
+        "__blank_column_21": 296,
+        "__blank_column_22": 296,
+        "__blank_column_23": 296,
+        "__blank_column_24": 296,
+        "__blank_column_25": 296
+      },
+      "duplicate_rows": 200,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Bukit Pahoda",
+          "Desa Wisata Silalahi Pagar Batu",
+          "Air terjun siboruon balige",
+          "Puncak Paralayang Sibodiala"
+        ],
+        "type": [
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam"
+        ],
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "Gratis",
+          "Gratis",
+          "5.000 - 10.000"
+        ],
+        "rating": [
+          "4,3",
+          "4,6",
+          "5,0",
+          "4,7",
+          "4,7"
+        ],
+        "addons": [
+          "Berenang, Sunset, Sunrise, Banana Boat, Kano, Spot Foto, ",
+          "Sunset, Sunrise, Spot Foto, Hidden Gem",
+          "Tempat sejarah",
+          "Spot foto",
+          "Tempat makan, paralayang, spot foto"
+        ],
+        "add": [
+          "83XF+9VQ, Lumban Bulbul, Kec. Balige, Toba, Sumatera Utara",
+          "82XR+J4W, Lumban Silintong, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Dr. TB. Silalahi, Hinalang Bagasan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "73QM+VH2, Siboruon, Kec. Balige, Toba, Sumatera Utara 22312",
+          "828R+Q2, Silalahi Pagar Batu, Kec. Balige, Toba, Sumatera Utara"
+        ],
+        "service-hour": [
+          "07.00 - 21.30",
+          "05.00 - 17.00",
+          "09.00 - 17.00",
+          "08.00 - 17.00",
+          "05.00 - 21.00"
+        ],
+        "review": [
+          "\"Gratis, bersih, banyak tempat bermain.\"",
+          "\"Tempat yg sngt rekomended,tinggal mnunggu sentuhan dri pemerintah\"",
+          "\"Pengalaman yang bisa menambah umur.\"",
+          "\"Air terjun bagus…jarak kurleb 1,5 jam dari tarutung.\"",
+          "\"Tempatnya bagus,tinggal akses aja yg dipeaiki\""
+        ],
+        "__blank_column_9": [
+          "Tutup",
+          "Tutup",
+          "Tutup",
+          "Tutup"
+        ]
+      }
+    },
+    {
+      "sheet_name": "wisata-v2",
+      "rows": 12891,
+      "observed_non_empty_rows": 12691,
+      "columns": 7,
+      "column_names": [
+        "place-name",
+        "reviewer-id",
+        "name",
+        "reviewer-rating",
+        "review-text",
+        "published-at",
+        "collect-date"
+      ],
+      "dtypes": {
+        "place-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12691,
+            "missing": 200
+          }
+        },
+        "reviewer-id": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 12891
+          }
+        },
+        "name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12691,
+            "missing": 200
+          }
+        },
+        "reviewer-rating": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 12690,
+            "missing": 201
+          }
+        },
+        "review-text": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6369,
+            "missing": 6522
+          }
+        },
+        "published-at": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12691,
+            "missing": 200
+          }
+        },
+        "collect-date": {
+          "dominant_type": "excel_datetime_serial",
+          "type_counts": {
+            "excel_datetime_serial": 12670,
+            "missing": 221
+          }
+        }
+      },
+      "missing_values": {
+        "place-name": 200,
+        "reviewer-id": 12891,
+        "name": 200,
+        "reviewer-rating": 201,
+        "review-text": 6522,
+        "published-at": 200,
+        "collect-date": 221
+      },
+      "duplicate_rows": 233,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-name": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Pantai Pasir Putih Lumban Bul-bul Balige"
+        ],
+        "name": [
+          "Erwin Samuel",
+          "Henry Lumbantoruan",
+          "KESS TOBING",
+          "Nur Hudaas",
+          "Warsein Roy M Sitohang"
+        ],
+        "reviewer-rating": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "4"
+        ],
+        "review-text": [
+          "Pantainya bersih, hanya saja gerai makanan cenderung agak monoton. Semoga bisa makin berkembang.",
+          "Pantai di Lumban Bulbul, sangat indah, panoramic, akses mudah, aneka pakaian kaos dan makanan sea tersedia, nyaman, sangat memuaskan, rekomended.",
+          "keren",
+          "Taman yg paling indah hanya taman paud Harapan Negeri Pantil",
+          "Tmptnya seru abis anakw bsa puas main air dan pondok2 nya worth it seh"
+        ],
+        "published-at": [
+          "a day ago",
+          "4 days ago",
+          "5 days ago",
+          "a week ago",
+          "a week ago"
+        ],
+        "collect-date": [
+          "45866",
+          "45866",
+          "45866",
+          "45866",
+          "45866"
+        ]
+      }
+    },
+    {
+      "sheet_name": "wisata-metadata",
+      "rows": 339,
+      "observed_non_empty_rows": 139,
+      "columns": 28,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "place-type",
+        "entry-fee",
+        "lat-long",
+        "operational-hour",
+        "address",
+        "place-rating",
+        "status",
+        "operational-day",
+        "place-ownership",
+        "description",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25",
+        "__blank_column_26",
+        "__blank_column_27",
+        "__blank_column_28"
+      ],
+      "dtypes": {
+        "place-id": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 139,
+            "missing": 200
+          }
+        },
+        "place-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "place-type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "entry-fee": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 124,
+            "int": 14,
+            "missing": 201
+          }
+        },
+        "lat-long": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "operational-hour": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "address": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "place-rating": {
+          "dominant_type": "float",
+          "type_counts": {
+            "str": 33,
+            "float": 76,
+            "int": 7,
+            "excel_datetime_serial": 23,
+            "missing": 200
+          }
+        },
+        "status": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 139,
+            "missing": 200
+          }
+        },
+        "operational-day": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "place-ownership": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "description": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_26": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_27": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        },
+        "__blank_column_28": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 339
+          }
+        }
+      },
+      "missing_values": {
+        "place-id": 200,
+        "place-name": 200,
+        "place-type": 200,
+        "entry-fee": 201,
+        "lat-long": 200,
+        "operational-hour": 200,
+        "address": 200,
+        "place-rating": 200,
+        "status": 200,
+        "operational-day": 339,
+        "place-ownership": 339,
+        "description": 339,
+        "__blank_column_13": 339,
+        "__blank_column_14": 339,
+        "__blank_column_15": 339,
+        "__blank_column_16": 339,
+        "__blank_column_17": 339,
+        "__blank_column_18": 339,
+        "__blank_column_19": 339,
+        "__blank_column_20": 339,
+        "__blank_column_21": 339,
+        "__blank_column_22": 339,
+        "__blank_column_23": 339,
+        "__blank_column_24": 339,
+        "__blank_column_25": 339,
+        "__blank_column_26": 339,
+        "__blank_column_27": 339,
+        "__blank_column_28": 339
+      },
+      "duplicate_rows": 199,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-id": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "place-name": [
+          "Pantai Pasir Putih Lumban Bul-bul Balige",
+          "Bukit Pahoda",
+          "Desa Wisata Silalahi Pagar Batu",
+          "Air Terjun Siboruon Balige",
+          "Puncak Paralayang Sibodiala"
+        ],
+        "place-type": [
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam",
+          "Wisata Alam"
+        ],
+        "entry-fee": [
+          "5.000 - 10.000",
+          "Gratis",
+          "Gratis",
+          "Gratis",
+          "5.000 - 10.000"
+        ],
+        "lat-long": [
+          "2.3492596002020694, 99.07327785959252",
+          "2.34938999309088, 99.04028385235127",
+          "2.3310119766622237, 99.04921861186872",
+          "2.289866206064578, 99.08388020674705",
+          "2.317202199257693, 99.04007004070407"
+        ],
+        "operational-hour": [
+          "07.00 - 21.30",
+          "05.00 - 17.00",
+          "09.00 - 17.00",
+          "08.00 - 17.00",
+          "05.00 - 21.00"
+        ],
+        "address": [
+          "83XF+9VQ, Lumban Bulbul, Kec. Balige, Toba, Sumatera Utara",
+          "82XR+J4W, Lumban Silintong, Kec. Balige, Toba, Sumatera Utara 22312",
+          "Jl. Dr. TB. Silalahi, Hinalang Bagasan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "73QM+VH2, Siboruon, Kec. Balige, Toba, Sumatera Utara 22312",
+          "828R+Q2, Silalahi Pagar Batu, Kec. Balige, Toba, Sumatera Utara"
+        ],
+        "place-rating": [
+          "4,3",
+          "4,6",
+          "5,0",
+          "4,7",
+          "4,7"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ]
+      }
+    },
+    {
+      "sheet_name": "hotel-metadata",
+      "rows": 236,
+      "observed_non_empty_rows": 36,
+      "columns": 28,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "price-per-head",
+        "check-in",
+        "check-out",
+        "recommend-menu",
+        "Fasilitas",
+        "address",
+        "lat-long",
+        "place-type",
+        "place-rating",
+        "status",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25",
+        "__blank_column_26",
+        "__blank_column_27",
+        "__blank_column_28"
+      ],
+      "dtypes": {
+        "place-id": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "place-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 36,
+            "missing": 200
+          }
+        },
+        "price-per-head": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 24,
+            "str": 4,
+            "missing": 208
+          }
+        },
+        "check-in": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 18,
+            "missing": 218
+          }
+        },
+        "check-out": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 218,
+            "str": 18
+          }
+        },
+        "recommend-menu": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 235,
+            "str": 1
+          }
+        },
+        "Fasilitas": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 30,
+            "missing": 206
+          }
+        },
+        "address": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 36,
+            "missing": 200
+          }
+        },
+        "lat-long": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 36,
+            "missing": 200
+          }
+        },
+        "place-type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 36,
+            "missing": 200
+          }
+        },
+        "place-rating": {
+          "dominant_type": "float",
+          "type_counts": {
+            "float": 29,
+            "int": 6,
+            "missing": 201
+          }
+        },
+        "status": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 36,
+            "missing": 200
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_26": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_27": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        },
+        "__blank_column_28": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 236
+          }
+        }
+      },
+      "missing_values": {
+        "place-id": 236,
+        "place-name": 200,
+        "price-per-head": 208,
+        "check-in": 218,
+        "check-out": 218,
+        "recommend-menu": 235,
+        "Fasilitas": 206,
+        "address": 200,
+        "lat-long": 200,
+        "place-type": 200,
+        "place-rating": 201,
+        "status": 200,
+        "__blank_column_13": 236,
+        "__blank_column_14": 236,
+        "__blank_column_15": 236,
+        "__blank_column_16": 236,
+        "__blank_column_17": 236,
+        "__blank_column_18": 236,
+        "__blank_column_19": 236,
+        "__blank_column_20": 236,
+        "__blank_column_21": 236,
+        "__blank_column_22": 236,
+        "__blank_column_23": 236,
+        "__blank_column_24": 236,
+        "__blank_column_25": 236,
+        "__blank_column_26": 236,
+        "__blank_column_27": 236,
+        "__blank_column_28": 236
+      },
+      "duplicate_rows": 199,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-name": [
+          "Brain Homestay",
+          "Tiara Bunga Hotel",
+          "Hotel Santo Djaya",
+          "Nauli Inn",
+          "Grand Mareda Hotel"
+        ],
+        "price-per-head": [
+          "100000",
+          "700.000 - 1.200.000",
+          "200.000 - 300.000",
+          "250.000 - 400.000",
+          "78000"
+        ],
+        "check-in": [
+          "14.00",
+          "14.00",
+          "14.00",
+          "14.00",
+          "14.00"
+        ],
+        "Fasilitas": [
+          "Sarapan",
+          "Wi-Fi gratis, Sarapan, Parkir gratis, Kolam renang luar, AC, Layanan binatu",
+          "Wi-Fi, Tempat Parkir, Cocok Untuk anak - anak",
+          "Sarapan, AC, TV, Air panas, Wi-Fi",
+          "Wi-Fi, Sarapan Gratis, AC, Layanan Kamar"
+        ],
+        "address": [
+          "Hutabasagasan, Sihiong, Jangga Toruan, Balige, Toba, Sumatera Utara 22386, Indonesia (G3XJ+8G Jangga Toruan, Toba, Sumatera Utara, Indonesia)",
+          "Jl. Raya TaraBunga, Tara Bunga, Kec. Tampahan, Toba, Sumatera Utara 22312, Indonesia (927J+48 Tara Bunga, Toba, Sumatera Utara, Indonesia)",
+          "C5W4+447, Jl. Sisingamangaraja, Ps. Porsea, Kec. Porsea, Kabupaten Samosir, Sumatera Utara 22384, Indonesia",
+          "Jl. Sibola Hotang No.km 1, RW.2, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara, Indonesia (83VH+QG Sibola Hotangsas, Toba, Sumatera Utara, Indonesia)",
+          "84X6+XVP, Jl Pasar Melintang, Aruan, Kec. Balige, Toba, Sumatera Utara 22312, Indonesia"
+        ],
+        "lat-long": [
+          "2.5482791000000002,99.0812858",
+          "2.3628717999999997,99.0308496",
+          "2.4452915,99.1552925",
+          "2.3444332,99.0787909",
+          "2.3499528,99.1122069"
+        ],
+        "place-type": [
+          "Hotel",
+          "Hotel",
+          "Hotel",
+          "Pondok",
+          "Hotel"
+        ],
+        "place-rating": [
+          "4.7",
+          "4.2",
+          "3.8",
+          "4.9",
+          "3.9"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ],
+        "check-out": [
+          "11.00",
+          "12.00",
+          "12.00",
+          "12.00",
+          "12.00"
+        ],
+        "recommend-menu": [
+          "Bandrek, Sop Perut Ikan, Sayur Kangkung Dan Ikan Nila, Juice Jeruk, Nasi Goreng, Udang Tauco, Ikan Tauco, Udang Goreng Tepung Oats, Ifu Mie Goreng, Es Kopi Susu, Padang Restaurant Assorted Meals, Stir Fry Cuttlefish, Stir Fried Bean Sprouts, Stir Fried Mix Vegetables, Ayam Penyet, Hot Plate Tofu, Garlic Chicken, Kwetiaw Goreng, Stir Fry Vermicelli"
+        ]
+      }
+    },
+    {
+      "sheet_name": "resto-metadata",
+      "rows": 348,
+      "observed_non_empty_rows": 148,
+      "columns": 27,
+      "column_names": [
+        "place-id",
+        "place-name",
+        "price-per-head",
+        "opening-hours",
+        "recommend-menu",
+        "Fasilitas",
+        "address",
+        "lat-long",
+        "place-type",
+        "place-rating",
+        "status",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25",
+        "__blank_column_26",
+        "__blank_column_27"
+      ],
+      "dtypes": {
+        "place-id": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 148,
+            "missing": 200
+          }
+        },
+        "place-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 148,
+            "missing": 200
+          }
+        },
+        "price-per-head": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 118,
+            "missing": 223,
+            "int": 7
+          }
+        },
+        "opening-hours": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 347,
+            "str": 1
+          }
+        },
+        "recommend-menu": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 129,
+            "missing": 219
+          }
+        },
+        "Fasilitas": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 342,
+            "str": 6
+          }
+        },
+        "address": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 148,
+            "missing": 200
+          }
+        },
+        "lat-long": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 148,
+            "missing": 200
+          }
+        },
+        "place-type": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 148,
+            "missing": 200
+          }
+        },
+        "place-rating": {
+          "dominant_type": "float",
+          "type_counts": {
+            "float": 119,
+            "int": 28,
+            "missing": 201
+          }
+        },
+        "status": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 148,
+            "missing": 200
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_26": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        },
+        "__blank_column_27": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 348
+          }
+        }
+      },
+      "missing_values": {
+        "place-id": 200,
+        "place-name": 200,
+        "price-per-head": 223,
+        "opening-hours": 347,
+        "recommend-menu": 219,
+        "Fasilitas": 342,
+        "address": 200,
+        "lat-long": 200,
+        "place-type": 201,
+        "place-rating": 201,
+        "status": 200,
+        "__blank_column_12": 348,
+        "__blank_column_13": 348,
+        "__blank_column_14": 348,
+        "__blank_column_15": 348,
+        "__blank_column_16": 348,
+        "__blank_column_17": 348,
+        "__blank_column_18": 348,
+        "__blank_column_19": 348,
+        "__blank_column_20": 348,
+        "__blank_column_21": 348,
+        "__blank_column_22": 348,
+        "__blank_column_23": 348,
+        "__blank_column_24": 348,
+        "__blank_column_25": 348,
+        "__blank_column_26": 348,
+        "__blank_column_27": 348
+      },
+      "duplicate_rows": 199,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "place-id": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "place-name": [
+          "Cantik Daijo Cafe",
+          "Rumah Makan Romauli",
+          "Kedai Islam \"Rahayu\"",
+          "Sinar Minang Restaurant & Convention Hall",
+          "Damar Toba ~ Lakeside Eatery & Stay"
+        ],
+        "price-per-head": [
+          "25.000 - 50.000",
+          "25000",
+          "25.000 - 75.000",
+          "30.000 - 700.000",
+          "25000"
+        ],
+        "recommend-menu": [
+          "Vanila Milk Shake, Dimsum Udang, Kopi Americano, Tempe Crispy, Teh Tarik, Nasi Lele Daijo, Kwetiau Hot Plate Seafood Gila, Nasi Ayam Penyet Sambal Belacan, Daijo Pizza, Nasi Goreng Spesial, Mie Hot Plate Special, Ice Thai Tea, Steak Salad, Daijo Egg Waffle, Drip Coffee, Pizza Complete, French Fries, Cappuccino Latte, Chicken Katsu, Tomyam Seafood.",
+          "Babi Panggang, Sop Kosong, Daging Babi Arsik Pakai Tubis, Jahir Panggang, Naniura, ",
+          "Mushola, Halal",
+          "Jeroan Masak Gule, Rendang, Sambal, Teh Talua Teh Telur, Dendeng, Ayam Balado, Sup Daging Sapi, Ikan Goreng, Nasi Ayam Goreng Telur Dadar, Aneka Masakan Khas Padang Melayu, Sayur Kailan, Nasi Padang, Sajian Lauk, Gulai Ayam Kampung, Kopi Susu, Makanan Padang, Telor Dadar, Jengkol Teri Cabe IJO, Kerupuk Gulai, Sayur Nangka.",
+          "Mie Gomak, Mie Goreng, Sate, Fried Rice with Chicken Wings, Kopi Latte, Ikan Naniura, Nasi Liwet Daging Balado, Mango Sticky Rice Pudding, Caffè Latte, Fish Fillet Natinombur, Americano Coffee, American Breakfast, Ice Cream Croissant."
+        ],
+        "address": [
+          "Jl. Sisingamangaraja, Aruan, Kec. Laguboti, Toba, Sumatera Utara 22381, Indonesia (9429+Q3 Aruan, Toba, Sumatera Utara, Indonesia)",
+          "86HM+J26, Jl. Parsoburan, Parsoburan Bar., Kec. Habinsaran, Toba, Sumatera Utara 22384, Indonesia",
+          "86HM+G6Q, Jl. Parsoburan, Parsoburan Bar., Kec. Habinsaran, Toba, Sumatera Utara 22384, Indonesia",
+          "Jl. Siborongborong - Parapat No.2, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara, Indonesia (83PF+C8 Sibola Hotangsas, Toba, Sumatera Utara, Indonesia)",
+          "Jl. Pemandian No.94, Kec. Balige, Sumatera Utara 22312, Indonesia (83R2+56 Lumban Silintong, Toba, Sumatera Utara, Indonesia)"
+        ],
+        "lat-long": [
+          "2.35191,99.1176317",
+          "2.3290292,99.232502",
+          "2.328846,99.2331035",
+          "2.3360012,99.0733666",
+          "2.3404454,99.0505864"
+        ],
+        "place-type": [
+          "Restoran",
+          "Restoran",
+          "Restoran",
+          "Restoran",
+          "Restoran"
+        ],
+        "place-rating": [
+          "4.4",
+          "4.3",
+          "4.5",
+          "4.4",
+          "4.8"
+        ],
+        "status": [
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi",
+          "beroperasi"
+        ],
+        "opening-hours": [
+          "14.00"
+        ],
+        "Fasilitas": [
+          "Cocok untuk anak anak",
+          "Halal",
+          "Halal",
+          "Halal",
+          "Halal"
+        ]
+      }
+    },
+    {
+      "sheet_name": "transportasi",
+      "rows": 219,
+      "observed_non_empty_rows": 16,
+      "columns": 20,
+      "column_names": [
+        "transport-id",
+        "transport-name",
+        "direction",
+        "price",
+        "jenis-mobil",
+        "description",
+        "operational-hour",
+        "__blank_column_8",
+        "__blank_column_9",
+        "__blank_column_10",
+        "__blank_column_11",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20"
+      ],
+      "dtypes": {
+        "transport-id": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "transport-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 203
+          }
+        },
+        "direction": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 203
+          }
+        },
+        "price": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 203
+          }
+        },
+        "jenis-mobil": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 203
+          }
+        },
+        "description": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 3,
+            "missing": 216
+          }
+        },
+        "operational-hour": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 203
+          }
+        },
+        "__blank_column_8": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_9": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_10": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_11": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        }
+      },
+      "missing_values": {
+        "transport-id": 219,
+        "transport-name": 203,
+        "direction": 203,
+        "price": 203,
+        "jenis-mobil": 203,
+        "description": 216,
+        "operational-hour": 203,
+        "__blank_column_8": 219,
+        "__blank_column_9": 219,
+        "__blank_column_10": 219,
+        "__blank_column_11": 219,
+        "__blank_column_12": 219,
+        "__blank_column_13": 219,
+        "__blank_column_14": 219,
+        "__blank_column_15": 219,
+        "__blank_column_16": 219,
+        "__blank_column_17": 219,
+        "__blank_column_18": 219,
+        "__blank_column_19": 219,
+        "__blank_column_20": 219
+      },
+      "duplicate_rows": 202,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "transport-name": [
+          "Mobil KBT (Koperasi Bintang Timur)",
+          "Mobil KBT (Koperasi Bintang Timur) Eksekutif",
+          "Mobil KPT (Kevin Pratama Trans)",
+          "PT. Raja Napogos",
+          "KMP Kaldera Toba"
+        ],
+        "direction": [
+          "Medan, Pemtang Siantar, Parapat, Porsea, Balige, Siborong borong, Tarutung, Dolok Sanggul, Muara, Pahae, Sipahutar, Penyabungan, Tantom",
+          "Medan, Pemtang Siantar, Parapat, Porsea, Balige, Siborong borong, Tarutung, Dolok Sanggul, Muara, Pahae, Sipahutar, Penyabungan, Tantom",
+          "Medan, Tebing Tinggi, Siantar, Parapat, Laguboti, Porsea, Balige, Siborong borong, Tarutung",
+          "Tebing TInggi, Pematang Siantar, Parapat, Porsea, Parsoburan, Balige, Parlilitan, Siborong borong, Dolok Sanggul, Sibolga, Pakkat, Tarutung",
+          "Balige ke Onan Runggu"
+        ],
+        "price": [
+          "50.000 - 90.000",
+          "100.000 - 140.000",
+          "70.000 - 80.000",
+          "30.000 - 90.000",
+          "3.500 - 250.000"
+        ],
+        "jenis-mobil": [
+          "Mitsubishi L300 dgn 8 Kursi penumpang",
+          "Toyota Hiace Commuter",
+          "Mitsubishi L300 dgn 8 Kursi penumpang / Isuzu ELF dgn 14 Kursi Penumpang",
+          "Mitsubishi FUSO Canter",
+          "Ferry"
+        ],
+        "description": [
+          " angkutan umum yang merujuk pada Koperasi Bintang Tapanuli, sebuah koperasi yang menyediakan layanan angkutan penumpang, khususnya di wilayah Tapanuli, Sumatera Utara",
+          " angkutan umum eksekutif yang merujuk pada Koperasi Bintang Tapanuli, sebuah koperasi yang menyediakan layanan angkutan penumpang, khususnya di wilayah Tapanuli, Sumatera Utara",
+          "Tujuan Dengan hadirnya PT.KEVIN PRATAMA TRANS(KPT) untuk membuat perubahan di bidang transportasi darat yang menciptakan PELAYANAN dan KENYAMANAN yg lebih baik ke depan buat masyarakat (Penumpang) yg melakukan perjalanan dari Medan ke Tapanuli begitu juga sebaliknya.\nMari kita jadikan Group ini sebagai ruang publik menjalin silaturahmi berbagi informasi, berbagi ide dan gagasan yg membangun untuk kemajuan ke depan agar pelayanan transportasi dapat ditingkatkan PT.KEVIN PRATAMA TRANS(KPT)"
+        ],
+        "operational-hour": [
+          "24 jam",
+          "24 jam",
+          "24 jam",
+          "07.00 - 22.00",
+          "06.30"
+        ]
+      }
+    },
+    {
+      "sheet_name": "kuliner",
+      "rows": 219,
+      "observed_non_empty_rows": 12,
+      "columns": 23,
+      "column_names": [
+        "kuliner-id",
+        "kuliner-name",
+        "description",
+        "__blank_column_4",
+        "__blank_column_5",
+        "__blank_column_6",
+        "__blank_column_7",
+        "__blank_column_8",
+        "__blank_column_9",
+        "__blank_column_10",
+        "__blank_column_11",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23"
+      ],
+      "dtypes": {
+        "kuliner-id": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "kuliner-name": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12,
+            "missing": 207
+          }
+        },
+        "description": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12,
+            "missing": 207
+          }
+        },
+        "__blank_column_4": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_5": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_6": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_7": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_8": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_9": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_10": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_11": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        }
+      },
+      "missing_values": {
+        "kuliner-id": 219,
+        "kuliner-name": 207,
+        "description": 207,
+        "__blank_column_4": 219,
+        "__blank_column_5": 219,
+        "__blank_column_6": 219,
+        "__blank_column_7": 219,
+        "__blank_column_8": 219,
+        "__blank_column_9": 219,
+        "__blank_column_10": 219,
+        "__blank_column_11": 219,
+        "__blank_column_12": 219,
+        "__blank_column_13": 219,
+        "__blank_column_14": 219,
+        "__blank_column_15": 219,
+        "__blank_column_16": 219,
+        "__blank_column_17": 219,
+        "__blank_column_18": 219,
+        "__blank_column_19": 219,
+        "__blank_column_20": 219,
+        "__blank_column_21": 219,
+        "__blank_column_22": 219,
+        "__blank_column_23": 219
+      },
+      "duplicate_rows": 206,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "kuliner-name": [
+          "Dali ni Horbo",
+          "Saksang",
+          "Naniarsik",
+          "Babi Panggang Karo",
+          "Manuk Napinadar"
+        ],
+        "description": [
+          "Makanan unik ini terdengar asing, namun pasti merasa pernah memakannya. Dali ni horbo merupakan makanan yang berbentuk seperti tahu dan terbuat dari susu kerbau alami.",
+          "saksang adalah masakan khas suku Batak yang terbuat dari daging babi, daging anjing, atau daging kerbau yang dicincang kecil dan dibumbui dengan rempah-rempah, serta dimasak baik dengan menggunakan darah hasil sembelihan hewan tersebut (margota) atau olahan rempah biasa tanpa darah (na so margota).",
+          "Arsik adalah salah satu masakan khas masyarakat Batak atau yang disebut juga dengan dekke na niarsik, yang memiliki arti ikan yang dimasak hingga kering. Kata arsik berasal dari cara memasak hidangan ini, yaitu mangarsik yang berarti hidangan ikan disiram-siram atau diguyur selama proses memasak.\nMasakan ini adalah simbol karunia bagi masyarakat Batak dan akan dihidangkan saat acara adat seperti pernikahan dan kelahiran. Hidangan ini disajikan dengan harapan agar orang yang menerima hidangan ini dapat memiliki hati dan perilaku yang bersih.",
+          "Babi panggang karo (atau yang lebih populer dikenal dengan istilah BPK) adalah masakan yang terbuat dari daging babi yang dipanggang atau dibakar. Makanan ini adalah masakan khas Suku Karo, sehingga banyak ditemukan di berbagai kota yang banyak ditinggali oleh orang Karo seperti di Berastagi, Kabanjahe, dan Medan, bahkan di Pekanbaru, Serang, Tangerang, Jakarta, Bekasi, dan Bandung.\nPerbedaan antara babi panggang karo dengan babi panggang lainnya adalah cara pemangangannya yang dilakukan lebih unik dengan irisan lebih halus, serta pemilihan bagian daging yang tepat. Saat dihidangkan, babi panggang karo juga akan ditambahkan dengan sajian daun singkong dan kincong yang telah dihaluskan dan dimasak secara khas.\nSelain itu, disajikan pula saus yang terbuat dari darah babi. Keberadaan saus darah terlebih dahulu telah dimasak di atas bara api dengan ditambahkan sedikit air dan dibumbui dengan ramuan bumbu, seperti asam. Setelah matang, warna saus darah akan berwarna kecokelatan.",
+          "Manuk napinadar atau ayam napinadar adalah masakan khas Batak yang biasanya dihidangkan pada pesta adat tertentu, biasanya disajikan saat seseorang sedang mengalami suka cita seperti kelahiran anak, pernikahan, dan saat seseorang akan berangkat merantau.\nBagi masyarakat Batak, ayam napinadar memiliki filosofi, yaitu sebagai sarana untuk memanjatkan doa dan dapat memberikan semangat dan berkat. Dengan memberikan hidangan ini ke seseorang, harapannya seseorang tersebut dapat mendapatkan kesehatan dan berkat yang melimpah.\nProses memasak ayam napinadar, yaitu dipanggang terlebih dahulu. Setelah itu, disiram dengan manuk (darah ayam) itu sendiri dan dicampur dengan andaliman, bawang putih bubuk (yang sudah digiling sampai halus), lalu dimasak."
+        ]
+      }
+    },
+    {
+      "sheet_name": "Attractions Info",
+      "rows": 15,
+      "observed_non_empty_rows": 15,
+      "columns": 8,
+      "column_names": [
+        "No",
+        "Nama Kabupaten",
+        "Nama Atraksi",
+        "Detail",
+        "__blank_column_5",
+        "__blank_column_6",
+        "__blank_column_7",
+        "__blank_column_8"
+      ],
+      "dtypes": {
+        "No": {
+          "dominant_type": "int",
+          "type_counts": {
+            "missing": 1,
+            "int": 14
+          }
+        },
+        "Nama Kabupaten": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 10,
+            "str": 5
+          }
+        },
+        "Nama Atraksi": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 1,
+            "str": 14
+          }
+        },
+        "Detail": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 15
+          }
+        },
+        "__blank_column_5": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 12,
+            "missing": 3
+          }
+        },
+        "__blank_column_6": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6,
+            "missing": 9
+          }
+        },
+        "__blank_column_7": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 6
+          }
+        },
+        "__blank_column_8": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 8,
+            "missing": 7
+          }
+        }
+      },
+      "missing_values": {
+        "No": 1,
+        "Nama Kabupaten": 10,
+        "Nama Atraksi": 1,
+        "Detail": 0,
+        "__blank_column_5": 3,
+        "__blank_column_6": 9,
+        "__blank_column_7": 6,
+        "__blank_column_8": 7
+      },
+      "duplicate_rows": 0,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "Detail": [
+          "Deskripsi",
+          "Spot paralayang Puncak Sibodiala, Balige dibuka tahun 2024., sekitar 15 menit dari pusat kota Balige dan harus mendaki bukit Sibodiala yang punya ketinggian 800 meter dpl untuk sampai dipuncaknya.\n Puncak Sibodiala memiliki pemandangan yang memukau mulai dari hutan pinus, deretan perbukitan, perkampungan dan perkebunan warga\n hingga pemandangan danau toba yang sangat luas.\n Selain itu tak jauh dari sana ada Batu Basiha yang menampilkan tumpukan bebatuan sisa ledakan vulkanis danau toba sekitar 74.000 tahun lalu.\n Dan dari puncak itu, kamu bisa melakukan aktivitas paralayang dengan biaya hanya Rp. 550rb (sudah termasuk asuransi kecelakaan).",
+          "Riverside Juma Bulu memiliki keindahan alam dan udara yang sejuk dikelilingi persawahan serta menyediakan aktivitas tourism yaitu River Tubing.\n Bagi wisatawan yang ingin menginap dengan nuansa alam, River Side Juma Bulu juga menyediakan tempat camping di Desa Pardomuan Ajibata juga terdapat aktivitas Trecking ke Air Terjun Batu Papan.\n \n Sumber : https://wisata.tobakab.go.id/destinasi-wisata/",
+          "Permainan kano adalah aktivitas rekreasi atau olahraga air yang menggunakan perahu kecil ringan bernama kano, yang digerakkan dengan dayung.\n Olahraga air ini bisa kamu nikmati di pantai Bulbul Balige dengan maksimal dua orang.",
+          "Dari puncak bukit, pengunjung bisa menikmati panorama Danau Toba yang menakjubkan.\n Selain menikmati pemandangan Danau Toba yang memukau dari Bukit Indah Simarjarunjung, pengunjung bisa berfoto di berbagai spot yang sudah tersedia.\n Spot-spot foto ini antara lain rumah pohon, sepeda gantung, kursi dan meja melayang, pohon cinta sampai dengan gardu pandang."
+        ],
+        "__blank_column_5": [
+          "Lokasi",
+          "Puncak Sibodiala di Balige, Kabupaten Toba",
+          "Desa Pardomuan Ajibata",
+          "Desa Wisata Lumban Bulbul,\n Kabupaten Toba Samosir, Sumatera Utara",
+          "Jl. Simarjarunjung, Butu Bayu Pane Raja, Dolok Pardamean,\n Kabupaten Simalungun, Sumatera Utara 21163"
+        ],
+        "__blank_column_6": [
+          "Opening Hours",
+          "10.00 WIB - 17.00 WIB",
+          "07.00 WIB - 19.00 WIB",
+          "-",
+          "08.30 WIB - 16.00 WIB."
+        ],
+        "__blank_column_7": [
+          "Ticket Prices",
+          "Pelajar Rp 50Rb\n Mahasiswa Rp 450Rb\n Umum Rp 550Rb",
+          "River Tubing Rp 50Rb\n Trecking Air Terjun Batu Papan Rp 100Rb\n Camping River Side Juma Bulu Rp 200Rb",
+          "Rp 50Rb",
+          "Rp 15Rb - Rp 40Rb"
+        ],
+        "__blank_column_8": [
+          "Historical & Cultural Background",
+          "Di sekitar Puncak Sibodiala, masyarakat lokal masih menjaga tradisi dan kebudayaan khas Kabupaten Toba.\n Desa Silalahi Pagar Batu merupakan komunitas yang ramah dan terus berupaya mengembangkan potensi wisata alam ini agar berkelanjutan sekaligus memberdayakan ekonomi warga sekitar.",
+          "Masyarakat desa Pardomuan Ajibata dikenal dengan keramahan dan keakraban mereka.\n Desa ini sering mengadakan kegiatan gotong royong untuk memperbaiki fasilitas umum, seperti jalan desa dan irigasi.\n Selain itu, desa ini sering mengadakan acara adat dan budaya, seperti Pesta Rakyat ucapan Syukur hasil dar panen ( Pesta Gotilon), dan pentas seni.\n Secara keseluruhan, desa Pardomuan Ajibata adalah desa yang ramah dan indah, dengan masyarakat yang hidup rukun dan harmonis. Desa ini cocok untuk dijadikan destinasi wisata bagi mereka yang ingin merasakan suasana pedesaan yang damai dan menenangkan.",
+          "Pemanfaatan daerah dataran tinggi disertai pemandangan bukit indah yang dikelilingi Danau Toba membuat daerah ini menjadi destinasi yang menawarkan banyak sekali daya tarik pariwisata di Sumatera Utara.",
+          "Pacuan kuda ini dianggap sebagai bentuk penghormatan yang dilakukan terhadap tradisi dan leluhur.\n Masyarakat Batak Toba percaya bahwa menjaga dan melanjutkan tradisi ini adalah cara untuk memuliakan leluhur mereka yang telah meninggalkan warisan berharga, mereka menghargai warisan budaya yang telah diterima dari nenek moyang,\n menjadikannya sebagai bagian integral dari identitas mereka sebagai bangsa Batak.\n Partisipasi dalam pacuan kuda juga merupakan wujud dari solidaritas dan persaudaraan antaranggota masyarakat Batak."
+        ],
+        "No": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Nama Kabupaten": [
+          "TOBA",
+          "SIMALUNGUN",
+          "KARO",
+          "TAPANULI UTARA",
+          "SAMOSIR"
+        ],
+        "Nama Atraksi": [
+          "Paralayang Puncak Sibodiala, Balige",
+          "Juma Bulu River Side Ajibata",
+          "Kano",
+          "Bukit Indah Simarjarunjung",
+          "Flyboard di Parapat"
+        ]
+      }
+    },
+    {
+      "sheet_name": "Artikel Danau Toba",
+      "rows": 6,
+      "observed_non_empty_rows": 6,
+      "columns": 5,
+      "column_names": [
+        "No",
+        "Judul Artikel",
+        "Kabupaten",
+        "Rangkuman (Paragraf Awal)",
+        "Link Artikel"
+      ],
+      "dtypes": {
+        "No": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 6
+          }
+        },
+        "Judul Artikel": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6
+          }
+        },
+        "Kabupaten": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6
+          }
+        },
+        "Rangkuman (Paragraf Awal)": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6
+          }
+        },
+        "Link Artikel": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 6
+          }
+        }
+      },
+      "missing_values": {
+        "No": 0,
+        "Judul Artikel": 0,
+        "Kabupaten": 0,
+        "Rangkuman (Paragraf Awal)": 0,
+        "Link Artikel": 0
+      },
+      "duplicate_rows": 0,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "No": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "Judul Artikel": [
+          "Sejarah Terbentuknya Danau Toba, Kisah Letusan Gunung Berapi Raksasa",
+          "Sejarah, Legenda, dan Rute di Danau Toba",
+          "Danau Toba, Kawah Purba Terbesar di Dunia",
+          "Kawah Putih Tinggi Raja",
+          "Panorama Keindahan Bukit Sipolha"
+        ],
+        "Kabupaten": [
+          "Danau Toba",
+          "Danau Toba",
+          "Danau Toba",
+          "Simalungun",
+          "Simalungun"
+        ],
+        "Rangkuman (Paragraf Awal)": [
+          "Sejarah Terbentuknya Danau Toba, Kisah Letusan Gunung Berapi Raksasa\n \n Ketahui sejarah terbentuknya Danau Toba di Sumatera Utara yang diketahui berasal dari letusan gunung berapi raksasa ribuan tahun silam.\n \n Danau Toba, sebuah keindahan alam di Pulau Sumatera, Indonesia, telah lama memukau wisatawan dan ilmuwan dengan pesona geologisnya yang luar biasa.\n \n Namun, di balik keindahan ini, tersembunyi kisah dramatis tentang sejarah terbentuknya yang melibatkan letusan gunung berapi raksasa yang mengubah wajah bumi.\n \n Berikut ini telah dirangkum sejarah terbentuknya Danau Toba yang kini menjadi tujuan wisata di Sumatera Utara.\n \n Letusan Gunung Berapi Super\n \n Sekitar 74.000 tahun yang lalu, dunia menghadapi peristiwa geologis dahsyat. Sebuah gunung berapi raksasa di wilayah yang sekarang menjadi Pulau Sumatera meletus dengan kekuatan tak terbayangkan.\n \n Letusan ini bukanlah letusan biasa, melainkan letusan gunung berapi super yang muntahkan material dan magma dalam skala luar biasa.",
+          "Danau Toba adalah destinasi ikonik di Sumatera Utara yang terkenal nggak hanya di Indonesia tetapi juga di mancanegara. Sebagai danau vulkanik terbesar di Indonesia, Danau Toba memiliki panjang sekitar 100 kilometer, lebar 30 kilometer, dan kedalaman hingga 505 meter. \n Ukurannya yang besar menjadikannya salah satu danau terdalam di dunia, memberikan kesan megah dan menakjubkan bagi setiap pengunjung.\n \n Di tengah Danau Toba terletak Pulau Samosir, sebuah pulau yang hampir sebesar negara Singapura. Pulau ini bukan hanya menjadi pusat aktivitas wisata, tetapi juga menyimpan kekayaan budaya dan sejarah yang mendalam. \n \n Dengan berbagai atraksi wisata, Pulau Samosir menawarkan pengalaman yang unik, mulai dari eksplorasi budaya Batak hingga keindahan alam yang memukau.",
+          "Pada megaerupsi 74.000 tahun lalu, gunung api purba Toba memuntahkan sebanyak 2.800 km kubik material vulkanik dan abunya menyebar hingga sejauh 9.000 km.\n Keindahan Danau Toba tidak ada habisnya untuk dikupas. Dilihat dari sudut mana pun, pemandangan hamparan air danau berpadu lanskap perbukitan hijau nan asri memberi kesan tersendiri bagi siapa saja yang mengunjunginya. Panorama menawan dari sepotong surga di Sumatra Utara itu bakal membuat siapa pun terpukau dan jatuh hati dibuatnya. \n \n Danau ini awalnya merupakan kawah vulkanik hasil letusan mahadahsyat dari Gunung Toba pada 74.000 tahun lampau. Berukuran panjang 100 kilometer dan lebar 30 kilometer serta titik terdalamnya mencapai 508 meter menjadikan Danau Toba sebagai danau kaldera terbesar di dunia.",
+          "Bicara soal wisata alam di Sumatra Utara tak ada habisnya. Di setiap kabupaten menawarkan pesona alam yang indah.\n \n Tak terkecuali di Kabupaten Simalungun. Kamu bisa datang ke Kawah Putih Dolok Tinggi Raja. Seperti apa sih wisata Kawah Putih Dolok Tinggi Raja? Yuk simak!",
+          "Bukit Sipolha, yang terletak di Kabupaten Simalungun, Sumatera Utara, adalah destinasi wisata yang menawarkan keindahan alam yang memukau dengan pemandangan spektakuler Danau Toba.\n \n Bukit ini menjadi salah satu tujuan favorit bagi para wisatawan yang ingin menikmati ketenangan dan panorama alam yang luar biasa di daerah Sumatera Utara.\n \n Bukit Sipolha menawarkan pemandangan yang menakjubkan dengan latar belakang Danau Toba, danau vulkanik terbesar di dunia.\n \n Dari puncak bukit, pengunjung dapat menikmati pemandangan 360 derajat yang mencakup air biru Danau Toba, pulau-pulau kecil disekitarnya, dan hamparan hutan hijau yang luas. Pemandangan matahari terbit dan terbenam di sini sangat memukau dan menjadi momen yang ditunggu-tunggu oleh para fotografer dan pecinta alam.\n \n Ada beberapa aktivitas yang dapat kamu lakukan disini, seperti : tempat makanan dan minuman, trekking dan hiking, spot foto yang instagramable, piknik dan kemah."
+        ],
+        "Link Artikel": [
+          "https://sidanau.brin.go.id/berita/baca-berita/17",
+          "https://www.telkomsel.com/jelajah/jelajah-lifestyle/sejarah-legenda-dan-rute-di-danau-toba",
+          "https://indonesia.go.id/kategori/pariwisata/6867/danau-toba-kawah-purba-terbesar-di-dunia?lang=1",
+          "https://sumut.idntimes.com/travel/destination/kawah-putih-dolok-tinggi-raja-wisata-indah-di-simalungun-00-qzvn3-b9rbmv",
+          "https://ksdae.menlhk.go.id/artikel/12180/Aek-Nauli-Elephant-Conservation-Camp-Disambangi-DWP-Ditjen-PHLHK.html"
+        ]
+      }
+    },
+    {
+      "sheet_name": "Info Seputar Danau Toba (TOP 3)",
+      "rows": 31,
+      "observed_non_empty_rows": 29,
+      "columns": 69,
+      "column_names": [
+        "__blank_column_1",
+        "__blank_column_2",
+        "__blank_column_3",
+        "__blank_column_4",
+        "__blank_column_5",
+        "__blank_column_6",
+        "__blank_column_7",
+        "__blank_column_8",
+        "__blank_column_9",
+        "__blank_column_10",
+        "__blank_column_11",
+        "__blank_column_12",
+        "__blank_column_13",
+        "__blank_column_14",
+        "__blank_column_15",
+        "__blank_column_16",
+        "__blank_column_17",
+        "__blank_column_18",
+        "__blank_column_19",
+        "__blank_column_20",
+        "__blank_column_21",
+        "__blank_column_22",
+        "__blank_column_23",
+        "__blank_column_24",
+        "__blank_column_25",
+        "__blank_column_26",
+        "__blank_column_27",
+        "__blank_column_28",
+        "__blank_column_29",
+        "__blank_column_30",
+        "__blank_column_31",
+        "__blank_column_32",
+        "__blank_column_33",
+        "__blank_column_34",
+        "__blank_column_35",
+        "__blank_column_36",
+        "__blank_column_37",
+        "__blank_column_38",
+        "__blank_column_39",
+        "__blank_column_40",
+        "__blank_column_41",
+        "__blank_column_42",
+        "__blank_column_43",
+        "__blank_column_44",
+        "__blank_column_45",
+        "__blank_column_46",
+        "__blank_column_47",
+        "__blank_column_48",
+        "__blank_column_49",
+        "__blank_column_50",
+        "__blank_column_51",
+        "__blank_column_52",
+        "__blank_column_53",
+        "__blank_column_54",
+        "__blank_column_55",
+        "__blank_column_56",
+        "__blank_column_57",
+        "__blank_column_58",
+        "__blank_column_59",
+        "__blank_column_60",
+        "__blank_column_61",
+        "__blank_column_62",
+        "__blank_column_63",
+        "__blank_column_64",
+        "__blank_column_65",
+        "__blank_column_66",
+        "__blank_column_67",
+        "__blank_column_68",
+        "__blank_column_69"
+      ],
+      "dtypes": {
+        "__blank_column_1": {
+          "dominant_type": "int",
+          "type_counts": {
+            "str": 2,
+            "missing": 23,
+            "int": 6
+          }
+        },
+        "__blank_column_2": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 9,
+            "missing": 22
+          }
+        },
+        "__blank_column_3": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 27,
+            "missing": 4
+          }
+        },
+        "__blank_column_4": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 18,
+            "str": 12,
+            "int": 1
+          }
+        },
+        "__blank_column_5": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 7,
+            "str": 24
+          }
+        },
+        "__blank_column_6": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 8,
+            "str": 23
+          }
+        },
+        "__blank_column_7": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9,
+            "str": 22
+          }
+        },
+        "__blank_column_8": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 14,
+            "str": 17
+          }
+        },
+        "__blank_column_9": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 26,
+            "missing": 5
+          }
+        },
+        "__blank_column_10": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 7,
+            "str": 24
+          }
+        },
+        "__blank_column_11": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 10,
+            "str": 21
+          }
+        },
+        "__blank_column_12": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 10,
+            "str": 21
+          }
+        },
+        "__blank_column_13": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 10,
+            "str": 21
+          }
+        },
+        "__blank_column_14": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 11,
+            "str": 20
+          }
+        },
+        "__blank_column_15": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9,
+            "str": 22
+          }
+        },
+        "__blank_column_16": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 23,
+            "str": 8
+          }
+        },
+        "__blank_column_17": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 11,
+            "str": 20
+          }
+        },
+        "__blank_column_18": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 23,
+            "str": 8
+          }
+        },
+        "__blank_column_19": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 30,
+            "str": 1
+          }
+        },
+        "__blank_column_20": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 16,
+            "str": 15
+          }
+        },
+        "__blank_column_21": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 22,
+            "str": 9
+          }
+        },
+        "__blank_column_22": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 16,
+            "missing": 15
+          }
+        },
+        "__blank_column_23": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 19,
+            "str": 12
+          }
+        },
+        "__blank_column_24": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 20,
+            "str": 11
+          }
+        },
+        "__blank_column_25": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 21,
+            "str": 10
+          }
+        },
+        "__blank_column_26": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_27": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_28": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 7,
+            "str": 24
+          }
+        },
+        "__blank_column_29": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 7,
+            "str": 24
+          }
+        },
+        "__blank_column_30": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 17,
+            "str": 14
+          }
+        },
+        "__blank_column_31": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 21,
+            "missing": 10
+          }
+        },
+        "__blank_column_32": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9,
+            "str": 22
+          }
+        },
+        "__blank_column_33": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9,
+            "str": 22
+          }
+        },
+        "__blank_column_34": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 15,
+            "str": 16
+          }
+        },
+        "__blank_column_35": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 18,
+            "str": 13
+          }
+        },
+        "__blank_column_36": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 18,
+            "str": 13
+          }
+        },
+        "__blank_column_37": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 29,
+            "str": 2
+          }
+        },
+        "__blank_column_38": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 13,
+            "str": 18
+          }
+        },
+        "__blank_column_39": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 20,
+            "str": 11
+          }
+        },
+        "__blank_column_40": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_41": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 11,
+            "str": 20
+          }
+        },
+        "__blank_column_42": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 21,
+            "missing": 10
+          }
+        },
+        "__blank_column_43": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 12,
+            "str": 19
+          }
+        },
+        "__blank_column_44": {
+          "dominant_type": "int",
+          "type_counts": {
+            "missing": 11,
+            "str": 3,
+            "int": 17
+          }
+        },
+        "__blank_column_45": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 9,
+            "str": 22
+          }
+        },
+        "__blank_column_46": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 10,
+            "str": 21
+          }
+        },
+        "__blank_column_47": {
+          "dominant_type": "int",
+          "type_counts": {
+            "missing": 21,
+            "str": 4,
+            "int": 6
+          }
+        },
+        "__blank_column_48": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 18,
+            "str": 13
+          }
+        },
+        "__blank_column_49": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 30,
+            "str": 1
+          }
+        },
+        "__blank_column_50": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 22,
+            "str": 9
+          }
+        },
+        "__blank_column_51": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 21,
+            "str": 10
+          }
+        },
+        "__blank_column_52": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_53": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 13,
+            "str": 18
+          }
+        },
+        "__blank_column_54": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_55": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 18,
+            "str": 13
+          }
+        },
+        "__blank_column_56": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 30,
+            "str": 1
+          }
+        },
+        "__blank_column_57": {
+          "dominant_type": "int",
+          "type_counts": {
+            "str": 2,
+            "missing": 21,
+            "int": 8
+          }
+        },
+        "__blank_column_58": {
+          "dominant_type": "int",
+          "type_counts": {
+            "missing": 22,
+            "str": 3,
+            "int": 6
+          }
+        },
+        "__blank_column_59": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 29,
+            "str": 2
+          }
+        },
+        "__blank_column_60": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 22,
+            "str": 9
+          }
+        },
+        "__blank_column_61": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 14,
+            "str": 17
+          }
+        },
+        "__blank_column_62": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 21,
+            "str": 10
+          }
+        },
+        "__blank_column_63": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 22,
+            "str": 9
+          }
+        },
+        "__blank_column_64": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 22,
+            "str": 9
+          }
+        },
+        "__blank_column_65": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 25,
+            "str": 6
+          }
+        },
+        "__blank_column_66": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 26,
+            "str": 5
+          }
+        },
+        "__blank_column_67": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 26,
+            "str": 5
+          }
+        },
+        "__blank_column_68": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 26,
+            "str": 5
+          }
+        },
+        "__blank_column_69": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 31
+          }
+        }
+      },
+      "missing_values": {
+        "__blank_column_1": 23,
+        "__blank_column_2": 22,
+        "__blank_column_3": 4,
+        "__blank_column_4": 18,
+        "__blank_column_5": 7,
+        "__blank_column_6": 8,
+        "__blank_column_7": 9,
+        "__blank_column_8": 14,
+        "__blank_column_9": 5,
+        "__blank_column_10": 7,
+        "__blank_column_11": 10,
+        "__blank_column_12": 10,
+        "__blank_column_13": 10,
+        "__blank_column_14": 11,
+        "__blank_column_15": 9,
+        "__blank_column_16": 23,
+        "__blank_column_17": 11,
+        "__blank_column_18": 23,
+        "__blank_column_19": 30,
+        "__blank_column_20": 16,
+        "__blank_column_21": 22,
+        "__blank_column_22": 15,
+        "__blank_column_23": 19,
+        "__blank_column_24": 20,
+        "__blank_column_25": 21,
+        "__blank_column_26": 25,
+        "__blank_column_27": 25,
+        "__blank_column_28": 7,
+        "__blank_column_29": 7,
+        "__blank_column_30": 17,
+        "__blank_column_31": 10,
+        "__blank_column_32": 9,
+        "__blank_column_33": 9,
+        "__blank_column_34": 15,
+        "__blank_column_35": 18,
+        "__blank_column_36": 18,
+        "__blank_column_37": 29,
+        "__blank_column_38": 13,
+        "__blank_column_39": 20,
+        "__blank_column_40": 25,
+        "__blank_column_41": 11,
+        "__blank_column_42": 10,
+        "__blank_column_43": 12,
+        "__blank_column_44": 11,
+        "__blank_column_45": 9,
+        "__blank_column_46": 10,
+        "__blank_column_47": 21,
+        "__blank_column_48": 18,
+        "__blank_column_49": 30,
+        "__blank_column_50": 22,
+        "__blank_column_51": 21,
+        "__blank_column_52": 25,
+        "__blank_column_53": 13,
+        "__blank_column_54": 25,
+        "__blank_column_55": 18,
+        "__blank_column_56": 30,
+        "__blank_column_57": 21,
+        "__blank_column_58": 22,
+        "__blank_column_59": 29,
+        "__blank_column_60": 22,
+        "__blank_column_61": 14,
+        "__blank_column_62": 21,
+        "__blank_column_63": 22,
+        "__blank_column_64": 22,
+        "__blank_column_65": 25,
+        "__blank_column_66": 26,
+        "__blank_column_67": 26,
+        "__blank_column_68": 26,
+        "__blank_column_69": 31
+      },
+      "duplicate_rows": 1,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "__blank_column_1": [
+          "No",
+          "1",
+          "3",
+          "4",
+          "5"
+        ],
+        "__blank_column_2": [
+          "Nama Kabupaten",
+          "Toba",
+          "Simalungun",
+          "Karo",
+          "Samosir"
+        ],
+        "__blank_column_3": [
+          "Akomodasi",
+          "Hotel",
+          "Alamat",
+          "Labersa, Balige (Jl. Raya Pematang Siantar, Balige (081361610841, 08126827385)",
+          "Serenauli, Laguboti (Jl. Sisingamangaraja No.1, Laguboti 0812-6334-4295)"
+        ],
+        "__blank_column_9": [
+          "Kuliner",
+          "Restoran",
+          "Alamat Restoran (Halal)",
+          "RM. Sinar Minang (Desa Meat Kecamatan Tampahan, Meat, Kec. Balige, Toba, Sumatera Utara 22312)",
+          "Warung Makan Muslim Bu Nurul (Jl. P. Siantar, Sibola Hotangsas, Kec. Balige, Toba, Sumatera Utara 22313)"
+        ],
+        "__blank_column_22": [
+          "Transportasi",
+          "Kapal Ferry",
+          "Kapal Ihan Batak\n (Jl. Bukit Barisan No.15, Kec. Balige, Toba, Sumatera Utara 22312)",
+          "Kapal Pora Pora (Jl. Justin Sirait No.32, Pardamean Ajibata, Toba, Sumatera Utara 21174)",
+          "Kapal Kaldera Toba (Jl. Bukit Barisan No.15, Kec. Balige, Toba, Sumatera Utara 22314)"
+        ],
+        "__blank_column_31": [
+          "Fasilitas Umum",
+          "Rumah Sakit/Puskesmas",
+          "Rumah Sakit HKBP Balige",
+          "Rumah Sakit Porsea",
+          "Puskemas Tandang Buhit Balige"
+        ],
+        "__blank_column_42": [
+          "Daya Tarik Wisata",
+          "Objek Wisata",
+          "Pantai Lumban Bulbul",
+          "Air Terjun Situmurun",
+          "Pantai Pasir Putir Parparean Porsea"
+        ],
+        "__blank_column_57": [
+          "Typical Tourist Profiles",
+          "Profil Wisatawan Nusantara 2024 (Jumlah Perjalanan Wisatawan)",
+          "751225",
+          "2595069",
+          "2305891"
+        ],
+        "__blank_column_6": [
+          "Homestay",
+          "Alamat",
+          "Rose’s Homestay (Jl. Raya Meat Dusun Hisap, Meat, Kec. Tampahan, Toba, Sumatera Utara 22312)",
+          "Home Stay Bagasan (Meat, Kec. Tampahan, Toba, Sumatera Utara 22312)",
+          "Vania Homestay (Desa Meat Kecamatan Tampahan, Meat, Kec. Balige, Toba, Sumatera Utara 22312)"
+        ],
+        "__blank_column_15": [
+          "Café",
+          "Alamat",
+          "Damar Toba ~ Lakeside Eatery & Stay (Jl. Pemandian No.94, Lumban Silintong, Balige, Toba, North Sumatra 22312)",
+          "Tepi Danau Bistro Balige Lumban Silintong",
+          "Green's Cafe Balige (Jl. Gereja No.32, Lumban Dolok Haume Bange, Kec. Balige, Toba, Sumatera Utara 22315)"
+        ],
+        "__blank_column_18": [
+          "Pub & Bar",
+          "Alamat",
+          "Mesikel and Bar (Jl. Trimurti No.58, Berastagi)",
+          "Sivanet Mejersquad (Jl. Gundaling II, Berastagi)",
+          "Pangkas Alter Delauw (Jl. Gundaling I, Berastagi)"
+        ],
+        "__blank_column_20": [
+          "Pusat oleh-oleh",
+          "Batikta Balige",
+          "Toko Khas Parapat (Jalan lintas Parapat)",
+          "Toba Nauli (Jalan Haranggaol no 3)",
+          "Pago-Pago (Jalan Haranggaol no 3)"
+        ],
+        "__blank_column_23": [
+          "Estimasi Biaya",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "15.000-50.000_untuk kendaraan roda dua\n \n 170.000-1.172.000_Untuk Tarif mobil",
+          "30.000-150.000\n Menyesuaikan dengan Jenis Kendaraan"
+        ],
+        "__blank_column_24": [
+          "Kapal Tradisional",
+          "Kapal Tradisional\n (untuk nama kapal tidak tentu)\n Balige-Onanrunggu\n Dari Balige-09.00\n Dari Onanrunggu-14.00",
+          "Balige- Naingolan\n Balige_14.30\n Nainggolan_08.00",
+          "Rute Tigaras-Simanindo\n Tigaras_08.15-19-15\n Simanindo_06.15-17.45",
+          "Tigaraja-Tomok\n Tigaraja_07.00-15.00\n beroperasi sekali 2 jam\n Tomok_08.30-17.30\n beroperasi sekali 2 jam"
+        ],
+        "__blank_column_25": [
+          "Estimasi Biaya",
+          "15.000/Orang\n 15.000/ Kendaraan",
+          "15.000/Orang\n 15.000/ Kendaraan",
+          "15.000/orang\n 15.000/ Kendaraan",
+          "15.000/orang\n 15.000/ Kendaraan"
+        ],
+        "__blank_column_26": [
+          "Penerbangan (Silangit)",
+          "Citilink\n Halim PK- Silangit DTB \n Tiba-08.45\n Silangit DTB - Halim PK \n Berangkat -09.25\n \n Setiap Hari",
+          "AirAsia\n Silangit DTB - Jakarta CGK\n Berangkat- 10.10\n Jakarta CGK-Silangit DTB\n Tiba-09.45\n  \n Setiap Hari",
+          "Super Air Jet\n Silangit DTB-Jakarta CBK \n Berangkat-10.05 dan 13.50\n Jakarta CGK-Silangit DTB\n Tiba-09.25 \n \n  Setiap Hari",
+          "Batik Air\n Silangit DTB-Jakarta CGK\n Berangkat- 12.05 dan 14.10\n \n Jakarta CGK - Silangit DTB \n Tiba- 11.25 dan 14.10\n \n Setiap Hari"
+        ],
+        "__blank_column_27": [
+          "Estimasi Biaya",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000",
+          "1.000.000 - 2.500.000"
+        ],
+        "__blank_column_28": [
+          "Angkutan Umum",
+          "KBT\n  (Pardede Onan, Kec. Balige, Toba, Sumatera Utara)",
+          "KPT\n Jl. Patuan Nagari No.73, Pardede Onan, Kec. Balige, Toba, Sumatera Utara 22312",
+          "KBT\n Jl. Siborongborong - Parapat No.14, Tiga Raja, Kec. Girsang Sipangan Bolon, Kabupaten Simalungun, Sumatera Utara 21174",
+          "PARISMA\n Jl. Sisingamangaraja No.97, Pardamean Ajibata, Kec. Ajibata, Toba, Sumatera Utara 21174"
+        ],
+        "__blank_column_29": [
+          "Estimasi Biaya",
+          "70.000-80.000",
+          "70.000-80.000",
+          "65.000-70.000",
+          "65.000-70.000"
+        ],
+        "__blank_column_30": [
+          "Rental Kendaraan",
+          "Tobaindo Travelling",
+          "Sibayak Explore Travel Berastagi\n Tambak Lau Mulgap I, Kec. Berastagi, Kabupaten Karo, Sumatera Utara",
+          "Berastagi Tour and Travel",
+          "Kabanjahe Rental Mobil"
+        ],
+        "__blank_column_32": [
+          "Rumah Ibadah",
+          "Masjid Al Hadhona Balige (Jl. Mesjid, Napitupulu Bagasan)",
+          "Masjid An-Nur Paritohan (Paritohan,Pintu Pohan,Pintu Pohan Meranti, Ambar Halim, Kec. Pintu Pohan Meranti)",
+          "HKBP Balige",
+          "Mesjid Taqwa Parapat (Jl. Sisingamangaraja No.2, Simalungun, Kec. Girsang Sipangan Bolon)"
+        ],
+        "__blank_column_33": [
+          "Bank & ATM",
+          "BRI Balige",
+          "Bank Sumut Balige",
+          "BNI Balige",
+          "BNI Parapat (Sisingamangaraja No.215, Tiga Raja, Kec. Girsang Sipangan Bolon)"
+        ],
+        "__blank_column_34": [
+          "SPBU",
+          "SPBU Lumban Lobu",
+          "SPBU Pardede Balige",
+          "SPBU Hutabarat Balige",
+          "SPBU Berastagi"
+        ],
+        "__blank_column_35": [
+          "Swalayan",
+          "Indomaret Merek",
+          "Indomaret Kabanjahe",
+          "Alfamidi Berastagi",
+          "Indomaret Tomok"
+        ],
+        "__blank_column_36": [
+          "Apotik/Toko Obat",
+          "Apotek Bethesda Berkat",
+          "Apotek Kimia Farma Kabanjahe",
+          "Apotek Lampas Malem",
+          "Apotik Carlos Pangururan"
+        ],
+        "__blank_column_37": [
+          "Money Changer",
+          "Efata DolarAsia money changer (SOSOr BABA, terminal, Tiga Raja, Girsang Sipangan Bolon)"
+        ],
+        "__blank_column_38": [
+          "Pasar Tradisional",
+          "Pasar Balerong Balige",
+          "Pasar Laguboti",
+          "Pasar Porsea",
+          "Pasar Buah Berastagi"
+        ],
+        "__blank_column_39": [
+          "Pelabuhan",
+          "Pelabuhan Balige",
+          "Pelabuhan Ajibata ASDP",
+          "Pelabuhan Ajibata Swasta",
+          "Pelabuhan Tiga Raja (Parapat)"
+        ],
+        "__blank_column_40": [
+          "MICE",
+          "Gedung",
+          "Gedung Willem, Jln raya simanindo, Kab Samosir",
+          "Gedung Nasional Djauli Manik",
+          "GOR Sidikalang"
+        ],
+        "__blank_column_44": [
+          "Biaya Masuk Destinasi",
+          "5000",
+          "5000",
+          "5000",
+          "10000"
+        ],
+        "__blank_column_45": [
+          "Sightseeing",
+          "Bukit Singgolom",
+          "Adian Nalambok",
+          "Bukit Senyum Motung",
+          "Bukit Indah Simajarunjung"
+        ],
+        "__blank_column_46": [
+          "Ulasan",
+          "Rating 5/5\n Lokasi keren untuk melihat sunset dan menatap keindahan danau toba dari sekitar kota balige (Sc: google.com)",
+          "Rating 5/5\n Rest Area Adian Nalambok merupakan Rest Area Pemandangan Indah Di Tepi Jalan Lintas Sumatera yang berada tepat view di belakang danau toba... Rest area ini baru direnovasi di tahun 2021 oleh Menteri Pariwisata Bapak Sandiaga Uno.. View yang ditawarkan direst area ini sangat cantik. Dan cocok sekali bagi yang hobby foto berfoto dan instagramable.. Very recommended place to see!! (Sc: google.com)",
+          "Rating 5/5\n Lokasi kemping menarik di Danau Toba. Berada di ketinggian yang sangat mengundang kedinginan di malam hari jadi persiapakan perlengkapan tidur yang lengkap agar anda tidak kedinginan di malam hari. Pemandangan yang sangat menarik ketika matahari terbenam dan suasana alam yang masih alami dengan pepohonan di seputar lokasi kemping. (Sc: google.com)",
+          "Rating 5/5\n Tempat wisata yang menarik, cocok untuk anak-anak dan dewasa, banyak spot fotonya yang langsung backgroundnya danau Toba. (Sc: google.com)"
+        ],
+        "__blank_column_47": [
+          "Biaya Masuk Destinasi",
+          "Gratis",
+          "10000",
+          "Gratis",
+          "15000"
+        ],
+        "__blank_column_48": [
+          "Museum",
+          "Alamat",
+          "Museum Batak Center",
+          "Rumah Bolon Pematang Purba",
+          "Musuem Pusaka Karo"
+        ],
+        "__blank_column_51": [
+          "Cagar Budaya",
+          "Situs Cagar Budaya Megalitik ‘Batu Gajah’",
+          "Rumah Adat Simalungun",
+          "Rumah Adat Lingga",
+          "Situs Meriam Putri Hijau"
+        ],
+        "__blank_column_52": [
+          "Ulasan",
+          "Rating 4/5\n Kami telah mengunjungi batu Gajah dalam perjalanan dari arung jeram. Itu adalah tempat yang bagus untuk melihat megalit. Kami juga kagum dengan lokasi tempat situs ini. Itu adalah bagian tengah sawah jadi hijau di sekeliling tempat dengan pemandangan yang menakjubkan. (Sc: google.com)",
+          "Rating 4/5\n Pemandangannya sejuk dan cocok untuk ber wisata. (Sc: google.com)",
+          "Rating 5/5\n Kampung yang cukup menarik dan memiliki rumah adat yg memiliki keunikan yg luar biasa dimana semua yg tinggal dirumah tersebut hidup rukun. (Sc: google.com)",
+          "Rating 4/5\n Harga tiket Rp 5000. Kami harus melepas sepatu kami sebelum masuk. Ada peralatan / senjata / instrumen musik yang ditampilkan.\n Sebuah toko suvenir berada di samping museum.\n Ada pohon Pamelo di luar museum. Ketika kami pergi ke sana, kami melihatnya berbuah. (Sc: tripadvisor.co.id)"
+        ],
+        "__blank_column_53": [
+          "Desa Wisata",
+          "Desa Wisata Jangga Dolok",
+          "Desa Wisata Meat",
+          "Desa Wisata Raya Seribu Bunga",
+          "Desa Wisata Dokan"
+        ],
+        "__blank_column_54": [
+          "Ulasan",
+          "Rating 5/5\n Tempat ny nyaman sekali.. Healing menangkan fikiran pas banget.. Semoga semakin sukses, semakin maju ya.. (Sc: google.com)",
+          "Rating 5/5\n Kemarin masuk kesini nggak dikenakan biaya masuk / uang parkir. Jadi 100% free untuk menikmati keindahan tamannya. Tamannya bersih, nggak ada sampah berserakan dan pemandangannya bagus sekali. Ditambah dengan cuaca Brastagi yang adem, tempat ini cocok banget untuk refreshing dan menghilangkan penat. Ada cafenya juga tapi belum sempat coba makanannya. Next time bakalan kesini lagi sekalian nyobain makanan di cafenya. (Sc: google.com)",
+          "Rating 5/5\n Desa dokan merupakan desa wisata budaya karo. Di desa dokan terdapat rumah adat yang usianya ratusan tahun dan terdapat yang namanya lesung merupakan tempat untuk menumbuk padi. (Sc: google.com)",
+          "Rating 5/5\n Desa Wisata di Kecamatan Harian, Kabupaten Samosir. Desa yang berada di ketinggian sekitar 1750 mdpl. Berjarak lebih kurang 30 km atau sekitar 1 jam perjalanan dengan kendaraan dari lokasi Warung Kopi Synergy, Pangururan. Tempat ini menawarkan nuansa alam segar dikelilingi pepohonan pinus dan view Danau Toba yang sangat indah. Suhu menurun hingga 16°C pada malam hari dan menjelang subuh. Disarankan untuk membawa perlengkapan yang memadai apabila memutuskan untuk menginap/camping disini. Bisa juga menghubungi pengelola tempat ini untuk memastikan kebutuhanmu. Tersedia toilet di pintu masuk dan area camping. Juga beberapa pendopo dan tempat duduk untuk menikmati pemandangan. Pengelola juga memiliki fasilitas ATV yang disewakan untuk mengelilingi areal ini.\n Nikmatnya ngopi, bersenandung diiringi alunan gitar, menghirup udara segar dan indahnya Danau Toba. (Sc: google.com)"
+        ],
+        "__blank_column_55": [
+          "Atraksi (Paralayang, Arum Jeram dll)",
+          "Alamat",
+          "Sibodiala",
+          "Kuliki Paralayang Karo",
+          "Sibodiala"
+        ],
+        "__blank_column_58": [
+          "Profil Wisatawan Internasional (Jumlah Perjalanan Wisatawan)",
+          "379",
+          "0",
+          "0",
+          "0"
+        ],
+        "__blank_column_59": [
+          "Durasi Kunjungan",
+          "1,31 hari"
+        ],
+        "__blank_column_60": [
+          "Preferensi Bahasa",
+          "Indonesia, Batak Toba, Inggris",
+          "Indonesia, Batak Simalungun, Inggris",
+          "Indonesia, Inggris, Batak Karo",
+          "Indonesia, Inggris, Batak Toba"
+        ],
+        "__blank_column_61": [
+          "Budget Harian (Rp)",
+          "WISATAWAN NUSANTARA = 500.000 - >1.000.000",
+          "WISATAWAN MANCANEGARA = 800.000 - >1.500.000",
+          "WISATAWAN NUSANTARA = 600.000 - >1.200.000",
+          "WISATAWAN MANCANEGARA = 900.000 - >1.800.000"
+        ],
+        "__blank_column_62": [
+          "Musim Kunjungan",
+          "Peak Season",
+          "Juni-Agustus, Desember-Januari",
+          "mei-September",
+          "April - September"
+        ],
+        "__blank_column_65": [
+          "Demografi Usia",
+          "Age Group",
+          "18-25 tahun",
+          "26-40 tahun",
+          "41-55 tahun"
+        ],
+        "__blank_column_4": [
+          "Harga",
+          "1.140.000 - 2.349.500",
+          "450.000 - 800.000",
+          "350.000 - 600.000",
+          "600.000 - 800.000"
+        ],
+        "__blank_column_5": [
+          "Ulasan Hotel",
+          "Rating 9,4/10\n \n Lumayan bersih, makanan bervariasi, lokasi oke, staff ramah, ada waterpark.\n Sejauh ini sangat memuaskan untuk liburan bersama keluarga (Source: traveloka.com)",
+          "Rating 9,4 /10\n \n staff hotelnya super ramah dan very helpful, recomended sekali untuk di datengin lagii (Sc: traveloka.com)",
+          "Rating 10/10\n \n Sangat memuaskan..Hotel dengan view Danau Toba dengan kamar yg bersih dan nyaman serta makanan yang terjamin Halal..Dan yang paling berkesan adalah layanan Speedboat gratis yang membuat liburan makin berkesan..Terima Kasih Purnama Balige Hotel.. (Sc: traveloka.com)",
+          "Rating 8,5/10\n \n Pelayanan staf hotel ramah, lingkungannya aman dan nyaman. Ada restoran dan cafe yang bagus. Terima kasih. (Sc: traveloka.com)"
+        ],
+        "__blank_column_7": [
+          "Harga",
+          "200k-400k",
+          "200k-400k",
+          "200k-400k",
+          "200k-400k"
+        ],
+        "__blank_column_8": [
+          "Ulasan Homestay",
+          "Rating 5/5\n \n Pertama kalinya ke desa meat membuat sy takjub dengan keindahannya.\n Kami menginap di Rose's Homestay dengan pemandangan tepian danau toba, udara yg sejuk, owner yg friendly.\n Homestay nya bersih, bener² bikin tenang krn memang di pedesaan tepian danau toba. Yg ga kalah menakjubkan owner dan sebagian warga masih tinggal d rmh adat batak ( msh melestarikan ) dan menenun kain khas batak.(Sc: tgoogle.com)",
+          "Rating 5/5\n \n Lokasi dekat dari gapura desa meat (Sc: google.com)",
+          "Rating 5/5\n \n Homestay yang nyaman bersih dan lengkap. Fasilitasnya oke banget dan harganya aman dikantong. Kita bisa memasak juga disini dan ada taman yang asri. View Danau Toba bisa dilihat dari lantai 2. Disediakan air putih dan teh untuk kita. (Sc: google.com)",
+          "Rating 8,5/10\n \n Kamar lapang, bersih, air bening, sprei bersih. Peralatan mandi disediakan.. (Sc: traveloka.com)"
+        ],
+        "__blank_column_10": [
+          "Harga",
+          "25000 - 45000",
+          "15000-25000",
+          "15000-25000",
+          "20000-35000"
+        ],
+        "__blank_column_11": [
+          "Ulasan Restoran (Halal)",
+          "Rating 5/5\n \n Cobain Rendang, Dendeng, sambal sama Telor Bebek Gorengnya....muantab banget. (Sc: google.com)",
+          "Rating 5/5\n \n Masakan kampung dan enak. (Sc: google.com)",
+          "Rating 5/5\n \n Pilihan menunya banyak, tempatnya nyaman.\n Dan cita rasanya cocok di lidah.\n Harganya juga nggak bikin kantong bolong 😀 (Sc: google.com)",
+          "Rating 5/5\n \n Makanan okey Pelayanan cepat Suasana adem Good lah, cocok persinggahan (Sc: google.com)"
+        ],
+        "__blank_column_12": [
+          "Alamat Rumah Makan (Khas Batak)",
+          "RM. Fly Over Laguboti (Jl. Siborong Borong - Parapat No.22, Pardomuan Nauli, Kec. Laguboti, Toba, Sumatera Utara 22381)",
+          "Rumah Makan Panca Balige, Boima Laguboti",
+          "Rumah Makan Khas Karo Tambar Lihe (Japan Jl. Patuan Nagari, Sangkar Nihuta, Kec. Balige, Toba, Sumatera Utara 22313)",
+          "Rumah Makan Khas Batak PAJAR (Jl. Lintas Sumatera No.132-201, Pinang Ratus, Kec. Jorlang Hatara)"
+        ],
+        "__blank_column_13": [
+          "Harga",
+          "25000-50000",
+          "25000-50000",
+          "25000-50000",
+          "25000-50000"
+        ],
+        "__blank_column_14": [
+          "Ulasan RM Khas Batak",
+          "Rating 5/5\n \n Best!!! Saya pesan naniura 1 ekor dan enaaak banget. Owner dan pegawainya juga ramah dan cekatan pelayanannya. Ada opsi duduk di gedung baru atau di tepi kolam. Kalau hari cerah, better pilih yang di tepi kolam, karena ada experience baru yg berbeda. Thank you!\n Bakalan balik lagi kalau lagi melewati Laguboti :).(Sc: google.com)",
+          "Rating 5/5\n \n Babi Pangganganya terbaik\n Lengkap dengan sayur dan sop\n Beda dari yg lain ada nenas potong.(Sc: google.com)",
+          "Rating 5/5\n \n Panggang B2 di kota balige.mantaps rasanya.gurih dagingnya ...pengemar masakkan B2 wajib ke sini...(Sc: google.com)",
+          "Rating 5/5\n \n Harga terjangkau, nikmat, mantap, bisa catering, berkualitas.(Sc: google.com)"
+        ],
+        "__blank_column_16": [
+          "Harga",
+          "35000-150000",
+          "35000-150000",
+          "25000-50000",
+          "25000-50000"
+        ],
+        "__blank_column_17": [
+          "Ulasan Cafe",
+          "Rating 5/5\n \n Kamarnya bersih & nyaman. Sewaktu check in, ada welcome drink. Staf ramah & sangat membantu. Makanannya enak. Di area restoran bisa duduk menikmati pemandangan danau. Ada area bermain untuk anak². Sunrise terlihat dari hotelsuka banget sama viewnyaa, apalagi pelayanan service nyaa sangat ramah.. untuk makanannya jugaa enak enakk.. kalo aku jujur siii resto yang paling pas untuk healingg.. suka banget sama kaliannn semua dsitu🤍. (Sc: google.com)",
+          "Rating 5/5\n \n Makanannya enak..semua kerasa bumbunya\n Datang pas makan siang ,,agak ramai tp pesananny dtgny lumayan cepat..(Sc: google.com)",
+          "Rating 5/5\n \n Makanannya rata2 enak. Minumnya juga enak. Harga juga masih terjangkau. Desain cafe juga bagus. Cuma jangan duduk dekat pohon ya guys. Banyak nyamuk. Karna lokasinya terbuka. Cocok untuk nyantai dan ngopi disini. Pelayanannya juga lumayan bagus.(Sc: google.com)",
+          "Rating 5/5\n \n Tempat favorit untuk istirahat sambil ngopi. Udaranya sejuk, view-nya bikin betah langsung dengan view Danau Toba, saat pulang kampung saat naik motor wajib singgah kesini. (Sc: google.com)"
+        ],
+        "__blank_column_19": [
+          "Harga"
+        ],
+        "__blank_column_21": [
+          "Ulasan",
+          "Rating 5/5\n \n cappuccino nya enak banget! nendang sejak seruputan pertama. Ada rasa gurih dan pahit kopi yang terasa sampai di pangkal lidah. Aku coba kopi tetes juga, lumayan bisa mengganjal mata kantuk yang kurang tidur. Tempat ini keren, di belakang masih bisa menatap hamparan hijau padi yang dikotak-kotak olah pematang sawah.(Sc: google.com)",
+          "Rating 5/5\n \n Pengalaman yang menyenangkan, banyak hal yang menarik disini... Bisa belanja banyak hal, berkuda juga hal yang very interesting 😍. (Sc: google.com)",
+          "Rating 5/5\n \n Tempat belanja souvenir yg mewakili Di Tuk tuk. (Sc: google.com)",
+          "Rating 4/5\n \n Lokasinya agak masuk ke dalam, namun selalu ada plang jalannya. Samping kiri kanan ada sawah. Pelayanannya luar biasa, tempatnya sangat cozy, ketika disana disuguhi minum dan buah-buhan, untuk ulosnya jika kurang rapi bisa langsung dirapikan. Namun harganya agak mahal.(Sc: google.com)"
+        ],
+        "__blank_column_41": [
+          "Jenis Event",
+          "F1 Powerboat 2023-2024",
+          "Aquabike 2023",
+          "Seribu Tenda Meat",
+          "APRC"
+        ],
+        "__blank_column_43": [
+          "Ulasan Objek Wisata",
+          "Rating 4/5\n \n Lokasinya pun dilengkapi dengan fasilitas kamar mandi dan mushollah sehingga tidak mengalami kesulitan bagi umat Islam untuk melaksanakan ibadah sembahyang. Di lokasi ini juga dilengkapi sarana permainan seperti APV, banana boat dan naik perahu dengan harga yang masih ekonomis.(Sc: tripadvisor.co.id)",
+          "Rating 5/5\n \n Baguuus sekali. Air terjun ini tidak tinggi dan tidak rendah juga, mungkin sekitar 50 meter dari permukaan air, tetapi karena lokasinya langsung jatuh menuju ke danau, maka buat siapa aja yang tidak bisa berenang hehehe agak riskan untuk main air karena langsung ke perairan dalam.(Sc: google.com)",
+          "Rating 4/5\n \n Keindahan Danau Toba tak akan habis - habisnya bisa kita nikmati dari berbagai sudut dan tempat. Kali ini aku menikmati Danau Toba dari Parparean, Porsea. Danau yang masih sunyi dan tempat yang masih asri. Tidak ada pungutan retribusi saat aku menikmati keindahan Danau Toba dari Parparean. Sangat indah dan asri dan danau yang membiru. Silahkan dikunjungi (Sc: tripadvisor.co.id)",
+          "Rating 4/5\n \n Pendakian yang menyenangkan, tidak membutuhkan waktu yang lama untuk mencapi puncak. Tetapi tetap dibutuhkan kondisi tubuh yang prima. Jika cuaca cerah di pagi hari, matahari terbit menjadi hadiah pendakian yang luar biasa.(Sc: tripadvisor.co.id)"
+        ],
+        "__blank_column_49": [
+          "Harga"
+        ],
+        "__blank_column_50": [
+          "Ulasan",
+          "Rating 5/5\n Belajar mengenal sejarah dan Rumah Adat Simalungun sambil menikmati alamnya yg sejuk dan hening. Tetap menjaga dan melestarikan budaya yg ada. Agar wisatawan lokal dan mancanegara tetap berkunjung. (Sc: google.com)",
+          "Rating 5/5\n Meskipun museumnya kecil, namun kaya informasi tentang budaya karo\n Tempatnya bersih nan asri\n Sangat direkomendasi (Sc: google.com)",
+          "Rating 5/5\n Tampatnya bagus, unik,\n Tiket masuknya murah banget,\n Mungkin perlu dipromosikan lagi, agar lebih banyak lagi orang tahu dan datang berkunjung. (Sc: google.com)",
+          "Rating 5/5\n Museum ini adalah permata. Jika tidak ada orang di museum, berjalanlah menuju jalan utama menuju tempat makan bernama Tasak Telur. Keluarga pemilik restoran tersebut juga mendirikan dan memelihara museum. Wanita yang menemani saya sepanjang kunjungan saya di museum memberikan konteks artefak yang terperinci dan mencerahkan serta membuat kunjungan saya jauh lebih bermakna. Penerimaan dilakukan dengan sumbangan sukarela. (Sc: google.com)"
+        ],
+        "__blank_column_56": [
+          "Harga"
+        ],
+        "__blank_column_63": [
+          "Best Weather",
+          "April-September (Kering)",
+          "Maret-Oktober",
+          "Juni-Agustus(Sejuk & kering)",
+          "Agustus-Oktober (Kering)"
+        ],
+        "__blank_column_64": [
+          "Avoid",
+          "November-Februari (Hujan lebat)",
+          "November-Februari",
+          "Oktober-Februari (Kabut tebal)",
+          "November-Maret (Angin kencang)"
+        ],
+        "__blank_column_66": [
+          "Primary Activities",
+          "Adventure, sport",
+          "Culture, nature",
+          "Relaxation, culture",
+          "Spiritual, heritage"
+        ],
+        "__blank_column_67": [
+          "Secondary Activities",
+          "Fotografi, social media",
+          "Shopping, culinary",
+          "Heritage, shopping",
+          "Nature viewing"
+        ],
+        "__blank_column_68": [
+          "Spending Focus",
+          "Experience, food",
+          "Balanced spending",
+          "Comfort, quality",
+          "Service, accessibility"
+        ]
+      }
+    },
+    {
+      "sheet_name": "waktu operasional destinasi",
+      "rows": 40,
+      "observed_non_empty_rows": 40,
+      "columns": 8,
+      "column_names": [
+        "NO",
+        "KABUPATEN",
+        "OBJEK / DESTINASI WISATA",
+        "FASILITAS UMUM",
+        "FASILITAS PENUNJANG",
+        "ALAMAT",
+        "WAKTU OPERASIONAL",
+        "RATING BPODT"
+      ],
+      "dtypes": {
+        "NO": {
+          "dominant_type": "int",
+          "type_counts": {
+            "int": 35,
+            "missing": 5
+          }
+        },
+        "KABUPATEN": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 8,
+            "missing": 32
+          }
+        },
+        "OBJEK / DESTINASI WISATA": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 40
+          }
+        },
+        "FASILITAS UMUM": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 34,
+            "missing": 6
+          }
+        },
+        "FASILITAS PENUNJANG": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 33,
+            "missing": 7
+          }
+        },
+        "ALAMAT": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 40
+          }
+        },
+        "WAKTU OPERASIONAL": {
+          "dominant_type": "str",
+          "type_counts": {
+            "str": 39,
+            "missing": 1
+          }
+        },
+        "RATING BPODT": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 37,
+            "str": 3
+          }
+        }
+      },
+      "missing_values": {
+        "NO": 5,
+        "KABUPATEN": 32,
+        "OBJEK / DESTINASI WISATA": 0,
+        "FASILITAS UMUM": 6,
+        "FASILITAS PENUNJANG": 7,
+        "ALAMAT": 0,
+        "WAKTU OPERASIONAL": 1,
+        "RATING BPODT": 37
+      },
+      "duplicate_rows": 0,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "NO": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "KABUPATEN": [
+          "TOBA",
+          "Humbang Hasundutan",
+          "SIMALUNGUN",
+          "SAMOSIR",
+          "TAPANULI UTARA"
+        ],
+        "OBJEK / DESTINASI WISATA": [
+          "Pantai Bulbul",
+          "Air Terjun Situmurun",
+          "Taman Eden 100",
+          "Toba Caldera Resort",
+          "Bukit Senyum"
+        ],
+        "FASILITAS UMUM": [
+          "sanitasi\n Parkir",
+          "toilet umum",
+          "sanitasi\n parkir\n pusat informasi\n tempat bersantai",
+          "parking area\n mushala\n toilet\n tempat duduk",
+          "Gazebo\n mushala\n tempat duduk kayu"
+        ],
+        "FASILITAS PENUNJANG": [
+          "tempat ibadah (Gereja HKBP Tiberias Lumban Bulbul)\n Homestay / penginapan\n Resto dan spot kuliner",
+          "spot jajan makanan dan minuman\n \n Sewa kapal",
+          "cafe shacky house\n homestay\n jalur evakuasi\n spot oleh-oleh kuliner",
+          "Nom Addict Cafe\n Penginapan (Bobocabin)\n Stand UMKM",
+          "warung makanan dan minuman"
+        ],
+        "ALAMAT": [
+          "Lumban Bulbul, Kecamatan Balige",
+          "Jonggi Nihuta, Hatinggian, Kec. Lumban Julu.",
+          "Desa Lumban Rang Sionggang Utara, Kecamatan Lumban Julu",
+          "Desa Pardamean Sibisa, Kecamatan Ajibata",
+          "Desa Motung, Kecamatan Ajibata"
+        ],
+        "WAKTU OPERASIONAL": [
+          "senin - minggu\n 24 jam\n \n 08.00 - 14.00",
+          "senin - minggu\n 24 jam\n \n 08.00 - 14.00",
+          "senin - minggu\n 08.00 - 17.00",
+          "senin - minggu\n 08.00 - 17.00",
+          "senin - minggu\n 08.00 - 17.00"
+        ],
+        "RATING BPODT": [
+          "hidden gem",
+          "hidden gem",
+          "hidden gem"
+        ]
+      }
+    },
+    {
+      "sheet_name": "prompt",
+      "rows": 219,
+      "observed_non_empty_rows": 6,
+      "columns": 5,
+      "column_names": [
+        "__blank_column_1",
+        "__blank_column_2",
+        "__blank_column_3",
+        "__blank_column_4",
+        "__blank_column_5"
+      ],
+      "dtypes": {
+        "__blank_column_1": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_2": {
+          "dominant_type": "int",
+          "type_counts": {
+            "missing": 213,
+            "str": 1,
+            "int": 5
+          }
+        },
+        "__blank_column_3": {
+          "dominant_type": "str",
+          "type_counts": {
+            "missing": 213,
+            "str": 6
+          }
+        },
+        "__blank_column_4": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        },
+        "__blank_column_5": {
+          "dominant_type": "all_missing",
+          "type_counts": {
+            "missing": 219
+          }
+        }
+      },
+      "missing_values": {
+        "__blank_column_1": 219,
+        "__blank_column_2": 213,
+        "__blank_column_3": 213,
+        "__blank_column_4": 219,
+        "__blank_column_5": 219
+      },
+      "duplicate_rows": 212,
+      "formula_cell_count": 0,
+      "formula_cell_examples": [],
+      "error_cell_count": 0,
+      "error_cell_examples": [],
+      "sample_values": {
+        "__blank_column_2": [
+          "No",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "__blank_column_3": [
+          "Prompt",
+          "Saya ingin berlibur ke Danau Toba selama 1 malam. Budget saya sekitar Rp500.000,-. Saat ini saya berada di Sibolga. Tolong berikan rekomendasi itinerary yang mencakup tempat wisata, akomodasi, transportasi, dan kuliner lokal. Harap sesuaikan dengan anggaran dan durasi yang saya miliki.",
+          "Saya ingin liburan ke Samosir.\nTitik awal keberangkatan saya dari Medan Amplas.\nMohon buatkan itinerary wisata selama 3 hari 2 malam,\ndengan estimasi budget Rp 1.500.000 - Rp 2.000.000 per orang.\nSaya ingin mengunjungi tempat-tempat wisata populer di Samosir, dan sekitarnya.",
+          "Saya berencana liburan selama 3 hari 2 malam dengan titik keberangkatan dari Tebing Tinggi, Sumatera Utara. Budget saya sekitar Rp 1.500.000 per orang, dan saya ingin menjelajahi kawasan selatan Danau Toba selain Parapat dan Samosir, seperti:\n* Balige (wisata budaya dan kuliner)\n* Huta Ginjang (spot foto dan view Danau Toba dari ketinggian)\n* Tao Silalahi (danau yang tenang, cocok untuk healing)",
+          "[Contoh prompt pada dataset disamarkan untuk blind review.]"
+        ]
+      }
+    }
+  ]
+}

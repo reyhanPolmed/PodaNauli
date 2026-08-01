@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-07-25T20:18:17.079924+07:00",
+  "evaluation_dataset": "locked human gold test split",
+  "test_rows": 180,
+  "test_groups": 51,
+  "split": {
+    "method": "Nested StratifiedGroupKFold with canonical_place_id groups",
+    "rows": {
+      "train": 539,
+      "validation": 181,
+      "test": 180
+    },
+    "groups": {
+      "train": 121,
+      "validation": 47,
+      "test": 51
+    },
+    "label_counts": {
+      "test": {
+        "negative": 69,
+        "neutral": 38,
+        "positive": 73
+      },
+      "train": {
+        "negative": 209,
+        "neutral": 111,
+        "positive": 219
+      },
+      "validation": {
+        "negative": 70,
+        "neutral": 38,
+        "positive": 73
+      }
+    },
+    "group_overlap_count": 0
+  },
+  "sentiment": {
+    "weak_label_retrained_baseline": {
+      "macro_f1": 0.5796703296703297,
+      "weighted_f1": 0.6407356532356532,
+      "balanced_accuracy": 0.5843703959123538,
+      "negative_recall": 0.6521739130434783,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8823529411764706,
+          "recall": 0.6521739130434783,
+          "f1-score": 0.75,
+          "support": 69.0
+        },
+        "neutral": {
+          "precision": 0.2962962962962963,
+          "recall": 0.21052631578947367,
+          "f1-score": 0.24615384615384617,
+          "support": 38.0
+        },
+        "positive": {
+          "precision": 0.6372549019607843,
+          "recall": 0.8904109589041096,
+          "f1-score": 0.7428571428571429,
+          "support": 73.0
+        },
+        "accuracy": 0.6555555555555556,
+        "macro avg": {
+          "precision": 0.6053013798111837,
+          "recall": 0.5843703959123538,
+          "f1-score": 0.5796703296703297,
+          "support": 180.0
+        },
+        "weighted avg": {
+          "precision": 0.6592290002420721,
+          "recall": 0.6555555555555556,
+          "f1-score": 0.6407356532356532,
+          "support": 180.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          45,
+          12,
+          12
+        ],
+        [
+          5,
+          8,
+          25
+        ],
+        [
+          1,
+          7,
+          65
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "gold_trained_champion": {
+      "macro_f1": 0.7579133510167994,
+      "weighted_f1": 0.7780960801650457,
+      "balanced_accuracy": 0.7480382015192836,
+      "negative_recall": 0.8695652173913043,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7894736842105263,
+          "recall": 0.8695652173913043,
+          "f1-score": 0.8275862068965517,
+          "support": 69.0
+        },
+        "neutral": {
+          "precision": 0.7777777777777778,
+          "recall": 0.5526315789473685,
+          "f1-score": 0.6461538461538462,
+          "support": 38.0
+        },
+        "positive": {
+          "precision": 0.7792207792207793,
+          "recall": 0.821917808219178,
+          "f1-score": 0.8,
+          "support": 73.0
+        },
+        "accuracy": 0.7833333333333333,
+        "macro avg": {
+          "precision": 0.782157413736361,
+          "recall": 0.7480382015192836,
+          "f1-score": 0.7579133510167994,
+          "support": 180.0
+        },
+        "weighted avg": {
+          "precision": 0.782846425828882,
+          "recall": 0.7833333333333333,
+          "f1-score": 0.7780960801650457,
+          "support": 180.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          60,
+          1,
+          8
+        ],
+        [
+          8,
+          21,
+          9
+        ],
+        [
+          8,
+          5,
+          60
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    }
+  },
+  "complaint": {
+    "weak_label_retrained_baseline": {
+      "macro_f1": 0.8054325464625685,
+      "weighted_f1": 0.8208177876959913,
+      "balanced_accuracy": 0.7918135526831178,
+      "negative_precision": 0.88,
+      "negative_recall": 0.6376811594202898,
+      "negative_f1": 0.7394957983193278,
+      "average_precision": 0.9049892808389999,
+      "brier_score": 0.14952188554004503,
+      "threshold": 0.295,
+      "confusion_matrix": [
+        [
+          105,
+          6
+        ],
+        [
+          25,
+          44
+        ]
+      ],
+      "labels": [
+        "non_negative",
+        "negative"
+      ],
+      "support": {
+        "non_negative": 111,
+        "negative": 69
+      }
+    },
+    "gold_trained_champion": {
+      "macro_f1": 0.8141368628555337,
+      "weighted_f1": 0.8191964704777998,
+      "balanced_accuracy": 0.8349001175088131,
+      "negative_precision": 0.7,
+      "negative_recall": 0.9130434782608695,
+      "negative_f1": 0.7924528301886793,
+      "average_precision": 0.8927085151380557,
+      "brier_score": 0.12435905098356312,
+      "threshold": 0.5049999999999999,
+      "confusion_matrix": [
+        [
+          84,
+          27
+        ],
+        [
+          6,
+          63
+        ]
+      ],
+      "labels": [
+        "non_negative",
+        "negative"
+      ],
+      "support": {
+        "non_negative": 111,
+        "negative": 69
+      }
+    }
+  },
+  "outputs": {
+    "json": "D:\\tobapulse\\outputs\\reports\\gold_vs_weak_model_comparison.json",
+    "csv": "D:\\tobapulse\\outputs\\reports\\gold_vs_weak_model_comparison.csv"
+  },
+  "limitations": [
+    "The gold dataset has one annotator and no inter-annotator agreement estimate.",
+    "Annotators could see AI suggestions, which may introduce confirmation bias.",
+    "The weak baselines exclude every place present in the locked gold test split."
+  ]
+}

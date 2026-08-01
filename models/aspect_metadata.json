@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-07-25T20:20:15.401509+07:00",
+  "version": "v2-clause-human-gold",
+  "label_source": "human_gold",
+  "threshold": 0.45,
+  "training_label_hash": "5d255a34ca8590bf4a86fcb9ae1bedac296513e056e44dd9020882f7732929a9"
+}

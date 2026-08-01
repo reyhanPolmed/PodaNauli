@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-07-25T20:18:20.054527+07:00",
+  "reviews_path": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+  "corpus_rows": 12270,
+  "tfidf_shape": [
+    12270,
+    6062
+  ],
+  "n_topics": 12,
+  "config": {
+    "n_topics": 12,
+    "max_features": 8000,
+    "min_df": 5,
+    "max_df": 0.9,
+    "n_top_words": 15,
+    "random_seed": 42
+  },
+  "taxonomy_path": "D:\\tobapulse\\configs\\aspect_taxonomy.yaml",
+  "taxonomy_aspect_count": 19,
+  "outputs": {
+    "topic_summary": "D:\\tobapulse\\outputs\\reports\\topic_summary.csv",
+    "topic_keywords": "D:\\tobapulse\\outputs\\reports\\topic_keywords.csv",
+    "topic_distribution": "D:\\tobapulse\\outputs\\figures\\topic_distribution.png",
+    "review_topics": "D:\\tobapulse\\data\\processed\\review_topics.parquet",
+    "aspect_taxonomy_topic_support": "D:\\tobapulse\\outputs\\reports\\aspect_taxonomy_topic_support.csv"
+  },
+  "limitations": [
+    "NMF topic modeling is exploratory and does not create final aspect labels.",
+    "Mapped initial aspects use direct keyword overlap with the taxonomy and need manual review.",
+    "The corpus excludes duplicate rows and empty review text."
+  ]
+}

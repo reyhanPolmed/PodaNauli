@@ -1,0 +1,26 @@
+product_name: PodaNauli
+technical_name: TobaPulse
+random_seed: 42
+target_video_minutes: 8
+max_actual_examples: 7
+max_review_characters: 180
+manual_inputs:
+  - id: A
+    description: Campuran
+    text: Pemandangannya sangat indah, tetapi toilet kurang bersih dan area parkir sempit.
+  - id: B
+    description: Positif
+    text: Pelayanannya ramah, tempatnya nyaman, dan makanan disajikan dengan cepat.
+  - id: C
+    description: Complaint
+    text: Akses jalan rusak, petunjuk arah kurang jelas, dan kendaraan sulit mencapai lokasi.
+sources:
+  sentiment_metrics: outputs/reports/sentiment_metrics.json
+  complaint_metrics: outputs/reports/complaint_metrics.json
+  aspect_metrics: outputs/reports/aspect_metrics.json
+  readiness: outputs/reports/project_readiness.json
+  data_profile: outputs/reports/data_profile.json
+  cleaning_summary: outputs/reports/cleaning_summary.json
+  service_gap_methodology: outputs/reports/service_gap_methodology.json
+  service_gap_ranking: outputs/predictions/service_gap_rankings.csv
+  service_gap_validation: outputs/reports/service_gap_top20_validation.pending.csv

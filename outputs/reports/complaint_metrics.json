@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-07-25T20:18:01.791973+07:00",
+  "task": "negative complaint vs non-negative",
+  "label_source": "human_gold",
+  "evaluation_mode": "gold_holdout",
+  "gold_evaluation_available": true,
+  "gold_semantic_sha256": "40200e2928e7a4f2f6121c54af2d9100b15201a338612328a5d7c35c28763f83",
+  "training_rows": 900,
+  "split": {
+    "method": "Nested StratifiedGroupKFold with canonical_place_id groups",
+    "rows": {
+      "train": 539,
+      "validation": 181,
+      "test": 180
+    },
+    "groups": {
+      "train": 121,
+      "validation": 47,
+      "test": 51
+    },
+    "label_counts": {
+      "test": {
+        "negative": 69,
+        "neutral": 38,
+        "positive": 73
+      },
+      "train": {
+        "negative": 209,
+        "neutral": 111,
+        "positive": 219
+      },
+      "validation": {
+        "negative": 70,
+        "neutral": 38,
+        "positive": 73
+      }
+    },
+    "group_overlap_count": 0,
+    "source": "D:\\tobapulse\\data\\processed\\sentiment_gold_split.parquet"
+  },
+  "selection": {
+    "objective": "validation F2 with precision floor 0.60",
+    "parameters": {
+      "feature_set": "word_char",
+      "c_value": 1.0,
+      "negative_class_weight": 3.0,
+      "threshold": 0.5049999999999999,
+      "validation_precision": 0.6979166666666666,
+      "validation_recall": 0.9571428571428572,
+      "validation_f1": 0.8072289156626506,
+      "validation_f_beta": 0.8909574468085106,
+      "validation_balanced_accuracy": 0.847940797940798,
+      "validation_average_precision": 0.8663357880773428,
+      "training_seconds": 0.15954469999996945
+    },
+    "comparison_rows": 18
+  },
+  "test_metrics": {
+    "macro_f1": 0.8141368628555337,
+    "weighted_f1": 0.8191964704777998,
+    "balanced_accuracy": 0.8349001175088131,
+    "negative_precision": 0.7,
+    "negative_recall": 0.9130434782608695,
+    "negative_f1": 0.7924528301886793,
+    "average_precision": 0.8927085151380557,
+    "brier_score": 0.12435905098356312,
+    "threshold": 0.5049999999999999,
+    "confusion_matrix": [
+      [
+        84,
+        27
+      ],
+      [
+        6,
+        63
+      ]
+    ],
+    "labels": [
+      "non_negative",
+      "negative"
+    ],
+    "support": {
+      "non_negative": 111,
+      "negative": 69
+    }
+  },
+  "abstention": {
+    "uncertainty_margin": 0.08,
+    "negative_decision_threshold": 0.5849999999999999,
+    "uncertain_rows": 29,
+    "coverage": 0.8388888888888889,
+    "operational_metrics_with_uncertain_as_non_negative": {
+      "macro_f1": 0.837962962962963,
+      "weighted_f1": 0.8455246913580248,
+      "balanced_accuracy": 0.8437132784958872,
+      "negative_precision": 0.7733333333333333,
+      "negative_recall": 0.8405797101449275,
+      "negative_f1": 0.8055555555555556,
+      "average_precision": 0.8927085151380557,
+      "brier_score": 0.12435905098356312,
+      "threshold": 0.5849999999999999,
+      "confusion_matrix": [
+        [
+          94,
+          17
+        ],
+        [
+          11,
+          58
+        ]
+      ],
+      "labels": [
+        "non_negative",
+        "negative"
+      ],
+      "support": {
+        "non_negative": 111,
+        "negative": 69
+      }
+    },
+    "covered_metrics": {
+      "macro_f1": 0.8662296243798724,
+      "weighted_f1": 0.8687817104021852,
+      "balanced_accuracy": 0.8809653916211293,
+      "negative_precision": 0.7733333333333333,
+      "negative_recall": 0.9508196721311475,
+      "negative_f1": 0.8529411764705882,
+      "average_precision": 0.91906516467203,
+      "brier_score": 0.10135565571353569,
+      "threshold": 0.5049999999999999,
+      "confusion_matrix": [
+        [
+          73,
+          17
+        ],
+        [
+          3,
+          58
+        ]
+      ],
+      "labels": [
+        "non_negative",
+        "negative"
+      ],
+      "support": {
+        "non_negative": 90,
+        "negative": 61
+      }
+    }
+  },
+  "slice_metrics": [
+    {
+      "slice_column": "place_category",
+      "slice_value": "hotel",
+      "rows": 25,
+      "negative_support": 16,
+      "negative_precision": 0.8823529411764706,
+      "negative_recall": 0.9375,
+      "macro_f1": 0.8663101604278074,
+      "balanced_accuracy": 0.8576388888888888
+    },
+    {
+      "slice_column": "place_category",
+      "slice_value": "restoran",
+      "rows": 64,
+      "negative_support": 30,
+      "negative_precision": 0.6923076923076923,
+      "negative_recall": 0.9,
+      "macro_f1": 0.7641857037582904,
+      "balanced_accuracy": 0.7735294117647059
+    },
+    {
+      "slice_column": "place_category",
+      "slice_value": "wisata",
+      "rows": 91,
+      "negative_support": 23,
+      "negative_precision": 0.6176470588235294,
+      "negative_recall": 0.9130434782608695,
+      "macro_f1": 0.8084210526315789,
+      "balanced_accuracy": 0.8609335038363171
+    },
+    {
+      "slice_column": "text_length_bucket",
+      "slice_value": "medium",
+      "rows": 19,
+      "negative_support": 11,
+      "negative_precision": 0.6111111111111112,
+      "negative_recall": 1.0,
+      "macro_f1": 0.4904214559386973,
+      "balanced_accuracy": 0.5625
+    },
+    {
+      "slice_column": "text_length_bucket",
+      "slice_value": "short",
+      "rows": 39,
+      "negative_support": 26,
+      "negative_precision": 0.9565217391304348,
+      "negative_recall": 0.8461538461538461,
+      "macro_f1": 0.8627726952850105,
+      "balanced_accuracy": 0.8846153846153846
+    },
+    {
+      "slice_column": "text_length_bucket",
+      "slice_value": "very_short",
+      "rows": 117,
+      "negative_support": 31,
+      "negative_precision": 0.6444444444444445,
+      "negative_recall": 0.9354838709677419,
+      "macro_f1": 0.8246169220519654,
+      "balanced_accuracy": 0.8747186796699175
+    },
+    {
+      "slice_column": "language_bucket",
+      "slice_value": "english_signal",
+      "rows": 20,
+      "negative_support": 6,
+      "negative_precision": 0.6,
+      "negative_recall": 1.0,
+      "macro_f1": 0.7916666666666667,
+      "balanced_accuracy": 0.8571428571428572
+    },
+    {
+      "slice_column": "language_bucket",
+      "slice_value": "indonesian_or_local",
+      "rows": 160,
+      "negative_support": 63,
+      "negative_precision": 0.7125,
+      "negative_recall": 0.9047619047619048,
+      "macro_f1": 0.8166804946465963,
+      "balanced_accuracy": 0.8338242513500245
+    }
+  ],
+  "acceptance_gates": {
+    "macro_f1": 0.7,
+    "negative_recall": 0.8,
+    "negative_precision": 0.6,
+    "neutral_f1": 0.5,
+    "balanced_accuracy": 0.7,
+    "minimum_prediction_coverage": 0.75,
+    "top_20_service_gap_validity": 0.8
+  },
+  "gate_results": {
+    "negative_recall": true,
+    "negative_precision": true,
+    "macro_f1": true,
+    "balanced_accuracy": true,
+    "prediction_coverage": true
+  },
+  "deployment_ready": true,
+  "outputs": {
+    "model": "D:\\tobapulse\\models\\complaint_detector.joblib",
+    "metrics": "D:\\tobapulse\\outputs\\reports\\complaint_metrics.json",
+    "comparison": "D:\\tobapulse\\outputs\\reports\\complaint_model_comparison.csv",
+    "predictions": "D:\\tobapulse\\data\\processed\\review_complaint_predictions.parquet"
+  },
+  "limitations": [
+    "The detector predicts review-level complaint probability; aspect-level assignment is handled separately.",
+    "Thresholds must be re-tuned whenever human gold labels or the training distribution change.",
+    "The current human gold dataset was reviewed by one annotator.",
+    "Annotators could see AI suggestions, so confirmation bias remains possible."
+  ]
+}

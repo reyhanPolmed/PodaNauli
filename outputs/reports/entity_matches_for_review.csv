@@ -1,0 +1,158 @@
+canonical_place_id,canonical_place_name,source_sheet,source_place_name,normalized_place_name,match_score,match_method,match_status,needs_manual_review,candidate_canonical_place_id,candidate_canonical_place_name
+place_00007,Air Terjun Janji,wisata-metadata,Air Terjun Janji,air terjun janji,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00005,Air Terjun Binanga Bolon
+place_00008,Air Terjun Lae,wisata-metadata,Air Terjun Lae,air terjun lae,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00005,Air Terjun Binanga Bolon
+place_00012,Air Terjun Siboruon Balige,wisata-metadata,Air Terjun Siboruon Balige,air terjun siboruon balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00006,Air Terjun Efrata
+place_00013,Air Terjun Sigarattung,wisata-metadata,Air Terjun Sigarattung,air terjun sigarattung,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00008,Air Terjun Lae
+place_00014,Air Terjun Sigota gota Sipultak Hoda,wisata-metadata,Air Terjun Sigota gota Sipultak Hoda,air terjun sigota gota sipultak hoda,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00005,Air Terjun Binanga Bolon
+place_00015,Air Terjun Sigura-Gura,wisata-metadata,Air Terjun Sigura-Gura,air terjun sigura gura,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00008,Air Terjun Lae
+place_00016,Air Terjun Simolap,wisata-metadata,Air Terjun Simolap,air terjun simolap,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00014,Air Terjun Sigota gota Sipultak Hoda
+place_00017,Air Terjun Sipisopiso,wisata-metadata,Air Terjun Sipisopiso,air terjun sipisopiso,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00008,Air Terjun Lae
+place_00018,Air Terjun Sitapigagan,wisata-metadata,Air Terjun Sitapigagan,air terjun sitapigagan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00008,Air Terjun Lae
+place_00019,Air Terjun Situmurun,wisata-metadata,Air Terjun Situmurun,air terjun situmurun,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00014,Air Terjun Sigota gota Sipultak Hoda
+place_00020,Air Terjun Tombak Pangaribuan,wisata-metadata,Air Terjun Tombak Pangaribuan,air terjun tombak pangaribuan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00006,Air Terjun Efrata
+place_00021,Air Terjun Tonduhan,wisata-metadata,Air Terjun Tonduhan,air terjun tonduhan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00014,Air Terjun Sigota gota Sipultak Hoda
+place_00022,Air Terjun Turunan Buhit (Jabel),wisata-metadata,Air Terjun Turunan Buhit (Jabel),air terjun turunan buhit jabel,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00006,Air Terjun Efrata
+place_00025,Amora Cafe,resto-metadata,Amora Cafe,amora cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00033,"BAKSO MAS PANDU ""WONG SOLO""",resto-metadata,"BAKSO MAS PANDU ""WONG SOLO""",bakso mas pandu wong solo,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00032,Bakso Dorela
+place_00034,BAKSO PAK RADIT (BAKSO KHAS MALANG),resto-metadata,BAKSO PAK RADIT (BAKSO KHAS MALANG),bakso pak radit bakso khas malang,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00032,Bakso Dorela
+place_00044,Batu Sigadap,wisata-metadata,Batu Sigadap,batu sigadap,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00040,Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )
+place_00045,Betesda Cafe Balige,resto-metadata,Betesda Cafe Balige,betesda cafe balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00025,Amora Cafe
+place_00047,Biwa Cafe & Resto,resto-metadata,Biwa Cafe & Resto,biwa cafe resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00050,BONA PANATAPAN CAFE,resto-metadata,BONA PANATAPAN CAFE,bona panatapan cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00025,Amora Cafe
+place_00052,BPK Karona,resto-metadata,BPK Karona,bpk karona,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00051,BPK ( Babi Panggang Karo) Sembiring
+place_00053,BPK PANCA JAYA,resto-metadata,BPK PANCA JAYA,bpk panca jaya,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00051,BPK ( Babi Panggang Karo) Sembiring
+place_00054,BPK TAMBAR LIHE CLARISSA GURUSINGA,resto-metadata,BPK TAMBAR LIHE CLARISSA GURUSINGA,bpk tambar lihe clarissa gurusinga,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00052,BPK Karona
+place_00055,BPK TORANG dan IKAN BAKAR,resto-metadata,BPK TORANG dan IKAN BAKAR,bpk torang dan ikan bakar,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00052,BPK Karona
+place_00059,Bukit Burung,wisata-metadata,Bukit Burung,bukit burung,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00058,Bukit Beta Tuk-tuk
+place_00062,Bukit Indah Simarjarunjung,wisata-metadata,Bukit Indah Simarjarunjung,bukit indah simarjarunjung,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00059,Bukit Burung
+place_00063,Bukit Pahoda,wisata-metadata,Bukit Pahoda,bukit pahoda,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00058,Bukit Beta Tuk-tuk
+place_00064,Bukit Senyum,wisata-metadata,Bukit Senyum,bukit senyum,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00058,Bukit Beta Tuk-tuk
+place_00066,Bukit Simargulang Ombun,wisata-metadata,Bukit Simargulang Ombun,bukit simargulang ombun,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00059,Bukit Burung
+place_00068,Bukit Sipolha,wisata-metadata,Bukit Sipolha,bukit sipolha,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00062,Bukit Indah Simarjarunjung
+place_00071,Cantik Daijo Cafe,resto-metadata,Cantik Daijo Cafe,cantik daijo cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00025,Amora Cafe
+place_00073,Chinese Food Gemar,resto-metadata,Chinese Food Gemar,chinese food gemar,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00075,D'barans Cafe,resto-metadata,D'barans Cafe,d barans cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00076,D'view cafe and resto,resto-metadata,D'view cafe and resto,d view cafe and resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00082,Desa Wisata Silalahi Pagar Batu,wisata-metadata,Desa Wisata Silalahi Pagar Batu,desa wisata silalahi pagar batu,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00038,Batu Basiha
+place_00089,Family Resto,resto-metadata,Family Resto,family resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00097,Gunung Pusuk Buhit,wisata-metadata,Gunung Pusuk Buhit,gunung pusuk buhit,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00022,Air Terjun Turunan Buhit (Jabel)
+place_00101,Hotel Adela,hotel-metadata,Hotel Adela,hotel adela,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00095,Grand Mareda Hotel
+place_00103,HOTEL BAHAGIA BALIGE,hotel-metadata,HOTEL BAHAGIA BALIGE,hotel bahagia balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00035,"Balerong - Balige, Toba Samosir, North Sumatra, Indonesia"
+place_00104,Hotel Dizomn,hotel-metadata,Hotel Dizomn,hotel dizomn,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00095,Grand Mareda Hotel
+place_00105,Hotel Nabasa,hotel-metadata,Hotel Nabasa,hotel nabasa,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00095,Grand Mareda Hotel
+place_00107,Hotel Santo Djaya,hotel-metadata,Hotel Santo Djaya,hotel santo djaya,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00101,Hotel Adela
+place_00109,Hutanta Cafe,resto-metadata,Hutanta Cafe,hutanta cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00110,ijabu Coffee & Roastery,resto-metadata,ijabu Coffee & Roastery,ijabu coffee roastery,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00048,BMW Coffee
+place_00112,Istana Raja Sisingamangaraja,wisata-metadata,Istana Raja Sisingamangaraja,istana raja sisingamangaraja,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00040,Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )
+place_00113,Ita Soposurung Hotel,hotel-metadata,Ita Soposurung Hotel,ita soposurung hotel,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00101,Hotel Adela
+place_00116,Jenny's Restaurant,resto-metadata,Jenny's Restaurant,jenny s restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00100,Horas Vegetarian Restaurant
+place_00117,Joe's Restaurant,resto-metadata,Joe's Restaurant,joe s restaurant,91.2353,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00116,Jenny's Restaurant
+place_00118,Kafe Pak Pos,resto-metadata,Kafe Pak Pos,kafe pak pos,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00034,BAKSO PAK RADIT (BAKSO KHAS MALANG)
+place_00125,Kedai Mie Lily,resto-metadata,Kedai Mie Lily,kedai mie lily,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00122,Kedai Bakmi Bahagia 2
+place_00126,LA PINUS DAMASUS BISTRO & RESTO,resto-metadata,LA PINUS DAMASUS BISTRO & RESTO,la pinus damasus bistro resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00047,Biwa Cafe & Resto
+place_00130,Lapo Barat (RESTAURANT & CATERING),resto-metadata,Lapo Barat (RESTAURANT & CATERING),lapo barat restaurant catering,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00116,Jenny's Restaurant
+place_00131,LEO'S Restaurant,resto-metadata,LEO'S Restaurant,leo s restaurant,90.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00117,Joe's Restaurant
+place_00132,Leon Cafe,resto-metadata,Leon Cafe,leon cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00137,Maruba Restaurant,resto-metadata,Maruba Restaurant,maruba restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00100,Horas Vegetarian Restaurant
+place_00138,Matahari restaurant and Homestay,resto-metadata,Matahari restaurant and Homestay,matahari restaurant and homestay,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00142,Monumen Raja SONAKMALELA,wisata-metadata,Monumen Raja SONAKMALELA,monumen raja sonakmalela,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00040,Batu Kursi Raja Siallagan ( Stone Chair of King Siallagan )
+place_00144,Mual Sirambe,wisata-metadata,Mual Sirambe,mual sirambe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00143,Mual Sipangolu (Mual Sisingamangaraja)
+place_00145,Museum Batak T.B. Silalahi Center,wisata-metadata,Museum Batak T.B. Silalahi Center,museum batak t b silalahi center,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00037,Batak Museum
+place_00151,Onand Coffee,resto-metadata,Onand Coffee,onand coffee,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00110,ijabu Coffee & Roastery
+place_00152,Orari Restaurant,resto-metadata,Orari Restaurant,orari restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00086,Driving Range Restaurant
+place_00155,PALITO COFFEE AND RESTO,resto-metadata,PALITO COFFEE AND RESTO,palito coffee and resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00159,Pantai Batuhoda,wisata-metadata,Pantai Batuhoda,pantai batuhoda,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00149,Objek Wisata Pantai Paris
+place_00160,Pantai Gajah Tidur Paropo Silalahi,wisata-metadata,Pantai Gajah Tidur Paropo Silalahi,pantai gajah tidur paropo silalahi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00159,Pantai Batuhoda
+place_00161,Pantai Kenangan,wisata-metadata,Pantai Kenangan,pantai kenangan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00149,Objek Wisata Pantai Paris
+place_00162,Pantai Lumban Silintong,wisata-metadata,Pantai Lumban Silintong,pantai lumban silintong,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00159,Pantai Batuhoda
+place_00163,Pantai Pakkodian Tampahan,wisata-metadata,Pantai Pakkodian Tampahan,pantai pakkodian tampahan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00159,Pantai Batuhoda
+place_00164,Pantai Parparean 2,wisata-metadata,Pantai Parparean 2,pantai parparean 2,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00160,Pantai Gajah Tidur Paropo Silalahi
+place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata-metadata,Pantai Pasir Putih Lumban Bul-bul Balige,pantai pasir putih lumban bulbul balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00012,Air Terjun Siboruon Balige
+place_00166,Pantai Pelangi,wisata-metadata,Pantai Pelangi,pantai pelangi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00149,Objek Wisata Pantai Paris
+place_00167,Pantai Pulo Tao,wisata-metadata,Pantai Pulo Tao,pantai pulo tao,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00149,Objek Wisata Pantai Paris
+place_00168,Pantai Silalahi,wisata-metadata,Pantai Silalahi,pantai silalahi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00082,Desa Wisata Silalahi Pagar Batu
+place_00170,Pasar Tomok,wisata-metadata,Pasar Tomok,pasar tomok,90.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00083,Desa Wisata Tomok Parsaoran
+place_00171,Pasir Putih Parbaba,wisata-metadata,Pasir Putih Parbaba,pasir putih parbaba,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00120,Kawah Putih Dolok Tinggi Raja
+place_00175,Pemandian Air Panas Rianiate,wisata-metadata,Pemandian Air Panas Rianiate,pemandian air panas rianiate,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00006,Air Terjun Efrata
+place_00176,Pemandian Air Soda Parbubu,wisata-metadata,Pemandian Air Soda Parbubu,pemandian air soda parbubu,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00006,Air Terjun Efrata
+place_00186,Pondok Makan & Home Stay H. Karsim,resto-metadata,Pondok Makan & Home Stay H. Karsim,pondok makan home stay h karsim,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00184,Pondok Azzahra
+place_00188,Poppy's Restaurant & Guest House,resto-metadata,Poppy's Restaurant & Guest House,poppy s restaurant guest house,91.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00116,Jenny's Restaurant
+place_00191,Pulau Tao Silalahi,wisata-metadata,Pulau Tao Silalahi,pulau tao silalahi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00082,Desa Wisata Silalahi Pagar Batu
+place_00197,Putra Kembar Coffee Shop & Resto,resto-metadata,Putra Kembar Coffee Shop & Resto,putra kembar coffee shop resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00047,Biwa Cafe & Resto
+place_00198,Qta Coffee And Resto,resto-metadata,Qta Coffee And Resto,qta coffee and resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00200,Rapindo cafe balige,resto-metadata,Rapindo cafe balige,rapindo cafe balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00025,Amora Cafe
+place_00201,Restaurant Asia,resto-metadata,Restaurant Asia,restaurant asia,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00023,Alyssa Restaurant Pizza
+place_00202,Restaurant DUGUL,resto-metadata,Restaurant DUGUL,restaurant dugul,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00086,Driving Range Restaurant
+place_00203,Restaurant Sehat,resto-metadata,Restaurant Sehat,restaurant sehat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00086,Driving Range Restaurant
+place_00204,Restoran Tabo Toko Roti dan Sangrai Kopi,resto-metadata,Restoran Tabo Toko Roti dan Sangrai Kopi,restoran tabo toko roti dan sangrai kopi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00055,BPK TORANG dan IKAN BAKAR
+place_00205,RM BPK MAN KENA (bang gurning),resto-metadata,RM BPK MAN KENA (bang gurning),rm bpk man kena bang gurning,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00052,BPK Karona
+place_00206,RM. GOMGOM KHAS BATAK,resto-metadata,RM. GOMGOM KHAS BATAK,rm gomgom khas batak,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00034,BAKSO PAK RADIT (BAKSO KHAS MALANG)
+place_00207,RM GUMARANG,resto-metadata,RM GUMARANG,rm gumarang,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00205,RM BPK MAN KENA (bang gurning)
+place_00209,RM. Islam Roda Baru,resto-metadata,RM. Islam Roda Baru,rm islam roda baru,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00205,RM BPK MAN KENA (bang gurning)
+place_00211,RM Lapo Jior,resto-metadata,RM Lapo Jior,rm lapo jior,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00130,Lapo Barat (RESTAURANT & CATERING)
+place_00212,RM muslim MENARA,resto-metadata,RM muslim MENARA,rm muslim menara,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00213,RM. Nasional Sampean Uli,resto-metadata,RM. Nasional Sampean Uli,rm nasional sampean uli,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00207,RM GUMARANG
+place_00214,RM. Parapat,resto-metadata,RM. Parapat,rm parapat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00205,RM BPK MAN KENA (bang gurning)
+place_00216,RM. Siganupari Ajibata,resto-metadata,RM. Siganupari Ajibata,rm siganupari ajibata,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00207,RM GUMARANG
+place_00218,Rosalie's Beer Garden And Restaurant,resto-metadata,Rosalie's Beer Garden And Restaurant,rosalie s beer garden and restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00023,Alyssa Restaurant Pizza
+place_00223,Rumah Makan Elizabeth,resto-metadata,Rumah Makan Elizabeth,rumah makan elizabeth,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00225,Rumah Makan Islam Mami Tempo,resto-metadata,Rumah Makan Islam Mami Tempo,rumah makan islam mami tempo,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00124,"Kedai Islam ""Rahayu"""
+place_00226,Rumah Makan Islam Monggo,resto-metadata,Rumah Makan Islam Monggo,rumah makan islam monggo,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00227,Rumah Makan Islam Murni,resto-metadata,Rumah Makan Islam Murni,rumah makan islam murni,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00232,Rumah Makan Khas Karo Tambar Lihe,resto-metadata,Rumah Makan Khas Karo Tambar Lihe,rumah makan khas karo tambar lihe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00206,RM. GOMGOM KHAS BATAK
+place_00233,Rumah Makan Lomak,resto-metadata,Rumah Makan Lomak,rumah makan lomak,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00026,ANDRIAN RUMAH MAKAN NASIONAL
+place_00234,Rumah Makan Marina,resto-metadata,Rumah Makan Marina,rumah makan marina,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00026,ANDRIAN RUMAH MAKAN NASIONAL
+place_00235,Rumah Makan Martabe,resto-metadata,Rumah Makan Martabe,rumah makan martabe,89.4865,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00234,Rumah Makan Marina
+place_00236,Rumah Makan Muslim Hajjah Zuleka,resto-metadata,Rumah Makan Muslim Hajjah Zuleka,rumah makan muslim hajjah zuleka,91.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00212,RM muslim MENARA
+place_00237,Rumah makan muslim nikmat,resto-metadata,Rumah makan muslim nikmat,rumah makan muslim nikmat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00212,RM muslim MENARA
+place_00238,Rumah Makan Muslim Penginapan,resto-metadata,Rumah Makan Muslim Penginapan,rumah makan muslim penginapan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00212,RM muslim MENARA
+place_00240,Rumah Makan Panca,resto-metadata,Rumah Makan Panca,rumah makan panca,88.7143,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00234,Rumah Makan Marina
+place_00241,"Rumah Makan ""PONDOK KAREN""",resto-metadata,"Rumah Makan ""PONDOK KAREN""",rumah makan pondok karen,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00242,Rumah Makan Pondok Salero,resto-metadata,Rumah Makan Pondok Salero,rumah makan pondok salero,88.7143,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00241,"Rumah Makan ""PONDOK KAREN"""
+place_00243,Rumah Makan Rahmat,resto-metadata,Rumah Makan Rahmat,rumah makan rahmat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00026,ANDRIAN RUMAH MAKAN NASIONAL
+place_00244,Rumah Makan Rizal,resto-metadata,Rumah Makan Rizal,rumah makan rizal,88.7143,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00234,Rumah Makan Marina
+place_00245,Rumah Makan Romauli,resto-metadata,Rumah Makan Romauli,rumah makan romauli,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00246,Rumah Makan SABAS Balige City,resto-metadata,Rumah Makan SABAS Balige City,rumah makan sabas balige city,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00035,"Balerong - Balige, Toba Samosir, North Sumatra, Indonesia"
+place_00247,Rumah makan safitri,resto-metadata,Rumah makan safitri,rumah makan safitri,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00099,Hidangan Muslim Rumah Makan CHARISSA
+place_00249,Rumah Pesanggrahan Bung Karno,wisata-metadata,Rumah Pesanggrahan Bung Karno,rumah pesanggrahan bung karno,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00220,Rumah Adat Pak Pak
+place_00250,Rumba Restaurant,resto-metadata,Rumba Restaurant,rumba restaurant,93.9091,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00137,Maruba Restaurant
+place_00258,Sigurgur Beach and Restaurant,resto-metadata,Sigurgur Beach and Restaurant,sigurgur beach and restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00265,Solu Bolon Cafe and Resto,resto-metadata,Solu Bolon Cafe and Resto,solu bolon cafe and resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00024,ALZA CEMILAN KOREAN STREET FOOD GRILL AND FROZEN FOOD HALAL
+place_00268,Sopo Partungkoan Tarutung,wisata-metadata,Sopo Partungkoan Tarutung,sopo partungkoan tarutung,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00267,Sopo Guru Tatea Bulan | ᯘᯬᯇᯬ ᯎᯮᯒᯮ ᯖᯖᯩᯀ ᯅᯮᯞᯉ᯲
+place_00269,SS Fried Chicken x Teduh Balige,resto-metadata,SS Fried Chicken x Teduh Balige,ss fried chicken x teduh balige,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00035,"Balerong - Balige, Toba Samosir, North Sumatra, Indonesia"
+place_00270,Tabo Cottages,hotel-metadata,Tabo Cottages,tabo cottages,89.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00204,Restoran Tabo Toko Roti dan Sangrai Kopi
+place_00272,Taman Wisata Goa Bunda Maria,wisata-metadata,Taman Wisata Goa Bunda Maria,taman wisata goa bunda maria,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00271,Taman Eden 100
+place_00273,Taman Wisata Iman Dairi,wisata-metadata,Taman Wisata Iman Dairi,taman wisata iman dairi,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00271,Taman Eden 100
+place_00278,Tao Tio Coffee and Resto,resto-metadata,Tao Tio Coffee and Resto,tao tio coffee and resto,89.3636,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00198,Qta Coffee And Resto
+place_00280,TaTaring Coffee & Resto,resto-metadata,TaTaring Coffee & Resto,tataring coffee resto,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00048,BMW Coffee
+place_00283,Tepi Danau Bistro,resto-metadata,Tepi Danau Bistro,tepi danau bistro,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00126,LA PINUS DAMASUS BISTRO & RESTO
+place_00287,Tiara Bunga Hotel,hotel-metadata,Tiara Bunga Hotel,tiara bunga hotel,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00101,Hotel Adela
+place_00290,Today's Cafe,resto-metadata,Today's Cafe,today s cafe,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00001,3J Lamongan Cafe n Resto
+place_00292,Tombak Sulusulu,wisata-metadata,Tombak Sulusulu,tombak sulusulu,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00020,Air Terjun Tombak Pangaribuan
+place_00297,Warkop Panorama I Panatapan PARAPAT,resto-metadata,Warkop Panorama I Panatapan PARAPAT,warkop panorama i panatapan parapat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00050,BONA PANATAPAN CAFE
+place_00298,Warung Bikers Parapat,resto-metadata,Warung Bikers Parapat,warung bikers parapat,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00214,RM. Parapat
+place_00299,Warung Butet's,resto-metadata,Warung Butet's,warung butet s,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00188,Poppy's Restaurant & Guest House
+place_00302,warung mak iwan,resto-metadata,warung mak iwan,warung mak iwan,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00300,Warung Kembar (KHAS BATAK)
+place_00303,Warung Makan Muslim Bu Nurul,resto-metadata,Warung Makan Muslim Bu Nurul,warung makan muslim bu nurul,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00212,RM muslim MENARA
+place_00304,Warung Muslim Pecel Lele Dan Bakso Raksasa Pak Aziz,resto-metadata,Warung Muslim Pecel Lele Dan Bakso Raksasa Pak Aziz,warung muslim pecel lele dan bakso raksasa pak aziz,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00032,Bakso Dorela
+place_00305,Warung Pesona Alam,resto-metadata,Warung Pesona Alam,warung pesona alam,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00301,"Warung Kopi Synergy,Samosir"
+place_00307,Widya Restaurant,resto-metadata,Widya Restaurant,widya restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00086,Driving Range Restaurant
+place_00308,Wisata Alam Fishing-Camp Siarubung,wisata-metadata,Wisata Alam Fishing-Camp Siarubung,wisata alam fishing camp siarubung,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00081,Desa Wisata Sigapiton
+place_00311,Wisata Bukit Gibeon,wisata-metadata,Wisata Bukit Gibeon,wisata bukit gibeon,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00059,Bukit Burung
+place_00315,Yolanda Restaurant,resto-metadata,Yolanda Restaurant,yolanda restaurant,88.5,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00100,Horas Vegetarian Restaurant
+place_00316,Air Soda Parbubu,wisata-v2,Air Soda Parbubu,air soda parbubu,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00176,Pemandian Air Soda Parbubu
+place_00318,Air Terjun Lae Mbilulu,wisata-v2,Air Terjun Lae Mbilulu,air terjun lae mbilulu,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00008,Air Terjun Lae
+place_00319,Air Terjun Sigarattung (Sampuran Na Pitu),wisata-v2,Air Terjun Sigarattung (Sampuran Na Pitu),air terjun sigarattung sampuran na pitu,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00013,Air Terjun Sigarattung
+place_00321,Bukit Holbung Samosir,wisata-v2,Bukit Holbung Samosir,bukit holbung samosir,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00061,Bukit Holbung
+place_00325,Hkbp Balige,wisata-v2,Hkbp Balige,hkbp balige,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00092,Gereja Tua HKBP Balige
+place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata-v2,"Kebun Teh Bahbutong, Sidamanik",kebun teh bahbutong sidamanik,93.377,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00121,Kebun Teh Sidamanik
+place_00329,Kedai Bakmi Bahagia Sukaria,resto-hotel-v2,Kedai Bakmi Bahagia Sukaria,kedai bakmi bahagia sukaria,90.25,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00122,Kedai Bakmi Bahagia 2
+place_00333,Mual Sirambe Nauli,wisata-v2,Mual Sirambe Nauli,mual sirambe nauli,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00144,Mual Sirambe
+place_00342,Pantai Paris,wisata-v2,Pantai Paris,pantai paris,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00149,Objek Wisata Pantai Paris
+place_00344,Parhonasan (Kebun Nenas) Sempung Polling,wisata-v2,Parhonasan (Kebun Nenas) Sempung Polling,parhonasan kebun nenas sempung polling,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00169,Parhonasan
+place_00354,Rumah Adat Pak Pak (Raja Aur Mpu Ladang Saraan),wisata-v2,Rumah Adat Pak Pak (Raja Aur Mpu Ladang Saraan),rumah adat pak pak raja aur mpu ladang saraan,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00220,Rumah Adat Pak Pak
+place_00357,Rumah Makan Diva Putri Minang,resto-hotel-v2,Rumah Makan Diva Putri Minang,rumah makan diva putri minang,90.1402,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00084,Diva Putri Minang
+place_00358,Rumah Makan Islam Murni Tuktuk Siadong,resto-hotel-v2,Rumah Makan Islam Murni Tuktuk Siadong,rumah makan islam murni tuktuk siadong,90.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00227,Rumah Makan Islam Murni
+place_00369,Situs Objek Diduga Cagar Budaya Batu Sijongjong Dan Batu Sigadap,wisata-v2,Situs Objek Diduga Cagar Budaya Batu Sijongjong Dan Batu Sigadap,situs objek diduga cagar budaya batu sijongjong dan batu sigadap,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00044,Batu Sigadap
+place_00370,Sopo Guru Tatea Bulan,wisata-v2,Sopo Guru Tatea Bulan,sopo guru tatea bulan,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00267,Sopo Guru Tatea Bulan | ᯘᯬᯇᯬ ᯎᯮᯒᯮ ᯖᯖᯩᯀ ᯅᯮᯞᯉ᯲
+place_00371,Taman Wisata Danau Ii Sicike-Cike,wisata-v2,Taman Wisata Danau Ii Sicike-Cike,taman wisata danau ii sicike cike,92.0,fuzzy_tfidf_candidate,new_needs_manual_review,True,place_00257,Sicike cike

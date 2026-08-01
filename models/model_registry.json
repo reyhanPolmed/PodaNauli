@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-07-25T20:21:54.805994+07:00",
+  "dataset_hash": "350390fbc35bdc9fcc915b8ff5c447374117c64a17b79674506c1f7c050bbf79",
+  "models": [
+    {
+      "model_name": "sentiment_champion",
+      "task": "sentiment_classification",
+      "version": "v2-human-gold",
+      "trained_at": "2026-07-25T20:17:03.217093+07:00",
+      "dataset_hash": "350390fbc35bdc9fcc915b8ff5c447374117c64a17b79674506c1f7c050bbf79",
+      "training_label_hash": "40200e2928e7a4f2f6121c54af2d9100b15201a338612328a5d7c35c28763f83",
+      "feature_configuration": "sentiment_word_char_logistic",
+      "metrics": {
+        "macro_f1": 0.7579133510167994,
+        "weighted_f1": 0.7780960801650457,
+        "balanced_accuracy": 0.7480382015192836,
+        "negative_recall": 0.8695652173913043,
+        "classification_report": {
+          "negative": {
+            "precision": 0.7894736842105263,
+            "recall": 0.8695652173913043,
+            "f1-score": 0.8275862068965517,
+            "support": 69.0
+          },
+          "neutral": {
+            "precision": 0.7777777777777778,
+            "recall": 0.5526315789473685,
+            "f1-score": 0.6461538461538462,
+            "support": 38.0
+          },
+          "positive": {
+            "precision": 0.7792207792207793,
+            "recall": 0.821917808219178,
+            "f1-score": 0.8,
+            "support": 73.0
+          },
+          "accuracy": 0.7833333333333333,
+          "macro avg": {
+            "precision": 0.782157413736361,
+            "recall": 0.7480382015192836,
+            "f1-score": 0.7579133510167994,
+            "support": 180.0
+          },
+          "weighted avg": {
+            "precision": 0.782846425828882,
+            "recall": 0.7833333333333333,
+            "f1-score": 0.7780960801650457,
+            "support": 180.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            60,
+            1,
+            8
+          ],
+          [
+            8,
+            21,
+            9
+          ],
+          [
+            8,
+            5,
+            60
+          ]
+        ],
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ]
+      },
+      "artifact_path": "D:\\tobapulse\\models\\sentiment_champion.joblib",
+      "limitations": [
+        "Reviews from the same canonical place are isolated across train, validation, and test.",
+        "The current human gold dataset was reviewed by one annotator, so inter-annotator agreement is unavailable.",
+        "Annotators could see AI suggestions, so confirmation bias remains possible."
+      ],
+      "deployment_ready": true,
+      "is_champion": true
+    },
+    {
+      "model_name": "aspect_champion",
+      "task": "aspect_multilabel_classification",
+      "version": "v2-clause-human-gold",
+      "trained_at": "2026-07-25T20:20:19.962395+07:00",
+      "dataset_hash": "350390fbc35bdc9fcc915b8ff5c447374117c64a17b79674506c1f7c050bbf79",
+      "training_label_hash": "5d255a34ca8590bf4a86fcb9ae1bedac296513e056e44dd9020882f7732929a9",
+      "feature_configuration": {
+        "c_value": 3.0,
+        "threshold": 0.45
+      },
+      "metrics": {
+        "micro_f1": 0.8088779284833539,
+        "macro_f1": 0.7350548597308647,
+        "hamming_loss": 0.03224464322862492,
+        "subset_accuracy": 0.5770750988142292,
+        "macro_average_precision": 0.8055698110614952,
+        "none_precision": 0.575,
+        "none_recall": 0.7666666666666667,
+        "none_f1": 0.6571428571428571,
+        "threshold": 0.45,
+        "per_aspect": {
+          "akses_jalan": {
+            "precision": 0.9375,
+            "recall": 0.625,
+            "f1": 0.75,
+            "support": 24,
+            "average_precision": 0.8744517047078411
+          },
+          "transportasi": {
+            "precision": 1.0,
+            "recall": 0.46153846153846156,
+            "f1": 0.631578947368421,
+            "support": 13,
+            "average_precision": 0.6689765385417559
+          },
+          "parkir": {
+            "precision": 0.9642857142857143,
+            "recall": 0.84375,
+            "f1": 0.9,
+            "support": 32,
+            "average_precision": 0.9829362041737516
+          },
+          "kebersihan": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8064516129032258,
+            "f1": 0.847457627118644,
+            "support": 31,
+            "average_precision": 0.9431370816967682
+          },
+          "toilet": {
+            "precision": 0.9473684210526315,
+            "recall": 0.8181818181818182,
+            "f1": 0.8780487804878049,
+            "support": 22,
+            "average_precision": 0.9107455277311733
+          },
+          "harga": {
+            "precision": 0.9428571428571428,
+            "recall": 0.75,
+            "f1": 0.8354430379746836,
+            "support": 44,
+            "average_precision": 0.9089416035546919
+          },
+          "pelayanan": {
+            "precision": 0.8787878787878788,
+            "recall": 0.7073170731707317,
+            "f1": 0.7837837837837838,
+            "support": 41,
+            "average_precision": 0.8753813657505675
+          },
+          "makanan": {
+            "precision": 0.875,
+            "recall": 0.8484848484848485,
+            "f1": 0.8615384615384616,
+            "support": 66,
+            "average_precision": 0.9479774178264767
+          },
+          "akomodasi": {
+            "precision": 0.7916666666666666,
+            "recall": 0.8636363636363636,
+            "f1": 0.8260869565217391,
+            "support": 22,
+            "average_precision": 0.7112704406587276
+          },
+          "keamanan": {
+            "precision": 1.0,
+            "recall": 0.6923076923076923,
+            "f1": 0.8181818181818182,
+            "support": 13,
+            "average_precision": 0.861172161172161
+          },
+          "jam_operasional": {
+            "precision": 0.5714285714285714,
+            "recall": 0.4444444444444444,
+            "f1": 0.5,
+            "support": 9,
+            "average_precision": 0.6799823633156965
+          },
+          "fasilitas_umum": {
+            "precision": 0.8,
+            "recall": 0.5454545454545454,
+            "f1": 0.6486486486486487,
+            "support": 22,
+            "average_precision": 0.6169234311870209
+          },
+          "pemandangan": {
+            "precision": 0.7894736842105263,
+            "recall": 0.7317073170731707,
+            "f1": 0.759493670886076,
+            "support": 41,
+            "average_precision": 0.8251111356904789
+          },
+          "keramaian": {
+            "precision": 1.0,
+            "recall": 0.6923076923076923,
+            "f1": 0.8181818181818182,
+            "support": 13,
+            "average_precision": 0.9397435897435895
+          },
+          "aksesibilitas": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5,
+            "f1": 0.5714285714285714,
+            "support": 8,
+            "average_precision": 0.7030143467643467
+          },
+          "budaya": {
+            "precision": 0.9565217391304348,
+            "recall": 0.9166666666666666,
+            "f1": 0.9361702127659575,
+            "support": 24,
+            "average_precision": 0.9462057284225895
+          },
+          "oleh_oleh": {
+            "precision": 0.8571428571428571,
+            "recall": 0.75,
+            "f1": 0.8,
+            "support": 8,
+            "average_precision": 0.890625
+          },
+          "internet_sinyal": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 6,
+            "average_precision": 1.0
+          },
+          "lainnya": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1,
+            "average_precision": 0.019230769230769232
+          }
+        }
+      },
+      "artifact_path": "D:\\tobapulse\\models\\aspect_champion.joblib",
+      "limitations": [
+        "The current human gold dataset has one annotator.",
+        "AI suggestions may introduce confirmation bias if visible during annotation.",
+        "Clause segmentation remains deterministic."
+      ],
+      "deployment_ready": true,
+      "is_champion": true
+    },
+    {
+      "model_name": "complaint_detector",
+      "task": "negative_complaint_detection",
+      "version": "v3-complaint-gold",
+      "trained_at": "2026-07-25T20:18:01.791973+07:00",
+      "dataset_hash": "350390fbc35bdc9fcc915b8ff5c447374117c64a17b79674506c1f7c050bbf79",
+      "training_label_hash": "40200e2928e7a4f2f6121c54af2d9100b15201a338612328a5d7c35c28763f83",
+      "feature_configuration": {
+        "feature_set": "word_char",
+        "c_value": 1.0,
+        "negative_class_weight": 3.0,
+        "threshold": 0.5049999999999999,
+        "validation_precision": 0.6979166666666666,
+        "validation_recall": 0.9571428571428572,
+        "validation_f1": 0.8072289156626506,
+        "validation_f_beta": 0.8909574468085106,
+        "validation_balanced_accuracy": 0.847940797940798,
+        "validation_average_precision": 0.8663357880773428,
+        "training_seconds": 0.15954469999996945
+      },
+      "metrics": {
+        "macro_f1": 0.8141368628555337,
+        "weighted_f1": 0.8191964704777998,
+        "balanced_accuracy": 0.8349001175088131,
+        "negative_precision": 0.7,
+        "negative_recall": 0.9130434782608695,
+        "negative_f1": 0.7924528301886793,
+        "average_precision": 0.8927085151380557,
+        "brier_score": 0.12435905098356312,
+        "threshold": 0.5049999999999999,
+        "confusion_matrix": [
+          [
+            84,
+            27
+          ],
+          [
+            6,
+            63
+          ]
+        ],
+        "labels": [
+          "non_negative",
+          "negative"
+        ],
+        "support": {
+          "non_negative": 111,
+          "negative": 69
+        }
+      },
+      "artifact_path": "D:\\tobapulse\\models\\complaint_detector.joblib",
+      "limitations": [
+        "The detector predicts review-level complaint probability; aspect-level assignment is handled separately.",
+        "Thresholds must be re-tuned whenever human gold labels or the training distribution change.",
+        "The current human gold dataset was reviewed by one annotator.",
+        "Annotators could see AI suggestions, so confirmation bias remains possible."
+      ],
+      "deployment_ready": true,
+      "is_champion": true
+    }
+  ]
+}

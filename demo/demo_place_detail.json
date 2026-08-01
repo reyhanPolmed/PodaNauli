@@ -1,0 +1,34 @@
+{
+  "rank": 1,
+  "place_name": "Thyesza Hotel Resort",
+  "category": "Hotel",
+  "aspect": "Pelayanan",
+  "service_gap_score": 57.14,
+  "evidence_count": 61,
+  "negative_evidence_count": 43,
+  "dominant_sentiment": "Negatif (43 dari 61 bukti)",
+  "complaint_evidence": 43,
+  "reason_codes": [
+    "HIGH_NEGATIVE_RATE",
+    "FREQUENT_COMPLAINT",
+    "LOW_NEARBY_SERVICE_DENSITY",
+    "HIGH_REVIEW_CONFIDENCE"
+  ],
+  "reason_labels": [
+    "Rasio negatif tinggi",
+    "Keluhan sering muncul",
+    "Layanan sekitar terbatas",
+    "Dukungan ulasan kuat"
+  ],
+  "confidence": "High",
+  "service_scarcity": 0.9245,
+  "explanation": "Thyesza Hotel Resort berada pada prioritas analisis aspek pelayanan karena 43 dari 61 bukti aspek terindikasi negatif, didukung 223 ulasan, dan indikator kelangkaan layanan sekitar bernilai 0.92.",
+  "evidence_snippets": [
+    "service buruk , receptionist buruk , staff kurang berpengalaman hospitality, tolong di bantu jika tidak bisa kerja di pelayanan hospitality tidak usah kerja di bidang pelayanan lebih baik di bengkel",
+    "Pelayanan tidak baik sekelas kamar harga 500 serapan pagi tidak prasmanan dan makan di jatah",
+    "Puas sekali dengan pelayanannya"
+  ],
+  "human_validation": "Bukti valid dan prioritas valid",
+  "validator_id": "A01",
+  "disclaimer": "Ranking adalah prioritas analisis, bukan jaminan peluang bisnis."
+}

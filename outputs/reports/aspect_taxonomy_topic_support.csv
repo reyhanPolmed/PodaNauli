@@ -1,0 +1,20 @@
+aspect_id,display_name,matched_topic_count,matched_review_count,matched_topic_ids,support_status
+akses_jalan,Akses Jalan,1,4615,10,topic_supported
+transportasi,Transportasi,0,0,,not_observed_in_nmf_topics
+parkir,Parkir,0,0,,not_observed_in_nmf_topics
+kebersihan,Kebersihan,0,0,,not_observed_in_nmf_topics
+toilet,Toilet,0,0,,not_observed_in_nmf_topics
+harga,Harga,1,192,11,topic_supported
+pelayanan,Pelayanan,3,2084,"9,1,7",topic_supported
+makanan,Makanan,2,1641,"3,5",topic_supported
+akomodasi,Akomodasi,1,692,8,topic_supported
+keamanan,Keamanan,0,0,,not_observed_in_nmf_topics
+jam_operasional,Jam Operasional,0,0,,not_observed_in_nmf_topics
+fasilitas_umum,Fasilitas Umum,0,0,,not_observed_in_nmf_topics
+pemandangan,Pemandangan,4,3046,"0,4,2,6",topic_supported
+keramaian,Keramaian,0,0,,not_observed_in_nmf_topics
+aksesibilitas,Aksesibilitas,0,0,,not_observed_in_nmf_topics
+budaya,Budaya,0,0,,not_observed_in_nmf_topics
+oleh_oleh,Oleh-oleh,0,0,,not_observed_in_nmf_topics
+internet_sinyal,Internet dan Sinyal,0,0,,not_observed_in_nmf_topics
+lainnya,Lainnya,0,0,,not_observed_in_nmf_topics

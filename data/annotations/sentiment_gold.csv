@@ -1,0 +1,901 @@
+﻿review_id,canonical_place_id,place_name,place_category,reviewer_rating,review_text_raw,weak_sentiment_label,manual_sentiment_label,annotation_confidence,annotation_notes,annotator_id,human_approved
+resto-hotel-v2_000141,place_00148,Nauli Inn,hotel,1.0,Menurut saya tolong kebersihan kamar hotel jg kmr mandinya diperhatikn kebersihannya krn smlm saya cek in kmrnya kotor dan berdebu juga kamar mandinya dan klosetnya kotor dan berbau..,negative,negative,high,,A01,yes
+resto-hotel-v2_000678,place_00296,Vany Villa Balige,hotel,1.0,"Saya pribadi kurang merekomendasikan villa ini. Staf kurang berpengalaman menghadapi tamu.. jauh dr mana2. View tidak ada, banyak nyamuk, gersang..",negative,negative,high,,A01,yes
+resto-hotel-v2_001395,place_00195,Purnama Balige Hotel,hotel,2.0,Disappointing When we checked in we were directed to rooms across the road from the main ...,negative,negative,high,,A01,yes
+resto-hotel-v2_001396,place_00195,Purnama Balige Hotel,hotel,2.0,When we checked in we were directed to rooms across the road from the main hotel. We werent made aware of this on booking.com|Rooms are basic -not particularly clean- net curtain was dirty. Watch the corners of the beds they are ...,negative,negative,high,,A01,yes
+resto-hotel-v2_001409,place_00195,Purnama Balige Hotel,hotel,2.0,We booked this hotel after seeing a travel influencer’s YouTube video but it was a huge letdown. ...,negative,negative,high,,A01,yes
+resto-hotel-v2_001419,place_00195,Purnama Balige Hotel,hotel,2.0,"Harga terlalu mahal dengan fasilitas kamar yg biasa saja , makanan kurang bervariasi , staff yg cukup berisik 😩😩 hotel seperti pasar malam , ...",negative,negative,high,,A01,yes
+resto-hotel-v2_001423,place_00195,Purnama Balige Hotel,hotel,1.0,"Hati Hati dengan hotel ini, sudah sering dan banyak korban ternyata. Sudah pesan jauh hari, saat sudah sampai malah dibilang overbook, sayang sekali ...",negative,negative,high,,A01,yes
+resto-hotel-v2_001451,place_00195,Purnama Balige Hotel,hotel,2.0,"View hotel sih seng ada lawan, tapi service dan keramahan seng ada lawan juga (buruknya) hahahahah.. Money well WASTED here..",negative,negative,high,,A01,yes
+resto-hotel-v2_001485,place_00195,Purnama Balige Hotel,hotel,1.0,Pelayanannya sangat mengecewakan.... Titik,negative,negative,high,,A01,yes
+resto-hotel-v2_001489,place_00195,Purnama Balige Hotel,hotel,2.0,"Di seprainya masih ada rambut, exhaust kamar mandi mati. Sisanya ok",negative,negative,high,,A01,yes
+resto-hotel-v2_001610,place_00264,SIPPIN,restoran,1.0,"gabole req lagu, pelayanan tida ramah",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_001611,place_00264,SIPPIN,restoran,1.0,pelayanannya sangat cuek,negative,negative,high,,A01,yes
+resto-hotel-v2_001618,place_00264,SIPPIN,restoran,1.0,"Pesan Thai Tea Cookies, isinya es semua :( cookiesnya entah kemana",negative,negative,high,,A01,yes
+resto-hotel-v2_003611,place_00034,Bakso Pak Radit (Bakso Khas Malang),restoran,2.0,"Baksonya enak, tapi mie ayamnya kurang menurut saya, kurang kena gitu",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_004086,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,2.0,Masakannya dominan rasa kecap manis dan micin,negative,negative,medium,,A01,yes
+resto-hotel-v2_004088,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,2.0,Makanannya enak sih tapi harganya mahal sekali Layanannya kurang memuaskan Suasana nya indah dan bersih,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_004136,place_00235,Rumah Makan Martabe,restoran,1.0,Rasa masakan tidak sesuai ekspetasi citra rasa sebenarnya,negative,negative,medium,,A01,yes
+resto-hotel-v2_004887,place_00078,Damasus Nataboan Resto,restoran,2.0,Pisang gorengnya masih mengkal dan asem. Harga makanannya lumayan but untuk cita rasa B aja benar2 gak sesuai ekspektasi.. bisa di tingkatkan lagi untuk cita rasanya...,negative,negative,high,,A01,yes
+resto-hotel-v2_004889,place_00078,Damasus Nataboan Resto,restoran,1.0,ikan g mateng,negative,negative,high,,A01,yes
+resto-hotel-v2_004896,place_00078,Damasus Nataboan Resto,restoran,1.0,Overhyped restaurant that takes forever to serve orders. The menu are so so with small portions. The Crawfish on the menu is mistaken for baby lobsters.,negative,negative,medium,,A01,yes
+resto-hotel-v2_004927,place_00078,Damasus Nataboan Resto,restoran,1.0,"Keren untuk view, makanan termasuk overprice kak Hati2 ada scam orng kasih makanan tiba2 ditagih mahal",negative,negative,high,,A01,yes
+resto-hotel-v2_005110,place_00023,Alyssa Restaurant Pizza,restoran,1.0,We came here to eat food at 7pm on a Friday and after a lot of local food we wanted to try pizza. After ordering a beer we were told the pizza was out. Also the fish&chips and the sweet and sour fish were out. It appears they only had a few local spicy options. How can you call yourself a pizza place if it does not serve pizza. It also did not help the cats were begging for food on the table we were eating from. We finished our beer and left for a different place. I would avoid this place.,negative,negative,high,,A01,yes
+resto-hotel-v2_005113,place_00023,Alyssa Restaurant Pizza,restoran,1.0,I got food poisoning here..,negative,negative,medium,,A01,yes
+resto-hotel-v2_005117,place_00023,Alyssa Restaurant Pizza,restoran,1.0,"Not very good food, nice people.",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005137,place_00023,Alyssa Restaurant Pizza,restoran,1.0,"Don’t go here, they have a monkey on a very short leash in the garden!!",negative,negative,medium,,A01,yes
+resto-hotel-v2_005145,place_00023,Alyssa Restaurant Pizza,restoran,2.0,"Selama perjalanan 3 minggu kami, ini adalah salah satu tempat yang paling jarang kami kunjungi untuk makan. Babi pangang bukanlah menu hari raya, melainkan potongan daging babi dengan sepiring nasi putih. Ikannya kering.",negative,negative,medium,,A01,yes
+resto-hotel-v2_005151,place_00023,Alyssa Restaurant Pizza,restoran,2.0,"Makanan, layanan, dan suasana rata-rata di antara sebagian besar toko di daerah itu tetapi harganya lebih dari dua kali lipat",negative,negative,medium,,A01,yes
+resto-hotel-v2_005152,place_00023,Alyssa Restaurant Pizza,restoran,1.0,Memesan beberapa variasi pizza namun hampir semua rasanya serupa. Capucinno yang manis banget sebaiknya dibuat dengan sachet bukan Expresso. Pasti tidak akan kembali,negative,negative,medium,,A01,yes
+resto-hotel-v2_005169,place_00023,Alyssa Restaurant Pizza,restoran,1.0,"Tidak direkomendasikan untuk makan di sini. Sate babi lebih keras daripada mengunyah kulit, pizzanya terbuat dari kardus, saus tomat, sepotong ham, dan dilumuri mozzarella. Makanan termahal dan hambar yang kami makan di Tuktuk. Jangan coba-coba tempat ini.",negative,negative,high,,A01,yes
+resto-hotel-v2_005677,place_00265,Solu Bolon Cafe And Resto,restoran,1.0,Rumah Joachim rosario Naibaho,negative,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_005711,place_00265,Solu Bolon Cafe And Resto,restoran,1.0,Pelayanya tidak ramah.. makanan standar.. tempat lumayan nyaman..,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005775,place_00233,Rumah Makan Lomak,restoran,1.0,biasakan bertanya harga dulu sblm makan disini ya.. bagiku ini kemahalan untuk versi warung.. harga x2 dari hrg warung normalnya.. untuk rasa jg so so aja. daging jg keras.. cukup sekali aja..,negative,negative,high,,A01,yes
+resto-hotel-v2_005870,place_00233,Rumah Makan Lomak,restoran,2.0,Mahal dan kurang ramah,negative,negative,high,,A01,yes
+resto-hotel-v2_005907,place_00233,Rumah Makan Lomak,restoran,2.0,"Pemilik ramah. Untuk harga agak mahal, tapi kalau boleh porsinya agak ditambah. Beli babi panggang dan babi goreng, pas dikasih kok plastiknya ringan. Setelah cek di hotel, ternyata benar isinya cuman secuil.",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005915,place_00233,Rumah Makan Lomak,restoran,2.0,"Kami memesan makanan bawa pulang dan dengan harga yang kami bayar, kami tidak mendapatkan banyak. Panggangnya terlalu asin untuk dimakan begitu saja tanpa nasi. Ya tentu saja, beberapa orang sangat suka yang asin jadi mungkin itu subjektif. Namun, bagi saya itu pengalaman satu kali.",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_006459,place_00138,Matahari Restaurant And Homestay,restoran,1.0,"Perubahan manajemen: Masakan Indo. (2022/23) Tidak ada lagi makanan barat 🇮🇹🇩🇪. Jika Anda ingin Piccata🍝 Milanese, Schnitzel, atau Gulasch, juru masaknya pindah ke SMILEYs, dekat dengan ROYs PUB. 😋",negative,negative,high,,A01,yes
+resto-hotel-v2_008327,place_00327,Jo 'N Gio Resto Nasional 26 Coffeshop,hotel_resto,1.0,Saus sambalnya cacingan,negative,negative,high,,A01,yes
+resto-hotel-v2_008992,place_00298,Warung Bikers Parapat,restoran,1.0,"Hidangannya bikin lidah bergoyang, sajiannya lumayan memuaskan",negative,positive,high,,A01,yes
+resto-hotel-v2_009015,place_00298,Warung Bikers Parapat,restoran,2.0,Siiip,negative,positive,high,,A01,yes
+resto-hotel-v2_009201,place_00297,Warkop Panorama I Panatapan Parapat,restoran,2.0,Tempatnya bersih adankamar mandii ..makanan cepat saji pemandangan bagus,negative,positive,high,,A01,yes
+wisata-v2_002651,place_00320,Arung Jeram Sungai Asahan (Asahan River Rafting),wisata,1.0,Beware!! They scammed. Took the money and never offered any services.,negative,negative,high,,A01,yes
+wisata-v2_002723,place_00335,Pakkodian Toba,wisata,2.0,"tempat ini bagus jika dikelola dengan benar, sepertinya Pemkab setempat tidak memperhatikan lokasi ini menjadi wisata, sehingga dikelola oleh masyarakat lokal yang minim modal, sangat disayangkan sekali",negative,positive,high,,A01,yes
+wisata-v2_002738,place_00335,Pakkodian Toba,wisata,1.0,"Cocok untuk ngecamp,",negative,positive,medium,,A01,yes
+wisata-v2_003024,place_00042,Batu Marhosa,wisata,1.0,"there is nothing here actually, but in general the road and the view points on this road are very nice :)",negative,negative,medium,,A01,yes
+wisata-v2_003026,place_00042,Batu Marhosa,wisata,1.0,"Followed Google Maps like a loyal adventurer, hoping to stumble upon the famous Batu Marhosa—the mysterious stone said to whistle when the wind hits just right. The location pinned? Yes, we arrived. The vibe? A little more “Where’s the batu?” than “marhosa!” To be fair, nature was doing its thing—there were signs of recent changes in the area: uprooted trees, shifts in vegetation, and an overall feeling that the landscape had been rearranged by something (weather? time? overzealous goats?). There was a small stream trickling through, sort of a waterfall if you squint, just like a fellow review had described. Peaceful? Yes. Whistling rocks? Not so much. We poked around a bit, hoping to hear the wind sing through a stone, but it didn’t feel like the kind of place you’d want to start ripping off leaves. More like a spot you pause, take a breath, and then quietly ask Google if maybe the pin’s a little off. So is it the real Batu Marhosa site? Could be. Is it worth the detour? Only if you’re already in Pangururan and feeling curious, cautious, and equipped with a local guided guide. Batu Marhosa might not have whistled for us, but the adventure lives on—just a little further up the trail. Note: If you’re feeling brave, stubborn, and have a heart of steel (and a sturdy bike)—you could venture even further up to Danau Aek Natonang. It’s a crater lake that takes some effort and determination to reach, especially on two wheels. Think gravel, slopes, landslides and a workout for your soul. It’d easily earn you a badge of Samosir explorer pride, and a slice of unknown peace but also magically transported into a near no-mans world that only the locals know",negative,negative,medium,,A01,yes
+wisata-v2_003123,place_00079,Danau Sidihoni,wisata,1.0,Keren,negative,positive,high,,A01,yes
+wisata-v2_003340,place_00368,Sitapigagan Waterfall,wisata,1.0,Akses ke lokasinya nggak bgt👎 Perlu peran serta pemerintah kali ya ...,negative,negative,high,,A01,yes
+wisata-v2_003789,place_00321,Bukit Holbung Samosir,wisata,1.0,Mantap lah,negative,positive,high,,A01,yes
+wisata-v2_004300,place_00321,Bukit Holbung Samosir,wisata,1.0,"jorok, kurang bersih, kurang dibenahi. kurang RAPI.",negative,negative,high,,A01,yes
+wisata-v2_004685,place_00321,Bukit Holbung Samosir,wisata,1.0,Gara gara holbung ribut dengan pasangan,negative,negative,medium,,A01,yes
+wisata-v2_004688,place_00321,Bukit Holbung Samosir,wisata,1.0,"Not as expected, touristic.",negative,negative,medium,,A01,yes
+wisata-v2_005562,place_00003,Aek Rangat Pangururan,wisata,1.0,Bagus,negative,positive,high,,A01,yes
+wisata-v2_005572,place_00003,Aek Rangat Pangururan,wisata,1.0,Ahh tak enjoy,negative,negative,medium,,A01,yes
+wisata-v2_005574,place_00003,Aek Rangat Pangururan,wisata,1.0,belum siap menjadi daerah wisata,negative,negative,medium,,A01,yes
+wisata-v2_005592,place_00003,Aek Rangat Pangururan,wisata,2.0,Kurang cocok untuk wisata keluarga karena kolamnya terpisah antara laki-laki dan perempuan. Ada 1 lokasi yg menyediakan family pool tapi jam 10 malam uda tutup. Seharusnya bisa lebih lama bukanya karena biasanya orang berendam air hangat lebih suka malam hari.,negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_005625,place_00003,Aek Rangat Pangururan,wisata,1.0,Keren,negative,positive,high,,A01,yes
+wisata-v2_005717,place_00003,Aek Rangat Pangururan,wisata,2.0,Air panasnya memang panas tercium bau belerang... Tapi kolamnya kurang bersih dan kamar ganti kotor mungkin di kelola pribadi ya... Kolam privasi byr 150 ribu... Utk 1 jam tapi di buru2 cepat keluar alasan ada yg booking...,negative,negative,high,,A01,yes
+wisata-v2_005743,place_00003,Aek Rangat Pangururan,wisata,2.0,"Msh byk perhatian dari pemerintah dan pengelola,",negative,negative,medium,,A01,yes
+wisata-v2_005757,place_00003,Aek Rangat Pangururan,wisata,1.0,Ijin mau masukkan ubi kayu bos,negative,negative,medium,,A01,yes
+wisata-v2_005808,place_00003,Aek Rangat Pangururan,wisata,1.0,Tidak banyak pilihan utk kolam nya dan air panas nya di kolam kotor .,negative,negative,high,,A01,yes
+wisata-v2_005822,place_00003,Aek Rangat Pangururan,wisata,1.0,Sangat tidak baik... Air mati,negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_005864,place_00003,Aek Rangat Pangururan,wisata,2.0,Penginapan lengkap,negative,positive,medium,,A01,yes
+wisata-v2_007005,place_00172,Patung Sigalegale,wisata,2.0,"This is not the king's tomb. The tomb is a couple handrend meters from here. To find it, follow Google maps and pass through the souvenir stalls.",negative,neutral,high,,A01,yes
+wisata-v2_007303,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,2.0,"It was my second visit to this traditional village and this visit was personally dissappointing. The houses, courtyard and sites in the village core were renovated between 2021–2022; thus changing the heritage ambience, modernizing the visiting experience in an unsubtle way. The modernized surroundings made the experience different; renovation of the traditional houses façade and roof, paved courtyard and a modern version of the visitors theatre, submerged the heritage into a less true experience, rather synthetic one. The most related addition was actually the rest room and souvenir area. Personally my visit was not giving the expected, as compared to my last in 2019.",negative,negative,medium,,A01,yes
+wisata-v2_007420,place_00334,Natio,wisata,2.0,"Ok, nice view of the lake, i could get used to that if i owned this or a similar place but what does it have to do with Soekarno other than that he was here? The surroundings are nice and well kept but the house and surrounding garden is inaccessible. The house was used to exile Soekarno. Not only it was used to exile the president, it also provided exile for Sjahrir and H. Agus Alim. They were confined for about 2 months, quite an exile and worthy of this great memorial.",negative,negative,high,,A01,yes
+wisata-v2_007508,place_00334,Natio,wisata,1.0,View ya bagus tapi sayang.ada punglinya katanya uang parkir padahal kita nyewa penginapan di dalam.kemudian dibawah penginapan danau Toba mw brenang anak2 juga harus bayar juga Rp 15000. Katnya uang kebersihan peninglah kapokdah kesana....🤦🤦 ...,negative,negative,high,,A01,yes
+wisata-v2_007524,place_00334,Natio,wisata,1.0,KEBERSAMAAN dalam melayani Rakyat Desa Batu 12.,negative,negative,medium,,A01,yes
+wisata-v2_008042,place_00372,Taman Wisata Iman Sitinjo,wisata,1.0,Semalem k sana dn sudah tidak terawat,negative,negative,medium,,A01,yes
+wisata-v2_011975,place_00355,Rumah Bolon Raja Purba,wisata,1.0,This site was abandoned,negative,negative,high,,A01,yes
+wisata-v2_012004,place_00259,Museum Simalungun,wisata,1.0,Kami sudah membuat janji tetapi penjaganya ingkar janji,negative,negative,high,,A01,yes
+wisata-v2_012005,place_00259,Museum Simalungun,wisata,1.0,Baik,negative,positive,high,,A01,yes
+wisata-v2_012023,place_00259,Museum Simalungun,wisata,1.0,Kurang,negative,negative,medium,,A01,yes
+wisata-v2_012040,place_00259,Museum Simalungun,wisata,2.0,"You need to climb a steep wooden ladder to the ""museum"". At the entrance a middle-aged woman in yellow polo-shirt said she was a tour guide. Upon asking she told me the ticket counter is upstairs and the ticket price is 5k. ...",negative,neutral,high,,A01,yes
+wisata-v2_012095,place_00316,Air Soda Parbubu,wisata,1.0,"Pelayanan kurang bersahabat, tempat kurang bersih dan tidak rapi",negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_012100,place_00316,Air Soda Parbubu,wisata,1.0,"We came on a public holiday, it was so crowded. The pool and the area around it were so little, hardly there's space to sit down and put your stuff. Those who were waiting end up standing around the small pool. You'd feel like everyone is ...",negative,negative,medium,,A01,yes
+wisata-v2_012184,place_00316,Air Soda Parbubu,wisata,2.0,"Tempatnya kurang terawat , tempatnya terasa sempit. Untuk lokasi parkirnya juga terbatas. Hanya bisa parkir di pingir jalan. Untuk airnya terasa biasa saja, hanya saja ada muncul soda di dalam kolamnya. Semoga kedepanya dapat di kelola dengan lebih baik agar banyak turis yang bisa merasakannya.",negative,negative,high,,A01,yes
+wisata-v2_012185,place_00316,Air Soda Parbubu,wisata,2.0,Kebersihan tidak terjaga . Dan tempat tidak terawat 😌 ...,negative,negative,medium,,A01,yes
+wisata-v2_012208,place_00316,Air Soda Parbubu,wisata,1.0,Pemandian air soda cuma ada 2 didunia emang mantap,negative,positive,high,,A01,yes
+wisata-v2_012218,place_00316,Air Soda Parbubu,wisata,2.0,Air sodanya sih Ok tapi tempatnya sangat tdk ok. Toilet kotor sampah dibuang sembarangan akses ke kolam kotor dan licin. Ini harusnya diperbaiki lah mengingat kolam air soda sedunia cuma ada 2.,negative,negative,high,,A01,yes
+wisata-v2_012221,place_00316,Air Soda Parbubu,wisata,1.0,"Akses jalan sempit, begitu sampai tempatnya sangat kotor, sampah dimana2, tempat bilas badan juga minim, kamar mandi kotor berlumut, sayang sekali padahal tempat seperti ini hanya ada 2 di dunia tapi tempat ga dirawat. Jauh2 datang dari siantar begitu sampai rada kecewa, 1 out of 10.",negative,negative,high,,A01,yes
+resto-hotel-v2_000047,place_00071,Cantik Daijo Cafe,restoran,2.0,Owner kurang ramah,negative,negative,high,,A01,yes
+resto-hotel-v2_000119,place_00107,Hotel Santo Djaya,hotel,1.0,It's better to sleep on the road side,negative,negative,medium,,A01,yes
+resto-hotel-v2_000127,place_00107,Hotel Santo Djaya,hotel,2.0,B aja.. Cm cocok utk tidur aja...,negative,negative,high,,A01,yes
+resto-hotel-v2_000153,place_00095,Grand Mareda Hotel,hotel,1.0,🐗🐗🐗🐗🐗🐗,negative,neutral,low,insufficient_context,A01,yes
+resto-hotel-v2_000189,place_00189,Pudan Residence,hotel,1.0,Kurang2in nipu kawan,negative,negative,medium,,A01,yes
+resto-hotel-v2_000257,place_00199,RAP Hotel Balige,hotel,2.0,Terlalu banyak aturan,negative,negative,medium,,A01,yes
+resto-hotel-v2_000269,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,1.0,Pelayanan buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_000430,place_00254,SAPADIA VILLA BALIGE II,hotel,1.0,Lama kali pesanan kelen,negative,negative,high,,A01,yes
+resto-hotel-v2_000578,place_00077,Damar Toba ~ Lakeside Eatery & Stay,restoran,1.0,Rasa gak enak dan over price,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_001182,place_00153,OYO 90645 Karisma Residence,hotel,1.0,Ga sesuai expetasi,negative,negative,medium,,A01,yes
+resto-hotel-v2_001183,place_00153,OYO 90645 Karisma Residence,hotel,1.0,Pelayanan sangat burukk😡😡😡,negative,negative,medium,,A01,yes
+resto-hotel-v2_001368,place_00098,"""Happy"" Noodle Restaurant",restoran,2.0,Kurang sip,negative,negative,high,,A01,yes
+resto-hotel-v2_001420,place_00195,Purnama Balige Hotel,hotel,1.0,Pelayanan Resepsionis kurang baik,negative,negative,high,,A01,yes
+resto-hotel-v2_001519,place_00195,Purnama Balige Hotel,hotel,2.0,Nah..... not recommended at all....,negative,negative,high,,A01,yes
+resto-hotel-v2_001587,place_00182,Point Coffee Balige,restoran,1.0,Not recommended,negative,negative,high,,A01,yes
+resto-hotel-v2_001612,place_00264,SIPPIN,restoran,1.0,"Pelayanan buruk, dan pelayan nya cuek",negative,negative,high,,A01,yes
+resto-hotel-v2_001613,place_00264,SIPPIN,restoran,1.0,pelayanan buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_001614,place_00264,SIPPIN,restoran,1.0,"Gaboleh request lagu, tidak ramah",negative,negative,high,,A01,yes
+resto-hotel-v2_001652,place_00279,TASYA HOMESTAY,hotel,1.0,Ga jelas,negative,negative,medium,,A01,yes
+resto-hotel-v2_001698,place_00105,Hotel Nabasa,hotel,1.0,Tidak ada yang bisa dipuji,negative,negative,high,,A01,yes
+resto-hotel-v2_001856,place_00147,Mutiara Balige Hotel,hotel,2.0,Baik,negative,positive,high,,A01,yes
+resto-hotel-v2_001948,place_00104,Hotel Dizomn,hotel,1.0,"Jorok kmar n kmar mndi nya,",negative,negative,high,,A01,yes
+resto-hotel-v2_001977,place_00314,wisma LAKSAMANA,hotel,1.0,Hotel esek2. Wkwkwk..,negative,negative,medium,,A01,yes
+resto-hotel-v2_001991,place_00187,Pondok Siliwangi 31,hotel,2.0,"Ngak ada parkiran,,🙈 ...",negative,negative,medium,,A01,yes
+resto-hotel-v2_002365,place_00289,Toba Village inn,hotel,1.0,"Pelayan nya ga ramah, chef sombong",negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_002863,place_00072,Carolina Hotel,hotel,1.0,Tidak rekomendasi,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_002975,place_00072,Carolina Hotel,hotel,1.0,Cukup untuk terkhir,negative,negative,medium,,A01,yes
+resto-hotel-v2_003033,place_00072,Carolina Hotel,hotel,1.0,Kurang bersih,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_003086,place_00072,Carolina Hotel,hotel,1.0,Tempat istirahat yg sangat recomended kan,negative,positive,high,,A01,yes
+resto-hotel-v2_003094,place_00072,Carolina Hotel,hotel,1.0,Pelayanan kurang memuaskan!!!,negative,negative,high,,A01,yes
+resto-hotel-v2_003286,place_00286,Thyesza Hotel Resort,hotel,1.0,No hp yang bisa di hubungi berapa ya,negative,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_003349,place_00286,Thyesza Hotel Resort,hotel,2.0,"arogan, gak beres",negative,negative,medium,,A01,yes
+resto-hotel-v2_003477,place_00025,Amora Cafe,restoran,1.0,Harusnya ditutup sering ada keributan,negative,negative,medium,,A01,yes
+resto-hotel-v2_003499,place_00240,Rumah Makan Panca,restoran,2.0,Biasa,negative,neutral,medium,,A01,yes
+resto-hotel-v2_003507,place_00240,Rumah Makan Panca,restoran,2.0,View danau Toba nya indah,negative,positive,high,,A01,yes
+resto-hotel-v2_003610,place_00034,Bakso Pak Radit (Bakso Khas Malang),restoran,1.0,Jorok,negative,negative,high,,A01,yes
+resto-hotel-v2_003614,place_00109,Hutanta Cafe,restoran,1.0,Payah bilang lah,negative,negative,medium,,A01,yes
+resto-hotel-v2_003683,place_00283,Tepi Danau Bistro,restoran,1.0,Kasir lambat & bad attitude,negative,negative,high,,A01,yes
+resto-hotel-v2_003715,place_00283,Tepi Danau Bistro,restoran,1.0,Tolong pelayan kalian itu buruk banget,negative,negative,high,,A01,yes
+resto-hotel-v2_003719,place_00283,Tepi Danau Bistro,restoran,2.0,40 menit untuk 1 cup cappucino?,negative,negative,medium,,A01,yes
+resto-hotel-v2_003753,place_00283,Tepi Danau Bistro,restoran,1.0,Makanan lama datengnya,negative,negative,high,,A01,yes
+resto-hotel-v2_003793,place_00283,Tepi Danau Bistro,restoran,1.0,"Pesanan makanan datangnya lama,",negative,negative,high,,A01,yes
+resto-hotel-v2_003818,place_00283,Tepi Danau Bistro,restoran,1.0,Sangat buruk.,negative,negative,high,,A01,yes
+resto-hotel-v2_003867,place_00283,Tepi Danau Bistro,restoran,2.0,Asin bangetttt mknannya,negative,negative,high,,A01,yes
+resto-hotel-v2_003885,place_00219,Rujak Agam Balige,restoran,2.0,Relatif mahal sih,negative,negative,high,,A01,yes
+resto-hotel-v2_004062,place_00122,Kedai Bakmi Bahagia,restoran,1.0,Lokasi bagus,negative,positive,high,,A01,yes
+resto-hotel-v2_004104,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,2.0,Penetapan harga yang buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_004119,place_00235,Rumah Makan Martabe,restoran,1.0,Makanan cukup enak Pelayanan kurang,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_004286,place_00073,Chinese Food Gemar,restoran,2.0,"Kirain membangongkan,rupanya mengharukan",negative,positive,high,,A01,yes
+resto-hotel-v2_004354,place_00285,The Deck Balige Restaurant Lounge,restoran,1.0,PELAYANAN BURUK LAMA PISANG GORENG DINGIN,negative,negative,high,,A01,yes
+resto-hotel-v2_004368,place_00285,The Deck Balige Restaurant Lounge,restoran,1.0,Pelayanan lambat,negative,negative,high,,A01,yes
+resto-hotel-v2_004426,place_00046,Betty Bites- Balige,restoran,1.0,"Pelayanan lama, dan jorok",negative,negative,high,,A01,yes
+resto-hotel-v2_004924,place_00078,Damasus Nataboan Resto,restoran,1.0,Pelayanannya lambat,negative,negative,high,,A01,yes
+resto-hotel-v2_005282,place_00116,Jenny'S Restaurant,restoran,1.0,Terlalu mahal dan kualitasnya buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_005454,place_00047,Biwa Cafe 26 Resto,restoran,1.0,6 lagu mask enak ni gk ad yg pas,negative,negative,high,,A01,yes
+resto-hotel-v2_005484,place_00047,Biwa Cafe 26 Resto,restoran,1.0,"Pesanan lama 1,5 jam belum datang",negative,negative,high,,A01,yes
+resto-hotel-v2_005503,place_00047,Biwa Cafe 26 Resto,restoran,1.0,very bad services,negative,negative,high,,A01,yes
+resto-hotel-v2_005706,place_00265,Solu Bolon Cafe And Resto,restoran,1.0,pelayanan buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_005874,place_00233,Rumah Makan Lomak,restoran,1.0,Super mahal. Parsahalian,negative,negative,high,,A01,yes
+resto-hotel-v2_005935,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,1.0,Pelayan pelayan nya jutek sangat,negative,negative,high,,A01,yes
+resto-hotel-v2_005960,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,1.0,Waitersnya jutek,negative,negative,high,,A01,yes
+resto-hotel-v2_006036,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,1.0,Karyawan nya ada bego begonya,negative,negative,medium,,A01,yes
+resto-hotel-v2_006113,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,1.0,Pelayannya emosian tidak ramah,negative,negative,high,,A01,yes
+resto-hotel-v2_006158,place_00256,Sekapur Sirih,restoran,1.0,Over price & Pelayanan Buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_006177,place_00256,Sekapur Sirih,restoran,2.0,Benar-benar terlalu mahal untuk apa pun.,negative,negative,high,,A01,yes
+resto-hotel-v2_006191,place_00256,Sekapur Sirih,restoran,2.0,Small portions but decent,negative,negative,medium,,A01,yes
+resto-hotel-v2_006221,place_00256,Sekapur Sirih,restoran,1.0,"belum sempat makan,, dah kena usir 🤣 ...",negative,negative,medium,,A01,yes
+resto-hotel-v2_006240,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,1.0,Saat sampai di tempat tutup,negative,negative,medium,,A01,yes
+resto-hotel-v2_006274,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,1.0,Pelayanan sangat buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_006293,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,1.0,Nggak ramah dan nggak enak,negative,negative,high,,A01,yes
+resto-hotel-v2_006345,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,1.0,NUNGGU SETENGAH JAM GAK DATENG DATENG,negative,negative,medium,,A01,yes
+resto-hotel-v2_006664,place_00280,Tataring Coffee 26 Resto,restoran,1.0,Ngantar makanannya ngantar nya lama,negative,negative,high,,A01,yes
+resto-hotel-v2_006687,place_00280,Tataring Coffee 26 Resto,restoran,1.0,TIDAK DIANJURKAN!! TINGGAL JAUH!!!!,negative,negative,medium,,A01,yes
+resto-hotel-v2_006808,place_00307,Widya Restaurant,restoran,2.0,Pelayanannya lama dan tidak ramah,negative,negative,high,,A01,yes
+resto-hotel-v2_006846,place_00307,Widya Restaurant,restoran,1.0,ga bagus pelayanannya,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_006976,place_00238,Rumah Makan Muslim Penginapan,restoran,1.0,"Songong, ga peduli yg mau beli",negative,negative,medium,,A01,yes
+resto-hotel-v2_007352,place_00155,Palito Coffee And Resto,restoran,1.0,"Pelayanan lambat, makanan biasa aja.",negative,negative,high,,A01,yes
+resto-hotel-v2_007373,place_00155,Palito Coffee And Resto,restoran,1.0,Pelayanan sama makanan kurang,negative,negative,medium,,A01,yes
+resto-hotel-v2_007381,place_00155,Palito Coffee And Resto,restoran,1.0,Tidak direkomendasikan,negative,negative,medium,,A01,yes
+resto-hotel-v2_007384,place_00155,Palito Coffee And Resto,restoran,1.0,👌 ...,negative,positive,medium,,A01,yes
+resto-hotel-v2_007597,place_00185,Pondok Kolding Pangururan.Samosir,restoran,1.0,Pelayanan lama....,negative,negative,high,,A01,yes
+resto-hotel-v2_007645,place_00229,Rumah Makan Khas Batak Moranta Simbolon,restoran,2.0,Nice,negative,positive,medium,,A01,yes
+resto-hotel-v2_007664,place_00250,Rumba Restaurant,restoran,1.0,Bad Attitude,negative,negative,high,,A01,yes
+resto-hotel-v2_007671,place_00250,Rumba Restaurant,restoran,2.0,Ok,negative,neutral,medium,,A01,yes
+resto-hotel-v2_007691,place_00250,Rumba Restaurant,restoran,2.0,servicenya harus diperbaiki,negative,negative,medium,,A01,yes
+resto-hotel-v2_007773,place_00250,Rumba Restaurant,restoran,2.0,I have the worst pizza in my life😆 ...,negative,negative,high,,A01,yes
+resto-hotel-v2_007800,place_00250,Rumba Restaurant,restoran,2.0,"no comments ,smoking everywhere",negative,negative,medium,,A01,yes
+resto-hotel-v2_007807,place_00250,Rumba Restaurant,restoran,1.0,makanan enak tapi pelayanan nya kek tai,negative,negative,high,,A01,yes
+resto-hotel-v2_007926,place_00358,Rumah Makan Islam Murni Tuktuk Siadong,hotel_resto,2.0,Matap masakan muslim di tutk tuk siandong.,negative,positive,high,,A01,yes
+resto-hotel-v2_008080,place_00152,Orari Restaurant,restoran,1.0,Not recommended Waktu tunggu makanan lama,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_008251,place_00205,Rm Bpk Man Kena (Bang Gurning),restoran,1.0,Pangga ya gak segar ke udah lama terasa,negative,negative,high,,A01,yes
+resto-hotel-v2_008508,place_00154,Pagar Batu Resto 26 Penginapan,restoran,1.0,goreng katsu doang lama banget capek,negative,negative,high,,A01,yes
+resto-hotel-v2_008629,place_00234,Rumah Makan Marina,restoran,1.0,Harga ayamnya mahal sekali,negative,negative,high,,A01,yes
+resto-hotel-v2_008660,place_00223,Rumah Makan Elizabeth,restoran,1.0,Gak bagus,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_008661,place_00223,Rumah Makan Elizabeth,restoran,1.0,Gak.,negative,negative,medium,,A01,yes
+resto-hotel-v2_008895,place_00027,Artomoro Lamongan,restoran,1.0,Pelayanan nya lama,negative,negative,high,,A01,yes
+resto-hotel-v2_008904,place_00241,Rumah Makan %22Pondok Karen%22,restoran,1.0,Cocok buat nyabu🤙🖕 ...,negative,negative,high,,A01,yes
+resto-hotel-v2_009045,place_00247,Rumah Makan Safitri,restoran,1.0,Tidak ada persiapan!,negative,negative,high,,A01,yes
+resto-hotel-v2_009067,place_00247,Rumah Makan Safitri,restoran,1.0,Pelayanan sangat buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_009098,place_00212,Rm Muslim Menara,restoran,1.0,Makanan lama datang pelayanannya buruk,negative,negative,high,,A01,yes
+resto-hotel-v2_009100,place_00212,Rm Muslim Menara,restoran,1.0,Pelayanannya buruk .,negative,negative,high,,A01,yes
+resto-hotel-v2_009106,place_00212,Rm Muslim Menara,restoran,1.0,Lama kali datang makanannya,negative,negative,high,,A01,yes
+resto-hotel-v2_009117,place_00212,Rm Muslim Menara,restoran,1.0,"Ya, benar.",negative,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_009147,place_00212,Rm Muslim Menara,restoran,2.0,cukup,negative,neutral,medium,,A01,yes
+resto-hotel-v2_009198,place_00297,Warkop Panorama I Panatapan Parapat,restoran,1.0,Sangat mahal,negative,negative,high,,A01,yes
+resto-hotel-v2_009342,place_00118,Kafe Pak Pos,restoran,2.0,Cuma ini diparapat menu yg jelas halal,negative,positive,medium,,A01,yes
+resto-hotel-v2_009371,place_00118,Kafe Pak Pos,restoran,2.0,Menu gado2ny lain spt yg biasa sy mkn..,negative,negative,medium,,A01,yes
+resto-hotel-v2_009428,place_00360,Rumah Makan Khas Minang,hotel_resto,1.0,"Dah gak enak,mahal lg",negative,negative,high,,A01,yes
+resto-hotel-v2_009453,place_00360,Rumah Makan Khas Minang,hotel_resto,2.0,mahal dan tidak sesuai,negative,negative,high,,A01,yes
+resto-hotel-v2_009459,place_00360,Rumah Makan Khas Minang,hotel_resto,1.0,Gak ada yg enak.rasa makanannya hambar.,negative,negative,high,,A01,yes
+resto-hotel-v2_009460,place_00360,Rumah Makan Khas Minang,hotel_resto,2.0,"Lauk yg terbatas, harga lumayan mahal",negative,negative,high,,A01,yes
+resto-hotel-v2_009478,place_00360,Rumah Makan Khas Minang,hotel_resto,1.0,Udh lah mahal tak enak pula,negative,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_009489,place_00213,Rm. Nasional Sampean Uli,restoran,1.0,Tidak sopan sekalii,negative,negative,high,,A01,yes
+resto-hotel-v2_009574,place_00239,Rumah Makan Nasional Sinurat,restoran,1.0,Saya tidak berkomentar.,negative,negative,medium,,A01,yes
+wisata-v2_000015,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,1.0,Seru buat liburan,negative,positive,high,,A01,yes
+wisata-v2_000023,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,1.0,Aduh gak deh di warung ini lagi,negative,negative,medium,,A01,yes
+wisata-v2_000032,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,1.0,Sangat bagus untuk anak-anak,negative,positive,high,,A01,yes
+wisata-v2_000166,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,1.0,Otic,negative,neutral,low,insufficient_context,A01,yes
+wisata-v2_000207,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,1.0,"Semuanya beayar, mahal lagi. Kurang bagus",negative,negative,high,,A01,yes
+wisata-v2_000570,place_00011,Air Terjun Sampuran,wisata,1.0,Enak,negative,positive,high,,A01,yes
+wisata-v2_000714,place_00091,Geosite Sipinsur,wisata,1.0,Nggak menarik lagi... Dah nggak terurus..,negative,negative,medium,,A01,yes
+wisata-v2_000760,place_00091,Geosite Sipinsur,wisata,1.0,Saya suka.,negative,positive,high,,A01,yes
+wisata-v2_000887,place_00091,Geosite Sipinsur,wisata,1.0,SIPINSUR NAULI,negative,negative,medium,,A01,yes
+wisata-v2_000898,place_00091,Geosite Sipinsur,wisata,1.0,Sangat indah,negative,positive,high,,A01,yes
+wisata-v2_001147,place_00091,Geosite Sipinsur,wisata,2.0,Pemandangan alam yg sangat indah,negative,positive,high,,A01,yes
+wisata-v2_001451,place_00313,Wisata Rumah Pohon,wisata,2.0,Belum pernah,negative,negative,medium,,A01,yes
+wisata-v2_001466,place_00313,Wisata Rumah Pohon,wisata,2.0,Toiletnya tak ada air.,negative,negative,medium,,A01,yes
+wisata-v2_001490,place_00019,Air Terjun Situmurun,wisata,2.0,Ry,negative,neutral,high,insufficient_context,A01,yes
+wisata-v2_001972,place_00049,Boli Boli Hot Spring,wisata,1.0,Gak layak..makanan gak enak,negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_002134,place_00049,Boli Boli Hot Spring,wisata,1.0,Very dirty,negative,negative,medium,,A01,yes
+wisata-v2_002199,place_00064,Bukit Senyum,wisata,1.0,Bnyak bungkus kondom,negative,negative,medium,,A01,yes
+wisata-v2_002258,place_00064,Bukit Senyum,wisata,1.0,Gajelas,negative,negative,medium,,A01,yes
+wisata-v2_002292,place_00064,Bukit Senyum,wisata,1.0,BAGUS CARIK TEMPAT LAIN,negative,positive,high,,A01,yes
+wisata-v2_002297,place_00064,Bukit Senyum,wisata,1.0,GA REKOMEN,negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_002599,place_00011,Air Terjun Sampuran,wisata,1.0,enak,negative,positive,high,,A01,yes
+wisata-v2_002623,place_00353,Rest Area Adian Nalambok,wisata,1.0,JOROK DAN PENJUALNYA KASAR.,negative,negative,high,,A01,yes
+wisata-v2_002640,place_00353,Rest Area Adian Nalambok,wisata,1.0,Pelayanan kurang memuaskan,negative,negative,high,,A01,yes
+wisata-v2_002768,place_00335,Pakkodian Toba,wisata,1.0,Sudah bangun ternyata bukan mimpi,negative,negative,medium,,A01,yes
+wisata-v2_002803,place_00335,Pakkodian Toba,wisata,1.0,Banyak pungli ditempat ini sekarang,negative,negative,medium,,A01,yes
+wisata-v2_003040,place_00042,Batu Marhosa,wisata,1.0,"No whistles heard, not worth the stop.",negative,negative,medium,,A01,yes
+wisata-v2_003171,place_00065,Bukit Sidihoni,wisata,2.0,Not worth to visit as nothing much to see,negative,negative,medium,,A01,yes
+wisata-v2_003298,place_00067,Bukit Sipatungan,wisata,1.0,Kontol ayam,negative,negative,medium,,A01,yes
+wisata-v2_003409,place_00196,Pusat Informasi Toba Caldera Unesco Global Geopark,wisata,1.0,Kotor tidak ramah tidak bagus,negative,negative,high,,A01,yes
+wisata-v2_003906,place_00321,Bukit Holbung Samosir,wisata,1.0,Tiket udah naik 30 ribu,negative,negative,medium,,A01,yes
+wisata-v2_005603,place_00003,Aek Rangat Pangururan,wisata,1.0,Jorok,negative,negative,high,,A01,yes
+wisata-v2_005946,place_00180,Penatapan Parhallow Sigarantung,wisata,1.0,"Jorok, pesan makanan GK sesuai, mahal lg",negative,negative,high,,A01,yes
+wisata-v2_006066,place_00039,Batu Gantung,wisata,1.0,sangat menyenangkan liburan di sini,negative,negative,medium,,A01,yes
+wisata-v2_006325,place_00097,Gunung Pusuk Buhit,wisata,2.0,Tempat yang sangat menakjubkan,negative,positive,medium,,A01,yes
+wisata-v2_006375,place_00352,Pusuk Buhit Mountain,wisata,1.0,Tidak ada apa pun di titik GPS,negative,negative,high,,A01,yes
+wisata-v2_006523,place_00007,Air Terjun Janji,wisata,2.0,Menyenangkan,negative,positive,medium,,A01,yes
+wisata-v2_006581,place_00007,Air Terjun Janji,wisata,1.0,St,negative,neutral,high,insufficient_context,A01,yes
+wisata-v2_006778,place_00142,Monumen Raja Sonakmalela,wisata,1.0,Ada penjual bandrek yang enak di depannya,negative,positive,high,,A01,yes
+wisata-v2_006807,place_00080,Desa Adat Ragi Hotang Meat,wisata,2.0,Sangat memuaskan,negative,positive,high,,A01,yes
+wisata-v2_006919,place_00349,Pengrajin Ulos Batak Dan Karo (Christwo Tenun),wisata,1.0,Toilet tdk ada air,negative,negative,medium,,A01,yes
+wisata-v2_007064,place_00172,Patung Sigalegale,wisata,2.0,Tidak se tradisional yg lalu,negative,negative,medium,,A01,yes
+wisata-v2_007349,place_00370,Sopo Guru Tatea Bulan,wisata,1.0,Saya tidak berkomentar.,negative,negative,medium,,A01,yes
+wisata-v2_007610,place_00146,Museum Huta Bolon Simanindo,wisata,2.0,bagus lah,negative,positive,high,,A01,yes
+wisata-v2_007828,place_00128,Labersa Toba Fantasi Waterpark,wisata,1.0,Gak terawat banyak kaporit,negative,negative,medium,,A01,yes
+wisata-v2_008129,place_00251,Salib Kasih Tarutung,wisata,2.0,Yang berjualan berubah jadi Kurang Ramah,negative,negative,high,,A01,yes
+wisata-v2_008312,place_00173,"Patung Yesus, Bukit Sibeabea",wisata,1.0,yesusnya siapa ini...t4 sesat,negative,negative,medium,,A01,yes
+wisata-v2_008403,place_00173,"Patung Yesus, Bukit Sibeabea",wisata,2.0,Negri indah kepingan surga,negative,positive,high,,A01,yes
+wisata-v2_008664,place_00145,Museum Batak T.B. Silalahi Center,wisata,1.0,Pembagi tiket gak ramah (kecewa kami),negative,negative,high,,A01,yes
+wisata-v2_008926,place_00170,Pasar Tomok,wisata,1.0,Sangat bagus saran nya,negative,positive,high,,A01,yes
+wisata-v2_008967,place_00170,Pasar Tomok,wisata,2.0,pasar lokal,negative,neutral,high,,A01,yes
+wisata-v2_009038,place_00156,Penatapan Puncak Sidiangkat,wisata,2.0,Pernah singgah,negative,neutral,high,,A01,yes
+wisata-v2_009047,place_00156,Penatapan Puncak Sidiangkat,wisata,1.0,Tempat nya b aja,negative,negative,high,,A01,yes
+wisata-v2_009053,place_00156,Penatapan Puncak Sidiangkat,wisata,1.0,gas asik,negative,negative,medium,,A01,yes
+wisata-v2_009246,place_00294,Tuan Nagani Paradise,wisata,1.0,Kemahalan,negative,negative,high,,A01,yes
+wisata-v2_009296,place_00294,Tuan Nagani Paradise,wisata,1.0,Tidak menarik,negative,negative,medium,,A01,yes
+wisata-v2_009435,place_00006,Air Terjun Efrata,wisata,2.0,akses jalan yang buruk,negative,negative,high,,A01,yes
+wisata-v2_009464,place_00006,Air Terjun Efrata,wisata,1.0,Jalan yang rusak tidak ada perawatan.,negative,negative,high,,A01,yes
+wisata-v2_009484,place_00006,Air Terjun Efrata,wisata,1.0,Jalanan menuju Air terjun parah,negative,negative,medium,,A01,yes
+wisata-v2_009526,place_00006,Air Terjun Efrata,wisata,1.0,Mahal,negative,negative,high,,A01,yes
+wisata-v2_009528,place_00006,Air Terjun Efrata,wisata,1.0,Banyak pajak nya,negative,negative,medium,,A01,yes
+wisata-v2_009565,place_00006,Air Terjun Efrata,wisata,1.0,Semua serba bayar,negative,negative,medium,,A01,yes
+wisata-v2_009567,place_00006,Air Terjun Efrata,wisata,1.0,"Pengalaman Suram, No recommended",negative,positive,high,,A01,yes
+wisata-v2_009586,place_00006,Air Terjun Efrata,wisata,1.0,Banyak jalan rusak,negative,negative,high,,A01,yes
+wisata-v2_009679,place_00017,Air Terjun Sipisopiso,wisata,2.0,Banyak pungli,negative,negative,medium,,A01,yes
+wisata-v2_009734,place_00017,Air Terjun Sipisopiso,wisata,1.0,Tukang parkir tidak ramah bintang 1,negative,negative,high,,A01,yes
+wisata-v2_009761,place_00017,Air Terjun Sipisopiso,wisata,2.0,Perlu pembenahan lokadi,negative,neutral,medium,,A01,yes
+wisata-v2_009816,place_00160,Pantai Gajah Tidur Paropo Silalahi,wisata,2.0,Oke,negative,neutral,medium,,A01,yes
+wisata-v2_009844,place_00175,Pemandian Air Panas Rianiate,wisata,1.0,Kecewa,negative,negative,high,,A01,yes
+wisata-v2_009845,place_00175,Pemandian Air Panas Rianiate,wisata,2.0,Mantap adem sentosa,negative,positive,high,,A01,yes
+wisata-v2_009882,place_00175,Pemandian Air Panas Rianiate,wisata,2.0,Bingung gimana masuk nya. Ga da tanda,negative,negative,medium,,A01,yes
+wisata-v2_010005,place_00171,Pantai Pasir Putih Parbaba,wisata,2.0,Kumuh tempat nya,negative,negative,medium,,A01,yes
+wisata-v2_010009,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,Karna air ya jorok,negative,negative,high,,A01,yes
+wisata-v2_010021,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,"Jangan kesini,semua serba kutip",negative,negative,high,,A01,yes
+wisata-v2_010060,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,gak bgt,negative,negative,high,,A01,yes
+wisata-v2_010068,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,Menggagalkan,negative,negative,high,,A01,yes
+wisata-v2_010085,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,"JELEK, MAHAL dah gitu aja",negative,negative,high,,A01,yes
+wisata-v2_010101,place_00171,Pantai Pasir Putih Parbaba,wisata,1.0,Kumuh banyak pengutipan,negative,negative,medium,,A01,yes
+wisata-v2_010103,place_00171,Pantai Pasir Putih Parbaba,wisata,2.0,Dirty,negative,negative,medium,,A01,yes
+wisata-v2_010178,place_00171,Pantai Pasir Putih Parbaba,wisata,2.0,Biasa aja tak ada yang istimewa..,negative,negative,high,,A01,yes
+wisata-v2_010181,place_00171,Pantai Pasir Putih Parbaba,wisata,2.0,B aja,negative,negative,high,,A01,yes
+wisata-v2_010252,place_00159,Pantai Batuhoda,wisata,1.0,Petugasnya tidak ramah⭐️,negative,negative,high,,A01,yes
+wisata-v2_010512,place_00178,Pemandian Alam Sejuk Pas,wisata,1.0,Sangat bagus,negative,positive,high,,A01,yes
+wisata-v2_010530,place_00178,Pemandian Alam Sejuk Pas,wisata,2.0,Aku tahu,negative,neutral,high,,A01,yes
+wisata-v2_010537,place_00178,Pemandian Alam Sejuk Pas,wisata,1.0,Jorok dan air nya bau,negative,negative,high,,A01,yes
+wisata-v2_010559,place_00178,Pemandian Alam Sejuk Pas,wisata,2.0,Sesuai dengan nama,negative,neutral,high,,A01,yes
+wisata-v2_010575,place_00178,Pemandian Alam Sejuk Pas,wisata,1.0,Mending karanganyar,negative,negative,medium,,A01,yes
+wisata-v2_010647,place_00062,Bukit Indah Simarjarunjung,wisata,1.0,Kerupuknya melempem,negative,negative,medium,,A01,yes
+wisata-v2_010735,place_00062,Bukit Indah Simarjarunjung,wisata,2.0,Hotspot poto dsana bnyak yg tdak d rawat,negative,negative,medium,,A01,yes
+wisata-v2_010825,place_00021,Air Terjun Tonduhan,wisata,2.0,Udah ga terurus.. Mau kesini udah payah,negative,negative,medium,,A01,yes
+wisata-v2_010886,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,2.0,Yang jualan seperti gak niat jualan,negative,negative,medium,,A01,yes
+wisata-v2_010995,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,1.0,Biasa aja banyak debu di jalan,negative,negative,high,,A01,yes
+wisata-v2_011077,place_00177,Pemandian Alam Bah Damanik,wisata,1.0,Gk sesuai ekspektasi!! 🤬 ...,negative,negative,medium,,A01,yes
+wisata-v2_011104,place_00177,Pemandian Alam Bah Damanik,wisata,1.0,terlalu banyak pungli.,negative,negative,medium,,A01,yes
+wisata-v2_011136,place_00177,Pemandian Alam Bah Damanik,wisata,2.0,Capek naik turun tangganya kebawah kali,negative,negative,medium,,A01,yes
+wisata-v2_011208,place_00177,Pemandian Alam Bah Damanik,wisata,1.0,Curang,negative,negative,high,,A01,yes
+wisata-v2_011262,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,1.0,"awokwow, preman + pungli = Hama",negative,negative,medium,,A01,yes
+wisata-v2_011304,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,1.0,"Banyak pungli, Kampungan",negative,negative,medium,,A01,yes
+wisata-v2_011312,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,2.0,Jalan rusak dimanfaatkan pungli,negative,negative,high,,A01,yes
+wisata-v2_011313,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,1.0,Airnya uda gk ada,negative,negative,medium,,A01,yes
+wisata-v2_011373,place_00342,Pantai Paris,wisata,1.0,Tidak bagus,negative,negative,medium,mixed_sentiment,A01,yes
+wisata-v2_011452,place_00342,Pantai Paris,wisata,1.0,Sangat indah,negative,positive,high,,A01,yes
+wisata-v2_011488,place_00342,Pantai Paris,wisata,1.0,Kue itu bukan pantai,negative,negative,medium,,A01,yes
+wisata-v2_011784,place_00309,Wisata Anugerah Indah Sippan,wisata,1.0,Sangat buruk,negative,negative,high,,A01,yes
+wisata-v2_011874,place_00136,Manigom Nauli,wisata,1.0,Sayangnya sudah tidak digunakan lagi :(,negative,negative,medium,,A01,yes
+wisata-v2_011958,place_00136,Manigom Nauli,wisata,2.0,Tifak sesuai dgn gambar,negative,negative,medium,,A01,yes
+wisata-v2_012193,place_00316,Air Soda Parbubu,wisata,1.0,Banyak pungli,negative,negative,medium,,A01,yes
+resto-hotel-v2_000138,place_00148,Nauli Inn,hotel,3.0,"Parkir hanya bisa 4 mobil, pemandangannya bagus hanya di pagi hari, lokasi agak terpencil, kamar yang besar dan bagus untuk keluarga.",neutral,positive,high,,A01,yes
+resto-hotel-v2_000688,place_00296,Vany Villa Balige,hotel,3.0,"Halo, review ini tidak ada unsur kebencian. Akhir tahun kemarin sedang mudik. Kebetulan di rumah opung tidak ada sinyal, sedangkan mendesak harus wfc. Lalu mampir lah ke cafe villa ini karena terlihat menarik. Sesampainya, diberitahukan sedang ada briefing sehingga harus menunggu. Akhirnya waitress datang membawakan menu, nah, disini menurutku perlu di improve, waitress harus mengerti dengan apapun yg dijual pada buku menu. Karena saat menanyakan beberapa jenis makanan, aku tidak mendapatkan informasi yang jelas. Contohnya “untuk menu A ini, detailnya seperti apasih kak masakannya?” waitress terlihat bingung sekali. “Menu B ini ready kan kak?” Waitress bingung lagi dengan jawabannya “maksudnya bagaimana kak?” Katanya. No hate, cuma masukan agar ada improve, sayang sekali kan cafe dan vila sebagus ini kalau terus2an seperti itu. Yang kedua, karena dirasa posisi duduk kurang nyaman dibawah untuk buka laptop, dan indoor dibawah masih ada briefing. Aku menanyakan ke waitress tersebut apakah boleh pindah ke atas? Lalu dijawab boleh, dan dibantu membawakan minuman pesananku. Di atas, sambil menunggu pesanan makanan datang, aku take picture beberapa spot karena memang cafe nya bagus sekali hehehe danau toba juga terlihat jelas. Setelah makananku datang, saat baru menyantap fetucine beberapa suapan pertama, tiba2 didatangi waitress yang lain bahwa katanya 1 jam kedepan lantai atas sudah di booking semua jadi harus pindah ke bawah. Wah, rasanya agak badmood karena diberitahukan disaat sedang makan. Kenapa diperbolehkan ke atas sebelumnya? Bahkan niat untuk wfc pun belum terealisasikan. Akhirnya tidak sempat kuhabiskan makanan dan minumanku karena sudah banyak staff yang geser2 kursi dan meja sehingga merasa “diusir secara halus”. Semoga kedepannya vany villa dapat improve, dan semoga semakin keren kedepannya. Aamiin 🤍",neutral,negative,high,,A01,yes
+resto-hotel-v2_001355,place_00211,RM Lapo Jior,restoran,3.0,RM batak,neutral,positive,medium,,A01,yes
+resto-hotel-v2_001425,place_00195,Purnama Balige Hotel,hotel,3.0,Satpam ya ramah dan tegas,neutral,positive,high,,A01,yes
+resto-hotel-v2_001450,place_00195,Purnama Balige Hotel,hotel,3.0,Untuk kamarnya bersih dan rapi Tempatnya strategis pas depan danau Sayangnya gak ada meja dan kursinya ...,neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_001927,place_00284,The Boat Homestay and Spa,hotel,3.0,"😀 View rimbunan pepohonan hijau, bangun pagi bisa hirup udara segar, pemilik ramah, staff responsif dan bekerja keras. 😢 Diminta menunggu dulu saat akan check-in, padahal tiba jam 5 sore, untung hanya 5 menit, banyak bagian lantai dan dinding rumah kapalnya sudah mulai lapuk dan perlu renovasi, perlu bawa krim anti nyamuk, sarapan tidak ada pilihan, hanya nasi goreng, tidak ada tissue dan air mineral, dan saat akan check-out, pemilik lebih mementingkan buah alpukat daripada membantu mengangkat barang bawaan tamu. Kalo tidak mau membantu karena sebagai boss, semestinya meminta staff membantu ....",neutral,negative,high,,A01,yes
+resto-hotel-v2_004083,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,3.0,Nasi goreng lain kali jangan pake pasir pak,neutral,negative,high,,A01,yes
+resto-hotel-v2_004100,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,3.0,Tidak ke sana tapi ke kedai sukaria di sebelah kiri.,neutral,negative,medium,,A01,yes
+resto-hotel-v2_004400,place_00036,Balige Seafood,restoran,3.0,Tidak ramah,neutral,negative,high,,A01,yes
+resto-hotel-v2_004862,place_00078,Damasus Nataboan Resto,restoran,3.0,"Perjuangan makan ke sini harus siap melewati jalan sempit dan terjal yang muat untuk 1 mobil. Kalau papasan salah satu harus mundur cari yang agak lapang karena minggir sedikit mepet jurang. Herannya banyak yang penasaran ke sini mungkin gara-gara tiktok. Makanan rasanya tidak istimewa tapi view nya yang bagus, danau Toba yang jernih sampai ikan mas kelihatan. Ada anak-anak juga yang berenang tebutan koin.",neutral,positive,high,,A01,yes
+resto-hotel-v2_004891,place_00078,Damasus Nataboan Resto,restoran,3.0,"Lebih baik gunakan perahu untuk makan di sini, jangan menggunakan mobil. Jalan sangat sempit.",neutral,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_004925,place_00078,Damasus Nataboan Resto,restoran,3.0,"Lihat review di youtube, tertarik dan berniat kesana, tapi di tengah jalan putar balik krna jalan ke bawah naik mobil cukup seram, mungkin next bisa lebih sering di up ke sosmednya biar org gak ragu atau takut mau dtg ke resto👍 ...",neutral,positive,medium,,A01,yes
+resto-hotel-v2_004967,place_00078,Damasus Nataboan Resto,restoran,3.0,"Pas dtg gak bgitu rame jd masih cepat pesananny dtg,,,tp apa krna pelayananny dikit, jadi meja banyak yg belum dibersihkan,klo gak mau didudukin,,, Parkiran agak susah klo rame,, Pesan kelapa jeruk, tp kelapany tua,,jd yg ada air kelapa+jeruk Pas datang dikasih dua jenis sambel yg enak menurut aku... Ikannya udh pasti seger..enak...cuma peaan udang asam manis dan ikan nila,,itu enak...",neutral,positive,high,,A01,yes
+resto-hotel-v2_004975,place_00078,Damasus Nataboan Resto,restoran,3.0,"Very nice restaurant with a view. It is located by Toba Lake. We came here by boa after short visitvto Samosir Island. You can reach this place by car but with a boat is another experience. We came here as part of the tour. The scenery was beautiful. You eat with the view of the lake. The food was ready when we arrived. Overall, the food is standard. They use local fish from the lake, I believe. The service was very good. It was a good experience. There are local kids waiting forcyou to throw coin to the lake so yhey can dive to find it. There are also many fishes waiting for you to throw leftover food to the lake. You can also ee egrets. Will come again next time.",neutral,positive,high,,A01,yes
+resto-hotel-v2_005102,place_00023,Alyssa Restaurant Pizza,restoran,3.0,"Pizza secukupnya saja Daging babi bakarnya enak, dimakan dengan nasi panas juga enak.",neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005155,place_00023,Alyssa Restaurant Pizza,restoran,3.0,"Kami mampir di sini untuk makan siang pada hari kedua kami. Kami memutuskan untuk mencoba Babi Panggang (Babi Panggang) yang direkomendasikan penduduk setempat. Resto ini mudah ditemukan karena berada tepat di pinggir jalan utama dan interiornya terbuka. Daging Babi Panggangnya agak terlalu keras untuk kita sukai dan cukup kering, tapi saus di sampingnya enak.",neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005687,place_00265,Solu Bolon Cafe And Resto,restoran,3.0,Belum ada komentar,neutral,neutral,high,,A01,yes
+resto-hotel-v2_005762,place_00233,Rumah Makan Lomak,restoran,3.0,"Sudah ber x x datang ke tuk tuk, namun kali ini saya ingin benar2 explore , pas sore2 kelilling naik sepeda motor, rata2 resto cafe rumah makan sepi semua. Hanya penjaga aja yg ada , tidak ada pengunjung sama sekali, sempat terbesit di hati, kok kasihan ya wisata tuktuk ini, kok makin sepi aja, setelah keliling2 akhirnya saya singgah di Rm batak, bukan resto or cafe , Saya adalah penggemar makanan B2 Saksang segala penjuru sudah di makan Saksang disini berlemak sekali sangat juicy , rasa lumayan enak bagi yang suka lemak pastinya suka, tapi bagiku langsung eneg dan mau muntah Untuk harga bagi ku sangat sangat sangat mahal, satu porsi nasi saksang 48 rb rupiah , ini bukan restoran yg estetika dan bukan tempat nongkrong yg tempat bagus , ini hanya rumah makan batak biasa. Mungkin bgi orang kaya tidak mahal. Mohon di cek lgi harga wajar nya , biar orang datang dan datang lagi, bukan sekali makan langsung tobat 🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻",neutral,negative,high,,A01,yes
+resto-hotel-v2_005854,place_00233,Rumah Makan Lomak,restoran,3.0,"Pertama kali di sini karena banyak ulasan. Kami membeli ikan barbeque, babi goreng, arsik, dan jus. Saya harus mengatakan bahwa rasanya cukup hambar dan jusnya sangat manis sementara saya sudah meminta lebih sedikit gula dan lebih sedikit es. Dengan harga dan waktu pembuatannya, menurut saya itu tidak sepadan. Tidak yakin apakah saya hanya menghadapi anomali dengan pengalaman ini tetapi keluarga saya sangat kecewa.",neutral,negative,high,,A01,yes
+resto-hotel-v2_006454,place_00138,Matahari Restaurant And Homestay,restoran,3.0,"Kamarnya ok, tempat tidurnya nyaman. Kamar mandi tidak memiliki wastafel dan toilet harus disiram secara manual dengan ember air. Lokasi dan harga sangat bagus dan makanan dari restoran murah dan enak. Jika Anda memiliki anggaran terbatas, ini adalah tempat yang bagus!",neutral,positive,high,,A01,yes
+resto-hotel-v2_008325,place_00327,Jo 'N Gio Resto Nasional 26 Coffeshop,hotel_resto,3.0,"Perhentian kecil yang menyenangkan dalam perjalanan menuju Air Terjun Efrata! Jo 'n Gio sulit untuk dilewatkan - terutama saat Anda melewati peternakan ikan yang indah di sepanjang Danau Toba. Ini adalah pengaturan yang sederhana dan bersih dengan pemandangan danau besar, minuman dingin, dan makanan lokal lezat yang menjadi favorit. Tempat sempurna untuk meregangkan kaki, menikmati kopi atau teh manis, dan mengisi bahan bakar sebelum mengejar air terjun. Dan bonusnya: ada air terjun mini tepat di seberang jalan — jadi Anda mendapatkan aksi fitur air dua kali lipat! Suasana bersahabat, tempat pemberhentian yang damai, dan latar belakang Toba yang tidak ada duanya.",neutral,positive,high,,A01,yes
+resto-hotel-v2_008979,place_00298,Warung Bikers Parapat,restoran,3.0,The food was okay but quite expensive and small portions,neutral,negative,medium,,A01,yes
+resto-hotel-v2_008980,place_00298,Warung Bikers Parapat,restoran,3.0,"Tempat makan dengan konsep yang keren,banyak sticker2 dari komunitas motor yang di tempel di dindingnya,untuk makanan rasanya standar,untuk harga cukup mahal,tapi ya namanya di tempat wisata,untuk 1 piring nasi dengan lauk ayam,seharga 25k.pelayanan sangat ramah,tempat bersih,dan halal.",neutral,positive,high,,A01,yes
+resto-hotel-v2_009163,place_00236,Rumah Makan Muslim Hajjah Zuleka,restoran,3.0,Muslim dan banyak pilihan,neutral,positive,medium,,A01,yes
+resto-hotel-v2_009195,place_00297,Warkop Panorama I Panatapan Parapat,restoran,3.0,Mantap viewnya,neutral,positive,high,,A01,yes
+resto-hotel-v2_009215,place_00297,Warkop Panorama I Panatapan Parapat,restoran,3.0,Pemandangan danau yang indah dengan angin sepoi-sepoi yang sejuk,neutral,positive,high,,A01,yes
+wisata-v2_002679,place_00320,Arung Jeram Sungai Asahan (Asahan River Rafting),wisata,3.0,sangat indah,neutral,positive,high,,A01,yes
+wisata-v2_002747,place_00335,Pakkodian Toba,wisata,3.0,"jalan menuju tempat wisata jelek, bila ingin kesini usahakan membawa makanan dari luar",neutral,negative,high,,A01,yes
+wisata-v2_002788,place_00335,Pakkodian Toba,wisata,3.0,"tempatnya indah, cantik.. tp sayangnya pas ksna ada kerbau berendam dsna, jd kurang recomended klo mau berenang2 dsna",neutral,positive,high,,A01,yes
+wisata-v2_002826,place_00335,Pakkodian Toba,wisata,3.0,"Rekomendasi tempat liburan dan healing,namun bagi yang tidak sering berkunjung,mungkin akan sedikit kewalahan krna medan menuju pantai lumayan rusak ( jalan berbatu )",neutral,positive,medium,mixed_sentiment,A01,yes
+wisata-v2_002857,place_00335,Pakkodian Toba,wisata,3.0,Toilet nya Bersih.. Lingkungan BEBAS Sampah.. Parkiran Luas.. Petugas Ramah.. Disarankan Fasilitas yg lain ditambah.. Hiburan juga perlu Variasi..,neutral,positive,high,,A01,yes
+wisata-v2_003043,place_00042,Batu Marhosa,wisata,3.0,"Sudah mulai berkurang “hosa” nya, tp baik klo dibuatkan tempat duduk sbg Rest Area.",neutral,positive,high,,A01,yes
+wisata-v2_003046,place_00042,Batu Marhosa,wisata,3.0,Lokasi tidak ditemukan sama sekali,neutral,negative,medium,,A01,yes
+wisata-v2_003110,place_00079,Danau Sidihoni,wisata,3.0,"Pemandangan cukup indah, hanya saja ada bau menyengat dari kotoran kerbau disekitarnya... Perlu pengembangan lebih lanjut jika ingin dijadikan objek-objek wisata",neutral,positive,high,mixed_sentiment,A01,yes
+wisata-v2_003115,place_00079,Danau Sidihoni,wisata,3.0,Lokasi panas dan tidak ada tempat untuk berteduh. Sebaik nya bawa bekal makanan dan minuman klau berkunjung,neutral,negative,high,,A01,yes
+wisata-v2_003733,place_00321,Bukit Holbung Samosir,wisata,3.0,Tanyakan nya agak ekstrim bagi mobil tua,neutral,positive,medium,,A01,yes
+wisata-v2_004089,place_00321,Bukit Holbung Samosir,wisata,3.0,bagus view nya,neutral,positive,high,,A01,yes
+wisata-v2_004222,place_00321,Bukit Holbung Samosir,wisata,3.0,👍👍 ...,neutral,positive,medium,,A01,yes
+wisata-v2_004225,place_00321,Bukit Holbung Samosir,wisata,3.0,Ramai dikunjungi,neutral,positive,medium,,A01,yes
+wisata-v2_004435,place_00321,Bukit Holbung Samosir,wisata,3.0,jga kebersihannya bos,neutral,positive,medium,,A01,yes
+wisata-v2_004537,place_00321,Bukit Holbung Samosir,wisata,3.0,Enjoy,neutral,positive,medium,,A01,yes
+wisata-v2_004742,place_00321,Bukit Holbung Samosir,wisata,3.0,Sangat kagum atas alam,neutral,positive,medium,,A01,yes
+wisata-v2_005093,place_00043,Batu Maroppa,wisata,3.0,Akses bs dr dermaga tamba ke lokasi. Bs juga dari bukit holbung lanjut menuju titik lokasi di gmap. Akan ada rumah warga yang bisa menjadi lokasi parkir. Untuk guide ada anak anak warga setempat. Belum ada HTM. Masih sukarela berapa. Hiking santai 1 jam naik. Pemandangan indah dari batu maroppa melunaskan rasa lelah karena pendakian yang menanjak ini,neutral,positive,high,,A01,yes
+wisata-v2_007013,place_00172,Patung Sigalegale,wisata,3.0,Bagus sejarah nya,neutral,positive,high,,A01,yes
+wisata-v2_007021,place_00172,Patung Sigalegale,wisata,3.0,"Pastikan masuk ke area pertunjukan yang ada gapura atau gerbang selamat datang di desa wisata, karena ada yg buka pertunjukan yg sama di dekat lokasi ini, byk yg terkecoh dan kena pungli. Pertunjukan tari dan patung sendiri kurang menarik.",neutral,negative,medium,,A01,yes
+wisata-v2_007081,place_00172,Patung Sigalegale,wisata,3.0,Bagus,neutral,positive,high,,A01,yes
+wisata-v2_007133,place_00172,Patung Sigalegale,wisata,3.0,Bagus. Pertunjukan Sigale-gale sangat menarik.,neutral,positive,high,,A01,yes
+wisata-v2_007240,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,3.0,"20k, not really much to see, 10 minutes and you are done. Not sure id go out my way to visit, very small and basic",neutral,negative,medium,,A01,yes
+wisata-v2_007246,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,3.0,Kunjungan Ke Huta Raja Siallagan,neutral,positive,medium,,A01,yes
+wisata-v2_007258,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,3.0,Sangat menarik karena kita dapat mengetahui aturan peraturan zaman nenek moyang,neutral,positive,medium,,A01,yes
+wisata-v2_007314,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,3.0,This was the execution place for ancient badak Indonesian people,neutral,positive,medium,,A01,yes
+wisata-v2_007887,place_00271,Taman Eden 100,wisata,3.0,"Tidak direkomendasikan bagi pasangan yang datang hanya berdua, ada baiknya bawa teman. Saya dan pasangan sedikit kaget ditegur oleh pemilik, sebab kami tidak tahu ada aturan seperti itu. Lebih baik lagi jika dipasang papan pengumuman di pintu masuk supaya pengunjung tidak tersinggung. Ambience luar biasa, asri, dan sejuk. Perlu penataan di beberapa spot yang mulai tertutup semak-semak.",neutral,negative,high,mixed_sentiment,A01,yes
+wisata-v2_007904,place_00271,Taman Eden 100,wisata,3.0,Luas tapi banyak nyamuk,neutral,positive,medium,mixed_sentiment,A01,yes
+wisata-v2_008025,place_00372,Taman Wisata Iman Sitinjo,wisata,3.0,"Pemandangan indah, udaranya sejuk.",neutral,positive,high,,A01,yes
+wisata-v2_008033,place_00372,Taman Wisata Iman Sitinjo,wisata,3.0,"Beberapa kali kemari, terakhir Maret 2025 ,viewnya bagus, udaranya sejuk banyak spot untuk foto, tempat berdoa, atau untuk sekedar duduk memandang kota Sumbul Pokoknya recommended lah Tiket masuk kalau bisa lebih terjangkau lagi agar banyak pengunjung nya Tapi kalau bisa toiletnya lebih diperhatikan lagi",neutral,positive,high,,A01,yes
+wisata-v2_008045,place_00372,Taman Wisata Iman Sitinjo,wisata,3.0,"Kalo Bisa di Cat Ulang Semua Patung y biar Makin Mantap dilihat sayang kalo gk diurus,,👍👍👍 ...",neutral,positive,high,,A01,yes
+wisata-v2_008077,place_00372,Taman Wisata Iman Sitinjo,wisata,3.0,"This tourist location is very extensive, but notined. There is a car route to help pick up at the most distant point. There are two types of toilets, public toilets and premium toilets. Many restaurants and souvenir shops are closed. A few shops are abandoned. There are many unused places.",neutral,positive,medium,,A01,yes
+wisata-v2_008502,place_00035,"Balerong - Balige, Toba Samosir, North Sumatra, Indonesia",wisata,3.0,Berharap segera bisa dibuka shg tdk berdagang di area kaki lima,neutral,positive,medium,,A01,yes
+wisata-v2_008707,place_00037,Batak Museum,wisata,3.0,Cool ancient pieces but very little information about the items and culture. We went through it in 10 minutes,neutral,positive,medium,,A01,yes
+wisata-v2_008710,place_00037,Batak Museum,wisata,3.0,"Museum ini terletak di antara pasar Tomok bagian ujung. Tidak ada lahan parkir di sekitar museum, parkir dapat didapatkan di sekitar rumah adat dan pertunjukan sigale-gale. Paket wisata budaya di satu wilayah Tomok antara lain pertunjukan sigale-gale, makan raja, dan museum batak. Dapat dilakukan dalam satu waktu. Petunjuk arah dan rute wisata ini kurang banyak, apalagi wisata berada di tengah pasar dan keramaian. Sehingga tidak dapat bnyak menikmati. Bangunan museum ini berbentuk rumah adat batak yang berisi koleksi barang-barang suku batak kuno. Namun hanya sedikit barang yang dilengkapi dengan penjelasan. Sehingga jika berkunjung tanpa tour guide sulit mendapatkan pemahaman yang lengkap.",neutral,negative,high,,A01,yes
+wisata-v2_008711,place_00037,Batak Museum,wisata,3.0,"Wandered into the Batak Museum in Tomok expecting the usual museum vibe... but nope, it was completely unmanned when we arrived—zero staff, zero lights. It felt like we had unlocked a bonus level of Night at the Museum: Batak Edition. Cue us creeping around with a mini torch, hunting for light switches like modern-day explorers. (found them, and yes, we felt like heroes.) Once lit, the place came alive. Housed in a beautifully preserved Rumah Bolon (traditional Batak longhouse), the museum showcases a fascinating collection of Batak artifacts—from ulos cloths and weapons to carvings with rich symbolic meaning. Every corner whispers stories of Batak life, rituals, and royal legacy but was short of descriptions and had to be dugged up from the www. Bonus history hit: Tomok is home to the Sidabutar royal tombs, so you’re literally walking through centuries of cultural richness. Note: • Don’t be surprised by the many vendors who would spring at the entrance, surrounding the village are mostly descendants of the Sidabutar family • Bring a flashlight or phone torch just in case you end up like us on a cloudy gloomy day that adds to the spook • Pair it with a visit to the King Sidabutar Tomb and Sigale-gale performance. • Look up the meaning of Batak carvings before you go—it makes everything more meaningful.",neutral,positive,medium,,A01,yes
+wisata-v2_008718,place_00037,Batak Museum,wisata,3.0,"Hanya membayar sumbangan sebesar Rp.5000/orang. Untuk ke sini harus jalan kaki sedikit, mobil harus parkir agak depan. Lebih baik membawa guide agar bisa mengerti koleksi museum.",neutral,positive,high,,A01,yes
+wisata-v2_008730,place_00037,Batak Museum,wisata,3.0,"Rumah khas batak dengan segala isiannya. Untuk masuk bayar 500 per orang. Didalamnya juga ada barang2 yg bisa dibeli oleh pengunjung, namun sayang tidak ada penjaga yg bs menerangkan barang2 didalam rumah batak tersebut.",neutral,negative,high,,A01,yes
+wisata-v2_008743,place_00037,Batak Museum,wisata,3.0,Tidak ada yang istimewa. Anda hanya melihat rumah-rumah yang juga bisa Anda lihat dari luar tanpa membayar tiket!,neutral,negative,high,,A01,yes
+wisata-v2_008749,place_00037,Batak Museum,wisata,3.0,Beberapa rumah Batak yang indah,neutral,positive,high,,A01,yes
+wisata-v2_008760,place_00037,Batak Museum,wisata,3.0,"5k to get in per person but there is barely anything to see. A few items which have the odd description on and some traditional clothing you can dress up in for photos. It’s okay if you are in the area looking for something to do, like us, but I wouldn’t go out of your way to come here. Toilet has a fee and coconuts are overpriced in the cafe.",neutral,negative,high,,A01,yes
+wisata-v2_008767,place_00037,Batak Museum,wisata,3.0,We went there expecting to be a guide or some that could explain something. No one there. Good exhibition of tools and arms of the culture. Also a few sculptures. Part of the museum is a gift shop.,neutral,positive,high,,A01,yes
+wisata-v2_008773,place_00037,Batak Museum,wisata,3.0,"Unsure if it was a free ticket museum. But when I went at 8 am on Saturday, there was no one inside so I just entered. I left after 5 mins of walking inside the museum.",neutral,negative,medium,,A01,yes
+wisata-v2_008778,place_00037,Batak Museum,wisata,3.0,Banyak debu,neutral,negative,medium,,A01,yes
+wisata-v2_008785,place_00037,Batak Museum,wisata,3.0,"Cukup bagus. Beberapa rumah Batak. Anda bisa mengunjungi bagian dalam rumah Batak dan menyaksikan tarian jika datang di waktu yang tepat. Jika tidak, Anda harus melewati banyak kios pasar di mana barang-barang mereka sendiri banyak ditawarkan untuk dijual.",neutral,positive,high,,A01,yes
+wisata-v2_009110,place_00133,Letter Z,wisata,3.0,Istirahat sangat sejuk,neutral,positive,medium,,A01,yes
+wisata-v2_009124,place_00133,Letter Z,wisata,3.0,tempat nya bagus dan pemandangan nya lumayan..sayang ga bawa drone,neutral,positive,high,,A01,yes
+wisata-v2_010811,place_00317,Air Terjun Bah Salak,wisata,3.0,Dikasih B 3 dulu lah ya. Biar dinas parawisata yg nambahin B 2 nya. Kan anggaran sudah ada om pertahun nya.,neutral,negative,medium,,A01,yes
+wisata-v2_011972,place_00355,Rumah Bolon Raja Purba,wisata,3.0,"Butuh perhatian pemerintah, semakin menyedihkan",neutral,positive,medium,,A01,yes
+wisata-v2_011999,place_00259,Museum Simalungun,wisata,3.0,"Bagus menambah pengetahuan budaya masyarakat simalungun,. Tolong dapat dirawat sesuai dengan karaktetistik koleksinya",neutral,positive,high,,A01,yes
+wisata-v2_012083,place_00316,Air Soda Parbubu,wisata,3.0,"Tempat rekreasi yg unik dan sebuah pengalaman yg nyaris tdk terbayangkan bisa menikmati berenang dalam kolam air soda alami. Tercicip rasa air yg rada manis, namun terasa pedih ketika terpercik mata. Sedikit saran, jangan lupa mengenakan ...",neutral,negative,high,,A01,yes
+wisata-v2_012118,place_00316,Air Soda Parbubu,wisata,3.0,"Akses ke lokasi mudah dijangkau, suasana diarea wisata permandian cukup sejuk, cita rasa makanan dan minuman cukup enak, namun sangat disayangkan dari segi pelayanan sangat buruk. Bagi yg memiliki list wisata kesini sebaiknya ditanyakan ...",neutral,positive,medium,mixed_sentiment,A01,yes
+wisata-v2_012163,place_00316,Air Soda Parbubu,wisata,3.0,"tempatnya ada di bawah warung makan, terus disamping pondok warungnya ada tempat pembuangan sampah sehingga ketika makan ditemani bau2an yg mantap yang dapat mendukung program diet anda😂 ...",neutral,positive,high,,A01,yes
+wisata-v2_012659,place_00090,Galeri Umkm Tapanuli Utara,wisata,3.0,Tempat tongkrongan dan tempat santai keluarga di Tarutung tepatnya di depan Gedung Kesenian kota. Di sini kita bisa duduk santai sambil menikmati suasana sore atau malam jalanan kota. Di sekitar ini jg terdapat banyak tempat makan dan cafe,neutral,positive,medium,,A01,yes
+resto-hotel-v2_000096,place_00124,"Kedai Islam ""Rahayu""",restoran,3.0,Lumayan lah untuk tempat santai,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_000106,place_00107,Hotel Santo Djaya,hotel,3.0,Kotor,neutral,negative,high,,A01,yes
+resto-hotel-v2_000144,place_00095,Grand Mareda Hotel,hotel,3.0,Enak menginap untuk melepaskan lelah para supir,neutral,positive,high,,A01,yes
+resto-hotel-v2_000188,place_00189,Pudan Residence,hotel,3.0,"Murah , bersih dan lokasi kurang nyaman.",neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_000303,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,3.0,Apakah ada nomor kontaknya?,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_000327,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,3.0,Telor dadarnya 👍,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_000352,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,3.0,Restoran,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_000779,place_00127,"Labersa Hotel and Convention Center Toba, Balige",hotel,3.0,Ga ada smooking room. Kamar ga ada jendela.,neutral,negative,high,,A01,yes
+resto-hotel-v2_000792,place_00127,"Labersa Hotel and Convention Center Toba, Balige",hotel,3.0,degrades since the last viait,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_000884,place_00127,"Labersa Hotel and Convention Center Toba, Balige",hotel,3.0,mahallll,neutral,negative,high,,A01,yes
+resto-hotel-v2_001080,place_00129,Lago Hotel & Resto,hotel,3.0,Nyaman,neutral,positive,high,,A01,yes
+resto-hotel-v2_001265,place_00108,Hotel Sere Nauli,hotel,3.0,Nyaman.......udara Toba sejuk.......👍 ...,neutral,positive,high,,A01,yes
+resto-hotel-v2_001299,place_00108,Hotel Sere Nauli,hotel,3.0,Very basic. Staff very friendly.,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_001372,place_00098,"""Happy"" Noodle Restaurant",restoran,3.0,Makanan Cina,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_001695,place_00105,Hotel Nabasa,hotel,3.0,"View danau Toba indah,kamar sempit",neutral,positive,high,,A01,yes
+resto-hotel-v2_001724,place_00105,Hotel Nabasa,hotel,3.0,Dekat ke kota Balige & danau Toba,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_001780,place_00105,Hotel Nabasa,hotel,3.0,Hotel dengan view danau Toba di balige,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_001793,place_00105,Hotel Nabasa,hotel,3.0,Kamar mandi terlalu kecil,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_001916,place_00147,Mutiara Balige Hotel,hotel,3.0,"Kamarnya bersih , mantab",neutral,positive,high,,A01,yes
+resto-hotel-v2_001980,place_00314,wisma LAKSAMANA,hotel,3.0,Ahhh,neutral,positive,medium,,A01,yes
+resto-hotel-v2_002031,place_00113,Ita Soposurung Hotel,hotel,3.0,Ada ruang nyanyi yang cukup baik,neutral,positive,high,,A01,yes
+resto-hotel-v2_002413,place_00289,Toba Village inn,hotel,3.0,Good,neutral,positive,high,,A01,yes
+resto-hotel-v2_002828,place_00217,Romlan Guesthouse,hotel,3.0,Oke,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_002944,place_00072,Carolina Hotel,hotel,3.0,Pemandangan ok,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_003302,place_00286,Thyesza Hotel Resort,hotel,3.0,Kecewa dengan vasilitas ukuran villa,neutral,negative,high,,A01,yes
+resto-hotel-v2_003352,place_00286,Thyesza Hotel Resort,hotel,3.0,Tdk rekomendasi untuk liburan keluarga,neutral,positive,high,,A01,yes
+resto-hotel-v2_003778,place_00283,Tepi Danau Bistro,restoran,3.0,Makan,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_003843,place_00283,Tepi Danau Bistro,restoran,3.0,"Kurang ramah,,,kurang bersih",neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_003883,place_00125,Kedai Mie Lily,restoran,3.0,Sempat tersohor di Balige 20 tahun lalu,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_003940,place_00303,Warung Makan Muslim Bu Nurul,restoran,3.0,Sarapan pagi yg murah meriah,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_003955,place_00303,Warung Makan Muslim Bu Nurul,restoran,3.0,dari namanya.....halal ko 😬 ...,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_003966,place_00303,Warung Makan Muslim Bu Nurul,restoran,3.0,"Home food, halal ..",neutral,neutral,medium,,A01,yes
+resto-hotel-v2_004059,place_00122,Kedai Bakmi Bahagia,restoran,3.0,🤟🏿 ...,neutral,positive,medium,,A01,yes
+resto-hotel-v2_004110,place_00248,Rumah Makan Sigiring Giring,restoran,3.0,enak kali makan siang di RM ini..,neutral,positive,high,,A01,yes
+resto-hotel-v2_004145,place_00222,Rumah Dimsum Balige,restoran,3.0,Biasa saja,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_004258,place_00228,Rumah Makan Khas Batak Lamhot,restoran,3.0,Harga friendly!,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_004266,place_00073,Chinese Food Gemar,restoran,3.0,Makanan Khas Chinese Food ( Non Halal),neutral,neutral,medium,,A01,yes
+resto-hotel-v2_004273,place_00073,Chinese Food Gemar,restoran,3.0,Enaaaaak.....,neutral,positive,medium,,A01,yes
+resto-hotel-v2_004276,place_00073,Chinese Food Gemar,restoran,3.0,Rasa tidak sesuai dengan ekspektasi dan harga,neutral,negative,medium,,A01,yes
+resto-hotel-v2_004301,place_00073,Chinese Food Gemar,restoran,3.0,Ramah tamah,neutral,positive,high,,A01,yes
+resto-hotel-v2_004310,place_00073,Chinese Food Gemar,restoran,3.0,Penyajian cepat tepat,neutral,positive,high,,A01,yes
+resto-hotel-v2_004404,place_00036,Balige Seafood,restoran,3.0,Rasa cukup ok saja,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_005226,place_00116,Jenny'S Restaurant,restoran,3.0,"Tidak buruk, tapi diharapkan lebih.",neutral,negative,high,,A01,yes
+resto-hotel-v2_005412,place_00047,Biwa Cafe 26 Resto,restoran,3.0,Puas,neutral,positive,high,,A01,yes
+resto-hotel-v2_005480,place_00047,Biwa Cafe 26 Resto,restoran,3.0,Ada mushalla t4 ibadah,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_005487,place_00047,Biwa Cafe 26 Resto,restoran,3.0,mantap,neutral,positive,high,,A01,yes
+resto-hotel-v2_005505,place_00047,Biwa Cafe 26 Resto,restoran,3.0,Mantul,neutral,positive,high,,A01,yes
+resto-hotel-v2_005933,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,3.0,View bagus dipenatapan sibaganding,neutral,positive,high,,A01,yes
+resto-hotel-v2_006023,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,3.0,Rasanya biasa-biasa saja,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_006072,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,3.0,Tempat baguslah,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_006075,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,3.0,👍👍👍 ...,neutral,positive,medium,,A01,yes
+resto-hotel-v2_006114,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,3.0,Kurang ramah,neutral,negative,high,,A01,yes
+resto-hotel-v2_006288,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,3.0,Lumayan,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_006378,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,3.0,Begitu begitu dan mahal,neutral,negative,high,,A01,yes
+resto-hotel-v2_006385,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,3.0,Suasana kafe cukup nyaman tapi makanannya biasa,neutral,positive,high,,A01,yes
+resto-hotel-v2_006397,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,3.0,Makanan nya lumayan cepat n rasanya enak,neutral,positive,high,,A01,yes
+resto-hotel-v2_006523,place_00026,Andrian Rumah Makan Nasional,restoran,3.0,Mayan,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_006644,place_00280,Tataring Coffee 26 Resto,restoran,3.0,Mentul pol coi Ayo gassss,neutral,positive,high,,A01,yes
+resto-hotel-v2_006769,place_00307,Widya Restaurant,restoran,3.0,Mantap enak,neutral,positive,high,,A01,yes
+resto-hotel-v2_006819,place_00307,Widya Restaurant,restoran,3.0,Harga terlalu tinggi,neutral,negative,high,,A01,yes
+resto-hotel-v2_007005,place_00238,Rumah Makan Muslim Penginapan,restoran,3.0,Sayur gulai nangka nya maknyuss,neutral,positive,high,,A01,yes
+resto-hotel-v2_007061,place_00088,Elios - Rumah Makan Khas Batak,restoran,3.0,"Harga dan rasa kurang setara,",neutral,negative,high,,A01,yes
+resto-hotel-v2_007124,place_00088,Elios - Rumah Makan Khas Batak,restoran,3.0,"Tempatnya nyaman, cuma rasa makanan biasa aja",neutral,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_007187,place_00215,Rm Siaek Mual,restoran,3.0,Tidak bisa transfer 60 RB katanya,neutral,negative,medium,,A01,yes
+resto-hotel-v2_007195,place_00215,Rm Siaek Mual,restoran,3.0,Tidak buruk,neutral,negative,high,,A01,yes
+resto-hotel-v2_007207,place_00263,Siny Siny Samosir,restoran,3.0,Kurang Worth It makanan dengan harganya,neutral,negative,high,,A01,yes
+resto-hotel-v2_007234,place_00263,Siny Siny Samosir,restoran,3.0,Dimsum apaan kayak begini,neutral,negative,high,,A01,yes
+resto-hotel-v2_007364,place_00155,Palito Coffee And Resto,restoran,3.0,pelayanan lamban,neutral,negative,medium,,A01,yes
+resto-hotel-v2_007417,place_00155,Palito Coffee And Resto,restoran,3.0,baik,neutral,positive,high,,A01,yes
+resto-hotel-v2_007537,place_00301,"Warung Kopi Synergy, Samosir",restoran,3.0,Orang2. sarankan ngopinya disini,neutral,positive,high,,A01,yes
+resto-hotel-v2_007563,place_00301,"Warung Kopi Synergy, Samosir",restoran,3.0,Tempat nya nyaman dan gak rieuweh,neutral,positive,high,,A01,yes
+resto-hotel-v2_007595,place_00185,Pondok Kolding Pangururan.Samosir,restoran,3.0,Antri,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_007602,place_00185,Pondok Kolding Pangururan.Samosir,restoran,3.0,Mi ayamnya ga enak,neutral,negative,high,,A01,yes
+resto-hotel-v2_007604,place_00185,Pondok Kolding Pangururan.Samosir,restoran,3.0,Rasanya tidak sebaik dulu,neutral,negative,medium,,A01,yes
+resto-hotel-v2_007611,place_00185,Pondok Kolding Pangururan.Samosir,restoran,3.0,Tidak tersedia lapangn parkir,neutral,negative,high,,A01,yes
+resto-hotel-v2_007641,place_00229,Rumah Makan Khas Batak Moranta Simbolon,restoran,3.0,Nasi nya keras,neutral,negative,high,,A01,yes
+resto-hotel-v2_007882,place_00001,3J Lamongan Cafe N Resto,restoran,3.0,Makan no tempat yes,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_007922,place_00358,Rumah Makan Islam Murni Tuktuk Siadong,hotel_resto,3.0,Sangat tidak ramah pelayanya,neutral,negative,high,,A01,yes
+resto-hotel-v2_007946,place_00051,Bpk ( Babi Panggang Karo) Sembiring,restoran,3.0,Standar saja,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_008041,place_00152,Orari Restaurant,restoran,3.0,Kurang memuaskan....,neutral,negative,high,,A01,yes
+resto-hotel-v2_008260,place_00205,Rm Bpk Man Kena (Bang Gurning),restoran,3.0,Pelayanan lambat.,neutral,negative,high,,A01,yes
+resto-hotel-v2_008304,place_00365,Rumah Makan Ranto,hotel_resto,3.0,Standar,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_008335,place_00130,Lapo Barat (Restaurant 26 Catering),restoran,3.0,"Recomended,makanan non halal",neutral,positive,high,,A01,yes
+resto-hotel-v2_008634,place_00234,Rumah Makan Marina,restoran,3.0,Lumayan enak makanannya,neutral,positive,high,,A01,yes
+resto-hotel-v2_008669,place_00223,Rumah Makan Elizabeth,restoran,3.0,Hot tea and cofee,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_008712,place_00223,Rumah Makan Elizabeth,restoran,3.0,Berada di penatapan Parapat 🤩 ...,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_008764,place_00184,Pondok Azzahra,restoran,3.0,"Ambilnya disini, makannya di kapal",neutral,neutral,medium,,A01,yes
+resto-hotel-v2_008948,place_00241,Rumah Makan %22Pondok Karen%22,restoran,3.0,Makan malam,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_009035,place_00183,Poncha Clbk,restoran,3.0,Yang punya warung org mana bandung kah,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_009102,place_00212,Rm Muslim Menara,restoran,3.0,Terlalu mahal dengan menu yg standar,neutral,negative,high,,A01,yes
+resto-hotel-v2_009132,place_00212,Rm Muslim Menara,restoran,3.0,Salah satu food court di Parapat.,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_009158,place_00212,Rm Muslim Menara,restoran,3.0,Makanannya ayam penyet tidak ada rasa.,neutral,negative,high,,A01,yes
+resto-hotel-v2_009160,place_00212,Rm Muslim Menara,restoran,3.0,Enak,neutral,positive,high,,A01,yes
+resto-hotel-v2_009326,place_00118,Kafe Pak Pos,restoran,3.0,Lumayan enak buat masakan padang di Parapat,neutral,positive,high,,A01,yes
+resto-hotel-v2_009328,place_00118,Kafe Pak Pos,restoran,3.0,Pelayanan tidak memuaskan pelanggan.,neutral,negative,high,,A01,yes
+resto-hotel-v2_009340,place_00118,Kafe Pak Pos,restoran,3.0,Lumayan lah krna,neutral,neutral,medium,,A01,yes
+resto-hotel-v2_009354,place_00118,Kafe Pak Pos,restoran,3.0,Kurang ramah,neutral,negative,high,,A01,yes
+resto-hotel-v2_009369,place_00118,Kafe Pak Pos,restoran,3.0,Makanannya terlalu asin,neutral,negative,high,,A01,yes
+resto-hotel-v2_009382,place_00118,Kafe Pak Pos,restoran,3.0,Biasa aja,neutral,negative,high,,A01,yes
+resto-hotel-v2_009395,place_00230,Rumah Makan Khas Batak Parapat,restoran,3.0,🤟🏿🤙🏿👆🏿 ...,neutral,positive,medium,,A01,yes
+resto-hotel-v2_009456,place_00360,Rumah Makan Khas Minang,hotel_resto,3.0,Harga makanan dan minuman gk worth it.,neutral,negative,high,,A01,yes
+resto-hotel-v2_009461,place_00360,Rumah Makan Khas Minang,hotel_resto,3.0,Rasanya kurang nendang😤 ...,neutral,negative,high,,A01,yes
+resto-hotel-v2_009472,place_00360,Rumah Makan Khas Minang,hotel_resto,3.0,Tidak layak untuk dimakan di sini,neutral,negative,medium,,A01,yes
+resto-hotel-v2_009523,place_00237,Rumah Makan Muslim Nikmat,restoran,3.0,lumayan,neutral,neutral,medium,,A01,yes
+wisata-v2_000039,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,3.0,"Lumayan bagus., untuk tempat keluarga",neutral,positive,high,,A01,yes
+wisata-v2_000090,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,3.0,Sangat indah ciptaan Tuhan,neutral,positive,high,,A01,yes
+wisata-v2_000092,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,3.0,Pemandangan yang indah dan menarik,neutral,positive,high,,A01,yes
+wisata-v2_000165,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,3.0,Pantai ny indah,neutral,positive,high,,A01,yes
+wisata-v2_000211,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,3.0,Pantai kurang pengelolaan,neutral,negative,high,,A01,yes
+wisata-v2_000327,place_00063,Bukit Pahoda,wisata,3.0,Tempat utk rekreasi,neutral,neutral,medium,,A01,yes
+wisata-v2_000565,place_00069,Bukit Tara Bunga,wisata,3.0,Pemandangan bagus. Hanya kurang fasilitas.,neutral,positive,high,,A01,yes
+wisata-v2_000759,place_00091,Geosite Sipinsur,wisata,3.0,Toilet tdk bersih dan nyaman,neutral,negative,high,,A01,yes
+wisata-v2_000777,place_00091,Geosite Sipinsur,wisata,3.0,Krenn dah,neutral,positive,high,,A01,yes
+wisata-v2_001045,place_00091,Geosite Sipinsur,wisata,3.0,MCK kurang,neutral,negative,medium,,A01,yes
+wisata-v2_001188,place_00091,Geosite Sipinsur,wisata,3.0,Biasa aja..cuma dingin sih,neutral,negative,high,,A01,yes
+wisata-v2_001229,place_00091,Geosite Sipinsur,wisata,3.0,Kurang bersih dan bayak barak rusak,neutral,negative,high,,A01,yes
+wisata-v2_001240,place_00091,Geosite Sipinsur,wisata,3.0,Tempat yg sangat indah,neutral,positive,high,,A01,yes
+wisata-v2_001287,place_00091,Geosite Sipinsur,wisata,3.0,A spectacular view...,neutral,positive,high,,A01,yes
+wisata-v2_001566,place_00019,Air Terjun Situmurun,wisata,3.0,Keren,neutral,positive,high,,A01,yes
+wisata-v2_001722,place_00192,Puncak Huta Ginjang,wisata,3.0,Teaik,neutral,positive,high,,A01,yes
+wisata-v2_001791,place_00192,Puncak Huta Ginjang,wisata,3.0,Frash,neutral,positive,medium,,A01,yes
+wisata-v2_001922,place_00164,Pantai Parparean 2,wisata,3.0,Kurang perawaran,neutral,negative,medium,,A01,yes
+wisata-v2_002006,place_00049,Boli Boli Hot Spring,wisata,3.0,pengalaman saya seru dan senang,neutral,neutral,medium,,A01,yes
+wisata-v2_002046,place_00049,Boli Boli Hot Spring,wisata,3.0,mandi air panas,neutral,negative,high,,A01,yes
+wisata-v2_002091,place_00049,Boli Boli Hot Spring,wisata,3.0,"Cm mreview tmpatnya ja,ya lumayan la.",neutral,neutral,medium,,A01,yes
+wisata-v2_002185,place_00064,Bukit Senyum,wisata,3.0,Tempat wisata liburan sekolah paling asyik,neutral,neutral,medium,,A01,yes
+wisata-v2_002193,place_00064,Bukit Senyum,wisata,3.0,sangat the best,neutral,positive,high,,A01,yes
+wisata-v2_002436,place_00064,Bukit Senyum,wisata,3.0,amazing,neutral,positive,high,,A01,yes
+wisata-v2_002613,place_00353,Rest Area Adian Nalambok,wisata,3.0,Butuh perawatan agar nyaman dikunjungi,neutral,positive,high,,A01,yes
+wisata-v2_002915,place_00319,Air Terjun Sigarattung (Sampuran Na Pitu),wisata,3.0,"No rain past 2 months, No waterfall seen.",neutral,neutral,medium,,A01,yes
+wisata-v2_002970,place_00319,Air Terjun Sigarattung (Sampuran Na Pitu),wisata,3.0,wow alhamdulillah ya Allah,neutral,neutral,medium,,A01,yes
+wisata-v2_003142,place_00065,Bukit Sidihoni,wisata,3.0,Bagus,neutral,positive,high,,A01,yes
+wisata-v2_003317,place_00067,Bukit Sipatungan,wisata,3.0,Ok,neutral,neutral,medium,insufficient_context,A01,yes
+wisata-v2_003379,place_00196,Pusat Informasi Toba Caldera Unesco Global Geopark,wisata,3.0,Tempat wisatanya tidak terurus.,neutral,negative,medium,,A01,yes
+wisata-v2_003384,place_00196,Pusat Informasi Toba Caldera Unesco Global Geopark,wisata,3.0,Sangat menyejukkan hati di pagi hari,neutral,neutral,medium,,A01,yes
+wisata-v2_005062,place_00041,Batu Lihi Star,wisata,3.0,"Onde Mande, bagak nian",neutral,neutral,medium,,A01,yes
+wisata-v2_005066,place_00041,Batu Lihi Star,wisata,3.0,Bagus juga bisa foto2 dgn view Danau Toba,neutral,positive,high,,A01,yes
+wisata-v2_005067,place_00041,Batu Lihi Star,wisata,3.0,Biasa saja,neutral,neutral,medium,,A01,yes
+wisata-v2_005080,place_00041,Batu Lihi Star,wisata,3.0,Kena bayo 5000 rupiah babe sebelum amek gamboo,neutral,neutral,medium,,A01,yes
+wisata-v2_005087,place_00041,Batu Lihi Star,wisata,3.0,Nice lake view,neutral,neutral,medium,,A01,yes
+wisata-v2_005145,place_00291,Togaraja,wisata,3.0,Mantap,neutral,positive,high,,A01,yes
+wisata-v2_005169,place_00291,Togaraja,wisata,3.0,"View yg indah, minus air dan musholla",neutral,positive,high,,A01,yes
+wisata-v2_005267,place_00081,Desa Wisata Sigapiton,wisata,3.0,Bad road,neutral,negative,high,,A01,yes
+wisata-v2_005443,place_00168,Pantai Silalahi,wisata,3.0,Please ramah (^.^)/),neutral,positive,high,,A01,yes
+wisata-v2_005462,place_00168,Pantai Silalahi,wisata,3.0,"Bagus pantainya, masih alami.",neutral,positive,high,,A01,yes
+wisata-v2_005879,place_00180,Penatapan Parhallow Sigarantung,wisata,3.0,Lumayan nyaman,neutral,positive,high,,A01,yes
+wisata-v2_005917,place_00180,Penatapan Parhallow Sigarantung,wisata,3.0,Not bad.,neutral,negative,high,,A01,yes
+wisata-v2_006002,place_00180,Penatapan Parhallow Sigarantung,wisata,3.0,Great view...not so great coffee.,neutral,positive,high,,A01,yes
+wisata-v2_006132,place_00039,Batu Gantung,wisata,3.0,Biasa saja Mbah google,neutral,neutral,medium,,A01,yes
+wisata-v2_006218,place_00039,Batu Gantung,wisata,3.0,Bersejarah,neutral,neutral,medium,,A01,yes
+wisata-v2_006264,place_00039,Batu Gantung,wisata,3.0,"Bisa mengenalkan sejara ,pada generasi kita",neutral,neutral,medium,,A01,yes
+wisata-v2_006353,place_00097,Gunung Pusuk Buhit,wisata,3.0,Bagus,neutral,positive,high,,A01,yes
+wisata-v2_006453,place_00068,Bukit Sipolha,wisata,3.0,Kurang menarik bisa saja,neutral,neutral,medium,,A01,yes
+wisata-v2_006687,place_00007,Air Terjun Janji,wisata,3.0,Berapa satu bulan,neutral,neutral,medium,,A01,yes
+wisata-v2_006804,place_00135,Makam Sisingamangaraja Xii,wisata,3.0,Makam legendaris,neutral,neutral,medium,,A01,yes
+wisata-v2_006862,place_00349,Pengrajin Ulos Batak Dan Karo (Christwo Tenun),wisata,3.0,Pelayanan nya sangat jelek😤 ...,neutral,negative,high,,A01,yes
+wisata-v2_007189,place_00112,Istana Raja Sisingamangaraja,wisata,3.0,Sejarah perjuangan,neutral,neutral,medium,,A01,yes
+wisata-v2_007571,place_00146,Museum Huta Bolon Simanindo,wisata,3.0,Masih selesai renovasi,neutral,neutral,medium,,A01,yes
+wisata-v2_007670,place_00295,Tugu Toga Aritonang,wisata,3.0,biasa aja..,neutral,negative,high,,A01,yes
+wisata-v2_007776,place_00174,Pemandian Aek Sipitu Dai,wisata,3.0,Tingkatkan kebersihan,neutral,neutral,medium,,A01,yes
+wisata-v2_007889,place_00271,Taman Eden 100,wisata,3.0,Cukup sepi cocoklah buat yang mau meditasi,neutral,neutral,medium,,A01,yes
+wisata-v2_007923,place_00060,Bukit Doa,wisata,3.0,Less maintenance and a lot of trash,neutral,neutral,medium,,A01,yes
+wisata-v2_008105,place_00251,Salib Kasih Tarutung,wisata,3.0,Flat,neutral,neutral,medium,,A01,yes
+wisata-v2_008318,place_00173,"Patung Yesus, Bukit Sibeabea",wisata,3.0,Mantap,neutral,positive,high,,A01,yes
+wisata-v2_008364,place_00173,"Patung Yesus, Bukit Sibeabea",wisata,3.0,"Tidak proporsional, seperti kate",neutral,negative,medium,,A01,yes
+wisata-v2_008852,place_00170,Pasar Tomok,wisata,3.0,Terlalu padat,neutral,neutral,medium,,A01,yes
+wisata-v2_009020,place_00156,Penatapan Puncak Sidiangkat,wisata,3.0,"Udaranya udah pasti sejuk, viewnya bagus",neutral,positive,high,,A01,yes
+wisata-v2_009046,place_00156,Penatapan Puncak Sidiangkat,wisata,3.0,BEBAS,neutral,neutral,medium,,A01,yes
+wisata-v2_009048,place_00156,Penatapan Puncak Sidiangkat,wisata,3.0,Lumayan lah untuk tempat bersantai,neutral,neutral,medium,,A01,yes
+wisata-v2_009075,place_00371,Taman Wisata Danau Ii Sicike-Cike,wisata,3.0,Oke bgt,neutral,neutral,medium,,A01,yes
+wisata-v2_009086,place_00115,Jembatan Lae Pendaroh,wisata,3.0,Mantap.,neutral,positive,high,,A01,yes
+wisata-v2_009318,place_00294,Tuan Nagani Paradise,wisata,3.0,Taman bunga ya cantik dan dekorasi ya bagus,neutral,positive,high,,A01,yes
+wisata-v2_009392,place_00294,Tuan Nagani Paradise,wisata,3.0,Saya merasa puas dengan keindahan wisata nya,neutral,positive,high,,A01,yes
+wisata-v2_009877,place_00175,Pemandian Air Panas Rianiate,wisata,3.0,Kurang penataan,neutral,neutral,medium,,A01,yes
+wisata-v2_009884,place_00058,Bukit Beta Tuk-Tuk,wisata,3.0,Good exercise,neutral,positive,high,,A01,yes
+wisata-v2_009972,place_00058,Bukit Beta Tuk-Tuk,wisata,3.0,Bukit Beta Tuk tuk,neutral,neutral,medium,,A01,yes
+wisata-v2_009998,place_00058,Bukit Beta Tuk-Tuk,wisata,3.0,Spot foto yg bagus,neutral,positive,high,,A01,yes
+wisata-v2_010114,place_00171,Pantai Pasir Putih Parbaba,wisata,3.0,Kurang terawat...,neutral,negative,high,,A01,yes
+wisata-v2_010157,place_00171,Pantai Pasir Putih Parbaba,wisata,3.0,Kurang tertata rapi,neutral,neutral,medium,,A01,yes
+wisata-v2_010285,place_00159,Pantai Batuhoda,wisata,3.0,Entrance fees is 20k. Man made beach to relax.,neutral,neutral,medium,,A01,yes
+wisata-v2_010393,place_00159,Pantai Batuhoda,wisata,3.0,"Layanan bagus, ramah namun view-nya biasa saja",neutral,positive,high,,A01,yes
+wisata-v2_010409,place_00022,Air Terjun Turunan Buhit (Jabel),wisata,3.0,Katasa waterfall,neutral,neutral,medium,,A01,yes
+wisata-v2_010472,place_00178,Pemandian Alam Sejuk Pas,wisata,3.0,Airnya sejuk dan nyaman,neutral,positive,high,,A01,yes
+wisata-v2_010475,place_00178,Pemandian Alam Sejuk Pas,wisata,3.0,Uda mangkin jorok,neutral,negative,high,,A01,yes
+wisata-v2_010532,place_00178,Pemandian Alam Sejuk Pas,wisata,3.0,biasa aja,neutral,negative,high,,A01,yes
+wisata-v2_010702,place_00062,Bukit Indah Simarjarunjung,wisata,3.0,Jalan rusak parah,neutral,negative,high,,A01,yes
+wisata-v2_010719,place_00062,Bukit Indah Simarjarunjung,wisata,3.0,Kurang Perawatan,neutral,neutral,medium,,A01,yes
+wisata-v2_010828,place_00021,Air Terjun Tonduhan,wisata,3.0,Air Terjun Tonduhan,neutral,neutral,medium,,A01,yes
+wisata-v2_010864,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,Rasanya kurang memuaskan. Tempat kurang bersih,neutral,positive,high,,A01,yes
+wisata-v2_010882,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,Biasa saja,neutral,neutral,medium,,A01,yes
+wisata-v2_010977,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,"Good view, a lot of photo spots.",neutral,positive,high,,A01,yes
+wisata-v2_010983,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,"Lumayan bagus, perlu penataan yg lebih baik.",neutral,positive,high,,A01,yes
+wisata-v2_010987,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,Alam yang sejuk dengan pemandangan yang indah,neutral,positive,high,,A01,yes
+wisata-v2_011007,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,3.0,lumayan la,neutral,neutral,medium,,A01,yes
+wisata-v2_011209,place_00177,Pemandian Alam Bah Damanik,wisata,3.0,Cantik dan bagus,neutral,positive,high,,A01,yes
+wisata-v2_011238,place_00177,Pemandian Alam Bah Damanik,wisata,3.0,Pemandian alam yg nyaman dan sejuk.,neutral,positive,high,,A01,yes
+wisata-v2_011252,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,3.0,Great place. But too far from everything.,neutral,positive,high,,A01,yes
+wisata-v2_011254,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,3.0,Dulu jalannya jelek parah. Banyak pungli.,neutral,negative,high,,A01,yes
+wisata-v2_011332,place_00161,Pantai Kenangan,wisata,3.0,Tempatnya cukup strategis dan bersih,neutral,positive,high,,A01,yes
+wisata-v2_011423,place_00342,Pantai Paris,wisata,3.0,Cukup nyaman,neutral,positive,high,,A01,yes
+wisata-v2_011460,place_00342,Pantai Paris,wisata,3.0,Ramai,neutral,neutral,medium,,A01,yes
+wisata-v2_011480,place_00342,Pantai Paris,wisata,3.0,"Terlalu banyak baru, kurang asik berenang",neutral,negative,high,,A01,yes
+wisata-v2_011575,place_00373,Tao Silalahi Hotel,wisata,3.0,Koordinat Helikopter,neutral,neutral,medium,,A01,yes
+wisata-v2_011647,place_00373,Tao Silalahi Hotel,wisata,3.0,Layak untuk dikunjungi kembali,neutral,neutral,medium,,A01,yes
+wisata-v2_011677,place_00309,Wisata Anugerah Indah Sippan,wisata,3.0,Bagus juga,neutral,positive,high,,A01,yes
+wisata-v2_011790,place_00309,Wisata Anugerah Indah Sippan,wisata,3.0,Indahnya..... Cuma kurang banyak pondok nya,neutral,neutral,medium,,A01,yes
+wisata-v2_011814,place_00309,Wisata Anugerah Indah Sippan,wisata,3.0,"Bintang 3 dulu, info harga buat camp",neutral,neutral,medium,,A01,yes
+wisata-v2_011888,place_00136,Manigom Nauli,wisata,3.0,Masih perlu pembenahan.,neutral,neutral,medium,,A01,yes
+wisata-v2_011907,place_00136,Manigom Nauli,wisata,3.0,Akses mobil gimana?,neutral,neutral,medium,,A01,yes
+wisata-v2_011936,place_00136,Manigom Nauli,wisata,3.0,airnya sangat jernih.masih alami dan asri.,neutral,positive,high,,A01,yes
+wisata-v2_011938,place_00136,Manigom Nauli,wisata,3.0,Great view but need to improve cleaness,neutral,positive,high,,A01,yes
+wisata-v2_012037,place_00259,Museum Simalungun,wisata,3.0,Kurang terawat,neutral,negative,high,,A01,yes
+wisata-v2_012220,place_00316,Air Soda Parbubu,wisata,3.0,Cukup baik,neutral,positive,high,,A01,yes
+wisata-v2_012266,place_00347,Pemandian Air Panas Tamaro,wisata,3.0,Ruang ganti gk ada air buat mandi,neutral,negative,medium,,A01,yes
+wisata-v2_012271,place_00347,Pemandian Air Panas Tamaro,wisata,3.0,Kotor,neutral,negative,high,,A01,yes
+wisata-v2_012310,place_00347,Pemandian Air Panas Tamaro,wisata,3.0,Tempatnya cukup kotor,neutral,negative,high,,A01,yes
+wisata-v2_012345,place_00347,Pemandian Air Panas Tamaro,wisata,3.0,Lumayan lah,neutral,neutral,medium,,A01,yes
+wisata-v2_012441,place_00347,Pemandian Air Panas Tamaro,wisata,3.0,Is beautiful,neutral,positive,high,,A01,yes
+wisata-v2_012500,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,3.0,Airnya buat aq terlalu panas sih.. 🤣 ...,neutral,negative,high,,A01,yes
+wisata-v2_012585,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,3.0,Seperti jarang dibersihkan tp lumayan deh,neutral,neutral,medium,,A01,yes
+wisata-v2_012621,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,3.0,Lihatlah,neutral,positive,medium,,A01,yes
+resto-hotel-v2_000004,place_00056,Brain Homestay,hotel,4.0,Homestaynya homee sekali,positive,negative,medium,,A01,yes
+resto-hotel-v2_000095,place_00124,"Kedai Islam ""Rahayu""",restoran,5.0,"Trimakasih banyak untuk bapak yang punya kedai. Beliau membantu kami menunjukkan jalan pulang menuju Porsea lalu ke Pekanbaru. Disini ada Mushola juga. Smoga kalian yang singgah disini bukan dengan alasan yg sama seperti kami, karna tersesat.",positive,negative,medium,,A01,yes
+resto-hotel-v2_000136,place_00148,Nauli Inn,hotel,5.0,Lumayan nyaman utk keluarga,positive,positive,high,,A01,yes
+resto-hotel-v2_000681,place_00296,Vany Villa Balige,hotel,4.0,"Pricely, sarapannya b aja, hanya ada pilihan nasi goreng dan mie goreng. Ayam di Nasi goreng nya keras sekali. Kamar not children friendly karena banyak sudut furniture yg tajam. Kamar mandi airnya tdk lancar. kadang habis, nyala lagi. Lantai kamar mandi juga licin.",positive,negative,high,,A01,yes
+resto-hotel-v2_000692,place_00296,Vany Villa Balige,hotel,5.0,"Bagus........, hanya lokasi parkir kurang, mungkin sedikit agak mahal.......",positive,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_000726,place_00296,Vany Villa Balige,hotel,5.0,Villanya bagus bgt. Fasilitas yg di berikan jg lengkap. Kolam renangnya jg keren. Yg mau cari villa di sini ajaaa apalagi buat liburan ga mengecewakan. Aku sih yes 😍😍😍😍,positive,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_001601,place_00264,SIPPIN,restoran,5.0,enak tapi terlalu manis,positive,positive,high,,A01,yes
+resto-hotel-v2_001922,place_00284,The Boat Homestay and Spa,hotel,4.0,"Awalnya tempat ini kombinasi restoran, kafe, spa dan penginapan. Tapi hanya penginapan yg pada Mei 2025 masih beroperasi. Terdapat 3 kamar queen size dgn kamar mandi di dalam, dan 2 kamar dgn beberapa tempat tidur bertingkat utk backpackers dgn sharing kamar mandi/toilets. Homestay ini dibangun dgn material kayu dan batubata sehingga terasa menyatu dgn sekitarnya. Tak terasa jika kita berada di perkotaan. Ini mungkin nilai tambah bagi sejumlah tamu dgn spirit back to nature. Pemandangan dari depan kamar berupa pepohonan rindang yg membuat sejuk udaranya. Sekitar 10-15 jenis burung sering hinggap dan berkicau. Sayangnya jalur ke lembah yg mengalir sungai kecil telah dipenuhi semak belukar. Area bekas kafe dan spa juga kurang terpihara karena memang sudah tidak beroperasi lagi. Tempat ini bolehlah utk kunjungan grup 6-10 orang, tapi jangan berharap banyak utk mendapatkan pelayanan karena lebih mengedepankan self-service.",positive,negative,high,,A01,yes
+resto-hotel-v2_003612,place_00034,Bakso Pak Radit (Bakso Khas Malang),restoran,4.0,Lumayan,positive,neutral,medium,,A01,yes
+resto-hotel-v2_004090,place_00329,Kedai Bakmi Bahagia Sukaria,hotel_resto,5.0,Sebagai pemula,positive,neutral,medium,,A01,yes
+resto-hotel-v2_004401,place_00036,Balige Seafood,restoran,4.0,Lumayan enak & terjangkau,positive,positive,high,,A01,yes
+resto-hotel-v2_004867,place_00078,Damasus Nataboan Resto,restoran,5.0,Makanan nya sama pelayanan 100000000/10,positive,negative,medium,,A01,yes
+resto-hotel-v2_004941,place_00078,Damasus Nataboan Resto,restoran,5.0,Butuh perjuangan ke tempat ini,positive,neutral,medium,,A01,yes
+resto-hotel-v2_005116,place_00023,Alyssa Restaurant Pizza,restoran,5.0,"Maybe it's all about the real recipe of this dish, but unlike other places the grilled fish was not bland and had spices in it. I liked everything.",positive,negative,medium,,A01,yes
+resto-hotel-v2_005128,place_00023,Alyssa Restaurant Pizza,restoran,4.0,"Tidak ada komplen terkait rasa makanan, harga juga sewajarnya, walaupun tempat duduk cukup terbatas. Sang owner bapak pemilik nya orangnya ramah dan perhatian terhadap pelanggan.",positive,negative,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005555,place_00224,Rumah Makan Holong Ni Dainang,restoran,5.0,"Enak nih.. ikan bakar nya terutama... bumbu nya juga yahud... ga sempet foto, dah pada lapar...",positive,positive,high,,A01,yes
+resto-hotel-v2_005792,place_00233,Rumah Makan Lomak,restoran,5.0,"Rasa tidak mengecewakan, top la babi gorengnya",positive,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_005793,place_00233,Rumah Makan Lomak,restoran,5.0,Pelayanan dan makanannya tidak usah diragukan lagi,positive,positive,high,,A01,yes
+resto-hotel-v2_005865,place_00233,Rumah Makan Lomak,restoran,5.0,Parkir tidak tersedia,positive,neutral,medium,,A01,yes
+resto-hotel-v2_005866,place_00233,Rumah Makan Lomak,restoran,5.0,Langsung ketahuan dagingnya berkualitas bukan asal 👍 tidak keras dan cocok untuk anak serta dewasa. ...,positive,positive,high,,A01,yes
+resto-hotel-v2_005904,place_00233,Rumah Makan Lomak,restoran,5.0,"Mantap 😍😍 Udah sepuluh maratus kali dateng ke sini, ga ada yg berubah. Masakan dan rasa tetap sama🤟🤟",positive,positive,high,,A01,yes
+resto-hotel-v2_006452,place_00138,Matahari Restaurant And Homestay,restoran,5.0,"Menginap yang menyenangkan di wisma Matahari. Perlengkapan tempat tidurnya nyaman, sprei baru dicuci, ada lemari pakaian dan tempat penyimpanan yang sangat berguna. Kamar mandinya sederhana tetapi fungsional dan airnya panas. Kamar-kamar ... Lainnya",positive,positive,medium,mixed_sentiment,A01,yes
+resto-hotel-v2_007935,place_00051,Bpk ( Babi Panggang Karo) Sembiring,restoran,4.0,Porsi terlalu kecil untuk ukuran sedang bpk,positive,neutral,medium,,A01,yes
+resto-hotel-v2_008340,place_00376,Warung Makan Padana,hotel_resto,5.0,Mantap lumayan.,positive,positive,high,,A01,yes
+resto-hotel-v2_008954,place_00298,Warung Bikers Parapat,restoran,4.0,Nasi 10rb Rendang 20 Kare 35 ...,positive,negative,medium,,A01,yes
+resto-hotel-v2_008981,place_00298,Warung Bikers Parapat,restoran,5.0,Makanan ny enak & tempat kumpul ny para bikers,positive,positive,high,,A01,yes
+resto-hotel-v2_009182,place_00297,Warkop Panorama I Panatapan Parapat,restoran,4.0,Keliatan dari luar biasa aja. Tempatnya selalu ramai Kalau datang agak siang jam 1 sering sudah habis Lokasi biasa aja Harga termasuk ok Puas dagingnya potongan besar besar Sopnya kentang bukan sop daging,positive,positive,medium,mixed_sentiment,A01,yes
+tempat-wisata-v1_000035,place_00013,Air Terjun Sigarattung,wisata,4.5,"""Air Terjun Sigarattung, juga dikenal sebagai Sampuran Na Pitu, adalah salah satu keajaiban alam langka yang dapat Anda kagumi tanpa perlu bersusah payah. Tidak ada trekking di hutan, tidak ada lintah, tidak ada pendakian eksistensial, cukup menepi di pinggir jalan, arahkan kamera Anda, dan berpura-pura menjadi Bear Grylls yang sedang istirahat. Air terjun ini jatuh secara dramatis melalui pepohonan lebat, memberikan performa penuh bahkan jika Anda hanya menonton dari aspal. Ini kuat, indah, dan cukup keras untuk meredam obrolan ringan. Sempurna untuk berhenti sejenak untuk meregangkan kaki, mengambil beberapa foto, dan mempertanyakan mengapa tempat megah ini tidak begitu terkenal.""",positive,positive,high,,A01,yes
+tempat-wisata-v1_000036,place_00042,Batu Marhosa,wisata,4.2,"""Batu Marhosa merupakan wisata keajaiban Alam, saya tidak tau istilahnya. tapi ada aliran dingin yang keluar dari batu ini. bukan merupakan tempat wisata, jadi tidak ada pengelolanya. terletak di pinggir jalan dan tidak ada tanda/ papan nama. tidak ada sinyal di sekitar lokasi. kemungkinan anda bisa tersesat. tapi saya ada foto ada air terjun kecil didekatnya bisa dijadikan patokan dan sedikit ruang parkir.""",positive,positive,high,,A01,yes
+wisata-v2_001609,place_00015,Air Terjun Sigura-Gura,wisata,5.0,Ari terjun nya sangat enak utuk foto2 dan saya setiap tahu kesana tidak pernah bosan,positive,positive,high,,A01,yes
+wisata-v2_001625,place_00015,Air Terjun Sigura-Gura,wisata,5.0,Pengunjung buang sampah sembarangan!!! Alam yang begitu indah jadi kotor,positive,negative,high,mixed_sentiment,A01,yes
+wisata-v2_001643,place_00015,Air Terjun Sigura-Gura,wisata,5.0,Namanya air terjun ponot bukan air terjun di gura gura.,positive,neutral,medium,,A01,yes
+wisata-v2_001656,place_00015,Air Terjun Sigura-Gura,wisata,5.0,"Air terjunnya memang bagus, tapi sayang banyak sekali sampah yang ditinggalkan begitu saja",positive,negative,high,mixed_sentiment,A01,yes
+wisata-v2_001657,place_00015,Air Terjun Sigura-Gura,wisata,5.0,PLTA Tangga,positive,neutral,medium,,A01,yes
+wisata-v2_002669,place_00320,Arung Jeram Sungai Asahan (Asahan River Rafting),wisata,5.0,Layanan Lokal,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_002697,place_00335,Pakkodian Toba,wisata,5.0,Sangan inda,positive,positive,high,,A01,yes
+wisata-v2_002711,place_00335,Pakkodian Toba,wisata,5.0,Pantai Pakkodian,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_002731,place_00335,Pakkodian Toba,wisata,5.0,Pada,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_002791,place_00335,Pakkodian Toba,wisata,5.0,Masih seperti yang dulu,positive,neutral,medium,,A01,yes
+wisata-v2_003030,place_00042,Batu Marhosa,wisata,5.0,"Unik, lobang nya kecil doank tapi kata nya bs menyerap angin masuk dan angin keluar dr lubang yg sama.",positive,positive,high,,A01,yes
+wisata-v2_003044,place_00042,Batu Marhosa,wisata,5.0,"Batu Marhosa merupakan wisata keajaiban Alam, saya tidak tau istilahnya. tapi ada aliran dingin yang keluar dari batu ini. bukan merupakan tempat wisata, jadi tidak ada pengelolanya. terletak di pinggir jalan dan tidak ada tanda/ papan ...",positive,positive,high,,A01,yes
+wisata-v2_003048,place_00079,Danau Sidihoni,wisata,4.0,"Danau di atas danau. Tapi sayang, saat terakhir kesini, air danau dalam kondisi surut, mungkin karena di Samosir sangat panas. Jadi kurang menarik kelihatannya.",positive,negative,high,,A01,yes
+wisata-v2_003051,place_00079,Danau Sidihoni,wisata,4.0,Kurang terawat,positive,negative,high,,A01,yes
+wisata-v2_003056,place_00079,Danau Sidihoni,wisata,5.0,"Terletak di tengah pulau Samosir, pemandangan berupa hamparan air yang berada di area datar perbukitan. Beberapa waktu lalu viral karena dikunjungi Ariel Noah, Raffi Ahmad dan Gading Marten. Danau tidak begitu luas dan sepertinya tidak ada ...",positive,positive,medium,mixed_sentiment,A01,yes
+wisata-v2_003057,place_00079,Danau Sidihoni,wisata,5.0,"Danau diatas Danau, Penasaran kan yaaa udh datang aja........",positive,positive,high,,A01,yes
+wisata-v2_003114,place_00079,Danau Sidihoni,wisata,5.0,"bukit hkbp sidihoni sebelah danau sangat indah, sangat nyaman dikunjungi saat sore hari karena matahari sudah tidak terlalu panas",positive,positive,medium,mixed_sentiment,A01,yes
+wisata-v2_003116,place_00079,Danau Sidihoni,wisata,5.0,Tempatnya sudah tidak Se asri dulu,positive,negative,high,,A01,yes
+wisata-v2_003121,place_00079,Danau Sidihoni,wisata,5.0,"Saya dgn tdk sengaja sampai ke tempat ini yg awalnya ingin ke kampung suami, hatoguan , tapi keterusan akhirnya sampailah disini , akhirnya mampir dan foto disini , danau sidihoni",positive,neutral,medium,,A01,yes
+wisata-v2_003122,place_00079,Danau Sidihoni,wisata,5.0,danau sidihoni.danau di atas danau.tempat wisata yg masih alami.berkunjung ketempat ini tidak di pungut biaya.cuma kesadaran pengunjung masih kurang.masih banyak yg suka membuang sampah sembarangan,positive,positive,high,,A01,yes
+wisata-v2_003124,place_00079,Danau Sidihoni,wisata,5.0,Bagus tapi tidak untuk di arungi kurasa. Dinikmati saja. Danau di atas danau,positive,positive,high,,A01,yes
+wisata-v2_003338,place_00368,Sitapigagan Waterfall,wisata,4.0,"Air terjunnya unik, menuruni lereng bukit di atas batu, mengalir lembut, aksesnya cukup perjuangan krn jalannya sempit, tidak bisa bawa mobil,",positive,neutral,medium,,A01,yes
+wisata-v2_003342,place_00368,Sitapigagan Waterfall,wisata,5.0,Bagus pemandangam di bonandolok beserta air terjun sitapigagan. Baru tau kalau air sungai berwarna hitam karena humus dr bukit di atas.,positive,positive,high,,A01,yes
+wisata-v2_005298,place_00059,Bukit Burung,wisata,5.0,Mantap cukup bayar parkir aja,positive,positive,high,,A01,yes
+wisata-v2_005299,place_00059,Bukit Burung,wisata,5.0,"Pemandangan ok,tidak ada jualan makanan ,aman",positive,positive,high,,A01,yes
+wisata-v2_005323,place_00059,Bukit Burung,wisata,4.0,"Tempat masih perawan, para pengunjung mohon untuk tidak membuang sampah sembarangan, mari dijaga tempat2 asri seperti ini!",positive,positive,high,,A01,yes
+wisata-v2_005341,place_00059,Bukit Burung,wisata,4.0,"Obyek yg punya potensi besar untuk menjadi salah satu tourist spot di Samosir. Sayangnya tempat untuk menikmati pemandangannya cenderung gersang dan terkesan dibiarkan begitu saja oleh penduduk setempat. Akses jalan sudah baik, hanya butuh sedikit perjuangan dengan jalan kaki utk sampai ke spot yg dituju. Semoga ke depannya bisa mendapat atensi dari pihak-pihak yg mau mengelola.",positive,positive,high,,A01,yes
+wisata-v2_006394,place_00068,Bukit Sipolha,wisata,5.0,nyamuk banyak.,positive,negative,high,,A01,yes
+wisata-v2_006412,place_00068,Bukit Sipolha,wisata,5.0,Memberi pengalaman petualangan kepada anak anak,positive,positive,high,,A01,yes
+wisata-v2_006414,place_00068,Bukit Sipolha,wisata,5.0,"Bagus nd menarik, tapi ya itu tadi dibawah kita dipintakin duit lagi 5 rb perorang, parkir 5 rb 1 kereta",positive,positive,high,,A01,yes
+wisata-v2_006970,place_00172,Patung Sigalegale,wisata,5.0,minum la si gali gali,positive,neutral,medium,,A01,yes
+wisata-v2_007026,place_00172,Patung Sigalegale,wisata,4.0,"Good, pengelolaan perlu ditingkatkan",positive,positive,high,,A01,yes
+wisata-v2_007037,place_00172,Patung Sigalegale,wisata,5.0,"Ramai kali, ga bisa ikut nortor..",positive,neutral,medium,,A01,yes
+wisata-v2_007063,place_00172,Patung Sigalegale,wisata,5.0,"Patung sigale gale di sini ada 2, yang asli ada di bagian atas jangan sampai salah masuk",positive,neutral,high,,A01,yes
+wisata-v2_007070,place_00172,Patung Sigalegale,wisata,4.0,"Mungkin tempat menari nya sigale gale beserta tamu yang hadir perlu dibuat semi outdoor, agar para tamu tidak kepanasan saat menari di waktu menjelang siang",positive,neutral,medium,,A01,yes
+wisata-v2_007113,place_00172,Patung Sigalegale,wisata,5.0,"Free tiket masuk, parkir terbatas. Kalo mau nari sigale gale dipandu sama pemandu wisata lokal bayar 100k. Kalo cuma foto pake ulos dan ikat kepala bayar seiklhlasnya",positive,neutral,high,,A01,yes
+wisata-v2_007259,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,5.0,Baru tahu saya kegiatan pemasungan jaman dahulu,positive,neutral,high,,A01,yes
+wisata-v2_007288,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,5.0,"Kisahnya dulu yang pernah kalau tidak salah saya dengar dari local guide di sana. Ini merupakan tempat eksekusi narapidana yang melakukan berbagai macam kejahatan dan mempunyai kasus kriminal. Seperti mencuci, merampok, membunuh, dsb. Setelah dieksekusi, biasanya bagian tubuh si narapidana seperti organ jantung atau hati itu dimakan raja atau tetua di sana.",positive,neutral,high,,A01,yes
+wisata-v2_007293,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,5.0,"Dipatoere R.Hendrik Siallagan,Dioeroepi St. Jesaya Siallagan. Tulisan di prasasti",positive,neutral,high,,A01,yes
+wisata-v2_007298,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,5.0,Ada pertunjukan tari budaya Batak. Kamar mandi standar Cocok untuk belajar budaya.,positive,neutral,medium,,A01,yes
+wisata-v2_007318,place_00040,Batu Kursi Raja Siallagan ( Stone Chair Of King Siallagan ),wisata,5.0,"Harga tiket sesuai dengan fasilitas yang didapat. Tidak banyak kegiatan yang bisa dilakukan, namun cukup menambah pengetahuan mengenai cara hidup masyarakat zaman dahulu.",positive,positive,high,,A01,yes
+wisata-v2_007426,place_00334,Natio,wisata,4.0,"Pesanggrahan Bung Karno. Sesuai dengan namanya, ketika masa penjajahan tempat inilah yg dijadikan pengasingan Bung Karno oleh penjajah Belanda. Sekarang terbuka untuk umum, agar kita dapat mengenang masa perjuangan Bung Karno kala itu.",positive,positive,high,,A01,yes
+wisata-v2_007452,place_00334,Natio,wisata,5.0,"1. View bagus 2. Cocok sebagai tempat singgahan sebentar untuk makan siang kalau bawa bekal 3. Ada org jual rujak dan bakso sosis bakar 4. Biaya parkir 5 ribu 5. Disarankan bawa topi dan kacamata. Karna kalau panas sangag nyengat 6. Tidak ada orang jual makanan berat 7. Trayek lumayan sempit,tapi itu tidak mazalah",positive,positive,high,,A01,yes
+wisata-v2_007470,place_00334,Natio,wisata,5.0,Ayo datang aja jangan ragu,positive,positive,high,,A01,yes
+wisata-v2_007473,place_00334,Natio,wisata,5.0,"Sayang, kami kesini udah kesorean, pemandangan danau toba nya agak berkabut.. tp msh ok buat foto2",positive,neutral,medium,,A01,yes
+wisata-v2_007512,place_00334,Natio,wisata,4.0,"Pemandangan bagus, udara sejuk. Sayangnya tidak bisa masuk ke dalam rumahnya. Ada pungli modus uang parkir.",positive,negative,high,mixed_sentiment,A01,yes
+wisata-v2_007523,place_00334,Natio,wisata,4.0,Masuk tidak untuk umum,positive,negative,medium,,A01,yes
+wisata-v2_007540,place_00334,Natio,wisata,5.0,Adem,positive,positive,high,,A01,yes
+wisata-v2_007541,place_00334,Natio,wisata,5.0,Sayang tempat persanggahan Pak Soekarno nya tidak dapat masuk,positive,negative,medium,,A01,yes
+wisata-v2_007549,place_00334,Natio,wisata,5.0,"Salah satu bangunan bersejarah yang ada di Prapat. Dulunya tempat ini adalah tempat Bung Karno diasingkan. Sayang tempat ini gak dibuka utk umum, jadi hanya mampir liat2 dari luarnya aja.",positive,negative,medium,,A01,yes
+wisata-v2_007863,place_00271,Taman Eden 100,wisata,5.0,Masih alami,positive,neutral,medium,,A01,yes
+wisata-v2_007865,place_00271,Taman Eden 100,wisata,5.0,"Buka pukul 080-170 WIB. Nyampe sana udah lewat jam 6 sore, gak bisa masuk lagi alasannya karena hutan, jalan yang dilalui gelap. Jadi hanya menunggu wisatawan yang keluar saja.",positive,negative,medium,,A01,yes
+wisata-v2_007871,place_00271,Taman Eden 100,wisata,4.0,Tempat yang sudah menyerupai hutan daripada kebun buah. WC di dekat air terjun mini kurang dirawat. Semoga lebih diperhatikan oleh pengelola.,positive,negative,high,,A01,yes
+wisata-v2_007899,place_00271,Taman Eden 100,wisata,4.0,Pemandangannya bagus namun kurang dirawat.,positive,negative,high,mixed_sentiment,A01,yes
+wisata-v2_007989,place_00331,Makam Missonaris Pdt. Dr. Il. Nommensen,wisata,5.0,Akses jalan seperti kurang terawat.. Saya sempat kesasar. Kelewatan 2x akhir nya putar balik.. Rambu kurang cas Mungkin ada sih rambunya Tapi harus konsentrasi tinggi,positive,negative,high,,A01,yes
+wisata-v2_007995,place_00331,Makam Missonaris Pdt. Dr. Il. Nommensen,wisata,5.0,Datang jam 6.15 (pagi) msh terkunci,positive,negative,medium,,A01,yes
+wisata-v2_008027,place_00372,Taman Wisata Iman Sitinjo,wisata,4.0,Fasilitasnya lumayan bagus,positive,positive,high,,A01,yes
+wisata-v2_008030,place_00372,Taman Wisata Iman Sitinjo,wisata,4.0,"Bulan 1 2025 kesana ,sudah gk ter awat , lumutan tangga nya, jdi sedih ,pdhal dllu orng ber bondong2 ke sna.",positive,negative,high,,A01,yes
+wisata-v2_008039,place_00372,Taman Wisata Iman Sitinjo,wisata,5.0,"Mungkin karena sudah tidak begitu diminati untuk dikunjungi, sudah ada beberapa bangunan tidak terawat.",positive,negative,high,,A01,yes
+wisata-v2_008094,place_00372,Taman Wisata Iman Sitinjo,wisata,5.0,Foto 7 tahun yang lalu 😊🙏 ...,positive,neutral,medium,,A01,yes
+wisata-v2_008501,place_00035,"Balerong - Balige, Toba Samosir, North Sumatra, Indonesia",wisata,4.0,Satu-satunya tempat perbelanjaan tradisional yang ada di pusat pasar Balige.,positive,neutral,medium,,A01,yes
+wisata-v2_009003,place_00318,Air Terjun Lae Mbilulu,wisata,5.0,Sayang tempat seindah ini tidak banyak orang tau,positive,positive,high,,A01,yes
+wisata-v2_009006,place_00318,Air Terjun Lae Mbilulu,wisata,5.0,Pemandangan yang indah dan fasilitas yang baik,positive,positive,high,,A01,yes
+wisata-v2_009011,place_00318,Air Terjun Lae Mbilulu,wisata,4.0,"Air terjun kembar ya, jatuhan air terjun ini ada dua berdampingan. Jadi unik kelihatannya.",positive,neutral,medium,,A01,yes
+wisata-v2_009192,place_00085,Dolok Pottas,wisata,5.0,"Kenangan tak terlupakan, pertama kali nya melihat awan dengan cara mendaki, karena saya gak suka mendaki, tapi karena lihat postingan orang orang disini selalu ada awannya, dan pendakian tidak terlalu lama, oke saya coba, ternyata tidak menyesal kesini, dan selalu terkenang, hanya ada kami dan akamsi 4 orang , sungguh menyenangkan",positive,positive,high,,A01,yes
+wisata-v2_009197,place_00085,Dolok Pottas,wisata,5.0,"Tepat Hari Rabu Tgl 5feb25 brgkt dri Beringin(Kualanamu) jam 11 pgi Sampai Lokasi jam 20:30. (bnyk brenti djln) utk tmn"" yg ingin ke sini,gua sarani Mending dri Pakat tuguh salak belok kanan. jgn dri parlilitan. jln nya aspal Licin klo hujan. awan sekitar jam 6-7 pgi. track pendakian mantap. Pengelolah dan warga sana juga sangat baik. biaya Hanya 10rb/org +parkir. gk nyesel kesini,Walaupun jauh tapi terbalas kan dgn Panorama Dolok Pottas",positive,positive,high,,A01,yes
+wisata-v2_011248,place_00181,Pinus Hills Simarjarunjung,wisata,4.0,Lumayan laah,positive,neutral,medium,,A01,yes
+wisata-v2_011982,place_00355,Rumah Bolon Raja Purba,wisata,5.0,Karena sudah seharusnya diperbaiki,positive,negative,medium,,A01,yes
+wisata-v2_011988,place_00259,Museum Simalungun,wisata,5.0,Apakah kesini bayar?,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_012000,place_00259,Museum Simalungun,wisata,5.0,Jam,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_012021,place_00259,Museum Simalungun,wisata,4.0,"Sayang kurang terawat pada hal bagus untuk edukasi, dan harus di kembangkan lagi biar tidak bosan.. parkiran jg di pinggir jln",positive,negative,high,,A01,yes
+wisata-v2_012029,place_00259,Museum Simalungun,wisata,4.0,"Saya rasa Museum ini kurang dilirik dinas pariwisata Siantar, padahal cocok untuk diperkenalkan kepada generasi muda sekarang, untuk edukasi terutama di era sekarang yang dimana anak-anak sudah mulai lupa adat atau budaya lokal.",positive,neutral,medium,,A01,yes
+wisata-v2_012031,place_00259,Museum Simalungun,wisata,5.0,"Museumnya sangat mengedukasi, walaupun masih ada beberapa tempat yang kurang perawatan, san museum nya masi sepi pengunjung, mungkin karena kurang promosi pasca covid. Semoga kedepannya bisa ramai kembali",positive,neutral,medium,,A01,yes
+wisata-v2_012032,place_00259,Museum Simalungun,wisata,4.0,"Lokasinya museum nya strategis, dan untuk koleksinya lumayan lengkap, tapi sayang kenapa masih sepi pengunjung ya Semoga ada promosi lebih kedepannya😁 ...",positive,positive,high,,A01,yes
+wisata-v2_012656,place_00090,Galeri Umkm Tapanuli Utara,wisata,4.0,Lumayan bagus namun ketersediaan tempat duduk masih kurang,positive,positive,high,,A01,yes
+resto-hotel-v2_000098,place_00124,"Kedai Islam ""Rahayu""",restoran,4.0,👍👍,positive,positive,medium,,A01,yes
+resto-hotel-v2_000099,place_00124,"Kedai Islam ""Rahayu""",restoran,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_000128,place_00107,Hotel Santo Djaya,hotel,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_000186,place_00189,Pudan Residence,hotel,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_000281,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_000389,place_00261,Sinar Minang Restaurant & Convention Hall,restoran,4.0,Bagus,positive,positive,high,,A01,yes
+resto-hotel-v2_000464,place_00101,Hotel Adela,hotel,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_000659,place_00077,Damar Toba ~ Lakeside Eatery & Stay,restoran,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_000694,place_00296,Vany Villa Balige,hotel,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_000741,place_00127,"Labersa Hotel and Convention Center Toba, Balige",hotel,4.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_001008,place_00129,Lago Hotel & Resto,hotel,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_001051,place_00129,Lago Hotel & Resto,hotel,4.0,👍🏻,positive,positive,medium,,A01,yes
+resto-hotel-v2_001069,place_00129,Lago Hotel & Resto,hotel,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_001085,place_00129,Lago Hotel & Resto,hotel,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_001145,place_00266,SOP Kerbau Siparo Gogo,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_001151,place_00266,SOP Kerbau Siparo Gogo,restoran,5.0,tabo,positive,positive,medium,,A01,yes
+resto-hotel-v2_001165,place_00266,SOP Kerbau Siparo Gogo,restoran,5.0,Segar,positive,positive,medium,,A01,yes
+resto-hotel-v2_001713,place_00105,Hotel Nabasa,hotel,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_001848,place_00147,Mutiara Balige Hotel,hotel,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_001859,place_00147,Mutiara Balige Hotel,hotel,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_001869,place_00147,Mutiara Balige Hotel,hotel,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_002233,place_00270,Tabo Cottages,hotel,4.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_002466,place_00289,Toba Village inn,hotel,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_002525,place_00289,Toba Village inn,hotel,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_002551,place_00289,Toba Village inn,hotel,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_002985,place_00072,Carolina Hotel,hotel,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_003082,place_00072,Carolina Hotel,hotel,5.0,Bagus,positive,positive,high,,A01,yes
+resto-hotel-v2_003104,place_00293,TOPI TAO HOMESTAY PANGURURAN (KAWASAN WATERFRONT CITY),hotel,5.0,Sip,positive,positive,high,,A01,yes
+resto-hotel-v2_003126,place_00102,Hotel and Restaurant Singgalang,hotel,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_003309,place_00286,Thyesza Hotel Resort,hotel,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_003346,place_00286,Thyesza Hotel Resort,hotel,4.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_003489,place_00240,Rumah Makan Panca,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_003613,place_00109,Hutanta Cafe,restoran,5.0,👍 ...,positive,positive,medium,,A01,yes
+resto-hotel-v2_003655,place_00109,Hutanta Cafe,restoran,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_003660,place_00109,Hutanta Cafe,restoran,5.0,Bagus,positive,positive,high,,A01,yes
+resto-hotel-v2_003895,place_00033,Bakso Mas Pandu Wong Solo,restoran,4.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_003898,place_00033,Bakso Mas Pandu Wong Solo,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_003965,place_00303,Warung Makan Muslim Bu Nurul,restoran,4.0,enak,positive,positive,high,,A01,yes
+resto-hotel-v2_004073,place_00122,Kedai Bakmi Bahagia,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_004224,place_00300,Warung Kembar (Khas Batak),restoran,5.0,Suka,positive,positive,high,,A01,yes
+resto-hotel-v2_004336,place_00073,Chinese Food Gemar,restoran,5.0,Enek,positive,positive,medium,,A01,yes
+resto-hotel-v2_004408,place_00036,Balige Seafood,restoran,5.0,Mama,positive,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_004416,place_00036,Balige Seafood,restoran,4.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_004613,place_00131,Leo'S Restaurant,restoran,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_005026,place_00137,Maruba Restaurant,restoran,5.0,Top,positive,positive,high,,A01,yes
+resto-hotel-v2_005323,place_00116,Jenny'S Restaurant,restoran,5.0,Enak.,positive,positive,high,,A01,yes
+resto-hotel-v2_005515,place_00047,Biwa Cafe 26 Resto,restoran,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_005659,place_00265,Solu Bolon Cafe And Resto,restoran,5.0,enak,positive,positive,high,,A01,yes
+resto-hotel-v2_006073,place_00197,Putra Kembar Coffee Shop 26 Resto,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_006224,place_00256,Sekapur Sirih,restoran,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_006317,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_006339,place_00126,La Pinus Damasus Bistro 26 Resto,restoran,4.0,Baik,positive,positive,high,,A01,yes
+resto-hotel-v2_006524,place_00026,Andrian Rumah Makan Nasional,restoran,5.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_006525,place_00026,Andrian Rumah Makan Nasional,restoran,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_006658,place_00280,Tataring Coffee 26 Resto,restoran,5.0,Sip,positive,positive,high,,A01,yes
+resto-hotel-v2_006818,place_00307,Widya Restaurant,restoran,4.0,food,positive,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_006834,place_00307,Widya Restaurant,restoran,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_006876,place_00307,Widya Restaurant,restoran,5.0,Juga,positive,neutral,high,insufficient_context,A01,yes
+resto-hotel-v2_006883,place_00307,Widya Restaurant,restoran,4.0,Good,positive,positive,high,,A01,yes
+resto-hotel-v2_007009,place_00238,Rumah Makan Muslim Penginapan,restoran,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_007026,place_00238,Rumah Makan Muslim Penginapan,restoran,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_007037,place_00055,Bpk Torang Dan Ikan Bakar,restoran,5.0,Oke.,positive,positive,medium,,A01,yes
+resto-hotel-v2_007366,place_00155,Palito Coffee And Resto,restoran,5.0,Keren,positive,positive,high,,A01,yes
+resto-hotel-v2_007405,place_00155,Palito Coffee And Resto,restoran,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_007411,place_00155,Palito Coffee And Resto,restoran,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_007418,place_00155,Palito Coffee And Resto,restoran,4.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_007688,place_00250,Rumba Restaurant,restoran,5.0,Great,positive,positive,high,,A01,yes
+resto-hotel-v2_007775,place_00250,Rumba Restaurant,restoran,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_007871,place_00252,Samosir Villa Restaurant,restoran,5.0,👍👍,positive,positive,medium,,A01,yes
+resto-hotel-v2_008397,place_00203,Restaurant Sehat,restoran,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_008457,place_00201,Restaurant Asia,restoran,4.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_008645,place_00234,Rumah Makan Marina,restoran,4.0,Good.,positive,positive,high,,A01,yes
+resto-hotel-v2_008685,place_00223,Rumah Makan Elizabeth,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_008775,place_00184,Pondok Azzahra,restoran,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_008834,place_00293,Topi Tao Homestay Pangururan (Kawasan Waterfront City),hotel,5.0,Sip,positive,positive,high,,A01,yes
+resto-hotel-v2_008952,place_00298,Warung Bikers Parapat,restoran,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_008984,place_00298,Warung Bikers Parapat,restoran,5.0,Top,positive,positive,high,,A01,yes
+resto-hotel-v2_009016,place_00298,Warung Bikers Parapat,restoran,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_009028,place_00298,Warung Bikers Parapat,restoran,4.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_009121,place_00212,Rm Muslim Menara,restoran,5.0,Asik,positive,positive,medium,,A01,yes
+resto-hotel-v2_009301,place_00118,Kafe Pak Pos,restoran,4.0,B aja,positive,neutral,medium,insufficient_context,A01,yes
+resto-hotel-v2_009366,place_00118,Kafe Pak Pos,restoran,5.0,Nice,positive,positive,medium,,A01,yes
+resto-hotel-v2_009470,place_00360,Rumah Makan Khas Minang,hotel_resto,5.0,Enak,positive,positive,high,,A01,yes
+resto-hotel-v2_009571,place_00239,Rumah Makan Nasional Sinurat,restoran,5.0,👍 ...,positive,positive,medium,,A01,yes
+wisata-v2_000125,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,4.0,gass,positive,positive,medium,,A01,yes
+wisata-v2_000178,place_00165,Pantai Pasir Putih Lumban Bul-bul Balige,wisata,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_000242,place_00063,Bukit Pahoda,wisata,5.0,Teaik,positive,positive,high,,A01,yes
+wisata-v2_000364,place_00012,Air Terjun Siboruon Balige,wisata,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_000365,place_00012,Air Terjun Siboruon Balige,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_000434,place_00179,Penatapan Meat Balige,wisata,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_000464,place_00311,Wisata Bukit Gibeon,wisata,5.0,Asik,positive,positive,medium,,A01,yes
+wisata-v2_000476,place_00311,Wisata Bukit Gibeon,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_000510,place_00311,Wisata Bukit Gibeon,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_001407,place_00313,Wisata Rumah Pohon,wisata,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_001425,place_00313,Wisata Rumah Pohon,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_001473,place_00313,Wisata Rumah Pohon,wisata,5.0,indah,positive,positive,high,,A01,yes
+wisata-v2_001493,place_00019,Air Terjun Situmurun,wisata,5.0,Wow,positive,positive,medium,,A01,yes
+wisata-v2_001499,place_00019,Air Terjun Situmurun,wisata,5.0,Like,positive,positive,medium,,A01,yes
+wisata-v2_001523,place_00019,Air Terjun Situmurun,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_001569,place_00019,Air Terjun Situmurun,wisata,5.0,bagus,positive,positive,high,,A01,yes
+wisata-v2_001620,place_00015,Air Terjun Sigura-Gura,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_001663,place_00015,Air Terjun Sigura-Gura,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_001818,place_00192,Puncak Huta Ginjang,wisata,5.0,Supe,positive,positive,medium,,A01,yes
+wisata-v2_001873,place_00192,Puncak Huta Ginjang,wisata,5.0,keren,positive,positive,high,,A01,yes
+wisata-v2_001882,place_00192,Puncak Huta Ginjang,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_001929,place_00164,Pantai Parparean 2,wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_001933,place_00164,Pantai Parparean 2,wisata,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_001940,place_00164,Pantai Parparean 2,wisata,5.0,Wow,positive,positive,medium,,A01,yes
+wisata-v2_002405,place_00064,Bukit Senyum,wisata,5.0,Sip,positive,positive,high,,A01,yes
+wisata-v2_002412,place_00064,Bukit Senyum,wisata,5.0,Oke.,positive,positive,medium,,A01,yes
+wisata-v2_002424,place_00064,Bukit Senyum,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_002466,place_00064,Bukit Senyum,wisata,5.0,Baik,positive,positive,high,,A01,yes
+wisata-v2_002534,place_00064,Bukit Senyum,wisata,5.0,seru,positive,positive,medium,,A01,yes
+wisata-v2_002616,place_00353,Rest Area Adian Nalambok,wisata,5.0,👍 ...,positive,positive,medium,,A01,yes
+wisata-v2_002888,place_00308,Wisata Alam Fishing-Camp Siarubung,wisata,4.0,Next,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_002988,place_00319,Air Terjun Sigarattung (Sampuran Na Pitu),wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_003163,place_00065,Bukit Sidihoni,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_003181,place_00065,Bukit Sidihoni,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_003304,place_00067,Bukit Sipatungan,wisata,4.0,Paku,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_003366,place_00196,Pusat Informasi Toba Caldera Unesco Global Geopark,wisata,5.0,cool,positive,positive,medium,,A01,yes
+wisata-v2_003440,place_00196,Pusat Informasi Toba Caldera Unesco Global Geopark,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_003491,place_00070,Caldera Toba Nomadic Escape (Glamour Camping),wisata,4.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_003664,place_00070,Caldera Toba Nomadic Escape (Glamour Camping),wisata,4.0,Siip,positive,positive,high,,A01,yes
+wisata-v2_005156,place_00291,Togaraja,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_005206,place_00291,Togaraja,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_005308,place_00059,Bukit Burung,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_005889,place_00180,Penatapan Parhallow Sigarantung,wisata,5.0,baik,positive,positive,high,,A01,yes
+wisata-v2_005924,place_00180,Penatapan Parhallow Sigarantung,wisata,4.0,Good,positive,positive,high,,A01,yes
+wisata-v2_006047,place_00039,Batu Gantung,wisata,4.0,Unik,positive,positive,medium,,A01,yes
+wisata-v2_006068,place_00039,Batu Gantung,wisata,5.0,nice,positive,positive,medium,,A01,yes
+wisata-v2_006139,place_00039,Batu Gantung,wisata,5.0,gg,positive,positive,medium,,A01,yes
+wisata-v2_006150,place_00039,Batu Gantung,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_006209,place_00039,Batu Gantung,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_006223,place_00039,Batu Gantung,wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_006234,place_00039,Batu Gantung,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_006305,place_00039,Batu Gantung,wisata,4.0,Good,positive,positive,high,,A01,yes
+wisata-v2_006452,place_00068,Bukit Sipolha,wisata,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_006466,place_00068,Bukit Sipolha,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_006473,place_00068,Bukit Sipolha,wisata,5.0,indah,positive,positive,high,,A01,yes
+wisata-v2_006542,place_00007,Air Terjun Janji,wisata,5.0,Antap,positive,positive,medium,,A01,yes
+wisata-v2_006618,place_00007,Air Terjun Janji,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_006627,place_00007,Air Terjun Janji,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_006848,place_00083,Desa Wisata Tomok Parsaoran,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_007345,place_00370,Sopo Guru Tatea Bulan,wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_007381,place_00370,Sopo Guru Tatea Bulan,wisata,5.0,SGTB,positive,positive,medium,,A01,yes
+wisata-v2_007824,place_00128,Labersa Toba Fantasi Waterpark,wisata,5.0,OK,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_007835,place_00281,Tb Silalahi Swimming Pool,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_008013,place_00323,Gereja Hkbp Dr.Il.Nommensen Sigumpar,wisata,5.0,ayah,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_008060,place_00372,Taman Wisata Iman Sitinjo,wisata,5.0,Seru,positive,positive,medium,,A01,yes
+wisata-v2_008210,place_00251,Salib Kasih Tarutung,wisata,4.0,👍 ...,positive,positive,medium,,A01,yes
+wisata-v2_008287,place_00251,Salib Kasih Tarutung,wisata,5.0,peace,positive,positive,medium,,A01,yes
+wisata-v2_008288,place_00251,Salib Kasih Tarutung,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_008305,place_00173,"Patung Yesus, Bukit Sibeabea",wisata,5.0,Yesus,positive,neutral,high,insufficient_context,A01,yes
+wisata-v2_008514,place_00145,Museum Batak T.B. Silalahi Center,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_008568,place_00145,Museum Batak T.B. Silalahi Center,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_008702,place_00145,Museum Batak T.B. Silalahi Center,wisata,5.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_008836,place_00170,Pasar Tomok,wisata,4.0,Seru,positive,positive,medium,,A01,yes
+wisata-v2_008983,place_00170,Pasar Tomok,wisata,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_009033,place_00156,Penatapan Puncak Sidiangkat,wisata,4.0,sejuk,positive,positive,medium,,A01,yes
+wisata-v2_009079,place_00354,Rumah Adat Pak Pak (Raja Aur Mpu Ladang Saraan),wisata,5.0,Oke,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_009091,place_00115,Jembatan Lae Pendaroh,wisata,4.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_009139,place_00292,Tombak Sulusulu,wisata,5.0,Baik,positive,positive,high,,A01,yes
+wisata-v2_009266,place_00294,Tuan Nagani Paradise,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_009342,place_00294,Tuan Nagani Paradise,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_009361,place_00294,Tuan Nagani Paradise,wisata,4.0,ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_009548,place_00006,Air Terjun Efrata,wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_009771,place_00017,Air Terjun Sipisopiso,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_009800,place_00017,Air Terjun Sipisopiso,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_009854,place_00175,Pemandian Air Panas Rianiate,wisata,5.0,Asik,positive,positive,medium,,A01,yes
+wisata-v2_009942,place_00058,Bukit Beta Tuk-Tuk,wisata,5.0,Baik,positive,positive,high,,A01,yes
+wisata-v2_010492,place_00178,Pemandian Alam Sejuk Pas,wisata,5.0,bagus,positive,positive,high,,A01,yes
+wisata-v2_010566,place_00178,Pemandian Alam Sejuk Pas,wisata,4.0,Seru,positive,positive,medium,,A01,yes
+wisata-v2_010600,place_00178,Pemandian Alam Sejuk Pas,wisata,5.0,👌 ...,positive,positive,medium,,A01,yes
+wisata-v2_010745,place_00062,Bukit Indah Simarjarunjung,wisata,5.0,Sejuk,positive,positive,medium,,A01,yes
+wisata-v2_010776,place_00062,Bukit Indah Simarjarunjung,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_010832,place_00021,Air Terjun Tonduhan,wisata,5.0,Seger,positive,positive,medium,,A01,yes
+wisata-v2_010966,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_010986,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_011009,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,5.0,Nice,positive,positive,medium,,A01,yes
+wisata-v2_011010,place_00328,"Kebun Teh Bahbutong, Sidamanik",wisata,4.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_011140,place_00177,Pemandian Alam Bah Damanik,wisata,4.0,nice,positive,positive,medium,,A01,yes
+wisata-v2_011299,place_00120,Kawah Putih Dolok Tinggi Raja,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_011323,place_00276,Tanjung Unta,wisata,5.0,👍 ...,positive,positive,medium,,A01,yes
+wisata-v2_011384,place_00342,Pantai Paris,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_011434,place_00342,Pantai Paris,wisata,5.0,Like,positive,positive,medium,,A01,yes
+wisata-v2_011494,place_00342,Pantai Paris,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_011561,place_00373,Tao Silalahi Hotel,wisata,5.0,Good,positive,positive,high,,A01,yes
+wisata-v2_011574,place_00373,Tao Silalahi Hotel,wisata,4.0,B aja,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_011810,place_00309,Wisata Anugerah Indah Sippan,wisata,5.0,Asik,positive,positive,medium,,A01,yes
+wisata-v2_011816,place_00309,Wisata Anugerah Indah Sippan,wisata,4.0,Good,positive,positive,high,,A01,yes
+wisata-v2_011833,place_00309,Wisata Anugerah Indah Sippan,wisata,5.0,Bagus,positive,positive,high,,A01,yes
+wisata-v2_011871,place_00309,Wisata Anugerah Indah Sippan,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes
+wisata-v2_011951,place_00136,Manigom Nauli,wisata,5.0,Bgus,positive,positive,medium,,A01,yes
+wisata-v2_012508,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,5.0,Keren,positive,positive,high,,A01,yes
+wisata-v2_012548,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,5.0,Seru,positive,positive,medium,,A01,yes
+wisata-v2_012568,place_00379,Wisata Pemandian Air Panas Sipoholon,wisata,5.0,Ok,positive,neutral,medium,insufficient_context,A01,yes

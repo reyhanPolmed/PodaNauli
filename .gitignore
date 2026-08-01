@@ -1,0 +1,113 @@
+# Submission allowlist
+# Ignore every root entry, then explicitly include only judging artifacts.
+/*
+
+!/.gitignore
+!/pytest.ini
+!/configs/
+!/data/
+!/demo/
+!/models/
+!/notebooks/
+!/outputs/
+!/scripts/
+!/src/
+!/tests/
+
+# Local instructions, documentation, and report files
+*.md
+*.markdown
+!/README.md
+*.pdf
+*.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python environments, caches, and coverage
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE, notebook, operating-system, and local configuration
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+*.local
+
+# Temporary, backup, and generated working files
+/scratch/
+/tmp/
+/temp/
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*_backup.*
+*_executed.ipynb
+
+# Keep one canonical copy of the committee dataset under data/raw.
+/Dataset HackathonTourism - IT DEL (1).xlsx
+/data/raw/
+
+# Keep approved human-gold labels only; exclude working annotation queues.
+/data/interim/
+/data/annotations/*
+!/data/annotations/sentiment_gold.csv
+!/data/annotations/aspect_gold.csv
+
+# Keep current production artifacts; exclude obsolete/candidate models.
+/models/archive/
+/models/sentiment_logistic.joblib
+/models/sentiment_svm.joblib
+/models/sentiment_word_char_logistic.joblib
+*.pkl
+
+# Generated runtime-only output
+/demo/outputs/
+/outputs/.matplotlib/
+/outputs/logs/
+/outputs/reports/archive/
+/outputs/reports/*annotation*
+
+# Frontend/build artifacts if created later
+node_modules/
+.next/
+dist/
+build/
+out/
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json

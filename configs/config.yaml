@@ -1,0 +1,108 @@
+random_seed: 42
+
+sentiment_improvement:
+  annotation:
+    target_per_class: 300
+    max_per_place: 12
+    minimum_gold_rows: 300
+    minimum_gold_rows_per_class: 50
+    valid_labels:
+      - negative
+      - neutral
+      - positive
+  ai_annotation:
+    high_confidence_probability: 0.75
+    medium_confidence_probability: 0.55
+    human_approval_values:
+      - "yes"
+      - "true"
+      - "1"
+      - "approved"
+  complaint_model:
+    c_values:
+      - 0.3
+      - 1.0
+      - 3.0
+    negative_class_weights:
+      - 2.0
+      - 3.0
+      - 4.0
+    feature_sets:
+      - word
+      - word_char
+    threshold_min_precision: 0.60
+    threshold_beta: 2.0
+    uncertainty_margin: 0.08
+    aspect_probability_threshold: 0.50
+  acceptance_gates:
+    macro_f1: 0.70
+    negative_recall: 0.80
+    negative_precision: 0.60
+    neutral_f1: 0.50
+    balanced_accuracy: 0.70
+    minimum_prediction_coverage: 0.75
+    top_20_service_gap_validity: 0.80
+
+aspect_improvement:
+  annotation:
+    target_rows: 1200
+    max_per_place: 12
+    minimum_gold_rows: 600
+    minimum_positive_per_key_aspect: 20
+    key_aspects:
+      - harga
+      - pelayanan
+      - kebersihan
+      - akomodasi
+      - makanan
+      - toilet
+      - akses_jalan
+      - parkir
+  model:
+    c_values:
+      - 0.3
+      - 1.0
+      - 3.0
+    threshold_values:
+      - 0.25
+      - 0.30
+      - 0.35
+      - 0.40
+      - 0.45
+      - 0.50
+      - 0.55
+      - 0.60
+      - 0.65
+  acceptance_gates:
+    micro_f1: 0.70
+    macro_f1: 0.55
+    key_aspect_minimum_f1: 0.50
+
+entity_resolution:
+  fuzzy_auto: 94.0
+  fuzzy_review: 88.0
+  tfidf_auto: 0.94
+  tfidf_review: 0.86
+
+cleaning:
+  valid_rating_min: 1.0
+  valid_rating_max: 5.0
+  coordinate_latitude_min: -90.0
+  coordinate_latitude_max: 90.0
+  coordinate_longitude_min: -180.0
+  coordinate_longitude_max: 180.0
+
+topic_modeling:
+  n_topics: 12
+  max_features: 8000
+  min_df: 5
+  max_df: 0.9
+  n_top_words: 15
+  random_seed: 42
+
+geospatial:
+  algorithm: dbscan_haversine
+  eps_km: 5.0
+  min_samples: 4
+  earth_radius_km: 6371.0088
+  min_valid_places: 10

@@ -1,0 +1,8 @@
+﻿demo_id,place_name,review_text,expected_sentiment,predicted_sentiment,predicted_complaint,predicted_aspects,is_error_example,safe_for_video
+D01,Pondok Kolding Pangururan.Samosir,Tidak tersedia lapangn parkir,Negatif,Negatif,Terdeteksi,"Parkir, Harga",False,True
+D02,Tepi Danau Bistro,Kasir lambat & bad attitude,Negatif,Negatif,Terdeteksi,Tidak terdeteksi,False,True
+D03,Damasus Nataboan Resto,Butuh perjuangan ke tempat ini,Netral,Netral,Tidak terdeteksi,Tidak terdeteksi,False,True
+D04,Batu Gantung,Biasa saja Mbah google,Netral,Netral,Tidak terdeteksi,Tidak terdeteksi,False,True
+D05,Monumen Raja Sonakmalela,Ada penjual bandrek yang enak di depannya,Positif,Positif,Tidak terdeteksi,Makanan,False,True
+D06,Letter Z,tempat nya bagus dan pemandangan nya lumayan..sayang ga bawa drone,Positif,Positif,Tidak terdeteksi,Pemandangan,False,True
+D07,Bukit Senyum,Tempat wisata liburan sekolah paling asyik,Netral,Positif,Tidak terdeteksi,Tidak terdeteksi,True,True

@@ -1,0 +1,507 @@
+{
+  "generated_at": "2026-07-25T20:17:03.217093+07:00",
+  "dataset": {
+    "reviews_path": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+    "total_reviews": 22407,
+    "trainable_reviews_after_dedup": 900,
+    "deduplication_rule": "Use rows with is_duplicate == False before split.",
+    "label_source": "manual_sentiment_label from validated human gold dataset.",
+    "manual_annotation_file": "D:\\tobapulse\\data\\annotations\\sentiment_gold.csv",
+    "manual_annotation_used": true,
+    "gold_semantic_sha256": "40200e2928e7a4f2f6121c54af2d9100b15201a338612328a5d7c35c28763f83"
+  },
+  "split": {
+    "method": "Nested StratifiedGroupKFold with canonical_place_id groups",
+    "rows": {
+      "train": 539,
+      "validation": 181,
+      "test": 180
+    },
+    "groups": {
+      "train": 121,
+      "validation": 47,
+      "test": 51
+    },
+    "label_counts": {
+      "test": {
+        "negative": 69,
+        "neutral": 38,
+        "positive": 73
+      },
+      "train": {
+        "negative": 209,
+        "neutral": 111,
+        "positive": 219
+      },
+      "validation": {
+        "negative": 70,
+        "neutral": 38,
+        "positive": 73
+      }
+    },
+    "group_overlap_count": 0,
+    "source": "D:\\tobapulse\\data\\processed\\sentiment_gold_split.parquet"
+  },
+  "models": {
+    "sentiment_logistic": {
+      "evaluation_split": "validation",
+      "metrics": {
+        "macro_f1": 0.7152961641277514,
+        "weighted_f1": 0.7299111173014325,
+        "balanced_accuracy": 0.7029663199093624,
+        "negative_recall": 0.8428571428571429,
+        "classification_report": {
+          "negative": {
+            "precision": 0.7108433734939759,
+            "recall": 0.8428571428571429,
+            "f1-score": 0.7712418300653595,
+            "support": 70.0
+          },
+          "neutral": {
+            "precision": 0.8,
+            "recall": 0.5263157894736842,
+            "f1-score": 0.6349206349206349,
+            "support": 38.0
+          },
+          "positive": {
+            "precision": 0.7397260273972602,
+            "recall": 0.7397260273972602,
+            "f1-score": 0.7397260273972602,
+            "support": 73.0
+          },
+          "accuracy": 0.7348066298342542,
+          "macro avg": {
+            "precision": 0.7501898002970787,
+            "recall": 0.7029663199093624,
+            "f1-score": 0.7152961641277514,
+            "support": 181.0
+          },
+          "weighted avg": {
+            "precision": 0.741210144445184,
+            "recall": 0.7348066298342542,
+            "f1-score": 0.7299111173014325,
+            "support": 181.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            59,
+            1,
+            10
+          ],
+          [
+            9,
+            20,
+            9
+          ],
+          [
+            15,
+            4,
+            54
+          ]
+        ],
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ]
+      },
+      "class_metrics": [
+        {
+          "label": "negative",
+          "precision": 0.7108433734939759,
+          "recall": 0.8428571428571429,
+          "f1": 0.7712418300653595,
+          "support": 70
+        },
+        {
+          "label": "neutral",
+          "precision": 0.8,
+          "recall": 0.5263157894736842,
+          "f1": 0.6349206349206349,
+          "support": 38
+        },
+        {
+          "label": "positive",
+          "precision": 0.7397260273972602,
+          "recall": 0.7397260273972602,
+          "f1": 0.7397260273972602,
+          "support": 73
+        }
+      ],
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.7127652458073763,
+          0.6454494266994267,
+          0.7527767753318096
+        ],
+        "mean_macro_f1": 0.7036638159462042,
+        "std_macro_f1": 0.044286318129889306,
+        "n_splits": 3
+      },
+      "training_seconds": 0.04402390000177547,
+      "inference_seconds": 0.005144200000358978,
+      "inference_samples_per_second": 35185.25718039137,
+      "model_size_mb": 0.046436309814453125,
+      "artifact_path": "D:\\tobapulse\\models\\sentiment_logistic.joblib"
+    },
+    "sentiment_svm": {
+      "evaluation_split": "validation",
+      "metrics": {
+        "macro_f1": 0.7228747203579419,
+        "weighted_f1": 0.7408784159590641,
+        "balanced_accuracy": 0.711903045284444,
+        "negative_recall": 0.8285714285714286,
+        "classification_report": {
+          "negative": {
+            "precision": 0.7341772151898734,
+            "recall": 0.8285714285714286,
+            "f1-score": 0.7785234899328859,
+            "support": 70.0
+          },
+          "neutral": {
+            "precision": 0.7692307692307693,
+            "recall": 0.5263157894736842,
+            "f1-score": 0.625,
+            "support": 38.0
+          },
+          "positive": {
+            "precision": 0.75,
+            "recall": 0.7808219178082192,
+            "f1-score": 0.7651006711409396,
+            "support": 73.0
+          },
+          "accuracy": 0.7458563535911602,
+          "macro avg": {
+            "precision": 0.751135994806881,
+            "recall": 0.711903045284444,
+            "f1-score": 0.7228747203579419,
+            "support": 181.0
+          },
+          "weighted avg": {
+            "precision": 0.7479180900224331,
+            "recall": 0.7458563535911602,
+            "f1-score": 0.7408784159590641,
+            "support": 181.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            58,
+            3,
+            9
+          ],
+          [
+            8,
+            20,
+            10
+          ],
+          [
+            13,
+            3,
+            57
+          ]
+        ],
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ]
+      },
+      "class_metrics": [
+        {
+          "label": "negative",
+          "precision": 0.7341772151898734,
+          "recall": 0.8285714285714286,
+          "f1": 0.7785234899328859,
+          "support": 70
+        },
+        {
+          "label": "neutral",
+          "precision": 0.7692307692307693,
+          "recall": 0.5263157894736842,
+          "f1": 0.625,
+          "support": 38
+        },
+        {
+          "label": "positive",
+          "precision": 0.75,
+          "recall": 0.7808219178082192,
+          "f1": 0.7651006711409396,
+          "support": 73
+        }
+      ],
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.6864292575531296,
+          0.7007168458781362,
+          0.7167030280524224
+        ],
+        "mean_macro_f1": 0.7012830438278961,
+        "std_macro_f1": 0.012365697989457154,
+        "n_splits": 3
+      },
+      "training_seconds": 0.03176750000056927,
+      "inference_seconds": 0.008069899999100016,
+      "inference_samples_per_second": 22429.02638448875,
+      "model_size_mb": 0.04632568359375,
+      "artifact_path": "D:\\tobapulse\\models\\sentiment_svm.joblib"
+    },
+    "sentiment_word_char_logistic": {
+      "evaluation_split": "validation",
+      "metrics": {
+        "macro_f1": 0.7335196335148337,
+        "weighted_f1": 0.7545979991273293,
+        "balanced_accuracy": 0.7298382943660521,
+        "negative_recall": 0.8571428571428571,
+        "classification_report": {
+          "negative": {
+            "precision": 0.7317073170731707,
+            "recall": 0.8571428571428571,
+            "f1-score": 0.7894736842105263,
+            "support": 70.0
+          },
+          "neutral": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5789473684210527,
+            "f1-score": 0.6197183098591549,
+            "support": 38.0
+          },
+          "positive": {
+            "precision": 0.8333333333333334,
+            "recall": 0.7534246575342466,
+            "f1-score": 0.7913669064748201,
+            "support": 73.0
+          },
+          "accuracy": 0.7569060773480663,
+          "macro avg": {
+            "precision": 0.7439024390243903,
+            "recall": 0.7298382943660521,
+            "f1-score": 0.7335196335148337,
+            "support": 181.0
+          },
+          "weighted avg": {
+            "precision": 0.7590396622198265,
+            "recall": 0.7569060773480663,
+            "f1-score": 0.7545979991273293,
+            "support": 181.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            60,
+            5,
+            5
+          ],
+          [
+            10,
+            22,
+            6
+          ],
+          [
+            12,
+            6,
+            55
+          ]
+        ],
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ]
+      },
+      "class_metrics": [
+        {
+          "label": "negative",
+          "precision": 0.7317073170731707,
+          "recall": 0.8571428571428571,
+          "f1": 0.7894736842105263,
+          "support": 70
+        },
+        {
+          "label": "neutral",
+          "precision": 0.6666666666666666,
+          "recall": 0.5789473684210527,
+          "f1": 0.6197183098591549,
+          "support": 38
+        },
+        {
+          "label": "positive",
+          "precision": 0.8333333333333334,
+          "recall": 0.7534246575342466,
+          "f1": 0.7913669064748201,
+          "support": 73
+        }
+      ],
+      "cross_validation": {
+        "fold_macro_f1": [
+          0.7443628383976354,
+          0.713090084518656,
+          0.7213381123058542
+        ],
+        "mean_macro_f1": 0.7262636784073818,
+        "std_macro_f1": 0.013233598272558487,
+        "n_splits": 3
+      },
+      "training_seconds": 0.24160359999950742,
+      "inference_seconds": 0.03560939999806578,
+      "inference_samples_per_second": 5082.927541880275,
+      "model_size_mb": 0.3776893615722656,
+      "artifact_path": "D:\\tobapulse\\models\\sentiment_word_char_logistic.joblib"
+    }
+  },
+  "champion": {
+    "model_name": "sentiment_word_char_logistic",
+    "artifact_path": "D:\\tobapulse\\models\\sentiment_champion.joblib",
+    "selection_formula": "0.45*macro_f1_norm + 0.20*negative_recall_norm + 0.15*cv_stability_norm + 0.10*inference_speed_norm + 0.10*deployment_size_norm",
+    "selection_split": "validation",
+    "selection_table_path": "D:\\tobapulse\\outputs\\reports\\sentiment_model_comparison.csv",
+    "validation_metrics": {
+      "macro_f1": 0.7335196335148337,
+      "weighted_f1": 0.7545979991273293,
+      "balanced_accuracy": 0.7298382943660521,
+      "negative_recall": 0.8571428571428571,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7317073170731707,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.7894736842105263,
+          "support": 70.0
+        },
+        "neutral": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5789473684210527,
+          "f1-score": 0.6197183098591549,
+          "support": 38.0
+        },
+        "positive": {
+          "precision": 0.8333333333333334,
+          "recall": 0.7534246575342466,
+          "f1-score": 0.7913669064748201,
+          "support": 73.0
+        },
+        "accuracy": 0.7569060773480663,
+        "macro avg": {
+          "precision": 0.7439024390243903,
+          "recall": 0.7298382943660521,
+          "f1-score": 0.7335196335148337,
+          "support": 181.0
+        },
+        "weighted avg": {
+          "precision": 0.7590396622198265,
+          "recall": 0.7569060773480663,
+          "f1-score": 0.7545979991273293,
+          "support": 181.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          60,
+          5,
+          5
+        ],
+        [
+          10,
+          22,
+          6
+        ],
+        [
+          12,
+          6,
+          55
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "final_test_split": "test",
+    "metrics": {
+      "macro_f1": 0.7579133510167994,
+      "weighted_f1": 0.7780960801650457,
+      "balanced_accuracy": 0.7480382015192836,
+      "negative_recall": 0.8695652173913043,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7894736842105263,
+          "recall": 0.8695652173913043,
+          "f1-score": 0.8275862068965517,
+          "support": 69.0
+        },
+        "neutral": {
+          "precision": 0.7777777777777778,
+          "recall": 0.5526315789473685,
+          "f1-score": 0.6461538461538462,
+          "support": 38.0
+        },
+        "positive": {
+          "precision": 0.7792207792207793,
+          "recall": 0.821917808219178,
+          "f1-score": 0.8,
+          "support": 73.0
+        },
+        "accuracy": 0.7833333333333333,
+        "macro avg": {
+          "precision": 0.782157413736361,
+          "recall": 0.7480382015192836,
+          "f1-score": 0.7579133510167994,
+          "support": 180.0
+        },
+        "weighted avg": {
+          "precision": 0.782846425828882,
+          "recall": 0.7833333333333333,
+          "f1-score": 0.7780960801650457,
+          "support": 180.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          60,
+          1,
+          8
+        ],
+        [
+          8,
+          21,
+          9
+        ],
+        [
+          8,
+          5,
+          60
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "final_training_seconds": 0.3413685000014084,
+    "final_inference_seconds": 0.027046600000176113,
+    "final_inference_samples_per_second": 6655.18031837007
+  },
+  "acceptance_gates": {
+    "macro_f1": 0.7,
+    "negative_recall": 0.8,
+    "negative_precision": 0.6,
+    "neutral_f1": 0.5,
+    "balanced_accuracy": 0.7,
+    "minimum_prediction_coverage": 0.75,
+    "top_20_service_gap_validity": 0.8
+  },
+  "gate_results": {
+    "macro_f1": true,
+    "negative_recall": true,
+    "neutral_f1": true,
+    "balanced_accuracy": true
+  },
+  "deployment_ready": true,
+  "limitations": [
+    "Reviews from the same canonical place are isolated across train, validation, and test.",
+    "The current human gold dataset was reviewed by one annotator, so inter-annotator agreement is unavailable.",
+    "Annotators could see AI suggestions, so confirmation bias remains possible."
+  ]
+}

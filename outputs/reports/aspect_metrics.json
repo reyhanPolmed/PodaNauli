@@ -1,0 +1,714 @@
+{
+  "generated_at": "2026-07-25T20:20:19.962395+07:00",
+  "reviews_path": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+  "training_rows": 12270,
+  "aspect_count": 19,
+  "aspect_ids": [
+    "akses_jalan",
+    "transportasi",
+    "parkir",
+    "kebersihan",
+    "toilet",
+    "harga",
+    "pelayanan",
+    "makanan",
+    "akomodasi",
+    "keamanan",
+    "jam_operasional",
+    "fasilitas_umum",
+    "pemandangan",
+    "keramaian",
+    "aksesibilitas",
+    "budaya",
+    "oleh_oleh",
+    "internet_sinyal",
+    "lainnya"
+  ],
+  "version": "v2-clause-human-gold",
+  "label_source": "human_gold",
+  "training_label_hash": "5d255a34ca8590bf4a86fcb9ae1bedac296513e056e44dd9020882f7732929a9",
+  "supervised_evaluation_available": true,
+  "supervised_metrics": {
+    "micro_f1": 0.8088779284833539,
+    "macro_f1": 0.7350548597308647,
+    "hamming_loss": 0.03224464322862492,
+    "subset_accuracy": 0.5770750988142292,
+    "macro_average_precision": 0.8055698110614952,
+    "none_precision": 0.575,
+    "none_recall": 0.7666666666666667,
+    "none_f1": 0.6571428571428571,
+    "threshold": 0.45,
+    "per_aspect": {
+      "akses_jalan": {
+        "precision": 0.9375,
+        "recall": 0.625,
+        "f1": 0.75,
+        "support": 24,
+        "average_precision": 0.8744517047078411
+      },
+      "transportasi": {
+        "precision": 1.0,
+        "recall": 0.46153846153846156,
+        "f1": 0.631578947368421,
+        "support": 13,
+        "average_precision": 0.6689765385417559
+      },
+      "parkir": {
+        "precision": 0.9642857142857143,
+        "recall": 0.84375,
+        "f1": 0.9,
+        "support": 32,
+        "average_precision": 0.9829362041737516
+      },
+      "kebersihan": {
+        "precision": 0.8928571428571429,
+        "recall": 0.8064516129032258,
+        "f1": 0.847457627118644,
+        "support": 31,
+        "average_precision": 0.9431370816967682
+      },
+      "toilet": {
+        "precision": 0.9473684210526315,
+        "recall": 0.8181818181818182,
+        "f1": 0.8780487804878049,
+        "support": 22,
+        "average_precision": 0.9107455277311733
+      },
+      "harga": {
+        "precision": 0.9428571428571428,
+        "recall": 0.75,
+        "f1": 0.8354430379746836,
+        "support": 44,
+        "average_precision": 0.9089416035546919
+      },
+      "pelayanan": {
+        "precision": 0.8787878787878788,
+        "recall": 0.7073170731707317,
+        "f1": 0.7837837837837838,
+        "support": 41,
+        "average_precision": 0.8753813657505675
+      },
+      "makanan": {
+        "precision": 0.875,
+        "recall": 0.8484848484848485,
+        "f1": 0.8615384615384616,
+        "support": 66,
+        "average_precision": 0.9479774178264767
+      },
+      "akomodasi": {
+        "precision": 0.7916666666666666,
+        "recall": 0.8636363636363636,
+        "f1": 0.8260869565217391,
+        "support": 22,
+        "average_precision": 0.7112704406587276
+      },
+      "keamanan": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.861172161172161
+      },
+      "jam_operasional": {
+        "precision": 0.5714285714285714,
+        "recall": 0.4444444444444444,
+        "f1": 0.5,
+        "support": 9,
+        "average_precision": 0.6799823633156965
+      },
+      "fasilitas_umum": {
+        "precision": 0.8,
+        "recall": 0.5454545454545454,
+        "f1": 0.6486486486486487,
+        "support": 22,
+        "average_precision": 0.6169234311870209
+      },
+      "pemandangan": {
+        "precision": 0.7894736842105263,
+        "recall": 0.7317073170731707,
+        "f1": 0.759493670886076,
+        "support": 41,
+        "average_precision": 0.8251111356904789
+      },
+      "keramaian": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.9397435897435895
+      },
+      "aksesibilitas": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714,
+        "support": 8,
+        "average_precision": 0.7030143467643467
+      },
+      "budaya": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9166666666666666,
+        "f1": 0.9361702127659575,
+        "support": 24,
+        "average_precision": 0.9462057284225895
+      },
+      "oleh_oleh": {
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.8,
+        "support": 8,
+        "average_precision": 0.890625
+      },
+      "internet_sinyal": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 6,
+        "average_precision": 1.0
+      },
+      "lainnya": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "average_precision": 0.019230769230769232
+      }
+    }
+  },
+  "validation_metrics": {
+    "micro_f1": 0.7818411097099621,
+    "macro_f1": 0.7024385530060101,
+    "hamming_loss": 0.03924682395644283,
+    "subset_accuracy": 0.521551724137931,
+    "macro_average_precision": 0.7320157171793372,
+    "none_precision": 0.4864864864864865,
+    "none_recall": 0.8181818181818182,
+    "none_f1": 0.6101694915254238,
+    "threshold": 0.45,
+    "per_aspect": {
+      "akses_jalan": {
+        "precision": 0.7619047619047619,
+        "recall": 0.8,
+        "f1": 0.7804878048780488,
+        "support": 20,
+        "average_precision": 0.8426235538978097
+      },
+      "transportasi": {
+        "precision": 0.9090909090909091,
+        "recall": 0.5882352941176471,
+        "f1": 0.7142857142857143,
+        "support": 17,
+        "average_precision": 0.7858148115225971
+      },
+      "parkir": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "support": 24,
+        "average_precision": 0.9171121990828279
+      },
+      "kebersihan": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1": 0.75,
+        "support": 36,
+        "average_precision": 0.858425536735488
+      },
+      "toilet": {
+        "precision": 0.6842105263157895,
+        "recall": 0.8125,
+        "f1": 0.7428571428571429,
+        "support": 16,
+        "average_precision": 0.7577377381605322
+      },
+      "harga": {
+        "precision": 0.96,
+        "recall": 0.7741935483870968,
+        "f1": 0.8571428571428571,
+        "support": 31,
+        "average_precision": 0.9232473865022315
+      },
+      "pelayanan": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 35,
+        "average_precision": 0.8942216377234243
+      },
+      "makanan": {
+        "precision": 0.84375,
+        "recall": 0.7941176470588235,
+        "f1": 0.8181818181818182,
+        "support": 68,
+        "average_precision": 0.90386386540397
+      },
+      "akomodasi": {
+        "precision": 0.8421052631578947,
+        "recall": 0.8421052631578947,
+        "f1": 0.8421052631578947,
+        "support": 38,
+        "average_precision": 0.7966015018523874
+      },
+      "keamanan": {
+        "precision": 1.0,
+        "recall": 0.6875,
+        "f1": 0.8148148148148148,
+        "support": 16,
+        "average_precision": 0.9288194444444444
+      },
+      "jam_operasional": {
+        "precision": 0.6363636363636364,
+        "recall": 0.5833333333333334,
+        "f1": 0.6086956521739131,
+        "support": 12,
+        "average_precision": 0.5303096209034691
+      },
+      "fasilitas_umum": {
+        "precision": 0.5714285714285714,
+        "recall": 0.5333333333333333,
+        "f1": 0.5517241379310345,
+        "support": 15,
+        "average_precision": 0.5702183538135752
+      },
+      "pemandangan": {
+        "precision": 0.9090909090909091,
+        "recall": 0.8163265306122449,
+        "f1": 0.8602150537634409,
+        "support": 49,
+        "average_precision": 0.8847884021859637
+      },
+      "keramaian": {
+        "precision": 0.8666666666666667,
+        "recall": 0.5652173913043478,
+        "f1": 0.6842105263157895,
+        "support": 23,
+        "average_precision": 0.7443695334619137
+      },
+      "aksesibilitas": {
+        "precision": 0.8333333333333334,
+        "recall": 0.7142857142857143,
+        "f1": 0.7692307692307693,
+        "support": 7,
+        "average_precision": 0.780252100840336
+      },
+      "budaya": {
+        "precision": 0.75,
+        "recall": 0.3,
+        "f1": 0.42857142857142855,
+        "support": 10,
+        "average_precision": 0.432957650647524
+      },
+      "oleh_oleh": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 3,
+        "average_precision": 0.7916666666666666
+      },
+      "internet_sinyal": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 4,
+        "average_precision": 0.5503432494279177
+      },
+      "lainnya": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "average_precision": 0.014925373134328358
+      }
+    }
+  },
+  "test_metrics": {
+    "micro_f1": 0.8088779284833539,
+    "macro_f1": 0.7350548597308647,
+    "hamming_loss": 0.03224464322862492,
+    "subset_accuracy": 0.5770750988142292,
+    "macro_average_precision": 0.8055698110614952,
+    "none_precision": 0.575,
+    "none_recall": 0.7666666666666667,
+    "none_f1": 0.6571428571428571,
+    "threshold": 0.45,
+    "per_aspect": {
+      "akses_jalan": {
+        "precision": 0.9375,
+        "recall": 0.625,
+        "f1": 0.75,
+        "support": 24,
+        "average_precision": 0.8744517047078411
+      },
+      "transportasi": {
+        "precision": 1.0,
+        "recall": 0.46153846153846156,
+        "f1": 0.631578947368421,
+        "support": 13,
+        "average_precision": 0.6689765385417559
+      },
+      "parkir": {
+        "precision": 0.9642857142857143,
+        "recall": 0.84375,
+        "f1": 0.9,
+        "support": 32,
+        "average_precision": 0.9829362041737516
+      },
+      "kebersihan": {
+        "precision": 0.8928571428571429,
+        "recall": 0.8064516129032258,
+        "f1": 0.847457627118644,
+        "support": 31,
+        "average_precision": 0.9431370816967682
+      },
+      "toilet": {
+        "precision": 0.9473684210526315,
+        "recall": 0.8181818181818182,
+        "f1": 0.8780487804878049,
+        "support": 22,
+        "average_precision": 0.9107455277311733
+      },
+      "harga": {
+        "precision": 0.9428571428571428,
+        "recall": 0.75,
+        "f1": 0.8354430379746836,
+        "support": 44,
+        "average_precision": 0.9089416035546919
+      },
+      "pelayanan": {
+        "precision": 0.8787878787878788,
+        "recall": 0.7073170731707317,
+        "f1": 0.7837837837837838,
+        "support": 41,
+        "average_precision": 0.8753813657505675
+      },
+      "makanan": {
+        "precision": 0.875,
+        "recall": 0.8484848484848485,
+        "f1": 0.8615384615384616,
+        "support": 66,
+        "average_precision": 0.9479774178264767
+      },
+      "akomodasi": {
+        "precision": 0.7916666666666666,
+        "recall": 0.8636363636363636,
+        "f1": 0.8260869565217391,
+        "support": 22,
+        "average_precision": 0.7112704406587276
+      },
+      "keamanan": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.861172161172161
+      },
+      "jam_operasional": {
+        "precision": 0.5714285714285714,
+        "recall": 0.4444444444444444,
+        "f1": 0.5,
+        "support": 9,
+        "average_precision": 0.6799823633156965
+      },
+      "fasilitas_umum": {
+        "precision": 0.8,
+        "recall": 0.5454545454545454,
+        "f1": 0.6486486486486487,
+        "support": 22,
+        "average_precision": 0.6169234311870209
+      },
+      "pemandangan": {
+        "precision": 0.7894736842105263,
+        "recall": 0.7317073170731707,
+        "f1": 0.759493670886076,
+        "support": 41,
+        "average_precision": 0.8251111356904789
+      },
+      "keramaian": {
+        "precision": 1.0,
+        "recall": 0.6923076923076923,
+        "f1": 0.8181818181818182,
+        "support": 13,
+        "average_precision": 0.9397435897435895
+      },
+      "aksesibilitas": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714,
+        "support": 8,
+        "average_precision": 0.7030143467643467
+      },
+      "budaya": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9166666666666666,
+        "f1": 0.9361702127659575,
+        "support": 24,
+        "average_precision": 0.9462057284225895
+      },
+      "oleh_oleh": {
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.8,
+        "support": 8,
+        "average_precision": 0.890625
+      },
+      "internet_sinyal": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 6,
+        "average_precision": 1.0
+      },
+      "lainnya": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "average_precision": 0.019230769230769232
+      }
+    }
+  },
+  "selection": {
+    "c_value": 3.0,
+    "threshold": 0.45
+  },
+  "split": {
+    "method": "best-of-200 nested GroupShuffleSplit using canonical_place_id with multilabel prevalence balancing",
+    "split_version": "v2-multilabel-balance",
+    "rows": {
+      "train": 715,
+      "validation": 232,
+      "test": 253
+    },
+    "groups": {
+      "train": 132,
+      "validation": 44,
+      "test": 44
+    },
+    "label_counts": {
+      "train": {
+        "akses_jalan": 74,
+        "transportasi": 35,
+        "parkir": 57,
+        "kebersihan": 85,
+        "toilet": 57,
+        "harga": 111,
+        "pelayanan": 108,
+        "makanan": 160,
+        "akomodasi": 81,
+        "keamanan": 32,
+        "jam_operasional": 33,
+        "fasilitas_umum": 89,
+        "pemandangan": 116,
+        "keramaian": 46,
+        "aksesibilitas": 17,
+        "budaya": 47,
+        "oleh_oleh": 17,
+        "internet_sinyal": 16,
+        "lainnya": 1,
+        "none": 71
+      },
+      "validation": {
+        "akses_jalan": 20,
+        "transportasi": 17,
+        "parkir": 24,
+        "kebersihan": 36,
+        "toilet": 16,
+        "harga": 31,
+        "pelayanan": 35,
+        "makanan": 68,
+        "akomodasi": 38,
+        "keamanan": 16,
+        "jam_operasional": 12,
+        "fasilitas_umum": 15,
+        "pemandangan": 49,
+        "keramaian": 23,
+        "aksesibilitas": 7,
+        "budaya": 10,
+        "oleh_oleh": 3,
+        "internet_sinyal": 4,
+        "lainnya": 1,
+        "none": 22
+      },
+      "test": {
+        "akses_jalan": 24,
+        "transportasi": 13,
+        "parkir": 32,
+        "kebersihan": 31,
+        "toilet": 22,
+        "harga": 44,
+        "pelayanan": 41,
+        "makanan": 66,
+        "akomodasi": 22,
+        "keamanan": 13,
+        "jam_operasional": 9,
+        "fasilitas_umum": 22,
+        "pemandangan": 41,
+        "keramaian": 13,
+        "aksesibilitas": 8,
+        "budaya": 24,
+        "oleh_oleh": 8,
+        "internet_sinyal": 6,
+        "lainnya": 1,
+        "none": 30
+      }
+    },
+    "group_overlap_count": 0
+  },
+  "acceptance_gates": {
+    "micro_f1": 0.7,
+    "macro_f1": 0.55,
+    "key_aspect_minimum_f1": 0.5
+  },
+  "gate_results": {
+    "micro_f1": true,
+    "macro_f1": true,
+    "key_aspect_minimum_f1": true
+  },
+  "deployment_ready": true,
+  "coverage_summary": {
+    "rows_with_lainnya_only": 5075,
+    "rows_with_any_taxonomy_aspect": 7195,
+    "top_aspects": [
+      {
+        "aspect_id": "lainnya",
+        "weak_label_count": 5075,
+        "weak_label_rate": 0.41361043194784025,
+        "weak_negative_count": 0,
+        "weak_negative_rate": 0.0,
+        "positive_review_count": 4437,
+        "neutral_review_count": 295,
+        "negative_review_count": 341
+      },
+      {
+        "aspect_id": "pemandangan",
+        "weak_label_count": 2522,
+        "weak_label_rate": 0.20554197229013854,
+        "weak_negative_count": 378,
+        "weak_negative_rate": 0.03080684596577017,
+        "positive_review_count": 2278,
+        "neutral_review_count": 139,
+        "negative_review_count": 103
+      },
+      {
+        "aspect_id": "makanan",
+        "weak_label_count": 2378,
+        "weak_label_rate": 0.19380603096984514,
+        "weak_negative_count": 306,
+        "weak_negative_rate": 0.02493887530562347,
+        "positive_review_count": 1875,
+        "neutral_review_count": 160,
+        "negative_review_count": 339
+      },
+      {
+        "aspect_id": "pelayanan",
+        "weak_label_count": 1819,
+        "weak_label_rate": 0.1482477587612062,
+        "weak_negative_count": 293,
+        "weak_negative_rate": 0.023879380603096984,
+        "positive_review_count": 1382,
+        "neutral_review_count": 99,
+        "negative_review_count": 332
+      },
+      {
+        "aspect_id": "harga",
+        "weak_label_count": 1508,
+        "weak_label_rate": 0.12290138549307253,
+        "weak_negative_count": 695,
+        "weak_negative_rate": 0.05664221678891605,
+        "positive_review_count": 1075,
+        "neutral_review_count": 144,
+        "negative_review_count": 287
+      },
+      {
+        "aspect_id": "kebersihan",
+        "weak_label_count": 1314,
+        "weak_label_rate": 0.10709046454767726,
+        "weak_negative_count": 333,
+        "weak_negative_rate": 0.027139364303178485,
+        "positive_review_count": 1049,
+        "neutral_review_count": 97,
+        "negative_review_count": 165
+      },
+      {
+        "aspect_id": "akomodasi",
+        "weak_label_count": 957,
+        "weak_label_rate": 0.07799511002444988,
+        "weak_negative_count": 323,
+        "weak_negative_rate": 0.02632436837815811,
+        "positive_review_count": 718,
+        "neutral_review_count": 88,
+        "negative_review_count": 146
+      },
+      {
+        "aspect_id": "akses_jalan",
+        "weak_label_count": 644,
+        "weak_label_rate": 0.05248573757131214,
+        "weak_negative_count": 332,
+        "weak_negative_rate": 0.027057864710676446,
+        "positive_review_count": 510,
+        "neutral_review_count": 64,
+        "negative_review_count": 70
+      },
+      {
+        "aspect_id": "keramaian",
+        "weak_label_count": 493,
+        "weak_label_rate": 0.040179299103504484,
+        "weak_negative_count": 275,
+        "weak_negative_rate": 0.02241238793806031,
+        "positive_review_count": 407,
+        "neutral_review_count": 37,
+        "negative_review_count": 48
+      },
+      {
+        "aspect_id": "parkir",
+        "weak_label_count": 359,
+        "weak_label_rate": 0.02925835370823146,
+        "weak_negative_count": 145,
+        "weak_negative_rate": 0.011817440912795437,
+        "positive_review_count": 281,
+        "neutral_review_count": 37,
+        "negative_review_count": 41
+      }
+    ]
+  },
+  "annotation_sample": {
+    "sample_size": 300,
+    "sample_size_requested": 300,
+    "unique_places": 129,
+    "weak_aspect_rows_in_sample": {
+      "lainnya": 48,
+      "pemandangan": 20,
+      "makanan": 11,
+      "budaya": 8,
+      "makanan|pelayanan": 7,
+      "kebersihan": 6,
+      "harga": 5,
+      "pelayanan": 5,
+      "harga|makanan": 4,
+      "keramaian": 4,
+      "akses_jalan": 3,
+      "harga|makanan|pelayanan": 3,
+      "oleh_oleh": 3,
+      "akomodasi": 2,
+      "akomodasi|harga|makanan|pelayanan|pemandangan": 2,
+      "akomodasi|kebersihan": 2,
+      "akomodasi|kebersihan|pelayanan|toilet": 2,
+      "akomodasi|keramaian": 2,
+      "akomodasi|makanan|pemandangan": 2,
+      "akomodasi|pelayanan": 2
+    }
+  },
+  "outputs": {
+    "aspect_champion": "D:\\tobapulse\\models\\aspect_champion.joblib",
+    "aspect_multilabel_binarizer": "D:\\tobapulse\\models\\aspect_multilabel_binarizer.joblib",
+    "aspect_coverage": "D:\\tobapulse\\outputs\\reports\\aspect_coverage.csv",
+    "aspect_annotation_sample": "D:\\tobapulse\\outputs\\reports\\aspect_annotation_sample.csv",
+    "review_aspect_predictions": "D:\\tobapulse\\data\\processed\\review_aspect_predictions.parquet",
+    "aspect_metadata": "D:\\tobapulse\\models\\aspect_metadata.json",
+    "aspect_model_comparison": "D:\\tobapulse\\outputs\\reports\\aspect_model_comparison.csv"
+  },
+  "limitations": [
+    "The current human gold dataset has one annotator.",
+    "AI suggestions may introduce confirmation bias if visible during annotation.",
+    "Clause segmentation remains deterministic."
+  ]
+}

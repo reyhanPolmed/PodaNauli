@@ -1,0 +1,30 @@
+version: 1
+description: Prototype weights for transparent Service Gap Score. These weights are not scientific truth and need stakeholder validation.
+
+bayesian_smoothing:
+  alpha: 1.0
+  beta: 4.0
+
+weights:
+  negative_sentiment_rate_smoothed: 0.30
+  aspect_mention_frequency: 0.20
+  service_scarcity: 0.15
+  review_volume_confidence: 0.15
+  rating_gap: 0.10
+  recency_factor: 0.05
+  metadata_completeness_gap: 0.05
+
+thresholds:
+  high_negative_rate: 0.35
+  frequent_complaint: 0.15
+  low_nearby_service_density: 0.70
+  high_review_confidence: 0.70
+  low_data_reliability: 0.55
+  high_priority_score: 70.0
+  medium_priority_score: 40.0
+  volume_confidence_review_count: 30
+  recency_days: 365
+
+service_scarcity:
+  category_density_radius_km: 5.0
+  scarcity_review_count_floor: 3

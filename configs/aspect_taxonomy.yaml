@@ -1,0 +1,115 @@
+aspects:
+  - id: akses_jalan
+    display_name: Akses Jalan
+    description: Kondisi jalan, rute masuk, kemudahan mencapai lokasi, dan hambatan perjalanan darat.
+    keywords_positive: [akses, jalan, akses mudah, jalan bagus, mudah dijangkau, dekat jalan, rute jelas]
+    keywords_negative: [jalan rusak, akses sulit, susah dijangkau, jalan sempit, macet, becek]
+    related_facility_types: [jalan, rute, transportasi darat, parkir]
+  - id: transportasi
+    display_name: Transportasi
+    description: Ketersediaan dan kualitas transportasi umum, kapal, ferry, travel, dan angkutan menuju destinasi.
+    keywords_positive: [transportasi, kapal, ferry, travel, transportasi mudah, kapal tersedia, ferry lancar, travel nyaman]
+    keywords_negative: [transportasi sulit, ferry lama, kapal penuh, angkutan susah, jadwal tidak jelas]
+    related_facility_types: [angkutan umum, ferry, kapal, travel, terminal]
+  - id: parkir
+    display_name: Parkir
+    description: Kapasitas, keamanan, kenyamanan, dan biaya parkir.
+    keywords_positive: [parkir, parkir luas, parkir aman, parkir gratis, tempat parkir]
+    keywords_negative: [parkir sempit, susah parkir, parkir mahal, lahan parkir kurang]
+    related_facility_types: [parkir, lahan parkir]
+  - id: kebersihan
+    display_name: Kebersihan
+    description: Kebersihan area destinasi, kamar, restoran, dan fasilitas umum.
+    keywords_positive: [bersih, clean, rapi, terawat, higienis]
+    keywords_negative: [kotor, sampah, jorok, bau, tidak bersih, kurang bersih, berdebu, dirty]
+    related_facility_types: [kebersihan, tempat sampah, petugas kebersihan]
+  - id: toilet
+    display_name: Toilet
+    description: Ketersediaan dan kondisi toilet atau kamar mandi.
+    keywords_positive: [toilet, wc, kamar mandi, toilet bersih, kamar mandi bersih, wc bersih]
+    keywords_negative: [toilet kotor, wc kotor, kamar mandi kotor, toilet kurang, toilet bau]
+    related_facility_types: [toilet, wc, kamar mandi, sanitasi]
+  - id: harga
+    display_name: Harga
+    description: Harga tiket, makanan, kamar, jasa, dan persepsi mahal atau murah.
+    keywords_positive: [harga, price, harga terjangkau, murah, worth it, sesuai harga, gratis]
+    keywords_negative: [mahal, overpriced, harga tinggi, tidak sesuai harga, kemahalan]
+    related_facility_types: [tiket, tarif, menu, kamar, parkir]
+  - id: pelayanan
+    display_name: Pelayanan
+    description: Keramahan, respons, kecepatan, dan kualitas layanan staf atau pengelola.
+    keywords_positive: [pelayanan, service, staff, friendly, ramah, pelayanan bagus, staf ramah, cepat, membantu]
+    keywords_negative: [pelayanan buruk, bad service, tidak ramah, lambat, kurang sopan, mengecewakan]
+    related_facility_types: [staf, staff, resepsionis, kasir, pengelola, layanan]
+  - id: makanan
+    display_name: Makanan
+    description: Kualitas rasa, variasi, kebersihan, dan ketersediaan makanan atau minuman.
+    keywords_positive: [makanan, makan, food, restaurant, makanan enak, rasa enak, menu banyak, sarapan enak, kuliner]
+    keywords_negative: [makanan tidak enak, rasa kurang, menu sedikit, penyedap, makanan mahal]
+    related_facility_types: [restoran, restaurant, cafe, warung, sarapan, menu]
+  - id: akomodasi
+    display_name: Akomodasi
+    description: Kamar, homestay, hotel, penginapan, tempat tidur, dan fasilitas menginap.
+    keywords_positive: [kamar, hotel, room, homestay, kamar bagus, kamar luas, penginapan nyaman, tempat tidur nyaman]
+    keywords_negative: [kamar kotor, kamar sempit, kasur keras, air panas tidak ada, ac rusak]
+    related_facility_types: [hotel, homestay, kamar, tempat tidur, ac, air panas]
+  - id: keamanan
+    display_name: Keamanan
+    description: Rasa aman, risiko kecelakaan, penjagaan, dan keamanan barang atau pengunjung.
+    keywords_positive: [aman, penjagaan, security, tertib]
+    keywords_negative: [tidak aman, rawan, bahaya, licin, kurang penjagaan]
+    related_facility_types: [security, penjaga, rambu, jalur evakuasi]
+  - id: jam_operasional
+    display_name: Jam Operasional
+    description: Kepastian jam buka, tutup, jadwal layanan, dan ketepatan waktu operasional.
+    keywords_positive: [buka 24 jam, jam jelas, tepat waktu]
+    keywords_negative: [tutup, jam tidak jelas, belum buka, jadwal tidak jelas, lama menunggu]
+    related_facility_types: [jam operasional, jadwal, loket]
+  - id: fasilitas_umum
+    display_name: Fasilitas Umum
+    description: Fasilitas pendukung seperti gazebo, tempat duduk, mushala, pusat informasi, dan area umum.
+    keywords_positive: [fasilitas lengkap, gazebo, tempat duduk, mushala, spot foto]
+    keywords_negative: [fasilitas kurang, fasilitas rusak, tidak terawat, minim fasilitas]
+    related_facility_types: [gazebo, mushala, tempat duduk, pusat informasi, spot foto]
+  - id: pemandangan
+    display_name: Pemandangan
+    description: Keindahan alam, danau, bukit, pantai, air terjun, dan pengalaman visual.
+    keywords_positive: [pemandangan, view, lake, beautiful, pemandangan indah, view bagus, cantik, keren, danau indah, sunset]
+    keywords_negative: [view kurang, tidak menarik, biasa saja, tertutup]
+    related_facility_types: [viewpoint, pantai, bukit, danau, air terjun]
+  - id: keramaian
+    display_name: Keramaian
+    description: Kepadatan pengunjung, antrean, kebisingan, dan kenyamanan saat ramai.
+    keywords_positive: [tidak terlalu ramai, tenang, sepi]
+    keywords_negative: [ramai, penuh, berisik, antri, crowded]
+    related_facility_types: [kapasitas, antrean, area pengunjung]
+  - id: aksesibilitas
+    display_name: Aksesibilitas
+    description: Kemudahan akses untuk anak, lansia, difabel, keluarga, dan kebutuhan khusus.
+    keywords_positive: [ramah anak, cocok keluarga, mudah untuk anak, aksesibel]
+    keywords_negative: [tidak ramah anak, susah untuk lansia, tangga curam, tidak aksesibel]
+    related_facility_types: [jalur pejalan kaki, tangga, ramp, area keluarga]
+  - id: budaya
+    display_name: Budaya
+    description: Atraksi budaya, adat Batak, museum, desa wisata, dan nilai lokal.
+    keywords_positive: [budaya, adat, museum, desa wisata, tradisional, sejarah]
+    keywords_negative: [kurang informasi budaya, tidak terawat, pemandu kurang]
+    related_facility_types: [museum, desa adat, pemandu, pusat informasi]
+  - id: oleh_oleh
+    display_name: Oleh-oleh
+    description: Ketersediaan suvenir, toko oleh-oleh, produk lokal, dan UMKM.
+    keywords_positive: [oleh oleh, souvenir, produk lokal, umkm]
+    keywords_negative: [oleh oleh kurang, souvenir mahal, pilihan sedikit]
+    related_facility_types: [toko oleh-oleh, suvenir, umkm]
+  - id: internet_sinyal
+    display_name: Internet dan Sinyal
+    description: Kualitas sinyal seluler, internet, Wi-Fi, dan konektivitas.
+    keywords_positive: [wifi, sinyal bagus, internet lancar]
+    keywords_negative: [sinyal susah, wifi lambat, tidak ada sinyal, internet buruk]
+    related_facility_types: [wifi, sinyal seluler, internet]
+  - id: lainnya
+    display_name: Lainnya
+    description: Aspek lain yang belum masuk taxonomy awal dan perlu audit manual.
+    keywords_positive: []
+    keywords_negative: []
+    related_facility_types: []

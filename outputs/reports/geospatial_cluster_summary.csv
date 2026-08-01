@@ -1,0 +1,11 @@
+geo_cluster_id,cluster_center_latitude,cluster_center_longitude,cluster_size,dominant_negative_aspects,dominant_negative_aspects_text,place_category_counts,is_noise,average_gap_score
+0,2.614225212625903,98.6975403632387,47,"['harga', 'pemandangan', 'keramaian', 'akses_jalan', 'kebersihan']",harga|pemandangan|keramaian|akses_jalan|kebersihan,"{""wisata"": 24, ""restoran"": 22, ""hotel"": 1}",False,37.63705217391304
+1,2.3300591983359715,98.84172035150256,11,"['akses_jalan', 'harga', 'pemandangan', 'toilet', 'kebersihan']",akses_jalan|harga|pemandangan|toilet|kebersihan,"{""wisata"": 11}",False,32.75103333333333
+2,2.8039435238786417,98.52326333836292,5,"['akses_jalan', 'keramaian', 'harga', 'keamanan', 'kebersihan']",akses_jalan|keramaian|harga|keamanan|kebersihan,"{""wisata"": 5}",False,35.77173333333334
+3,2.3337651614084534,99.06198998157012,111,"['harga', 'kebersihan', 'akses_jalan', 'akomodasi', 'makanan']",harga|kebersihan|akses_jalan|akomodasi|makanan,"{""restoran"": 56, ""wisata"": 31, ""hotel"": 24}",False,28.436391262135924
+4,2.66653786728669,98.85529601675196,47,"['harga', 'makanan', 'keramaian', 'pelayanan', 'pemandangan']",harga|makanan|keramaian|pelayanan|pemandangan,"{""restoran"": 32, ""wisata"": 9, ""hotel"": 6}",False,40.27142
+5,2.666633947100184,98.93481246863048,32,"['harga', 'makanan', 'akses_jalan', 'pelayanan', 'keramaian']",harga|makanan|akses_jalan|pelayanan|keramaian,"{""restoran"": 25, ""wisata"": 6, ""hotel"": 1}",False,36.19628387096775
+6,2.423004275093462,99.16485747289676,11,"['akomodasi', 'harga', 'kebersihan', 'toilet', 'akses_jalan']",akomodasi|harga|kebersihan|toilet|akses_jalan,"{""restoran"": 4, ""wisata"": 4, ""hotel"": 3}",False,30.170566666666666
+7,2.7947223946422017,98.79609313796414,6,"['akses_jalan', 'fasilitas_umum', 'harga', 'pemandangan', 'akomodasi']",akses_jalan|fasilitas_umum|harga|pemandangan|akomodasi,"{""wisata"": 6}",False,37.067879999999995
+8,2.017659279136548,98.97701216306343,4,"['akses_jalan', 'aksesibilitas', 'harga', 'pemandangan', 'toilet']",akses_jalan|aksesibilitas|harga|pemandangan|toilet,"{""wisata"": 4}",False,47.6171
+-1,2.633676411882803,98.78840754706783,41,"['akses_jalan', 'harga', 'kebersihan', 'pemandangan', 'pelayanan']",akses_jalan|harga|kebersihan|pemandangan|pelayanan,"{""wisata"": 38, ""restoran"": 2, ""hotel"": 1}",True,37.029646875

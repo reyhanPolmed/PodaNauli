@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-07-25T20:21:54.939693+07:00",
+  "pipeline_stage_count": 19,
+  "artifacts": {
+    "profile": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\data_profile.json",
+        "exists": true,
+        "size_bytes": 130410
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\data_quality_summary.csv",
+        "exists": true,
+        "size_bytes": 1276
+      }
+    ],
+    "clean": [
+      {
+        "path": "D:\\tobapulse\\data\\processed\\reviews_clean.parquet",
+        "exists": true,
+        "size_bytes": 2074102
+      },
+      {
+        "path": "D:\\tobapulse\\data\\processed\\places_master.parquet",
+        "exists": true,
+        "size_bytes": 68027
+      },
+      {
+        "path": "D:\\tobapulse\\data\\processed\\entity_mapping.parquet",
+        "exists": true,
+        "size_bytes": 38706
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\cleaning_summary.json",
+        "exists": true,
+        "size_bytes": 901
+      }
+    ],
+    "label-sentiment": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_annotation_sample.csv",
+        "exists": true,
+        "size_bytes": 54906
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_labeling_summary.json",
+        "exists": true,
+        "size_bytes": 1701
+      }
+    ],
+    "prepare-annotations": [
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\sentiment_annotation_queue.csv",
+        "exists": true,
+        "size_bytes": 390665
+      },
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\sentiment_gold.csv",
+        "exists": true,
+        "size_bytes": 142607
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_annotation_workflow.json",
+        "exists": true,
+        "size_bytes": 1255
+      }
+    ],
+    "prepare-gold": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\gold_dataset_manifest.json",
+        "exists": true,
+        "size_bytes": 2306
+      }
+    ],
+    "train-sentiment": [
+      {
+        "path": "D:\\tobapulse\\models\\sentiment_champion.joblib",
+        "exists": true,
+        "size_bytes": 541380
+      },
+      {
+        "path": "D:\\tobapulse\\models\\sentiment_label_encoder.joblib",
+        "exists": true,
+        "size_bytes": 423
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_metrics.json",
+        "exists": true,
+        "size_bytes": 14670
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_model_comparison.csv",
+        "exists": true,
+        "size_bytes": 1500
+      }
+    ],
+    "train-complaint": [
+      {
+        "path": "D:\\tobapulse\\models\\complaint_detector.joblib",
+        "exists": true,
+        "size_bytes": 393929
+      },
+      {
+        "path": "D:\\tobapulse\\data\\processed\\review_complaint_predictions.parquet",
+        "exists": true,
+        "size_bytes": 1245476
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\complaint_metrics.json",
+        "exists": true,
+        "size_bytes": 7724
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\complaint_model_comparison.csv",
+        "exists": true,
+        "size_bytes": 3159
+      }
+    ],
+    "compare-gold": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\gold_vs_weak_model_comparison.json",
+        "exists": true,
+        "size_bytes": 5888
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\gold_vs_weak_model_comparison.csv",
+        "exists": true,
+        "size_bytes": 636
+      }
+    ],
+    "suggest-annotations": [
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\sentiment_annotation_queue.csv",
+        "exists": true,
+        "size_bytes": 390665
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\ai_annotation_summary.json",
+        "exists": true,
+        "size_bytes": 755
+      }
+    ],
+    "topic-modeling": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\topic_summary.csv",
+        "exists": true,
+        "size_bytes": 3763
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\topic_keywords.csv",
+        "exists": true,
+        "size_bytes": 8078
+      },
+      {
+        "path": "D:\\tobapulse\\data\\processed\\review_topics.parquet",
+        "exists": true,
+        "size_bytes": 1124506
+      }
+    ],
+    "prepare-aspect-annotations": [
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\aspect_clause_annotation_queue.csv",
+        "exists": true,
+        "size_bytes": 552678
+      },
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\aspect_gold.csv",
+        "exists": true,
+        "size_bytes": 258014
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\aspect_annotation_workflow.json",
+        "exists": true,
+        "size_bytes": 1446
+      }
+    ],
+    "prepare-aspect-gold": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\aspect_gold_manifest.json",
+        "exists": true,
+        "size_bytes": 4201
+      }
+    ],
+    "train-aspect": [
+      {
+        "path": "D:\\tobapulse\\models\\aspect_champion.joblib",
+        "exists": true,
+        "size_bytes": 2316528
+      },
+      {
+        "path": "D:\\tobapulse\\models\\aspect_multilabel_binarizer.joblib",
+        "exists": true,
+        "size_bytes": 1084
+      },
+      {
+        "path": "D:\\tobapulse\\models\\aspect_metadata.json",
+        "exists": true,
+        "size_bytes": 245
+      },
+      {
+        "path": "D:\\tobapulse\\data\\processed\\review_aspect_predictions.parquet",
+        "exists": true,
+        "size_bytes": 3180685
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\aspect_metrics.json",
+        "exists": true,
+        "size_bytes": 21216
+      }
+    ],
+    "suggest-aspect-annotations": [
+      {
+        "path": "D:\\tobapulse\\data\\annotations\\aspect_clause_annotation_queue.csv",
+        "exists": true,
+        "size_bytes": 552678
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\aspect_ai_annotation_summary.json",
+        "exists": true,
+        "size_bytes": 424
+      }
+    ],
+    "aspect-sentiment": [
+      {
+        "path": "D:\\tobapulse\\data\\processed\\review_aspect_sentiment.parquet",
+        "exists": true,
+        "size_bytes": 1395838
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\aspect_sentiment_summary.json",
+        "exists": true,
+        "size_bytes": 1073
+      }
+    ],
+    "geospatial": [
+      {
+        "path": "D:\\tobapulse\\data\\processed\\place_clusters.parquet",
+        "exists": true,
+        "size_bytes": 35340
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\geospatial_clustering_summary.json",
+        "exists": true,
+        "size_bytes": 1105
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\maps\\place_clusters.geojson",
+        "exists": true,
+        "size_bytes": 157558
+      }
+    ],
+    "gap-scoring": [
+      {
+        "path": "D:\\tobapulse\\data\\processed\\service_gap_scores.parquet",
+        "exists": true,
+        "size_bytes": 317319
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\predictions\\service_gap_rankings.csv",
+        "exists": true,
+        "size_bytes": 2722288
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\service_gap_methodology.json",
+        "exists": true,
+        "size_bytes": 6451
+      }
+    ],
+    "evaluation": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\model_evaluation_summary.json",
+        "exists": true,
+        "size_bytes": 41011
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\sentiment_error_analysis.csv",
+        "exists": true,
+        "size_bytes": 10919
+      },
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\project_readiness.json",
+        "exists": true,
+        "size_bytes": 1354
+      },
+      {
+        "path": "D:\\tobapulse\\models\\model_registry.json",
+        "exists": true,
+        "size_bytes": 10745
+      }
+    ],
+    "export": [
+      {
+        "path": "D:\\tobapulse\\outputs\\reports\\pipeline_export_summary.json",
+        "exists": true,
+        "size_bytes": 8607
+      }
+    ]
+  },
+  "dashboard_data_ready": true,
+  "api_data_ready": true,
+  "model_and_ranking_pipeline_ready": true,
+  "production_application_ready": false
+}

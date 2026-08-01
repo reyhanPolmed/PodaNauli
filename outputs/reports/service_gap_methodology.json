@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-07-25T20:21:54.577913+07:00",
+  "config_path": "D:\\tobapulse\\configs\\gap_score_weights.yaml",
+  "aspect_taxonomy_path": "D:\\tobapulse\\configs\\aspect_taxonomy.yaml",
+  "score_range": "0-100",
+  "sentiment_signal_source": "clause_level_aspect_sentiment",
+  "aspect_prediction_path": "D:\\tobapulse\\data\\processed\\review_aspect_sentiment.parquet",
+  "formula": {
+    "smoothed_negative_rate": "(negative_mentions + alpha) / (total_aspect_mentions + alpha + beta)",
+    "base_score": "weighted sum of smoothed negative rate, aspect mention frequency, service scarcity, review volume confidence, rating gap, recency, and metadata completeness gap",
+    "final_score": "100 * base_score * data_reliability_factor"
+  },
+  "config": {
+    "version": 1,
+    "description": "Prototype weights for transparent Service Gap Score. These weights are not scientific truth and need stakeholder validation.",
+    "bayesian_smoothing": {
+      "alpha": 1.0,
+      "beta": 4.0
+    },
+    "weights": {
+      "negative_sentiment_rate_smoothed": 0.3,
+      "aspect_mention_frequency": 0.2,
+      "service_scarcity": 0.15,
+      "review_volume_confidence": 0.15,
+      "rating_gap": 0.1,
+      "recency_factor": 0.05,
+      "metadata_completeness_gap": 0.05
+    },
+    "thresholds": {
+      "high_negative_rate": 0.35,
+      "frequent_complaint": 0.15,
+      "low_nearby_service_density": 0.7,
+      "high_review_confidence": 0.7,
+      "low_data_reliability": 0.55,
+      "high_priority_score": 70.0,
+      "medium_priority_score": 40.0,
+      "volume_confidence_review_count": 30,
+      "recency_days": 365
+    },
+    "service_scarcity": {
+      "category_density_radius_km": 5.0,
+      "scarcity_review_count_floor": 3
+    }
+  },
+  "rows": 5572,
+  "places_scored": 336,
+  "aspects_scored": 18,
+  "top_10": [
+    {
+      "rank": 1,
+      "canonical_place_id": "place_00286",
+      "place_name": "Thyesza Hotel Resort",
+      "aspect": "pelayanan",
+      "service_gap_score": 57.1407,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 2,
+      "canonical_place_id": "place_00108",
+      "place_name": "Hotel Sere Nauli",
+      "aspect": "akomodasi",
+      "service_gap_score": 55.5525,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 3,
+      "canonical_place_id": "place_00072",
+      "place_name": "Carolina Hotel",
+      "aspect": "pelayanan",
+      "service_gap_score": 55.027,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 4,
+      "canonical_place_id": "place_00120",
+      "place_name": "Kawah Putih Dolok Tinggi Raja",
+      "aspect": "akses_jalan",
+      "service_gap_score": 54.5297,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 5,
+      "canonical_place_id": "place_00286",
+      "place_name": "Thyesza Hotel Resort",
+      "aspect": "akomodasi",
+      "service_gap_score": 54.4451,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 6,
+      "canonical_place_id": "place_00107",
+      "place_name": "Hotel Santo Djaya",
+      "aspect": "akomodasi",
+      "service_gap_score": 53.87,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 7,
+      "canonical_place_id": "place_00078",
+      "place_name": "Damasus Nataboan Resto",
+      "aspect": "pelayanan",
+      "service_gap_score": 53.673,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 8,
+      "canonical_place_id": "place_00120",
+      "place_name": "Kawah Putih Dolok Tinggi Raja",
+      "aspect": "harga",
+      "service_gap_score": 53.1131,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|FREQUENT_COMPLAINT|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 9,
+      "canonical_place_id": "place_00286",
+      "place_name": "Thyesza Hotel Resort",
+      "aspect": "toilet",
+      "service_gap_score": 52.8225,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    },
+    {
+      "rank": 10,
+      "canonical_place_id": "place_00108",
+      "place_name": "Hotel Sere Nauli",
+      "aspect": "toilet",
+      "service_gap_score": 52.5849,
+      "confidence_level": "high",
+      "reason_codes_text": "HIGH_NEGATIVE_RATE|LOW_NEARBY_SERVICE_DENSITY|HIGH_REVIEW_CONFIDENCE"
+    }
+  ],
+  "human_ranking_validation": {
+    "sample_rows": 20,
+    "reviewed_rows": 20,
+    "evidence_reviewed_rows": 20,
+    "priority_reviewed_rows": 20,
+    "evidence_valid_rows": 16,
+    "priority_valid_rows": 19,
+    "valid_rows": 16,
+    "evidence_validity_rate": 0.8,
+    "priority_validity_rate": 0.95,
+    "validity_rate": 0.8,
+    "fully_reviewed": true,
+    "write_status": "primary_file_locked_pending_written",
+    "output": "D:\\tobapulse\\outputs\\reports\\service_gap_top20_validation.pending.csv"
+  },
+  "limitations": [
+    "Weights are prototype configuration values and require stakeholder validation.",
+    "Aspect and sentiment signals are not manually verified ground truth.",
+    "Service scarcity is estimated from nearby same-category place density, not from official service inventory.",
+    "The score is opportunity prioritization, not a prediction of revenue or visitor volume."
+  ],
+  "outputs": {
+    "service_gap_scores": "D:\\tobapulse\\data\\processed\\service_gap_scores.parquet",
+    "service_gap_rankings": "D:\\tobapulse\\outputs\\predictions\\service_gap_rankings.csv",
+    "service_gap_methodology": "D:\\tobapulse\\outputs\\reports\\service_gap_methodology.json"
+  }
+}

@@ -3,7 +3,10 @@
 /*
 
 !/.gitignore
+!/.dockerignore
+!/docker-compose.yml
 !/pytest.ini
+!/api/
 !/configs/
 !/data/
 !/demo/
@@ -13,6 +16,8 @@
 !/scripts/
 !/src/
 !/tests/
+!/frontend/
+!/deploy/
 
 # Local instructions, documentation, and report files
 *.md
@@ -39,6 +44,7 @@ venv/
 env/
 __pycache__/
 *.py[cod]
+*.tsbuildinfo
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -96,6 +102,11 @@ Desktop.ini
 /outputs/logs/
 /outputs/reports/archive/
 /outputs/reports/*annotation*
+
+# Frontend design references are not runtime assets
+/frontend/ringkasanwilayah.png
+/frontend/servicegapranking.png
+/frontend/tampilananeh.png
 
 # Frontend/build artifacts if created later
 node_modules/

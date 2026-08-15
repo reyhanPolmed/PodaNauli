@@ -1,0 +1,18 @@
+[Unit]
+Description=PodaNauli FastAPI service
+After=network.target
+
+[Service]
+Type=simple
+User=podanauli
+Group=podanauli
+WorkingDirectory=/opt/podanauli
+EnvironmentFile=-/opt/podanauli/.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/podanauli/.venv/bin/python -m uvicorn api.main:app --host 127.0.0.1 --port 8000 --workers 1
+Restart=on-failure
+RestartSec=5
+TimeoutStartSec=60
+
+[Install]
+WantedBy=multi-user.target

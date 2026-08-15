@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Poppins", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  color: #101828;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select, textarea { font: inherit; letter-spacing: 0; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+.leaflet-container { isolation: isolate; z-index: 0; width: 100%; height: 100%; background: #eaf2f7; font-family: inherit; }
+.leaflet-popup-content-wrapper { border-radius: 10px; box-shadow: 0 8px 24px rgb(16 24 40 / 14%); }
+.leaflet-popup-content { margin: 12px 14px; min-width: 190px; }
+.leaflet-control-attribution { font-size: 10px; }
+
+.region-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 145px), 1fr));
+}
+
+.service-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 145px), 1fr));
+}
+
+.service-kpi-grid,
+.dashboard-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+}
+
+.ranking-compact-label {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .region-metric-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .service-filter-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .service-kpi-grid,
+  .dashboard-metric-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .service-gap-table {
+    table-layout: fixed;
+    min-width: 0;
+    font-size: 10px;
+  }
+
+  .service-gap-table th,
+  .service-gap-table td {
+    padding: 8px 6px;
+  }
+
+  .service-gap-table .ranking-col-rank { width: 9%; }
+  .service-gap-table .ranking-col-place { width: 24%; }
+  .service-gap-table .ranking-col-aspect { width: 13%; }
+  .service-gap-table .ranking-col-score { width: 9%; }
+  .service-gap-table .ranking-col-evidence { width: 9%; }
+  .service-gap-table .ranking-col-confidence { width: 14%; }
+  .service-gap-table .ranking-col-status { width: 14%; }
+  .service-gap-table .ranking-col-action { width: 8%; }
+
+  .ranking-full-label,
+  .ranking-action-label {
+    display: none;
+  }
+
+  .ranking-compact-label {
+    display: inline;
+  }
+}
+
+@media (min-width: 1280px) {
+  .region-metric-grid,
+  .service-filter-grid,
+  .service-kpi-grid,
+  .dashboard-metric-grid {
+    gap: 12px;
+  }
+
+  .service-gap-table {
+    font-size: 10px;
+  }
+
+  .service-gap-table th,
+  .service-gap-table td {
+    padding: 10px 8px;
+  }
+
+  .service-gap-table .ranking-col-rank { width: 8%; }
+  .service-gap-table .ranking-col-place { width: 22%; }
+  .service-gap-table .ranking-col-aspect { width: 12%; }
+  .service-gap-table .ranking-col-score { width: 8%; }
+  .service-gap-table .ranking-col-evidence { width: 9%; }
+  .service-gap-table .ranking-col-confidence { width: 13%; }
+  .service-gap-table .ranking-col-status { width: 15%; }
+  .service-gap-table .ranking-col-action { width: 13%; }
+
+  .ranking-full-label,
+  .ranking-action-label {
+    display: inline;
+  }
+
+  .ranking-compact-label {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  html {
+    font-size: 14px;
+  }
+
+  .region-metric-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1536px) {
+  .region-metric-grid,
+  .service-filter-grid,
+  .service-kpi-grid,
+  .dashboard-metric-grid {
+    gap: 16px;
+  }
+
+  .service-gap-table {
+    table-layout: auto;
+    min-width: 800px;
+    font-size: 14px;
+  }
+
+  .service-gap-table th,
+  .service-gap-table td {
+    padding: 12px 16px;
+  }
+
+  .service-gap-table th:first-child,
+  .service-gap-table td:first-child {
+    padding-left: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+}

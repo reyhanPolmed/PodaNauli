@@ -85,6 +85,8 @@ Desktop.ini
 
 # Keep approved human-gold labels only; exclude working annotation queues.
 /data/interim/
+/data/runtime/
+/data/samples/dummy_new_destinations.csv
 /data/annotations/*
 !/data/annotations/sentiment_gold.csv
 !/data/annotations/aspect_gold.csv

@@ -1,3 +1,20 @@
+FROM node:22-alpine AS frontend-build
+
+WORKDIR /build
+
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+
+COPY frontend/index.html ./index.html
+COPY frontend/tsconfig.json frontend/tsconfig.app.json frontend/tsconfig.node.json ./
+COPY frontend/vite.config.ts ./vite.config.ts
+COPY frontend/src/ ./src/
+
+ENV VITE_API_BASE_URL=/api/v1
+
+RUN npm run build
+
+
 FROM python:3.11-slim AS runtime
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -15,6 +32,8 @@ RUN apt-get update \
     && useradd --create-home --uid 10001 podanauli
 
 COPY api/ /app/api/
+COPY src/ /app/src/
+COPY configs/ /app/configs/
 COPY models/model_registry.json /app/models/model_registry.json
 COPY models/sentiment_champion.joblib /app/models/sentiment_champion.joblib
 COPY models/complaint_detector.joblib /app/models/complaint_detector.joblib
@@ -31,6 +50,10 @@ COPY outputs/predictions/service_gap_rankings.csv /app/outputs/predictions/servi
 COPY outputs/maps/place_clusters.geojson /app/outputs/maps/place_clusters.geojson
 COPY outputs/reports/project_readiness.json /app/outputs/reports/project_readiness.json
 COPY outputs/reports/data_quality_summary.csv /app/outputs/reports/data_quality_summary.csv
+COPY --from=frontend-build /build/dist /app/frontend/dist
+
+RUN mkdir -p /app/data/runtime \
+    && chown -R podanauli:podanauli /app/data/runtime
 
 USER podanauli
 

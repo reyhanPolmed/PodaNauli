@@ -32,11 +32,12 @@ function MetricCard({ label, value, detail, detailTone = "muted", compactValue =
   );
 }
 
-export function RegionSummaryCards({ summary, highestPriority, conditions, selectedAspect = "", visiblePlaceCount = 0, filteredGapCount = 0 }: {
+export function RegionSummaryCards({ summary, highestPriority, conditions, selectedAspect = "", selectedArea = "", visiblePlaceCount = 0, filteredGapCount = 0 }: {
   summary: Summary;
   highestPriority?: ServiceGap;
   conditions: RegionalCondition[];
   selectedAspect?: string;
+  selectedArea?: string;
   visiblePlaceCount?: number;
   filteredGapCount?: number;
 }) {
@@ -44,14 +45,17 @@ export function RegionSummaryCards({ summary, highestPriority, conditions, selec
   const negativeTotal = summary.top_negative_aspects.reduce((total, item) => total + item.negative_mentions, 0);
   const topAspectShare = topAspect && negativeTotal ? Math.round((topAspect.negative_mentions / negativeTotal) * 100) : 0;
   const hasAspectFilter = Boolean(selectedAspect);
+  const hasAreaFilter = Boolean(selectedArea);
+  const hasActiveFilter = hasAspectFilter || hasAreaFilter;
   const selectedAspectLabel = selectedAspect ? formatLabel(selectedAspect) : "";
+  const selectedScope = [selectedAspectLabel, selectedArea].filter(Boolean).join(" / ");
 
   return (
     <section aria-label="Ringkasan metrik wilayah" className="region-metric-grid gap-3 lg:gap-2 xl:gap-3 2xl:gap-4">
       <MetricCard
         label="Jumlah Destinasi"
-        value={formatNumber(hasAspectFilter ? visiblePlaceCount : summary.total_places)}
-        detail={hasAspectFilter ? `Aspek dominan: ${selectedAspectLabel}` : `${formatNumber(summary.places_with_coordinates)} memiliki koordinat valid`}
+        value={formatNumber(hasActiveFilter ? visiblePlaceCount : summary.total_places)}
+        detail={hasActiveFilter ? `Cakupan: ${selectedScope}` : `${formatNumber(summary.places_with_coordinates)} memiliki koordinat valid`}
       />
       <MetricCard
         label="Jumlah Masukan"
@@ -61,8 +65,8 @@ export function RegionSummaryCards({ summary, highestPriority, conditions, selec
       />
       <MetricCard
         label="Jumlah Masalah"
-        value={formatNumber(hasAspectFilter ? filteredGapCount : summary.total_service_gaps)}
-        detail={hasAspectFilter ? `Gap layanan untuk ${selectedAspectLabel}` : "Kombinasi tempat dan aspek terindikasi"}
+        value={formatNumber(hasActiveFilter ? filteredGapCount : summary.total_service_gaps)}
+        detail={hasActiveFilter ? `Gap layanan: ${selectedScope}` : "Kombinasi tempat dan aspek terindikasi"}
         detailTone="brand"
       />
       <MetricCard
@@ -72,9 +76,9 @@ export function RegionSummaryCards({ summary, highestPriority, conditions, selec
         compactValue
       />
       <MetricCard
-        label="Aspek Terbanyak Bermasalah"
-        value={hasAspectFilter ? selectedAspectLabel : topAspect ? formatLabel(topAspect.aspect) : "Belum tersedia"}
-        detail={hasAspectFilter ? `${formatNumber(visiblePlaceCount)} destinasi terpetakan` : `${topAspectShare}% dari enam aspek teratas`}
+        label={hasAreaFilter && !hasAspectFilter ? "Aspek Prioritas di Kawasan" : "Aspek Terbanyak Bermasalah"}
+        value={hasAspectFilter ? selectedAspectLabel : hasAreaFilter ? formatLabel(highestPriority?.aspect ?? "Belum tersedia") : topAspect ? formatLabel(topAspect.aspect) : "Belum tersedia"}
+        detail={hasActiveFilter ? `${formatNumber(visiblePlaceCount)} destinasi sesuai filter` : `${topAspectShare}% dari enam aspek teratas`}
         compactValue
       />
       <article className="h-[150px] min-w-0 overflow-hidden rounded-xl border border-[#E4E7EC] bg-white p-4 shadow-[0_1px_2px_rgba(16,24,40,0.04)] lg:h-32 lg:rounded-lg lg:p-3 xl:h-32 xl:rounded-xl xl:p-4 2xl:h-[150px] 2xl:p-5">

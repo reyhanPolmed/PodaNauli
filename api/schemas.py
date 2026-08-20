@@ -18,6 +18,22 @@ class HealthResponse(ApiModel):
     model_version: dict[str, str]
 
 
+class LoginRequest(ApiModel):
+    username: str = Field(min_length=3, max_length=64)
+    password: str = Field(min_length=8, max_length=256)
+
+
+class AuthUser(ApiModel):
+    username: str
+    display_name: str
+    role: str
+
+
+class AuthStatus(ApiModel):
+    authenticated: bool
+    user: AuthUser | None = None
+
+
 class MetricItem(ApiModel):
     model: str
     metric: str
@@ -144,6 +160,44 @@ class AnalyzeReviewResponse(ApiModel):
     aspects: list[AspectPrediction]
     warnings: list[str]
     model_version: dict[str, str]
+
+
+class ImportIssue(ApiModel):
+    row: int | None = None
+    field: str
+    severity: str
+    code: str
+    message: str
+
+
+class DataImportSummary(ApiModel):
+    import_id: str
+    status: str
+    filename: str
+    created_at: str
+    rows_received: int
+    rows_accepted: int
+    rows_rejected: int
+    place_count: int
+    review_count: int
+    places_with_coordinates: int
+    evidence_count: int
+    ranking_count: int
+    sentiment_distribution: dict[str, int]
+    complaint_distribution: dict[str, int]
+    top_priorities: list[ServiceGapItem]
+    warnings: list[ImportIssue]
+    errors: list[ImportIssue]
+    model_version: dict[str, str]
+    training_performed: bool
+    scope: str
+    target_place_id: str | None = None
+    published: bool = False
+    published_at: str | None = None
+
+
+class DataImportList(ApiModel):
+    items: list[DataImportSummary]
 
 
 class DataQualityResponse(ApiModel):

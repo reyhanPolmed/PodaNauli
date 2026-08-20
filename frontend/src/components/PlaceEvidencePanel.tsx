@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { ChevronLeft, ChevronRight, CircleAlert, Search } from "lucide-react";
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { api, formatLabel, formatNumber, formatPercent } from "../lib/api";
 import type { PlaceDetail, ServiceGap } from "../types/api";
 
@@ -36,14 +36,25 @@ function EvidenceMetric({ label, value, tone }: { label: string; value: number; 
   );
 }
 
-export function PlaceEvidencePanel({ placeId, serviceGaps, metadata }: { placeId: string; serviceGaps: ServiceGap[]; metadata: PlaceMetadata }) {
-  const [aspect, setAspect] = useState("");
+export function PlaceEvidencePanel({ placeId, serviceGaps, metadata, initialAspect = "", onAspectChange }: {
+  placeId: string;
+  serviceGaps: ServiceGap[];
+  metadata: PlaceMetadata;
+  initialAspect?: string;
+  onAspectChange?: (aspect: string) => void;
+}) {
+  const [aspect, setAspect] = useState(initialAspect);
   const [search, setSearch] = useState("");
   const [minComplaint, setMinComplaint] = useState(0);
   const [minConfidence, setMinConfidence] = useState(0);
   const [sort, setSort] = useState("complaint_desc");
   const [page, setPage] = useState(0);
   const deferredSearch = useDeferredValue(search.trim());
+
+  useEffect(() => {
+    setAspect(initialAspect);
+    setPage(0);
+  }, [initialAspect, placeId]);
 
   const evidence = useQuery({
     queryKey: ["place-evidence", placeId, aspect, deferredSearch, minComplaint, minConfidence, sort, page],
@@ -80,6 +91,11 @@ export function PlaceEvidencePanel({ placeId, serviceGaps, metadata }: { placeId
   function updateFilter(callback: () => void) {
     callback();
     setPage(0);
+  }
+
+  function updateAspect(value: string) {
+    updateFilter(() => setAspect(value));
+    onAspectChange?.(value);
   }
 
   return (
@@ -135,7 +151,7 @@ export function PlaceEvidencePanel({ placeId, serviceGaps, metadata }: { placeId
                 <button
                   key={itemAspect}
                   type="button"
-                  onClick={() => updateFilter(() => setAspect(active ? "" : itemAspect))}
+                  onClick={() => updateAspect(active ? "" : itemAspect)}
                   className={`shrink-0 rounded-t-lg border-b-2 px-3 pb-3 pt-2 text-left text-[10px] outline-none transition-colors focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#84ADFF] ${active ? "border-[#1666D8] bg-[#EAF2FC] text-[#1666D8]" : "border-transparent text-[#475467] hover:bg-[#F8FAFC] hover:text-[#101828]"}`}
                 >
                   <span className="block font-semibold">{formatLabel(itemAspect)}</span>
@@ -162,7 +178,7 @@ export function PlaceEvidencePanel({ placeId, serviceGaps, metadata }: { placeId
           </label>
           <label className="min-w-0 lg:col-span-2">
             <span className={filterLabelClass}>Aspek keluhan</span>
-            <select value={aspect} onChange={(event) => updateFilter(() => setAspect(event.target.value))} className={filterControlClass}>
+            <select value={aspect} onChange={(event) => updateAspect(event.target.value)} className={filterControlClass}>
               <option value="">Semua aspek</option>
               {aspectOptions.map(([itemAspect, count]) => <option key={itemAspect} value={itemAspect}>{formatLabel(itemAspect)} ({count})</option>)}
             </select>

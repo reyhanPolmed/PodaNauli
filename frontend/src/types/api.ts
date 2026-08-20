@@ -5,6 +5,17 @@ export interface Health {
   model_version: Record<string, string>;
 }
 
+export interface AuthUser {
+  username: string;
+  display_name: string;
+  role: "admin";
+}
+
+export interface AuthStatus {
+  authenticated: boolean;
+  user: AuthUser | null;
+}
+
 export interface Summary {
   total_reviews: number;
   total_places: number;
@@ -100,6 +111,40 @@ export interface AnalyzeResult {
   aspects: Array<{ label: string; probability: number }>;
   warnings: string[];
   model_version: Record<string, string>;
+}
+
+export interface ImportIssue {
+  row: number | null;
+  field: string;
+  severity: string;
+  code: string;
+  message: string;
+}
+
+export interface DataImportSummary {
+  import_id: string;
+  status: string;
+  filename: string;
+  created_at: string;
+  rows_received: number;
+  rows_accepted: number;
+  rows_rejected: number;
+  place_count: number;
+  review_count: number;
+  places_with_coordinates: number;
+  evidence_count: number;
+  ranking_count: number;
+  sentiment_distribution: Record<string, number>;
+  complaint_distribution: Record<string, number>;
+  top_priorities: ServiceGap[];
+  warnings: ImportIssue[];
+  errors: ImportIssue[];
+  model_version: Record<string, string>;
+  training_performed: boolean;
+  scope: string;
+  target_place_id: string | null;
+  published: boolean;
+  published_at: string | null;
 }
 
 export interface ModelMetrics {

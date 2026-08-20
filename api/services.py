@@ -3,12 +3,18 @@
 from __future__ import annotations
 
 import json
+import os
+from copy import deepcopy
 from pathlib import Path
+from threading import Lock
 from typing import Any
 
 import joblib
 import numpy as np
 import pandas as pd
+
+from api.import_service import BatchImportService
+from src.gap_scoring import compute_service_gap_scores
 
 
 def _none_if_missing(value: Any) -> Any:
@@ -72,7 +78,67 @@ class ArtifactStore:
             for item in self.model_registry.get("models", [])
             if item.get("is_champion")
         }
+        self._baseline_rankings = self.rankings.copy(deep=True)
+        self._baseline_reviews = self.reviews.copy(deep=True)
+        self._baseline_aspect_evidence = self.aspect_evidence.copy(deep=True)
+        self._baseline_geojson = deepcopy(self.geojson)
+        self._refresh_lock = Lock()
+        runtime_dir = Path(os.getenv("PODANAULI_RUNTIME_DIR", str(root / "data" / "runtime")))
+        self.imports = BatchImportService(
+            root=root,
+            runtime_dir=runtime_dir,
+            sentiment_model=self.sentiment_model,
+            complaint_bundle=self.complaint_bundle,
+            aspect_model=self.aspect_model,
+            aspect_labels=self.aspect_labels,
+            aspect_metadata=self.aspect_metadata,
+            model_versions=self.model_versions,
+            baseline_places=self.places,
+        )
+        self.reload_published_data()
+
+    def reload_published_data(self) -> None:
+        review_frames, evidence_frames = self.imports.load_published_frames()
+        self.reviews = self._baseline_reviews.copy(deep=True)
+        self.aspect_evidence = self._baseline_aspect_evidence.copy(deep=True)
+        self.rankings = self._baseline_rankings.copy(deep=True)
+        if review_frames:
+            self.reviews = pd.concat([self.reviews, *review_frames], ignore_index=True, sort=False)
+            self.reviews = self.reviews.drop_duplicates("review_id", keep="first").reset_index(drop=True)
+        if evidence_frames:
+            self.aspect_evidence = pd.concat(
+                [self.aspect_evidence, *evidence_frames], ignore_index=True, sort=False
+            )
+            self.aspect_evidence = self.aspect_evidence.drop_duplicates(
+                ["review_id", "clause_index", "aspect"], keep="first"
+            ).reset_index(drop=True)
+        if review_frames or evidence_frames:
+            self.rankings = compute_service_gap_scores(
+                self.places,
+                self.reviews,
+                self.aspect_evidence,
+                self.imports.gap_config,
+                self.imports.aspect_ids,
+            )
+        self.geojson = deepcopy(self._baseline_geojson)
         self._prepare_views()
+
+    def publish_import(self, import_id: str) -> dict[str, Any]:
+        with self._refresh_lock:
+            summary = self.imports.publish(import_id)
+            try:
+                self.reload_published_data()
+            except Exception:
+                self.imports.unpublish(import_id)
+                self.reload_published_data()
+                raise
+            return summary
+
+    def unpublish_import(self, import_id: str) -> dict[str, Any]:
+        with self._refresh_lock:
+            summary = self.imports.unpublish(import_id)
+            self.reload_published_data()
+            return summary
 
     def _json(self, relative_path: str) -> dict[str, Any]:
         return json.loads((self.root / relative_path).read_text(encoding="utf-8-sig"))
@@ -162,7 +228,10 @@ class ArtifactStore:
         aspect_counts = (
             self.rankings.groupby("aspect")["negative_mention_count"].sum().sort_values(ascending=False).head(6)
         )
-        sentiment_counts = self.valid_reviews["weak_sentiment_label"].value_counts().to_dict()
+        sentiment_values = self.valid_reviews["weak_sentiment_label"].copy()
+        if "model_sentiment_label" in self.valid_reviews.columns:
+            sentiment_values = self.valid_reviews["model_sentiment_label"].combine_first(sentiment_values)
+        sentiment_counts = sentiment_values.value_counts().to_dict()
         ratings = pd.to_numeric(self.places["place_rating"], errors="coerce").dropna()
         return {
             "total_reviews": int(len(self.valid_reviews)),
@@ -379,10 +448,11 @@ class ArtifactStore:
             return None
         row = matching.iloc[0]
         place_reviews = self.valid_reviews.loc[self.valid_reviews["canonical_place_id"].astype(str) == place_id]
-        sentiment = {
-            str(key): int(value) for key, value in place_reviews["weak_sentiment_label"].value_counts().items()
-        }
-        gaps = self.rankings.loc[self.rankings["canonical_place_id"].astype(str) == place_id].head(10)
+        sentiment_values = place_reviews["weak_sentiment_label"].copy()
+        if "model_sentiment_label" in place_reviews.columns:
+            sentiment_values = place_reviews["model_sentiment_label"].combine_first(sentiment_values)
+        sentiment = {str(key): int(value) for key, value in sentiment_values.value_counts().items()}
+        gaps = self.rankings.loc[self.rankings["canonical_place_id"].astype(str) == place_id]
         gap_items = [self._gap_item(item) for _, item in gaps.iterrows()]
         cluster = self.clusters.loc[self.clusters["canonical_place_id"].astype(str) == place_id]
         evidence_payload = self.list_place_evidence(

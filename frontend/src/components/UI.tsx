@@ -13,13 +13,13 @@ export function PageHeader({ title, description, action }: { title: string; desc
   );
 }
 
-export function MetricCard({ label, value, detail }: {
-  label: string; value: string; detail?: string; icon?: unknown; tone?: "emerald" | "amber" | "blue" | "rose";
+export function MetricCard({ label, value, detail, compactValue = false }: {
+  label: string; value: string; detail?: string; icon?: unknown; tone?: "emerald" | "amber" | "blue" | "rose"; compactValue?: boolean;
 }) {
   return (
     <div className="rounded-xl border border-[#E4E7EC] bg-white p-5 shadow-[0_1px_2px_rgba(16,24,40,0.04)] lg:rounded-lg lg:p-3 xl:rounded-xl xl:p-4 2xl:p-5">
       <p className="text-[13px] font-semibold text-[#475467] lg:text-[10px] xl:text-[10px] 2xl:text-[13px]">{label}</p>
-      <p className="mt-4 text-[30px] font-semibold leading-none text-[#071A33] lg:mt-2.5 lg:text-[23px] xl:mt-3 xl:text-[23px] 2xl:mt-4 2xl:text-[30px]">{value}</p>
+      <p className={`mt-4 break-words font-semibold text-[#071A33] lg:mt-2.5 xl:mt-3 2xl:mt-4 ${compactValue ? "text-base leading-snug lg:text-[14px] xl:text-[15px] 2xl:text-lg" : "text-[30px] leading-none lg:text-[23px] xl:text-[23px] 2xl:text-[30px]"}`}>{value}</p>
       {detail && <p className="mt-3 text-xs leading-5 text-[#667085] lg:mt-2 lg:text-[10px] lg:leading-4 xl:text-[10px] 2xl:mt-3 2xl:text-xs 2xl:leading-5">{detail}</p>}
     </div>
   );

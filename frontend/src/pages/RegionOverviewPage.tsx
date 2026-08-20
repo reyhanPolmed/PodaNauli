@@ -1,10 +1,11 @@
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
-import { Filter, RefreshCw } from "lucide-react";
+import { Filter, MapPin, RefreshCw } from "lucide-react";
 import { useMemo, useState } from "react";
 import { ErrorState, LoadingState } from "../components/UI";
 import { PriorityRegionMap, statusForScore } from "../components/region-summary/PriorityRegionMap";
 import { RegionSummaryCards, type RegionalCondition, type RegionalStatus } from "../components/region-summary/RegionSummaryCards";
 import { api, formatLabel } from "../lib/api";
+import { clusterAreaName } from "../lib/clusterAreas";
 
 const statusOrder: RegionalStatus[] = ["Baik", "Perlu Perhatian", "Kritis"];
 const aspects = [
@@ -16,17 +17,32 @@ const aspects = [
 export function RegionOverviewPage() {
   const [selectedId, setSelectedId] = useState<string | null | undefined>(undefined);
   const [aspect, setAspect] = useState("");
+  const [clusterId, setClusterId] = useState("");
   const summary = useQuery({ queryKey: ["summary", "region"], queryFn: api.summary });
+  const clusterCatalog = useQuery({ queryKey: ["clusters", "region", "catalog"], queryFn: () => api.clusters() });
   const gaps = useQuery({
-    queryKey: ["service-gaps", "region", aspect],
-    queryFn: () => api.serviceGaps({ aspect: aspect || undefined, limit: 100 }),
+    queryKey: ["service-gaps", "region", aspect, clusterId],
+    queryFn: () => api.serviceGaps({
+      aspect: aspect || undefined,
+      cluster_id: clusterId || undefined,
+      limit: 100,
+    }),
     placeholderData: keepPreviousData,
   });
   const clusters = useQuery({
-    queryKey: ["clusters", "region", aspect],
-    queryFn: () => api.clusters({ aspect: aspect || undefined }),
+    queryKey: ["clusters", "region", aspect, clusterId],
+    queryFn: () => api.clusters({
+      aspect: aspect || undefined,
+      cluster_id: clusterId || undefined,
+    }),
     placeholderData: keepPreviousData,
   });
+
+  const clusterIds = useMemo(() => Array.from(new Set(
+    (clusterCatalog.data?.features ?? [])
+      .map((feature) => Number(feature.properties.geo_cluster_id))
+      .filter((value) => Number.isInteger(value) && value >= 0),
+  )).sort((a, b) => a - b), [clusterCatalog.data]);
 
   const topPriorities = useMemo(() => {
     const seen = new Set<string>();
@@ -50,61 +66,84 @@ export function RegionOverviewPage() {
     }));
   }, [clusters.data]);
 
-  if (summary.isLoading || gaps.isLoading || clusters.isLoading) return <LoadingState label="Memuat ikhtisar destinasi" />;
-  if (summary.error || gaps.error || clusters.error || !summary.data || !clusters.data) {
-    return <ErrorState message={(summary.error ?? gaps.error ?? clusters.error)?.message ?? "Ringkasan wilayah tidak tersedia."} />;
+  if (summary.isLoading || gaps.isLoading || clusters.isLoading || clusterCatalog.isLoading) return <LoadingState label="Memuat ikhtisar destinasi" />;
+  if (summary.error || gaps.error || clusters.error || clusterCatalog.error || !summary.data || !clusters.data) {
+    return <ErrorState message={(summary.error ?? gaps.error ?? clusters.error ?? clusterCatalog.error)?.message ?? "Ringkasan wilayah tidak tersedia."} />;
   }
 
   const activeId = selectedId === undefined ? topPriorities[0]?.place_id ?? null : selectedId;
   const isUpdating = gaps.isFetching || clusters.isFetching;
   const visibleDestinationCount = clusters.data.features.length;
+  const selectedArea = clusterId ? clusterAreaName(Number(clusterId)) : "";
+  const activeScope = [
+    aspect ? `aspek ${formatLabel(aspect)}` : "",
+    selectedArea ? `kawasan ${selectedArea}` : "",
+  ].filter(Boolean).join(" dan ");
 
   return (
     <div className="min-w-0">
-      <header className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between lg:mb-4 xl:mb-5 2xl:mb-6">
-        <div>
-          <h1 className="text-[28px] font-bold leading-tight text-[#071A33] lg:text-[26px] xl:text-[28px] 2xl:text-4xl">Ikhtisar Destinasi</h1>
-          <p className="mt-2 text-sm text-[#667085] lg:mt-1.5 lg:text-xs xl:text-[11px] 2xl:mt-2 2xl:text-sm">Gambaran umum kinerja layanan wisata di kawasan Danau Toba.</p>
-        </div>
-        <label className="w-full sm:w-60 lg:w-52 xl:w-60 2xl:w-64">
-          <span className="mb-1.5 block text-[10px] font-semibold text-[#475467] 2xl:text-xs">Fokus aspek layanan</span>
-          <span className="relative block">
-            <Filter aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#1666D8]" />
-            <select
-              value={aspect}
-              onChange={(event) => {
-                setAspect(event.target.value);
-                setSelectedId(undefined);
-              }}
-              className="h-10 w-full rounded-lg border border-[#B2CCFF] bg-white pl-9 pr-3 text-xs font-semibold text-[#101828] outline-none transition-colors hover:border-[#84ADFF] focus:border-[#1666D8] focus:ring-2 focus:ring-[#EAF2FC] lg:h-9 lg:text-[10px] 2xl:h-10 2xl:text-xs"
-            >
-              <option value="">Semua aspek layanan</option>
-              {aspects.map((item) => <option key={item} value={item}>{formatLabel(item)}</option>)}
-            </select>
-          </span>
-          <span className="mt-1.5 flex min-h-4 items-center justify-end gap-1.5 text-[9px] text-[#667085] 2xl:text-[10px]">
-            {isUpdating && <RefreshCw aria-hidden="true" className="size-3 animate-spin" />}
-            {isUpdating ? "Memperbarui data" : `${visibleDestinationCount.toLocaleString("id-ID")} destinasi terpetakan`}
-          </span>
-        </label>
-      </header>
-
       <RegionSummaryCards
         summary={summary.data}
         highestPriority={topPriorities[0]}
         conditions={conditions}
         selectedAspect={aspect}
+        selectedArea={selectedArea}
         visiblePlaceCount={visibleDestinationCount}
         filteredGapCount={gaps.data?.total ?? 0}
       />
 
       <section aria-busy={isUpdating} className="mt-4 min-w-0 overflow-hidden rounded-xl border border-[#E4E7EC] bg-white shadow-[0_1px_2px_rgba(16,24,40,0.04)]">
-        <div className="flex items-center justify-between gap-4 border-b border-[#E4E7EC] px-5 py-4 lg:px-4 lg:py-3 xl:px-5 xl:py-3.5 2xl:py-4">
-          <div>
+        <div className="border-b border-[#E4E7EC] px-5 py-4 lg:px-4 lg:py-3 xl:px-5 xl:py-3.5 2xl:py-4">
+          <div className="flex items-start justify-between gap-4">
+            <div>
             <h2 className="text-base font-semibold text-[#101828] lg:text-sm xl:text-[13px] 2xl:text-base">Peta Sebaran Destinasi Prioritas</h2>
-            <p className="mt-1 text-[10px] text-[#667085] 2xl:text-xs">{aspect ? `Prioritas untuk aspek ${formatLabel(aspect)}` : "Prioritas seluruh aspek layanan"}</p>
+              <p className="mt-1 text-[10px] text-[#667085] 2xl:text-xs">{activeScope ? `Prioritas untuk ${activeScope}` : "Prioritas seluruh kawasan dan aspek layanan"}</p>
+            </div>
+            <span className="shrink-0 rounded-md bg-[#EAF2FC] px-2.5 py-1.5 text-[10px] font-semibold text-[#175CD3] 2xl:text-xs">{visibleDestinationCount.toLocaleString("id-ID")} destinasi</span>
           </div>
-          <span className="shrink-0 rounded-md bg-[#EAF2FC] px-2.5 py-1.5 text-[10px] font-semibold text-[#175CD3] 2xl:text-xs">{visibleDestinationCount.toLocaleString("id-ID")} destinasi</span>
+
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:mt-3 lg:max-w-[620px] lg:gap-2 xl:max-w-[720px] xl:gap-3 2xl:mt-4 2xl:max-w-[820px]">
+            <label className="min-w-0">
+              <span className="mb-1.5 block text-[10px] font-semibold text-[#475467] lg:mb-1 lg:text-[9px] 2xl:mb-1.5 2xl:text-xs">Aspek layanan</span>
+              <span className="relative block">
+                <Filter aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#1666D8] lg:left-2.5 lg:size-3.5 2xl:left-3 2xl:size-4" />
+                <select
+                  value={aspect}
+                  onChange={(event) => {
+                    setAspect(event.target.value);
+                    setSelectedId(undefined);
+                  }}
+                  className="h-10 w-full rounded-lg border border-[#B2CCFF] bg-white pl-9 pr-3 text-xs font-semibold text-[#101828] outline-none transition-colors hover:border-[#84ADFF] focus:border-[#1666D8] focus:ring-2 focus:ring-[#EAF2FC] lg:h-9 lg:pl-8 lg:text-[10px] 2xl:h-10 2xl:pl-9 2xl:text-xs"
+                >
+                  <option value="">Semua aspek layanan</option>
+                  {aspects.map((item) => <option key={item} value={item}>{formatLabel(item)}</option>)}
+                </select>
+              </span>
+            </label>
+
+            <label className="min-w-0">
+              <span className="mb-1.5 block text-[10px] font-semibold text-[#475467] lg:mb-1 lg:text-[9px] 2xl:mb-1.5 2xl:text-xs">Kawasan</span>
+              <span className="relative block">
+                <MapPin aria-hidden="true" className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-[#1666D8] lg:left-2.5 lg:size-3.5 2xl:left-3 2xl:size-4" />
+                <select
+                  value={clusterId}
+                  onChange={(event) => {
+                    setClusterId(event.target.value);
+                    setSelectedId(undefined);
+                  }}
+                  className="h-10 w-full rounded-lg border border-[#B2CCFF] bg-white pl-9 pr-3 text-xs font-semibold text-[#101828] outline-none transition-colors hover:border-[#84ADFF] focus:border-[#1666D8] focus:ring-2 focus:ring-[#EAF2FC] lg:h-9 lg:pl-8 lg:text-[10px] 2xl:h-10 2xl:pl-9 2xl:text-xs"
+                >
+                  <option value="">Semua kawasan</option>
+                  {clusterIds.map((item) => <option key={item} value={item}>{clusterAreaName(item)}</option>)}
+                </select>
+              </span>
+            </label>
+          </div>
+
+          <div className="mt-2 flex min-h-4 items-center gap-1.5 text-[9px] text-[#667085] 2xl:text-[10px]">
+            {isUpdating && <RefreshCw aria-hidden="true" className="size-3 animate-spin" />}
+            {isUpdating ? "Memperbarui peta" : `${visibleDestinationCount.toLocaleString("id-ID")} destinasi sesuai filter`}
+          </div>
         </div>
         <PriorityRegionMap
           features={clusters.data.features}

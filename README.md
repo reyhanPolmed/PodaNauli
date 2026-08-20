@@ -38,10 +38,10 @@ Dataset mentah lengkap dari panitia tidak disimpan di dalam _repository_ publik.
 ```text
 .
 ├── api/                      # FastAPI, kontrak respons, dan layanan inferensi model
-├── deploy/                   # Template Nginx dan systemd untuk deployment langsung
+├── deploy/                   # Template deployment Linux lama (opsional)
 ├── frontend/                 # Dashboard React, TypeScript, Vite, dan Tailwind CSS
 ├── configs/                  # Konfigurasi model, taksonomi aspek, dan Service Gap Score
-├── data/                     # Data human-gold dan data hasil pemrosesan
+├── data/                     # Human-gold, data hasil pemrosesan, dan contoh CSV impor
 ├── demo/                     # Notebook, requirements, dan aset demonstrasi
 ├── models/                   # Model champion dan metadata model
 ├── notebooks/                # Notebook eksplorasi, pemodelan, dan evaluasi
@@ -64,24 +64,32 @@ Sebelum menjalankan PodaNauli, pastikan perangkat telah memiliki:
 - **Package manager:** `pip` dan `npm`
 - **Virtual environment:** `venv`
 - **Software tambahan:** Visual Studio Code dengan ekstensi Python dan Jupyter
-- **Database:** Tidak diperlukan
+- **Database eksternal:** Tidak diperlukan. Akun, sesi, dan audit autentikasi disimpan pada SQLite di direktori runtime.
 - **Docker:** Docker Engine dan Docker Compose plugin direkomendasikan untuk deployment container
-- **Deployment langsung:** Nginx dan systemd pada server Linux
+- **Deployment langsung:** FastAPI menyajikan hasil build React pada satu port
 - **Layanan cloud:** Tidak diperlukan
 - **API key eksternal:** Tidak diperlukan
 - **Koneksi internet:** Hanya diperlukan saat mengunduh _repository_ dan memasang _package_
 
 ## 7. Environment Variables
 
-PodaNauli tidak membutuhkan kredensial atau API key untuk menjalankan evaluasi dan demonstrasi secara lokal. Frontend menyediakan konfigurasi opsional `VITE_API_BASE_URL` untuk alamat API.
+PodaNauli tidak membutuhkan API key eksternal. Fitur **Tambah Ulasan** dilindungi oleh akun stakeholder admin, sehingga password wajib dikonfigurasi pada server dan tidak boleh dimasukkan ke Git. Frontend menyediakan konfigurasi opsional `VITE_API_BASE_URL` untuk alamat API.
 
 File `.env.example` tetap disediakan dengan isi berikut:
 
 ```env
+PODANAULI_ADMIN_USERNAME=stakeholder
+PODANAULI_ADMIN_PASSWORD=ganti_dengan_password_kuat_minimal_12_karakter
+PODANAULI_COOKIE_SECURE=false
+PODANAULI_SESSION_HOURS=8
 PODANAULI_CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
 ```
 
-Gunakan `PODANAULI_CORS_ORIGINS` untuk mendaftarkan domain frontend pada deployment. Untuk frontend, salin `frontend/.env.example` menjadi `frontend/.env` hanya jika alamat API berbeda dari nilai bawaan `/api/v1`.
+Nama akun bawaan adalah `stakeholder` dengan peran `admin`. Nilai password harus terdiri dari minimal 12 karakter. Gunakan `PODANAULI_COOKIE_SECURE=true` ketika deployment telah menggunakan HTTPS dan gunakan `PODANAULI_CORS_ORIGINS` untuk mendaftarkan domain frontend.
+
+Untuk frontend, salin `frontend/.env.example` menjadi `frontend/.env` hanya jika alamat API berbeda dari nilai bawaan `/api/v1`.
+
+`PODANAULI_RUNTIME_DIR` bersifat opsional dan menentukan lokasi penyimpanan hasil impor data baru. Nilai bawaan adalah `data/runtime`. Pada Docker Compose, direktori tersebut disimpan dalam volume `podanauli_runtime` agar hasil analisis tidak hilang saat container dibuat ulang.
 
 ## 8. Langkah Instalasi & Menjalankan Project Secara Lokal
 
@@ -143,7 +151,19 @@ Buka dua terminal dari root repository setelah virtual environment aktif.
 
 Terminal pertama:
 
+Windows PowerShell:
+
+```powershell
+$env:PODANAULI_ADMIN_USERNAME="stakeholder"
+$env:PODANAULI_ADMIN_PASSWORD="ganti-dengan-password-lokal-yang-kuat"
+python -m uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
+```
+
+macOS/Linux:
+
 ```bash
+export PODANAULI_ADMIN_USERNAME=stakeholder
+export PODANAULI_ADMIN_PASSWORD='ganti-dengan-password-lokal-yang-kuat'
 python -m uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
@@ -158,11 +178,13 @@ Buka `http://127.0.0.1:5173`. Dokumentasi interaktif API tersedia di `http://127
 
 ### Deployment dengan Docker
 
-Docker Compose membangun frontend React menjadi aset statis Nginx dan menjalankan FastAPI beserta model serta data olahan runtime. Dataset Excel mentah dan model arsip tidak dimasukkan ke image.
+Docker Compose membangun React, memasukkan hasilnya ke image FastAPI, lalu menjalankan dashboard dan API sebagai satu layanan. Dataset Excel mentah dan model arsip tidak dimasukkan ke image.
 
 ```bash
 git clone https://github.com/reyhanPolmed/PodaNauli.git
 cd PodaNauli
+cp .env.example .env
+# Edit .env dan ganti PODANAULI_ADMIN_PASSWORD sebelum melanjutkan.
 docker compose up -d --build
 docker compose ps
 curl http://127.0.0.1:8080/api/v1/health
@@ -182,40 +204,37 @@ docker compose down
 
 ### Deployment Langsung di Linux
 
-Template berikut memakai lokasi `/opt/podanauli`, pengguna sistem `podanauli`, Nginx, dan systemd. Jalankan perintah administratif sesuai kebijakan server.
+Untuk container lomba, React dapat dilayani langsung oleh FastAPI sehingga Nginx tidak diperlukan. Contoh berikut menggunakan `/workspace/PodaNauli` dan Python 3.11.
 
 ```bash
-sudo useradd --system --create-home --shell /usr/sbin/nologin podanauli
-sudo git clone https://github.com/reyhanPolmed/PodaNauli.git /opt/podanauli
-sudo chown -R podanauli:podanauli /opt/podanauli
+cd /workspace
+git clone https://github.com/reyhanPolmed/PodaNauli.git
+cd PodaNauli
 
-cd /opt/podanauli
-sudo -u podanauli python3.11 -m venv .venv
-sudo -u podanauli .venv/bin/python -m pip install --upgrade pip
-sudo -u podanauli .venv/bin/python -m pip install -r api/requirements.txt
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r api/requirements.txt
 
-sudo -u podanauli npm --prefix frontend ci
-sudo -u podanauli npm --prefix frontend run build
+npm --prefix frontend ci
+npm --prefix frontend run build
 
-sudo cp deploy/systemd/podanauli-api.service /etc/systemd/system/
-sudo cp deploy/nginx/podanauli.conf /etc/nginx/conf.d/podanauli.conf
-# Khusus server baru/dedicated, nonaktifkan halaman bawaan Nginx jika tersedia.
-sudo rm -f /etc/nginx/sites-enabled/default
-sudo systemctl daemon-reload
-sudo systemctl enable --now podanauli-api
-sudo nginx -t
-sudo systemctl reload nginx
+cp .env.example .env
+# Edit .env dan ganti PODANAULI_ADMIN_PASSWORD.
+set -a
+source .env
+set +a
+
+python -m uvicorn api.main:app --host 0.0.0.0 --port 8000 --workers 1
 ```
 
 Verifikasi hasil deployment:
 
 ```bash
-curl http://127.0.0.1/healthz
-curl http://127.0.0.1/api/v1/health
-sudo systemctl status podanauli-api --no-pager
+curl http://127.0.0.1:8000/api/v1/health
 ```
 
-Respons health API yang siap digunakan harus memiliki `status: "ok"`, `model_loaded: true`, dan `dataset_loaded: true`. Model tidak perlu dilatih ulang saat deployment karena model champion dan artefak runtime sudah disertakan di repository.
+Dashboard tersedia pada `http://ALAMAT_SERVER:8000`, atau melalui port yang ditetapkan panitia. Respons health API yang siap digunakan harus memiliki `status: "ok"`, `model_loaded: true`, dan `dataset_loaded: true`. Model tidak perlu dilatih ulang saat deployment karena model champion dan artefak runtime sudah disertakan di repository.
 
 Apabila validator menampilkan:
 
@@ -243,6 +262,22 @@ Urutan penggunaan dashboard:
 3. Pilih destinasi dari peta atau tabel untuk membuka detail destinasi.
 4. Periksa metadata, tingkat prioritas, dan seluruh bukti keluhan negatif per aspek.
 5. Gunakan filter bukti untuk mencari klausa, aspek, probabilitas keluhan, dan confidence tertentu.
+6. Buka **Tambah Ulasan**, cari dan pilih destinasi yang sudah terdaftar, lalu unggah CSV atau XLSX berisi ulasan baru.
+7. Periksa hasil validasi, ranking aspek, dan bukti keluhan. Ikhtisar, Prioritas Penanganan, detail destinasi, dan skor pada peta diperbarui otomatis.
+
+### Format data baru
+
+File memuat ulasan untuk satu destinasi yang dipilih pada website. Setiap baris merepresentasikan satu ulasan. Nama, kategori, alamat, rating tempat, dan koordinat tidak perlu ditulis kembali karena diambil dari metadata destinasi yang sudah tersimpan. Kolom wajib hanya `review_text`.
+
+Kolom yang didukung:
+
+```text
+review_id, review_text, review_rating, review_date
+```
+
+`review_id`, `review_rating`, dan `review_date` bersifat opsional. Gunakan rating 1-5 dan tanggal `YYYY-MM-DD`. Contoh siap uji tersedia pada `data/samples/dummy_new_reviews.csv`. Batas unggahan saat ini adalah 5.000 baris atau 10 MB.
+
+Pemrosesan menjalankan model champion sentimen, keluhan, dan aspek, kemudian menghitung ulang ranking utama. Ulasan diterbitkan sebagai lapisan runtime yang persisten dan langsung dibaca dashboard, tetapi tidak menimpa dataset pelatihan maupun model champion. Publikasi dapat dibatalkan dari riwayat analisis.
 
 Urutan penggunaan:
 
@@ -285,7 +320,9 @@ Keluaran utama meliputi:
 - Tidak seluruh tempat memiliki metadata koordinat, fasilitas, harga, dan jam operasional yang lengkap.
 - Metadata yang kosong tidak dapat langsung diartikan bahwa suatu fasilitas tidak tersedia.
 - Beberapa variasi nama tempat masih memerlukan pemeriksaan manual dalam proses _entity resolution_.
-- API dan dashboard belum memiliki autentikasi, pembatasan akses berbasis peran, dan rate limiting.
+- Autentikasi saat ini hanya menyediakan satu akun stakeholder admin dari environment variable; belum ada pengelolaan banyak akun atau pemulihan password.
+- Impor data diproses sinkron dengan batas 5.000 baris; antrean pekerjaan diperlukan untuk volume yang jauh lebih besar.
+- Publikasi ulasan runtime dapat mengubah urutan prioritas, sehingga akses halaman unggah perlu dibatasi saat sistem digunakan di luar lingkungan demonstrasi.
 - Purwarupa belum menyediakan pemantauan _data drift_ dan mekanisme _rollback_ model.
 - Basemap OpenStreetMap memerlukan koneksi internet saat halaman peta dibuka.
 - Hasil evaluasi berlaku pada karakteristik dan distribusi dataset yang digunakan dalam proyek ini.

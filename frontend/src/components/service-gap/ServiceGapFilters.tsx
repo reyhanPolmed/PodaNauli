@@ -1,6 +1,7 @@
 import { ChevronDown, LoaderCircle, RotateCcw, Search, SlidersHorizontal, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { formatLabel } from "../../lib/api";
+import { clusterAreaName } from "../../lib/clusterAreas";
 import type { RankingFilters } from "./types";
 
 const categories = ["wisata", "restoran", "hotel", "hotel_resto"];
@@ -102,9 +103,9 @@ export function ServiceGapFilters({ filters, clusterIds, onChange, onReset }: {
         </div>
         {activeFilterCount > 0 && <span className="shrink-0 rounded-md bg-[#EAF2FC] px-2 py-1 text-[9px] font-semibold text-[#175CD3] lg:text-[9px] 2xl:text-[10px]">{activeFilterCount} filter aktif</span>}
       </div>
-      <SelectFilter label="Wilayah" value={filters.clusterId} onChange={(value) => onChange("clusterId", value)}>
-        <option value="">Semua Wilayah</option>
-        {clusterIds.map((clusterId) => <option key={clusterId} value={clusterId}>Wilayah {clusterId + 1}</option>)}
+      <SelectFilter label="Kawasan" value={filters.clusterId} onChange={(value) => onChange("clusterId", value)}>
+        <option value="">Semua Kawasan</option>
+        {clusterIds.map((clusterId) => <option key={clusterId} value={clusterId}>{clusterAreaName(clusterId)}</option>)}
       </SelectFilter>
       <SelectFilter label="Kategori" value={filters.category} onChange={(value) => onChange("category", value)}>
         <option value="">Semua Kategori</option>

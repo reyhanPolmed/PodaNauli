@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from fastapi.testclient import TestClient
 
+from api import main as api_main
 from api.main import app
 
 
@@ -80,3 +81,30 @@ def test_metrics_and_data_quality_endpoints() -> None:
     assert "output" not in metrics.json()["service_gap_validation"]
     assert quality.status_code == 200
     assert quality.json()["summary"]["sheet_count"] == 14
+
+
+def test_fastapi_serves_react_build_and_keeps_api_404(tmp_path, monkeypatch) -> None:
+    assets = tmp_path / "assets"
+    assets.mkdir()
+    (tmp_path / "index.html").write_text(
+        '<!doctype html><div id="root">PodaNauli SPA</div>',
+        encoding="utf-8",
+    )
+    (assets / "app.js").write_text("window.PODANAULI = true;", encoding="utf-8")
+    monkeypatch.setattr(api_main, "FRONTEND_DIST", tmp_path)
+
+    with TestClient(app) as client:
+        root = client.get("/")
+        react_route = client.get("/service-gap-ranking")
+        asset = client.get("/assets/app.js")
+        missing_api = client.get("/api/v1/tidak-ada")
+
+    assert root.status_code == 200
+    assert "PodaNauli SPA" in root.text
+    assert react_route.status_code == 200
+    assert "PodaNauli SPA" in react_route.text
+    assert asset.status_code == 200
+    assert "window.PODANAULI" in asset.text
+    assert asset.headers["cache-control"] == "public, max-age=604800, immutable"
+    assert missing_api.status_code == 404
+    assert "PodaNauli SPA" not in missing_api.text

@@ -8,6 +8,8 @@
 !api/schemas.py
 !api/services.py
 !api/requirements.txt
+!api/auth.py
+!api/import_service.py
 
 !frontend/
 !frontend/index.html
@@ -20,6 +22,12 @@
 !frontend/nginx.conf
 !frontend/src/
 !frontend/src/**
+
+!src/
+!src/**
+
+!configs/
+!configs/**
 
 !models/
 !models/model_registry.json

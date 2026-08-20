@@ -9,6 +9,7 @@ import "@fontsource/poppins/700.css";
 import "leaflet/dist/leaflet.css";
 import "./styles.css";
 import App from "./App";
+import { AuthProvider } from "./auth/AuthContext";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -19,9 +20,11 @@ const queryClient = new QueryClient({
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </AuthProvider>
     </QueryClientProvider>
   </StrictMode>,
 );

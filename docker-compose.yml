@@ -1,14 +1,20 @@
 services:
-  api:
+  app:
     build:
       context: .
       dockerfile: api/Dockerfile
-    image: podanauli-api:latest
+    image: podanauli:latest
     restart: unless-stopped
     environment:
       PODANAULI_CORS_ORIGINS: ${PODANAULI_CORS_ORIGINS:-http://localhost:8080}
-    expose:
-      - "8000"
+      PODANAULI_ADMIN_USERNAME: ${PODANAULI_ADMIN_USERNAME:-stakeholder}
+      PODANAULI_ADMIN_PASSWORD: ${PODANAULI_ADMIN_PASSWORD:?PODANAULI_ADMIN_PASSWORD wajib diisi}
+      PODANAULI_COOKIE_SECURE: ${PODANAULI_COOKIE_SECURE:-false}
+      PODANAULI_SESSION_HOURS: ${PODANAULI_SESSION_HOURS:-8}
+    ports:
+      - "${PODANAULI_HTTP_PORT:-8080}:8000"
+    volumes:
+      - podanauli_runtime:/app/data/runtime
     healthcheck:
       test:
         - CMD
@@ -19,29 +25,5 @@ services:
       timeout: 5s
       start_period: 30s
       retries: 3
-
-  frontend:
-    build:
-      context: .
-      dockerfile: frontend/Dockerfile
-      args:
-        VITE_API_BASE_URL: /api/v1
-    image: podanauli-frontend:latest
-    restart: unless-stopped
-    depends_on:
-      api:
-        condition: service_healthy
-    ports:
-      - "${PODANAULI_HTTP_PORT:-8080}:80"
-    healthcheck:
-      test:
-        - CMD
-        - wget
-        - --quiet
-        - --tries=1
-        - --spider
-        - http://127.0.0.1/healthz
-      interval: 30s
-      timeout: 5s
-      start_period: 10s
-      retries: 3
+volumes:
+  podanauli_runtime:

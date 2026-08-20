@@ -93,7 +93,7 @@ export function ServiceGapRankingPage() {
 
       <div className="mt-4 flex items-start gap-3 rounded-xl bg-[#F8FAFC] px-4 py-3 text-xs leading-5 text-[#475467]">
         <Info aria-hidden="true" className="mt-0.5 shrink-0 text-[#667085]" size={16} />
-        <p>Gunakan filter untuk menelusuri prioritas berdasarkan wilayah dan aspek masalah. Filter periode waktu dan status penanganan belum aktif karena kedua atribut tersebut belum tersedia pada data backend.</p>
+        <p>Gunakan filter untuk menelusuri prioritas berdasarkan kawasan dan aspek masalah. Filter periode waktu dan status penanganan belum aktif karena kedua atribut tersebut belum tersedia pada data backend.</p>
       </div>
     </div>
   );
